@@ -1,6 +1,15 @@
 # Form Pack
 
-Structure:
+## Requirements:
+
+### Skill Set: 
+- Javascript
+- HTML
+- CSS
+- [KnockoutJS](http://knockoutjs.com)
+
+
+## Structure:
 
 ``` 
 {root}
