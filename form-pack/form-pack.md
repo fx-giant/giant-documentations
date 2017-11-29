@@ -26,7 +26,7 @@ Structure:
 }
 ```
 And this is the structure in a simple way:
-```
+``` 
 {
     "forms": [{
         "formId": this is guid and must be unique,
@@ -36,7 +36,10 @@ And this is the structure in a simple way:
         "version": form version
     },{
 
-    },....
+    },
+    
+    ....
+    
     {
 
     }]
@@ -75,24 +78,27 @@ namespace("fx.giantFormDesign")["thisIsFormName"] = (function () {
 ```
 
 The complete structure:
-```
+``` js
 {
     "forms": [{
-        "formId": this is guid and must be unique,
-        "formName": name of form, only use alphanumeric,
-        "title": this is the title to be displayed in the form listing
-        "serviceUrl": the target of where the API request will be sent
-        "version": form version
+        "formId": "this is guid and must be unique",
+        "formName": "name of form, only use alphanumeric",
+        "title": "this is the title to be displayed in the form listing",
+        "serviceUrl": "the target of where the API request will be sent",
+        "version": "form version"
 
 
         //optional
-        "html": name of html file, this will override the formName,
-        "script": name of html file, this will override the formName,
-        "style": name of html file, this will override the formName,
-        "dataStore": the GIANT datastore structure, see bellow for explanation
+        "html": "name of html file, this will override the formName",
+        "script": "name of html file, this will override the formName",
+        "style": "name of html file, this will override the formName",
+        "dataStore": "the GIANT datastore structure, see bellow for explanation"
     },{
 
-    },....
+    },
+    
+    ....
+    
     {
 
     }]
@@ -104,15 +110,18 @@ The complete structure:
 In any event that you need to use custom header, you can define it using dataStore and put the configuration inside. The structure of datastore is as follow:
 ``` json
 "dataStore": {
-    "dType": "roleApiDatastore", /// dont change this
-    "serviceUrl": "http://localhost", ///same as the service url
+    "dType": "roleApiDataStore", 
+    "serviceUrl": "http://localhost", 
     "headers": {
-        "X-HEADER-NAME": "ABCDEFG"  //request headers to be sent
-        .....
+        "X-HEADER-NAME": "ABCDEFG"  
     },
-    "allowCustomRouting": false /// for special custom routing
+    "allowCustomRouting": false 
 }
 ```
+- **dType**: for now, always fill this field with value **"roleApiDataStore"**.
+- **serviceUrl**: the API endpoint for the form request to be sent.
+- **headers**: the header that will be applied to the request
+- **allowCustomRouting**: enable this if you want to use "Action" and custom url in "GetAll"
 
 so the example of a form with data store configuration is as follow:
 
@@ -131,7 +140,7 @@ so the example of a form with data store configuration is as follow:
             "X-SOME-HEADER": "ABCDEF",
             "X-ANOTHER-HEADER": "123456",
         },
-        "allowCustomRouting": "false
+        "allowCustomRouting": false
     }
   }]
 }

@@ -1,6 +1,6 @@
 # Giant Form Sandbox
 
-form sandbox is a tool providing easeness in developing form. The guide for setup the form sandbox is available [here](https://github.com/fx-giant/generator-giant-form-sandbox). By following this guide, you will expect to be able to easily generate a workspace with these features:
+Form sandbox is a tool providing easiness in developing form. On how to setup the form sandbox workspace, please refer to [Form Sandbox Documentation](https://github.com/fx-giant/generator-giant-form-sandbox). By following this guide, you will expect to be able to easily generate a workspace with these features:
 - **npm run save** : single command to zip the entire form pack, usefull for keeping track of versioning.
 - **npm run upload**: single command to upload the entire form pack, usefull for testing the forms in GIANT environment.
 
@@ -52,23 +52,24 @@ This is an **absolutely mandatory** field to be configured if you want to use th
 2. Open browser developer tools, usually F12
 3. Go to network, you will expect to see some items there, if you dont see any items, press F5 to refresh your browser.
 
-![Network List](https://github.com/fx-giant/giant-documentations/blob/master/images/form-sandbox-1.png)
+![Network List](https://github.com/fx-giant/giant-documentations/blob/master/form-pack/images/form-pack/form-sandbox-1.png)
 
 4. Click any of the item to see the request sent to the server, take the request cookie
 
-![Request Cookie](https://github.com/fx-giant/giant-documentations/blob/master/images/form-sandbox-2.png)
+![Request Cookie](https://github.com/fx-giant/giant-documentations/blob/master/form-pack/images/form-pack/form-sandbox-2.png)
 
 5. put the value right into the "cookie" in config.json
 ``` js
 {
   "sourceFolder": "forms",      
-  "cookie": "put the cookie here, should be like .ASPNet......",               
+  "cookie": "put the cookie here, should be like: .AspNet.ApplicationCookie=8JpsU ...... 5WrNAltkF7yKMFMqm_hYQQr-FdGg",               
   "target": "SIT",              
   "targetUrl": null,            
   "saveDirectory": "packs"      
 }
 ```
-
+Note:
+- in this case, my current cookie is as follow: **.AspNet.ApplicationCookie=8JpsUSB-SAJYH  .... r-FdGg**, the cookies will be always started with the **.AspNet.ApplicationCookie=** and the subsequence content will be vary based on user session.
 ## Target URL
 1. get the server's base URL, example of GIANT's SG Alpha URL: **https://giant2016-csgb.fusionexsite.com/AnalyticsI/**. 
 2. append **api/VisualPack/Upload**, so example end result will be:**https://giant2016-csgb.fusionexsite.com/AnalyticsI/api/VisualPack/Upload**. 
