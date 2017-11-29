@@ -1,0 +1,8 @@
+FROM ubuntu:latest
+RUN apt-get update -y
+RUN apt-get install -y build-essential python-dev python-pip
+RUN pip install flask
+COPY . /app
+WORKDIR /app
+ENTRYPOINT ["python"]
+CMD ["service.py"]

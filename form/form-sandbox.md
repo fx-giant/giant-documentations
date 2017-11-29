@@ -1,5 +1,10 @@
 # Giant Form Sandbox
 
+## Prequisities
+
+
+
+
 Form sandbox is a tool providing easiness in developing form. On how to setup the form sandbox workspace, please refer to [Form Sandbox Documentation](https://github.com/fx-giant/generator-giant-form-sandbox). By following this guide, you will expect to be able to easily generate a workspace with these features:
 - **npm run save** : single command to zip the entire form pack, usefull for keeping track of versioning.
 - **npm run upload**: single command to upload the entire form pack, usefull for testing the forms in GIANT environment.
@@ -52,11 +57,11 @@ This is an **absolutely mandatory** field to be configured if you want to use th
 2. Open browser developer tools, usually F12
 3. Go to network, you will expect to see some items there, if you dont see any items, press F5 to refresh your browser.
 
-![Network List](https://github.com/fx-giant/giant-documentations/blob/master/form-pack/images/form-sandbox-1.png)
+![Network List](https://github.com/fx-giant/giant-documentations/blob/master/form/images/form-sandbox-1.png)
 
 4. Click any of the item to see the request sent to the server, take the request cookie
 
-![Request Cookie](https://github.com/fx-giant/giant-documentations/blob/master/form-pack/images/form-sandbox-2.png)
+![Request Cookie](https://github.com/fx-giant/giant-documentations/blob/master/form/images/form-sandbox-2.png)
 
 5. put the value right into the "cookie" in config.json
 ``` js
