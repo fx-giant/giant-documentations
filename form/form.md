@@ -30,13 +30,13 @@ Requirement:
 - Flask (python package installed)
 
 Steps:
-- get source code from [here](https://github.com/fx-giant/giant-documentations/blob/master/form/service-docker/service.py). 
-- execute ```python service.py```.
-- get the [sample.zip](https://github.com/fx-giant/giant-documentations/blob/master/form/sample/sample.zip)
-- open the zip file
-- modify config.json content, find the ```"serviceUrl": "http://localhost:5000"```, change the ip address and port the service IP and Port
-- zip the file back
-- upload to GIANT environment
+1.  get source code from [here](https://github.com/fx-giant/giant-documentations/blob/master/form/service-docker/service.py). 
+2.  execute ```python service.py```.
+3.  get the [sample.zip](https://github.com/fx-giant/giant-documentations/blob/master/form/sample/sample.zip)
+4.  open the zip file
+5.  modify config.json content, find the ```"serviceUrl": "http://localhost:5000"```, change the ip address and port the service IP and Port
+6.  zip the file back
+7.  upload to GIANT environment
 
 ### **Run using docker**:
 
@@ -54,3 +54,5 @@ The development guide is separated into:
 
 - [Form Pack](https://github.com/fx-giant/giant-documentations/blob/master/form/form-pack.md): Development of form pack
 - [Form Sandbox](https://github.com/fx-giant/giant-documentations/blob/master/form/form-sandbox.md): Sandbox tool to help in packaging and deployment
+- [Best Practices: Don't Do](https://github.com/fx-giant/giant-documentations/blob/master/form/dont-do.md): Example of not recommended code to be done when developing forms
+- [Best Practices: Do](https://github.com/fx-giant/giant-documentations/blob/master/form/do.md): Suggestion on how to make the form in a better way
