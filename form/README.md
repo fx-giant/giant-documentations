@@ -13,16 +13,16 @@ This guide will provide you a demo on how to deploy a sample form to GIANT envir
 ## Quickstart
 If you are able to access GIANT SIT environment, grab the [sample-bison.zip](https://github.com/fx-giant/giant-documentations/blob/master/form/sample/sample-bison.zip) and upload it to GIANT SIT environment.
 
-**Note: if you upload sample form pack and you get error of "No Right Exception", try to do these steps:**
-- open zip file
-- open config.json
-- replace the id: ```"formId": "37782e85-64ea-0de5-2f9c-b0c335e997fa"``` with a new GUID, you can generate the GUID from [here](https://www.guidgenerator.com/online-guid-generator.aspx)
-- zip the package again
-- upload
+> **Note**: if you upload sample form pack and you get error of "No Right Exception", try to do these steps:
+> - open zip file
+> - open config.json
+> - replace the id: ```"formId": "37782e85-64ea-0de5-2f9c-b0c335e997fa"``` with a new GUID, you can generate the GUID from [here](https://www.guidgenerator.com/online-guid-generator.aspx)
+> - zip the package again
+> - upload
 
 ## API Endpoint
 
-### **Run using python**:
+### Run using python
 
 Requirement:
 - Python
@@ -38,17 +38,14 @@ Steps:
 6.  zip the file back
 7.  upload to GIANT environment
 
-### **Run using docker**:
-
-Requirement:
-- Docker
+### Run using docker
 
 Steps:
 - get the docker package rom [here](https://github.com/fx-giant/giant-documentations/blob/master/form/service-docker/)
 - run ```docker build -t form-mock:latest .```
 - run ```docker run -p 5000:5000 form-mock:latest```
 
-## Development Guide
+## Sections
 
 The development guide is separated into:
 
