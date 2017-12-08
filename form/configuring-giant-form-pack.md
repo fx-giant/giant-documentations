@@ -34,26 +34,14 @@
   }]
 }
 ```
-And this is the structure in a simple way:
-``` 
-{
-    "forms": [{
-        "formId": this is guid and must be unique,
-        "formName": name of form, only use alphanumeric,
-        "title": this is the title to be displayed in the form listing
-        "serviceUrl": the target of where the API request will be sent
-        "version": form version
-    },{
+|Field | Data Type | Description|
+|-|-|-|
+|formId| GUID | Must be unique, the forms id will be used to navigate through form
+| formName | String | Name of the form, will be used to identify the html, js, and css file that will be used in the form
+| title | String | Display title in the form listing 
+| serviceUrl | String | The API request endpoint when using ```fx.DataContext.Application.formRecord```
+| version | String | Form version
 
-    },
-    
-    ....
-    
-    {
-
-    }]
-}
-```
 Notes:
 - For each form, html and javascript are mandatory, while css is optional.
 
@@ -113,6 +101,13 @@ The complete structure:
     }]
 }
 ```
+|Field | Data Type | Description|
+|-|-|-|
+|html| String | Specific html file name, will override name deriven from ```formName```
+|style | String | Specific css file name, will override name deriven from ```formName```
+| script | String | Specific js file name, will override name deriven from ```formName```
+| dataStore | DataStore | The API request endpoint when using ```fx.DataContext.Application.formRecord```, this is a more comprehensive configuration that will be explained below.
+
 
 ## GIANT DataStore structure
 
@@ -127,10 +122,13 @@ In any event that you need to use custom header, you can define it using dataSto
     "allowCustomRouting": false 
 }
 ```
-- **dType**: for now, always fill this field with value **"roleApiDataStore"**.
-- **serviceUrl**: the API endpoint for the form request to be sent.
-- **headers**: the header that will be applied to the request
-- **allowCustomRouting**: enable this if you want to use "Action" and custom url in "GetAll"
+
+|Field | Data Type | Description|
+|-|-|-|
+|dType| String | For now, always fill this field with value **"roleApiDataStore"**.
+|serviceUrl | String | The API endpoint for the form request to be sent.
+| headers | String | The header that will be applied to the request
+| allowCustomRouting | DataStore | enable this if you want to use "Action" and custom url in "GetAll"
 
 so the example of a form with data store configuration is as follow:
 
