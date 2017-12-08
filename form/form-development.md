@@ -156,7 +156,7 @@ Take the zip file, go to this menu: ``` My Form(s) ---> Add ```, and put the for
 
 8. After upload form, you can click on the newly uploaded form and you will see this:
 
-![Form Preview](https://github.com/fx-giant/giant-documentations/blob/master/form/images/form-preview.png)
+![Form Preview](https://github.com/fx-giant/giant-documentations/blob/master/form/images/form-preview-sample.png)
 
 9. Now we will put a form API request. The API request will be sent to the serviceUrl configuration of the form (refer back the config).
 
