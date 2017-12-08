@@ -1,0 +1,9 @@
+{
+  "forms": [{
+    "formId": "37782e85-64ea-0de5-2f9c-b0c335e997fa",
+    "formName": "sample",
+    "title": "sample",
+    "serviceUrl": "http://localhost:5000/",
+    "version": "1.0.0"
+  }]
+}

@@ -11,8 +11,6 @@ This guide will provide you a demo on how to deploy a sample form to GIANT envir
 - an API endpoint hosted and accessible from GIANT environment, detailed explanation bellow.
 
 ## Quickstart
-If you are able to access GIANT SIT environment, grab the [sample-bison.zip](https://github.com/fx-giant/giant-documentations/blob/master/form/sample/sample-bison.zip) and upload it to GIANT SIT environment.
-
 **Note: if you upload sample form pack and you get error of "No Right Exception", try to do these steps:**
 - open zip file
 - open config.json
@@ -30,7 +28,7 @@ Requirement:
 - Flask (python package installed)
 
 Steps:
-1.  get source code from [here](https://github.com/fx-giant/giant-documentations/blob/master/form/service-docker/service.py). 
+1.  get source code from [here](https://github.com/fx-giant/giant-documentations/blob/master/form/sample/service-docker/service.py). 
 2.  execute ```python service.py```.
 3.  get the [sample.zip](https://github.com/fx-giant/giant-documentations/blob/master/form/sample/sample.zip)
 4.  open the zip file
@@ -44,15 +42,15 @@ Requirement:
 - Docker
 
 Steps:
-- get the docker package rom [here](https://github.com/fx-giant/giant-documentations/blob/master/form/service-docker/)
+- get the docker package rom [here](https://github.com/fx-giant/giant-documentations/blob/master/form/sample/service-docker/)
 - run ```docker build -t form-mock:latest .```
 - run ```docker run -p 5000:5000 form-mock:latest```
 
 ## Development Guide
 
 The development guide is separated into:
-
-- [Form Pack](https://github.com/fx-giant/giant-documentations/blob/master/form/form-pack.md): Development of form pack
+- [Form Development](https://github.com/fx-giant/giant-documentations/blob/master/form/form-development.md): Development of form, following GIANT's standard
+- [Form Pack](https://github.com/fx-giant/giant-documentations/blob/master/form/form-pack.md): Configuration of form pack
 - [Form Sandbox](https://github.com/fx-giant/giant-documentations/blob/master/form/form-sandbox.md): Sandbox tool to help in packaging and deployment
 - [Best Practices: Don't Do](https://github.com/fx-giant/giant-documentations/blob/master/form/dont-do.md): Example of not recommended code to be done when developing forms
 - [Best Practices: Do](https://github.com/fx-giant/giant-documentations/blob/master/form/do.md): Suggestion on how to make the form in a better way

@@ -1,0 +1,64 @@
+<div class="sample-form">
+	<div class="jumbotron text-center">
+		<h1>This is just a sample form</h1>
+
+		<p class=' description'>This form's id is
+			<span class=' form-id' data-bind='text:formId'></span>
+		</p>
+
+	</div>
+
+	<div class="container">
+		<div class="panel-group">
+			<div class="panel panel-primary">
+				<div class="panel-heading">GET ALL</div>
+				<div class="panel-body">
+					<div class="btn btn-primary" data-bind="click:executeGetAll">Execute</div>
+					<h4>Response:</h4>
+					<pre data-bind="text:getAllResponse"></pre>
+				</div>
+			</div>
+		</div>
+		<div class="panel-group">
+			<div class="panel panel-primary">
+				<div class="panel-heading">GET</div>
+				<div class="panel-body">
+					<div class="btn btn-primary" data-bind="click:executeGet">Execute</div>
+					<h4>Response:</h4>
+					<pre data-bind="text:getResponse"></pre>
+				</div>
+			</div>
+		</div>
+		<div class="panel-group">
+			<div class="panel panel-primary">
+				<div class="panel-heading">Post</div>
+				<div class="panel-body">
+					<div class="btn btn-primary" data-bind="click:executePost">Execute</div>
+					<h4>Response:</h4>
+					<pre data-bind="text:postResponse"></pre>
+				</div>
+			</div>
+		</div>
+		<div class="panel-group">
+			<div class="panel panel-primary">
+				<div class="panel-heading">Put</div>
+				<div class="panel-body">
+					<div class="btn btn-primary" data-bind="click:executePut">Execute</div>
+					<h4>Response:</h4>
+					<pre data-bind="text:putResponse"></pre>
+				</div>
+			</div>
+		</div>
+		<div class="panel-group">
+			<div class="panel panel-primary">
+				<div class="panel-heading">Delete</div>
+				<div class="panel-body">
+					<div class="btn btn-primary" data-bind="click:executeDelete">Execute</div>
+					<h4>Response:</h4>
+					<pre data-bind="text:deleteResponse"></pre>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>

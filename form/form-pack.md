@@ -30,7 +30,7 @@
     "formName": "sample",
     "title": "sample",
     "serviceUrl": "http://localhost",
-    "version": "0.0.0"
+    "version": "1.0.0"
   }]
 }
 ```
