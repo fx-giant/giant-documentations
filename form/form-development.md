@@ -160,8 +160,9 @@ Take the zip file, go to this menu: ``` My Form(s) ---> Add ```, and put the for
 
 9. Now we will put a form API request. The API request will be sent to the serviceUrl configuration of the form (refer back the config).
 
-```tutorial.html```
-``` html
+**tutorial.html**
+
+```html
 <div class="sample-form">
 	<div class="jumbotron text-center">
 		<h1>This is just a sample form</h1>
@@ -188,9 +189,9 @@ Take the zip file, go to this menu: ``` My Form(s) ---> Add ```, and put the for
 </div>
 ```
 
-```tutorial.js```
+**tutorial.js**
 
-``` js
+```js
 namespace("fx.giantFormDesign")["tutorial"] = (function () {
 
 	var observable = ko.observable;
@@ -235,6 +236,8 @@ namespace("fx.giantFormDesign")["tutorial"] = (function () {
 ```
 Now zip again the folder and upload the form. The form will be updated and you will be able to see the button. If the button is pressed, it will send api request to ```http://localhost``` (because it's configured to in the config) as: ```http://localhost/?userId={yourUserId}&userName={yourUserName}&query1=This is query string 1&query2=Another query string again```. ```userId``` and ```userName``` is put there by GIANT.
 
+## Form Record API
+
 In ```fx.DataContext.Application.formRecord```, there are 5 commonly used functions:
 
 |Name|Parameters|Method sent to service|Service final url|
@@ -250,3 +253,30 @@ Note:
 	- userId={userId}
 	- userName={loginName}
 - Role is the user current role in camel case form
+- Options usually will use:
+	- success : ```function (data){};```
+	- error : ```function (data){};```
+
+## Form View Model Params
+
+The view model of form accepting an object called as ```params```
+``` js
+function viewModel(params) {
+
+}
+```
+This is the commonly used property of ```params```:
+|Property Name| Type | Description
+|-|-|-|
+|formId| ko.observable | current active form's id |
+|formRecordId | ko.observable | currently active form's form record id if applicable |
+| formSettings | ko.observable | GIANT's form setting object
+| queryStrings | ko.observable | The parsed current query string
+| redirectToForm | function | Redirect to form of a given id, with given data passed through query strings
+| userProfile | object | Contains the current user's profile information
+
+```redirectToForm(formId, dataOrFormRecordId)```:
+- **formId** is the id of other form that is accessible
+- **dataOrFormRecordId**: 
+	- if this is an object, the object will be converted to a query string in the URL,
+	- if this is a string, the string will be used as ```?formRecordId={value}```
