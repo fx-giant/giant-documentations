@@ -1,6 +1,10 @@
-# giant-documentations
+# Giant Guide and Tutorial
 
-This git repository contains giant documentations. Here are the available documentation:
+Learn to use, configure and customize giant. Learn each specific module by going indept into each folder segments
 
-- [Form Pack](https://github.com/fx-giant/giant-documentations/blob/master/form/form.md)
-- [Visual Pack](https://github.com/fx-giant/giant-documentations/blob/master/visual/visual.md)
+## Setups and Configurations
+- [Setting Up Giant Sso Saml Authentication](https://github.com/fx-giant/giant-documentations/blob/master/setup_configurations/Setting_Up_Giant_Sso_Saml_Authentication.md)
+
+## Custom Development
+- [Visual/Visual Development](https://github.com/fx-giant/giant-documentations/blob/master/visual/README.md)
+- [Form/Form Development](https://github.com/fx-giant/giant-documentations/blob/master/form/README.md)

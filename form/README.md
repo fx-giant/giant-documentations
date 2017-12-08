@@ -20,7 +20,7 @@ This guide will provide you a demo on how to deploy a sample form to GIANT envir
 
 ## API Endpoint
 
-### **Run using python**:
+### Run using python
 
 Requirement:
 - Python
@@ -36,17 +36,14 @@ Steps:
 6.  zip the file back
 7.  upload to GIANT environment
 
-### **Run using docker**:
-
-Requirement:
-- Docker
+### Run using docker
 
 Steps:
 - get the docker package rom [here](https://github.com/fx-giant/giant-documentations/blob/master/form/sample/service-docker/)
 - run ```docker build -t form-mock:latest .```
 - run ```docker run -p 5000:5000 form-mock:latest```
 
-## Development Guide
+## Sections
 
 The development guide is separated into:
 - [Form Development](https://github.com/fx-giant/giant-documentations/blob/master/form/form-development.md): Development of form, following GIANT's standard

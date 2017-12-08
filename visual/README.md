@@ -26,7 +26,7 @@ Option 2:
 3. Drag and drop visual pack here
 
 
-## Development Guide
+## Sections
 
 The development guide is separated into:
 
