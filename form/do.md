@@ -4,7 +4,7 @@
 This section will contains the suggestion on how to do form in a way that it's easier to maintain and read.
 
 
-## 1. Don't Use API Response Right Away
+## 1. Map api response to view model before processing
 
 When we load data from database, it's better to preprocess the data first before we represent it to UI. For example, if we have the api request as follow:
 ``` js
@@ -26,42 +26,47 @@ formRecordApi.getAll(koFormId(), query,{
 
 function extendEntity(entity){
     entity.formattedPrice = observable(entity.price.toLocaleString());
+    //...other entity properties that required to be exposed.
 }
 ```
-and so on
 
-## 2: Unsafe And Bad Data Attribute Binding
+## 2: Make use of pureComputed for data formatting
 
-Create an abstraction here so it will be easier to read and maintain later on
+Move as much data massaging to pure computed. Instead of handling in html.
 
 for example, as this code:
 ``` html
-        <td>
-            <span data-bind="text: moment(sta).format('DD-MM-YYYY')"></span>
-        </td>
+<td>
+    <span data-bind="text: moment(sta).format('DD-MM-YYYY')"></span>
+</td>
 ```
 we make it into:
 ``` html
-        <td>
-            <span data-bind="text: formattedSTA"></span>
-        </td>
+<td>
+    <span data-bind="text: formattedSTA"></span>
+</td>
 ```
-Refer to [Overall Suggestion #1](#1-don-t-use-api-response-right-away)
 
-## 3. Bad Api Structure
+``` javascript
+var formattedSTA = ko.pureComputed(()=> { return moment(sta).format('DD-MM-YYYY'); })
+```
 
-Since most likely the user who ahave access to **detail page** will also have access to **list page**.
+## 3. Seperate listing and detail api
 
-It will be better to structure it as:
-- **list page**: sending api request to ```/gaterelease```, that will provide the api for ```/gaterelease/{gateReleaseId}``` so we can get the detail of a single gate release
-- **detail**: sending api request to ```/pams``` and we can use ```/pam?gateReleaseId={gateReleaseId}``` to filter the pam by gate release id.
+It is consider better to have two tier api, of having **listing api** that only return a sub set of the properties and pagination), 
+and **detail api** that accepts a given entity id and return the complete entity object.
+
+
+> Example:
+> - **list page**: sending api request to ```/gaterelease```, that will provide the api for ```/gaterelease/{gateReleaseId}``` so we can get the detail of a single gate release
+> - **detail**: sending api request to ```/pams``` and we can use ```/pam?gateReleaseId={gateReleaseId}``` to filter the pam by gate release id.
 
 ## 4  Refering Parent Scope In Data
 
 Refer to [Overall Suggestion #1](#2-unsafe-and-bad-data-attribute-binding)
 
 
-## 5. Inefficient Seeking
+## 5. Better client side filtering
 
 Better create a dictionary based on user id first instead of looping one by one each time trying to retrieve user id.
 
@@ -95,20 +100,23 @@ function getUserName(userId){
 }
 ```
 
-## 6. Deleting Attributes
+## 6. Mapping Viewmodel back to service model before posting to service
 
-It's not good to delete the already defined attribute, so instead of deleting attribute to send the payload back to server, it will be better to explicitly define what are the payload to be sent to server, the consideration are these:
+Its always consider better to remapped view model back to service model before posting back to services
+.
+
+During the life time of an object, a given object have have additional attached properties that is not required.
+It is consider to be better to only send what is required to prevent side effects and better readability.
 1. easier to find what are the payload to be sent in the request
 2. the probability of the UI crash due to missing attribute is lower
 
-sample solution: 
 ``` js
-list = $.map(list, function (item) {
-    delete item.isExpand; //this one <<<<<<<<<<<<
+list = $.map(list, function (item) {   
 
     item.packages = $.map(item.packages, function (package) {
         if (package.isSelected) {
             packageCount++;
+            
             return {
                 hawbNo: package.hawbNo
             };
@@ -117,17 +125,6 @@ list = $.map(list, function (item) {
 
     if (item.packages.length > 0)
         return item;
-});
-
-
-
-//line ~220
-formRecord.post(koFormId(), query, {
-    success: function (result) {
-    },
-    fail: function(result){
-
-    }
 });
 
 ```
@@ -152,8 +149,6 @@ list = $.map(list, function (item) {
 });
 
 
-
-//line ~220
 var data = {
     packages: item.packages,
     driverName: koDriverName(),
