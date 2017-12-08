@@ -13,14 +13,13 @@ by leveraging on SAML 2.0 token exchange protocol. If you are not familiar with 
 
 ### Configuring SSO Identity Provider
 1. Browse To Configure System menu under Manage System.
-<Insert image from home page on the left panel and highlight as red>
+![Manage System](https://github.com/fx-giant/giant-documentations/blob/master/setup_configurations/images/Setting_Up_Giant_Sso_Saml_Authentication_01.png)
 
 2. Using the search field, search for the “SSO Identity Provider” module.
-<Insert image for mission control page with sso Configuration module as filter>
+![SSO Search Field](https://github.com/fx-giant/giant-documentations/blob/master/setup_configurations/images/Setting_Up_Giant_Sso_Saml_Authentication_02.png)
 
 3. Enter the configuration values and save the changes made.
-<Insert image for mission control  sso Configuration module properties>
-
+![Properties](https://github.com/fx-giant/giant-documentations/blob/master/setup_configurations/images/Setting_Up_Giant_Sso_Saml_Authentication_03.png)
 
  Property|Description
 -|-
