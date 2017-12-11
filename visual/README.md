@@ -33,3 +33,4 @@ The development guide is separated into:
 
 - [Visual Pack](https://github.com/fx-giant/giant-documentations/blob/master/visual/visual-pack.md): Development of visual pack
 - [Visual Sandbox](https://github.com/fx-giant/giant-documentations/blob/master/visual/visual-sandbox.md): Sandbox tool to help in packaging and deployment
+- [Exception List](https://github.com/fx-giant/giant-documentations/blob/master/visual/exceptions.md): Exception List

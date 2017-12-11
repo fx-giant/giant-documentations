@@ -51,3 +51,4 @@ The development guide is separated into:
 - [Form Sandbox](https://github.com/fx-giant/giant-documentations/blob/master/form/form-sandbox.md): Sandbox tool to help in packaging and deployment
 - [Best Practices: Don't Do](https://github.com/fx-giant/giant-documentations/blob/master/form/dont-do.md): Example of not recommended code to be done when developing forms
 - [Best Practices: Do](https://github.com/fx-giant/giant-documentations/blob/master/form/do.md): Suggestion on how to make the form in a better way
+- [Exception List](https://github.com/fx-giant/giant-documentations/blob/master/form/exceptions.md): List of exception with description and solution suggestion
