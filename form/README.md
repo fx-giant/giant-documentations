@@ -47,7 +47,7 @@ Steps:
 
 The development guide is separated into:
 - [Form Development](https://github.com/fx-giant/giant-documentations/blob/master/form/form-development.md): Development of form, following GIANT's standard
-- [Form Pack](https://github.com/fx-giant/giant-documentations/blob/master/form/configuring-giant-form.md): Configuration of form pack
+- [Form Pack](https://github.com/fx-giant/giant-documentations/blob/master/form/configuring-giant-form-pack.md): Configuration of form pack
 - [Form Sandbox](https://github.com/fx-giant/giant-documentations/blob/master/form/form-sandbox.md): Sandbox tool to help in packaging and deployment
 - [Best Practices: Don't Do](https://github.com/fx-giant/giant-documentations/blob/master/form/dont-do.md): Example of not recommended code to be done when developing forms
 - [Best Practices: Do](https://github.com/fx-giant/giant-documentations/blob/master/form/do.md): Suggestion on how to make the form in a better way
