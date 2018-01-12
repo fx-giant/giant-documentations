@@ -8,3 +8,4 @@ Learn to use, configure and customize giant. Learn each specific module by going
 ## Custom Development
 - [Visual/Visual Development](https://github.com/fx-giant/giant-documentations/blob/master/visual/README.md)
 - [Form/Form Development](https://github.com/fx-giant/giant-documentations/blob/master/form/README.md)
+- [GIANT API](https://github.com/fx-giant/giant-documentations/blob/master/giant/README.md)
