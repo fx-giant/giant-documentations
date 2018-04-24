@@ -1,6 +1,5 @@
-namespace("fx.giantFormDesign")["tutorialDetail"] = (function () {
-
-	const listFormId = "57594819-8249-0000-0000-000000000001";
+namespace("fx.giantFormDesign")["userDetail"] = (function () {
+	const listFormId = "caf86aef-b850-4541-969f-000000000001";
 	const properties = [
 		"firstName",
 		"lastName",
@@ -8,27 +7,29 @@ namespace("fx.giantFormDesign")["tutorialDetail"] = (function () {
 		"position",
 		"address1",
 		"address2",
-		"isActive",
-		"phoneNumber",
+		"isActive"
 	];
 
 	const enumProperties = [
-		"position",
-	]
+		"position"
+	];
 
 	const positionOptions = [{
+		name: "CEO",
+		value: "CEO",
+	   }, {
+		name: "Manager",
+		value: "Manager",
+	   }, {
+		name: "Marketing",
+		value: "Marketing",
+	   }, {
 		name: "Supervisor",
 		value: "Supervisor",
-	}, {
+	   }, {
 		name: "Officer",
 		value: "Officer",
-	}]
-
-
-
-
-
-
+	   }];
 
 	var observable = ko.observable;
 	var pureComputed = ko.pureComputed;
@@ -36,9 +37,7 @@ namespace("fx.giantFormDesign")["tutorialDetail"] = (function () {
 	var viewModelProperties = {};
 	var unwrap = ko.unwrap;
 	var notification = fx.notification;
-	//this will be the API request sender to the API endpoint
 	var formRecordApi = fx.DataContext.Application.formRecord;
-
 
 	function viewModel(params) {
 		var koAdhocActionConfigurations = params.adhocActionConfigurations;
@@ -47,32 +46,28 @@ namespace("fx.giantFormDesign")["tutorialDetail"] = (function () {
 		var breadCrumbWithDefaults = params.breadCrumbWithDefaults;
 		var redirectToForm = params.redirectToForm;
 
-
 		var koFormId = params.formId;
 		var koData = observable({});
 		var koDataId = observable();
 
 		var koCanSave = pureComputed(function () {
 			return true;
-		})
+		});
 
 		koDataId.subscribe(function (id) {
 			reloadData();
-		})
+		});
 
 		koData.subscribe(function (data) {
 			initData(data);
-		})
-
+		});
 
 		init();
-
 
 		var me = this;
 		return $.extend(true, {}, viewModelProperties, {
 			positionOptions: positionOptions,
 		});
-
 
 		function init() {
 			initActions();
@@ -84,7 +79,6 @@ namespace("fx.giantFormDesign")["tutorialDetail"] = (function () {
 			var queryString = koQueryString();
 			if (queryString.id)
 				koDataId(queryString.id);
-
 		}
 
 		function initActions() {
@@ -93,17 +87,22 @@ namespace("fx.giantFormDesign")["tutorialDetail"] = (function () {
 				iconClass: fxIconClass.save,
 				action: save,
 				isVisible: koCanSave,
+			},{
+				label: "Cancel",
+				iconClass: fxIconClass.close,
+				action: backToList,
+				isVisible: true,
 			}])
 		}
 
 		function initBreadCrumbs() {
 			koCrumbs(breadCrumbWithDefaults([{
-				title: "Data List",
+				title: "User List",
 				click: function () {
-					goToList();
+					backToList();
 				}
 			}, {
-				title: "Data Detail",
+				title: "User Detail",
 				click: function () {}
 			}]));
 		}
@@ -226,17 +225,13 @@ namespace("fx.giantFormDesign")["tutorialDetail"] = (function () {
 			})
 		}
 
-		function goToList() {
+		function backToList() {
 			redirectToForm(listFormId);
 		}
 	}
 
-
 	return {
 		viewModel: viewModel
-	}
-
-
-
+	};
 
 })();

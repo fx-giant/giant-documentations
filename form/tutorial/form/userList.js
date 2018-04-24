@@ -1,5 +1,5 @@
-namespace("fx.giantFormDesign")["tutorialList"] = (function () {
-	const detailFormId = "57594819-8249-0000-0000-000000000002";
+namespace("fx.giantFormDesign")["userList"] = (function () {
+	const detailFormId = "caf86aef-b850-4541-969f-000000000002";
 	const pageSize = 20;
 	const fields = [{
 		name: "firstName",
@@ -15,13 +15,6 @@ namespace("fx.giantFormDesign")["tutorialList"] = (function () {
 		displayName: "Is Active",
 
 	}];
-
-
-
-
-
-
-
 
 	var observable = ko.observable;
 	var observableArray = ko.observableArray;
@@ -102,7 +95,7 @@ namespace("fx.giantFormDesign")["tutorialList"] = (function () {
 
 		function initBreadCrumbs() {
 			koCrumbs(breadCrumbWithDefaults([{
-				title: "Data List",
+				title: "User List",
 				click: function () {}
 			}]));
 		}
