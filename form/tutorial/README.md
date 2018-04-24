@@ -23,7 +23,7 @@ form
 - replace the id: ```"formId": "caf86aef-b850-4541-969f-000000000001"``` with 1st new GUID
 - replace the id: ```"formId": "caf86aef-b850-4541-969f-000000000002"``` with 2nd new GUID
 - open userDetail.js, replace ````"caf86aef-b850-4541-969f-000000000001"```` with 1st new GUID
-- open userList.js, replace ````"caf86aef-b850-4541-969f-000000000002"```` with 1st new GUID
+- open userList.js, replace ````"caf86aef-b850-4541-969f-000000000002"```` with 2nd new GUID
 - zip all the files in the folder
 
 ## 4. Upload to GIANT
