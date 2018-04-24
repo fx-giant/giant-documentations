@@ -1,0 +1,13 @@
+.tutorial-list {
+  padding: 40px;
+}
+.tutorial-list .tutorial-list-container {
+  padding: 20px;
+  background-color: white;
+}
+.tutorial-list .tutorial__table-no-flex {
+  display: table;
+}
+.tutorial-list .tutorial__action-columns {
+  width: 220px;
+}

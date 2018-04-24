@@ -1,0 +1,25 @@
+<div class="tutorial-list">
+    <div class="tutorial-list-container">
+        <table class="table tutorial__table-no-flex table-striped">
+            <thead>
+                <tr data-bind="foreach: fields">
+                    <th data-bind="text: displayName"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- ko foreach : records -->
+                <tr>
+                    <!-- ko foreach: displayData -->
+                    <td data-bind="text: value">
+                    </td>
+                    <!-- /ko -->
+                    <td class="tutorial__action-columns">
+                        <div class="waves-effect button button--blue button--medium button--shadow " data-bind="click: edit">Edit</div>
+                        <div class="waves-effect button button--red button--medium button--shadow " data-bind="click: remove">Delete</div>
+                    </td>
+                </tr>
+                <!-- /ko -->
+            </tbody>
+        </table>
+    </div>
+</div>
