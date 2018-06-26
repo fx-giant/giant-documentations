@@ -91,7 +91,8 @@ The complete structure:
         "style": "name of html file, this will override the formName",
         "dataStore": "the GIANT datastore structure, see bellow for explanation",
         "isApplication": "indicate whether the form to be appear as part of GIANT menu list for quick access.",
-        "applicationIcon": "font awesome css class for the form icon in the GIANT menu list."
+        "applicationIcon": "font awesome css class for the form icon in the GIANT menu list.",
+        "isHideSearchbar": "flag to indicate to turn off GIANT search bar when access this form in GIANT."
     },{
 
     },
@@ -111,6 +112,7 @@ The complete structure:
 | dataStore | DataStore | The API request endpoint when using ```fx.DataContext.Application.formRecord```, this is a more comprehensive configuration that will be explained below.
 | isApplication | Boolean | Flag to indicate whether the form to be part of GIANT menu list for quick access.
 | applicationIcon | String | Css class name for the form icon appear in GIANT menu list. Default icon will be used if not assign. Refer [Font Awesome](https://fontawesome.com) for list of icon class name.
+| isHideSearchbar | Boolean | Flag to indicate whether GIANT search bar availibilty when access this form in GIANT
 
 
 ## GIANT DataStore structure
