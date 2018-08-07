@@ -241,7 +241,7 @@ Now zip again the folder and upload the form. The form will be updated and you w
 In ```fx.DataContext.Application.formRecord```, there are 6 commonly used functions:
 
 |Name|Parameters|Method Sent| Return Type |
-|-|-|-|-|-|
+|-|-|-|-|
 |getAll|- formId (GUID)<br/> - stringQuery (JSON Object) <br/> - options (Callback Object)|GET| Array |
 |get| - formId (GUID)<br/> - id (GUID)<br/> - options (Callback Object)|GET| Object |
 |post| - formId (GUID)<br/> - payload (JSON Object)<br/> - options (Callback Object)|POST| Any |
