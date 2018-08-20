@@ -1,0 +1,29 @@
+{
+	"forms": [{
+		"formId": "caf86aef-b850-4541-969f-000000000001",
+		"formName": "userList",
+		"title": "User List",
+		"version": "0.1.0",
+		"isSubForm": false,
+		"dataStore": {
+			"dType": "genericApiDataStore",
+			"serviceUrl": "http://formservice.fusionexgiant.com:30000/api/data",
+			"headers": {
+
+			}
+		},
+		"customPermissions": []
+	}, {
+		"formId": "caf86aef-b850-4541-969f-000000000002",
+		"formName": "userDetail",
+		"title": "User Detail",
+		"version": "0.1.0",
+		"isSubForm": true,
+		"dataStore": {
+			"dType": "genericApiDataStore",
+			"serviceUrl": "http://formservice.fusionexgiant.com:30000/api/data",
+			"headers": {}
+		},
+		"customPermissions": []
+	}]
+}

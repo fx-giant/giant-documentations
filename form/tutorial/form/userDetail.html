@@ -1,0 +1,62 @@
+<div class="tutorial-form">
+	<div class="tutorial-form-container">
+		<div class="tutorial__row">
+			<div class="tutorial__label">First name</div>
+			<div class="text-box text-box--white common__box-shadow">
+				<div class="text-box__input">
+					<input type="text" data-bind="value: firstName">
+				</div>
+			</div>
+		</div>
+		<div class="tutorial__row">
+			<div class="tutorial__label">Last name</div>
+			<div class="text-box text-box--white common__box-shadow">
+				<div class="text-box__input">
+					<input type="text" data-bind="value: lastName">
+				</div>
+			</div>
+		</div>
+		<div class="tutorial__row tutorial__row-radio">
+			<div class="tutorial__label">Gender</div>
+			<span class="tutorial__radio-button">
+				<input name="gender" type="radio" value="male" class="tutorial__radio-button" data-bind="checked: gender">
+				<span>Male</span>
+			</span>
+			<span class="tutorial__radio-button">
+				<input name="gender" type="radio" value="female" class="tutorial__radio-button" data-bind="checked: gender">
+				<span>Female</span>
+			</span>
+		</div>
+		<div class="tutorial__row">
+			<div class="tutorial__label">Position</div>
+			<div class="tutorial__dropdown-container">
+				<drop-down-list params="items: positionOptions, selectedItem: position"></drop-down-list>
+			</div>
+		</div>
+		<div class="tutorial__row">
+			<div class="tutorial__label">Address 1</div>
+			<div class="text-box dac__text-area text-box--white">
+				<div class="text-box__input">
+					<textarea data-bind="value: address1"></textarea>
+				</div>
+			</div>
+		</div>
+		<div class="tutorial__row">
+			<div class="tutorial__label">Address 2</div>
+			<div class="text-box dac__text-area text-box--white">
+				<div class="text-box__input">
+					<textarea data-bind="value: address2"></textarea>
+				</div>
+			</div>
+		</div>
+		<div class="tutorial__row">
+			<div class="tutorial__label">Active</div>
+			<div class="switch switch--green switch--medium">
+				<label>
+					<input type="checkbox" data-bind="checked: isActive">
+					<span class="switch-lever"></span>
+				</label>
+			</div>
+		</div>
+	</div>
+</div>

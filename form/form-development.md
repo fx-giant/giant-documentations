@@ -238,21 +238,53 @@ Now zip again the folder and upload the form. The form will be updated and you w
 
 ## Form Record API
 
-In ```fx.DataContext.Application.formRecord```, there are 5 commonly used functions:
+In ```fx.DataContext.Application.formRecord```, there are 6 commonly used functions:
 
-|Name|Parameters|Method sent to service|Service final url|
+|Name|Parameters|Method Sent| Return Type |
 |-|-|-|-|
-|getAll|- formId (GUID)<br/> - stringQuery (JSON Object) <br/> - options (Callback Object)|GET| {serviceUrl}?{defaultGiantStringQuery}&{stringQuery} |
-|get| - formId (GUID)<br/> - id (GUID)<br/> - options (Callback Object)|GET|{serviceUrl}/{id}?{defaultGiantStringQuery}&{stringQuery} |
-|post| - formId (GUID)<br/> - payload (JSON Object)<br/> - options (Callback Object)|POST| {serviceUrl}/{role}?{defaultGiantStringQuery}&{stringQuery}
-|put| - formId (GUID)<br/> - id (GUID) <br> - payload (JSON Object) <br/> - options (Callback Object)|PUT| {serviceUrl}/{role}/{id}?{defaultGiantStringQuery}&{stringQuery}
-|delete| - formId (GUID)<br/> - id (GUID) <br/> - options (Callback Object)|DELETE| {serviceUrl}/{role}/{id}?{defaultGiantStringQuery}&{stringQuery} |
+|getAll|- formId (GUID)<br/> - stringQuery (JSON Object) <br/> - options (Callback Object)|GET| Array |
+|get| - formId (GUID)<br/> - id (GUID)<br/> - options (Callback Object)|GET| Object |
+|post| - formId (GUID)<br/> - payload (JSON Object)<br/> - options (Callback Object)|POST| Any |
+|put| - formId (GUID)<br/> - id (GUID) <br> - payload (JSON Object) <br/> - options (Callback Object)|PUT| Any |
+|delete| - formId (GUID)<br/> - id (GUID) <br/> - options (Callback Object)|DELETE| Any|
+|action| - formId (GUID)<br/> - payload (JSON Object)<br/> - options (Callback Object)|DELETE| Any|
+
+Note: 
+- post, put, and delete will ignore any return informations provided by external service
+- action is the only post method that will return any response provided by the external service and can send to any url provided that ```_url``` is provided in the body of the request
+
+Then, from the GIANT Server, the request will be modified and forwarded to follow the following format depends on the type of data store you are using for your form:
+
+### roleApiDataStore
+| Name | Forward |
+| - | - |
+|getAll | {{serviceUrl}} |
+| get | {{serviceUrl}}/{{role}} |
+| post | {{serviceUrl}}/{{role}} |
+| put | {{serviceUrl}}/{{role}}/{{id}} |
+| delete | {{serviceUrl}}/{{role}}/{{id}} |
+| action | / |
+
+### genericApiDataStore
+| Name | Forward |
+| - | - |
+|getAll | {{serviceUrl}} |
+| get | {{serviceUrl}} |
+| post | {{serviceUrl}} |
+| put | {{serviceUrl}}/{{id}} |
+| delete | {{serviceUrl}}/{{id}} |
+| action | / |
+
+
 
 Note:
 - Default Giant String Query consists of:
 	- userId={userId}
 	- userName={loginName}
 - Role is the user current role in camel case form
+- There are several headers that is provided by default in the request sent by GIANT:
+	- x-giant-userid: User ID of the requester
+	- organizationid: Portfolio ID of the requester
 - Options usually will use:
 	- success : ```function (data){};```
 	- error : ```function (data){};```

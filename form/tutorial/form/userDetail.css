@@ -1,0 +1,21 @@
+.tutorial-form {
+  padding: 40px;
+}
+.tutorial-form .tutorial-form-container {
+  padding: 20px;
+  background-color: white;
+}
+.tutorial-form .tutorial__row {
+  margin-bottom: 15px;
+}
+.tutorial__row.tutorial__row-radio{
+  height: 50px;
+}
+.tutorial-form .tutorial__label {
+  font-size: 18px;
+}
+.tutorial-form .tutorial__radio-button {
+  float: left;
+  margin-right: 10px;
+  font-size: 18px;
+}
