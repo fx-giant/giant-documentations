@@ -46,12 +46,81 @@
     "canConfigureLegend": false,
     "canConfigureAnimation": false,
     "canConfigureColor": false,
-    "canConfigureThreshold": false
+    "canConfigureThreshold": false,
 }
 ```
+
+## Configurations
+|name | description|
+|-|-|
+|visualName| name of visual, use camel case|
+|displayName| visual pack's diplay name when creating new visual|
+|groupId| Group ID|
+|packageId| package id, used to replace old visual pack with new one when group and package id match is found|
+|author| name of author |
+|version| visual pack version|
+|scripts| list of scripts to load in sequence|
+|styles| list of styles to load in sequence|
+|canConfigure3D| toggle of GIANT's 3D configuration |
+|canConfigureLegend| toggle of GIANT's legend configuration |
+|canConfigureAnimation| toggle of GIANT's animation configuration|
+|canConfigureColor| toggle of GIANT's color configuration|
+|canConfigureThreshold | toggle of GIANT's threshold configuration |
+
+## Additional properties
+When using some of GIANT's configuration such as ```canConfigure3D```, ```canConfigureLegend```, there are additional properties will be added as follow:
+| configuration | properties |
+| - | - |
+| canConfigure3D | is3D |
+| canConfigureLegend | legend |
+| canConfigureAnimation | isAnimated |
+| canConfigureColor | colors | 
+| canConfigureThreshold | thresholdType & thresholdSettings | 
+
+Here is the example of visual parameters with all of the configuration provided:
+```
+{
+    colors: ["#00AEEF", "#8DC63F", "#FFC20E", "#F06EAA", "#AE9986", "#009BA5", "#00A651", "#F7941D", "#B656AB", "#ABA000", "#F3716D", "#8D7B6B", "#EF413D", "#AD772B", "#878787"],
+    is3D: false,
+    isAnimated: false,
+    legend: {
+        dType: "legend",
+        position: "north",
+        visibility: "visible"
+    },
+    "thresholdSetting": {
+        dType: "thresholdSetting",
+        thresholds: [{
+                dType: "threshold",
+                from: 0,
+                to: 30,
+                color: "#D91427"
+            },
+            {
+                dType: "threshold",
+                from: 30,
+                to: 70,
+                color: "#F2910A"
+            },
+            {
+                dType: "threshold",
+                from: 70,
+                to: 120,
+                color: "#219131"
+            }
+        ],
+        majorSteps: 10,
+        minorSteps: 5,
+        tickForeground: "rgba(0,0,0,0)",
+        minorTickIndicatorColor: "rgba(0,0,0,0)",
+        majorTickIndicatorColor: "rgba(0,0,0,0)"
+    },
+    thresholdType: "higherIsBetter"
+}
+```
+
 Notes:
 - Quadrant Properties HTML and JS are mandatory
-
 - There is a structure for javascript file as follow:
 ``` js
 //the name "thisIsFormName" for this must be the same with the declared as form name in config json
