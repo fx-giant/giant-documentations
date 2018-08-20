@@ -69,6 +69,7 @@
 
 ## Additional properties
 When using some of GIANT's configuration such as ```canConfigure3D```, ```canConfigureLegend```, there are additional properties will be added as follow:
+
 | configuration | properties |
 | - | - |
 | canConfigure3D | is3D |
