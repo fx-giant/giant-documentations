@@ -70,14 +70,92 @@
 ## Additional properties
 When using some of GIANT's configuration such as ```canConfigure3D```, ```canConfigureLegend```, there are additional properties will be added as follow:
 
-| configuration | properties |
-| - | - |
-| canConfigure3D | is3D |
-| canConfigureLegend | legend |
-| canConfigureAnimation | isAnimated |
-| canConfigureColor | colors | 
-| canConfigureThreshold | thresholdType & thresholdSettings | 
+| configuration | property name | type | 
+| - | - | - |
+| canConfigure3D | is3D | boolean |
+| canConfigureLegend | legend | legend object |
+| canConfigureAnimation | isAnimated | boolean |
+| canConfigureColor | colors | array of string |
+| canConfigureThreshold | thresholdType & thresholdSettings | threshold type |
 
+### Legend Object
+example:
+```
+{
+    legend: {
+        dType: "legend",
+        position: "north",
+        visibility: "visible"
+    }
+}
+```
+
+The legend information passed have the following properties:
+| property name | type | values |
+| - | - | - |
+| dType | string | legend |
+| position | string | none, north, east, south, west |
+| visibility | string | hidden, visible |
+
+### Threshold Object
+example:
+```
+{
+    ...
+    "thresholdSetting": {
+        dType: "thresholdSetting",
+        thresholds: [{
+                dType: "threshold",
+                from: 0,
+                to: 30,
+                color: "#D91427"
+            },
+            {
+                dType: "threshold",
+                from: 30,
+                to: 70,
+                color: "#F2910A"
+            },
+            {
+                dType: "threshold",
+                from: 70,
+                to: 120,
+                color: "#219131"
+            }
+        ],
+        majorSteps: 10,
+        minorSteps: 5,
+        tickForeground: "rgba(0,0,0,0)",
+        minorTickIndicatorColor: "rgba(0,0,0,0)",
+        majorTickIndicatorColor: "rgba(0,0,0,0)"
+    },
+    thresholdType: "higherIsBetter"
+}
+```
+
+**thresholdType**: higherIsBetter / lowerIsBetter
+
+**thresholdSetting**
+| parameter name | data type | values |
+| - | - | - |
+| dType | string | thresholdSetting | 
+| thresholds | array of thresholdObject  | |
+| majorSteps | number | |
+| minorSteps | number | |
+| tickForeground | string | any color |
+| minorTickindicatorColor | string | any color |
+| majorTickIndicatorColor | string | any color |
+
+
+**Threshold Object**
+| parameter name | data type | values |
+| - | - | - |
+| dType | string | threshold |
+| from | number |  |
+| to | number | |
+| color | string | any color code |
+
+### Full Example
 Here is the example of visual parameters with all of the configuration provided:
 ```
 {
