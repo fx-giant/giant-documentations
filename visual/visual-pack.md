@@ -77,7 +77,7 @@ When using some of GIANT's configuration such as ```canConfigure3D```, ```canCon
 | canConfigureAnimation | isAnimated | boolean |
 | canConfigureColor | colors | array of string |
 | canConfigureThreshold | thresholdType | higherIsBetter, lowerIsBetter |
-| canConfigureThreshold | thresholdSetting | threshold object |
+| canConfigureThreshold | thresholdSetting | thresholdSetting |
 
 ### Legend Object
 example:
