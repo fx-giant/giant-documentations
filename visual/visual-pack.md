@@ -102,7 +102,7 @@ The legend information passed have the following properties:
 ### thresholdType: 
 values: higherIsBetter / lowerIsBetter
 
-### Threshold Object
+### thresholdSetting
 example:
 ```
 {
@@ -144,7 +144,7 @@ example:
 | parameter name | data type | values |
 | - | - | - |
 | dType | string | thresholdSetting | 
-| thresholds | array of Threshold Element  | |
+| thresholds | array of thresholdObject  | |
 | majorSteps | number | |
 | minorSteps | number | |
 | tickForeground | string | any color |
@@ -152,7 +152,7 @@ example:
 | majorTickIndicatorColor | string | any color |
 
 
-**Threshold Element**
+**thresholdObject**
 
 | parameter name | data type | values |
 | - | - | - |
