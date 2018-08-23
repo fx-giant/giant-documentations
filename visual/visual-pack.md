@@ -73,11 +73,11 @@ When using some of GIANT's configuration such as ```canConfigure3D```, ```canCon
 | configuration | property name | type | 
 | - | - | - |
 | canConfigure3D | is3D | boolean |
-| canConfigureLegend | legend | legend object |
+| canConfigureLegend | legend | [legend object](https://github.com/fx-giant/giant-documentations/blob/master/visual/visual-pack.md#legend-object) |
 | canConfigureAnimation | isAnimated | boolean |
 | canConfigureColor | colors | array of string |
-| canConfigureThreshold | thresholdType | string of threshold type |
-| canConfigureThreshold | thresholdSetting | thresholdSetting |
+| canConfigureThreshold | thresholdType | string of [threshold type](https://github.com/fx-giant/giant-documentations/blob/master/visual/visual-pack.md#thresholdtype) |
+| canConfigureThreshold | thresholdSetting | [thresholdSetting](https://github.com/fx-giant/giant-documentations/blob/master/visual/visual-pack.md#thresholdsetting) |
 
 ### Legend Object
 example:
@@ -107,7 +107,7 @@ values: higherIsBetter / lowerIsBetter
 | parameter name | data type | values |
 | - | - | - |
 | dType | string | thresholdSetting | 
-| thresholds | array of thresholdObject  | |
+| thresholds | array of [thresholdObject](https://github.com/fx-giant/giant-documentations/blob/master/visual/visual-pack.md#thresholdobject)  |  |
 | majorSteps | number | |
 | minorSteps | number | |
 | tickForeground | string | any color |
@@ -115,7 +115,7 @@ values: higherIsBetter / lowerIsBetter
 | majorTickIndicatorColor | string | any color |
 
 
-**thresholdObject**
+### thresholdObject
 
 | parameter name | data type | values |
 | - | - | - |
