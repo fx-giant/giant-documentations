@@ -76,7 +76,8 @@ When using some of GIANT's configuration such as ```canConfigure3D```, ```canCon
 | canConfigureLegend | legend | legend object |
 | canConfigureAnimation | isAnimated | boolean |
 | canConfigureColor | colors | array of string |
-| canConfigureThreshold | thresholdType & thresholdSettings | threshold type |
+| canConfigureThreshold | thresholdType | higherIsBetter, lowerIsBetter |
+| canConfigureThreshold | thresholdSetting | threshold object |
 
 ### Legend Object
 example:
@@ -91,6 +92,7 @@ example:
 ```
 
 The legend information passed have the following properties:
+
 | property name | type | values |
 | - | - | - |
 | dType | string | legend |
@@ -136,6 +138,7 @@ example:
 **thresholdType**: higherIsBetter / lowerIsBetter
 
 **thresholdSetting**
+
 | parameter name | data type | values |
 | - | - | - |
 | dType | string | thresholdSetting | 
@@ -148,6 +151,7 @@ example:
 
 
 **Threshold Object**
+
 | parameter name | data type | values |
 | - | - | - |
 | dType | string | threshold |
