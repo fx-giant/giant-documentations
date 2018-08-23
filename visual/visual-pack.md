@@ -103,43 +103,6 @@ The legend information passed have the following properties:
 values: higherIsBetter / lowerIsBetter
 
 ### thresholdSetting
-example:
-```
-{
-    ...
-    thresholdSetting: {
-        dType: "thresholdSetting",
-        thresholds: [{
-                dType: "threshold",
-                from: 0,
-                to: 30,
-                color: "#D91427"
-            },
-            {
-                dType: "threshold",
-                from: 30,
-                to: 70,
-                color: "#F2910A"
-            },
-            {
-                dType: "threshold",
-                from: 70,
-                to: 120,
-                color: "#219131"
-            }
-        ],
-        majorSteps: 10,
-        minorSteps: 5,
-        tickForeground: "rgba(0,0,0,0)",
-        minorTickIndicatorColor: "rgba(0,0,0,0)",
-        majorTickIndicatorColor: "rgba(0,0,0,0)"
-    },
-    thresholdType: "higherIsBetter"
-}
-```
-
-
-**thresholdSetting**
 
 | parameter name | data type | values |
 | - | - | - |
