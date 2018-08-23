@@ -76,7 +76,7 @@ When using some of GIANT's configuration such as ```canConfigure3D```, ```canCon
 | canConfigureLegend | legend | legend object |
 | canConfigureAnimation | isAnimated | boolean |
 | canConfigureColor | colors | array of string |
-| canConfigureThreshold | thresholdType | higherIsBetter, lowerIsBetter |
+| canConfigureThreshold | thresholdType | string of threshold type |
 | canConfigureThreshold | thresholdSetting | thresholdSetting |
 
 ### Legend Object
@@ -99,12 +99,15 @@ The legend information passed have the following properties:
 | position | string | none, north, east, south, west |
 | visibility | string | hidden, visible |
 
+### thresholdType: 
+values: higherIsBetter / lowerIsBetter
+
 ### Threshold Object
 example:
 ```
 {
     ...
-    "thresholdSetting": {
+    thresholdSetting: {
         dType: "thresholdSetting",
         thresholds: [{
                 dType: "threshold",
@@ -135,14 +138,13 @@ example:
 }
 ```
 
-**thresholdType**: higherIsBetter / lowerIsBetter
 
 **thresholdSetting**
 
 | parameter name | data type | values |
 | - | - | - |
 | dType | string | thresholdSetting | 
-| thresholds | array of thresholdObject  | |
+| thresholds | array of Threshold Element  | |
 | majorSteps | number | |
 | minorSteps | number | |
 | tickForeground | string | any color |
@@ -150,7 +152,7 @@ example:
 | majorTickIndicatorColor | string | any color |
 
 
-**Threshold Object**
+**Threshold Element**
 
 | parameter name | data type | values |
 | - | - | - |
