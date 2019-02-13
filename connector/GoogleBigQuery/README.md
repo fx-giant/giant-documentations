@@ -1,4 +1,4 @@
-# Google BigQuery Connector GuideX
+# Google BigQuery Connector Guide
 
 This docummentation provide guidance to setup Google BigQuery OAuth credential and connect via GIANT as a connector.
 
