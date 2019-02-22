@@ -19,47 +19,100 @@ Please [refer here](https://github.com/fx-giant/giant-documentations/blob/master
 
 ## Part 3: Managing Responses for Intents
 
-In this section, we will showcase the suitable response type to apply based on the user's inquiry type.
+In this section, you can learn on how to configure the various response types in GIANT based on the use cases that your chatbot has to handle and the type of answers that you want to show to the users.
+
+### Pre-Requisites
+
+1. A chatbot agent setup in Dialogflow with Intents and Entities (Refer to **Part 1** of this guide).
+2. A chatbot GIANT chatbot agent linked to a Dialogflow chatbot agent (Refer to **Part 2** of this guide).
+3. The following Intents and Entities created in your chatbot agent:
+
+	![prerequisite-intents-entities](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/prerequisite-intents-entities.png)
+
 
 ## Quick Replies
+
 The _Quick Replies_ response type allows the user to select one of the options provided with no typing needed from the user. This response type aids user in providing a reply based on the options listed out for the user to choose from. The _Quick Replies_ response type enables you to display text combined with a series of action buttons as options for user's selection.
 
-- Example: Intent related to **show_quick-menu**
+- Example: The following intents are configured with the _Quick Replies_ response type:
+	- Intent **Default Welcome Intent**
+	- Intent **inquiry_animal-pics**
+	- Intent **recommend_join-as-member**
 
-    ![Quick Replies](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/quick_replies.png)
+    ![default-welcome-intent-qr](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/default-welcome-intent-qr.png)
+    
+    ![inquiry_animal-pics-qr](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/inquiry_animal-pics.png)
+    
+    ![recommend_join-as-member](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/recommend_join-as-member.png)
+    
+- Steps to configure:
+
+	![quick-replies-configs](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/quick-replies-configs.png)
+
+- _Quick Replies_ results as shown in chatbot:
+
+	![qr-results](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/qr-results.png)    
+    
 
 ## Card
+
 The _Card_ response type is suitable to use when images with hyperlinks are needed to be shown as a reply. This response type enables you to display images with action buttons for user to click.
 
-- Example: Intent for **inquiry_animal-pics**
+- Example: The following intents are configured with the _card_ response type:
+	- Intent **inquiry_animal-pics**
+	- Intent **show_quick-menu**
+	- Intent **show_help-menu**
 
-    ![Card](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/card.png)
+    ![inquiry_animal-pics-card](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/inquiry_animal-pics-card.png)
+    
+    ![show_quick-menu-card](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/show_quick-menu-card.png)
+    
+    ![show_help-menu-card](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/show_help-menu-card.png)
+
+- Steps to configure:
+
+	![card-configs](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/card-configs.png)
+
+- _Card_ results as shown in chatbot:
+
+	![card-results](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/card-results.png)
+
 
 ## Rich Text Response
+
 The _Rich Text Response_ response type is suitable to use when you need to include formatted text, hyperlinks, pictures or video content as part of your response to the user. 
 
-- Example: Intent **inquiry_operating-hours**
+- Example: The following intent is configured with the _Rich Text Response_ response type:
+	- Intent **inquiry_operating-hours**
 
-    ![Rich Text Response](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/rich_text_response.png)
+    ![inquiry_operating-hours-rich-text](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/inquiry_operating-hours-rich-text.png)
+    
+- Steps to configure:
+
+	![rich-text-configs](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/rich-text-configs.png)
+    
+- _Rich Text Response_ results as shown in chatbot:
+
+	![rich-text-results](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/rich-text-results.png)
+
 
 ## Event
-The _Event_ response type is to enable the Second Intent to be shown after the First Intent is triggered. 
 
-- Example: The First Intent **inquiry_animal-pics** is triggered, followed by the Second Intent **show_membership-form**. The Second Intent contains the Event **event_join-club**
-	![Event 1](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/event_1.png)
-	![Event 2](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/event_2.png)
+The _Event_ response type is to enable the Second Intent to be automatically triggered after the First Intent is triggered. 
 
-## Occurrence Event
-The _Occurrence Event_ response type is set up to trigger another Intent once a particular Intent has been triggered for certain number of times. 
+- Example: After the First Intent **inquiry_animal-pics** is triggered, the Second Intent **recommend_join-as-member** is automatically triggered. The Second Intent contains the Event **event_join-as-a-member**, configured in Dialogflow. As a result, after the user requests to view the animal pictures, the chatbot will recommend the user to join the Animal Association as a member.
 
-- Example: After the Intent **Default Fallback Intent** is triggered continuously for several times, another Intent **show_help-menu** with the Event **event_help-menu** is triggered so that the conversation can proceed.
+	- First Intent **inquiry_animal-pics**
+	- Second Intent **recommend_join-as-member** (contains the Event **event_join-as-a-member**)
 
-	![Occurrence Event 1](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/occurrence_event_1.png)
-	![Occurrence Event 2](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/occurrence_event_2.png)
+	![inquiry_animal-pics-event](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/inquiry_animal-pics-event.png)
 
-## Change Language
-The _Change Language_ response type is configured in an Intent to enable the language switching action. 
+	![recommend_join-as-member-event](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/recommend_join-as-member.png)
 
-- Example: The Intent **show_language-options** is created to allow capturing the _User Says_ in **English**, **Chinese** and other supported languages.
-    
-	![Change Language](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/change_language.png)
+- Steps to configure:
+
+	![events-configs](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/events-configs.png)
+
+- _Event_ results as shown in chatbot:
+
+	![event-results](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/event-results.png)
