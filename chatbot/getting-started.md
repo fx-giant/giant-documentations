@@ -61,9 +61,9 @@ The Animal Centre welcomes visitor to drop by their animal shelter. For this pur
 
 ### 3.4 Providing Assistance to Visitors
 
-When the visitor is lost in the middle of the conversation, he may ask for help or assistance. At this point, the bot needs to display a series of Help topics to guide the visitor on the type of assistance required. The intent **show_help-menu** enables visitors to view the Help topics and select the assistance type that they need. A **card** response type is used to show the Help topics.
+When the visitor is lost in the middle of the conversation, he may ask for help or assistance. At this point, the bot needs to display a series of Help topics to guide the visitor on the type of assistance required. The intent **show_help-menu** enables visitors to view the Help topics and select the assistance type that they need. A **Quick Replies** response type is used to show the Help topics.
 
-![show_help-menu-card](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/show_help-menu-card.png)
+![show_help-menu-qr](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/show_help-menu-qr.png)
 
 The visitors will also need help when they ask things that the bot is unable to answer. To prevent the visitors from keep repeating their statements without getting an answer that they want, the **Default Fallback Intent** will handle such cases. After this intent is triggered for several times, it will automatically call the **show_help-menu** intent so that visitors can proceed with the conversation. This is done by using a **context** and setting up the **Occurence Event** response type.
 
@@ -78,46 +78,43 @@ The _Quick Replies_ response type allows the user to select one of the options p
 
 - Example: The following intents are configured with the _Quick Replies_ response type:
 	- Intent **Default Welcome Intent**
-	- Intent **inquiry_animal-pics**
+	- Intent **show_quick-menu**
+	- Intent **show_help-menu**
 	- Intent **recommend_join-as-member**
 
-    ![default-welcome-intent-qr](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/default-welcome-intent-qr.png)
+    ![note_default-welcome-intent-qr](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_default-welcome-intent-qr.png)
     
-    ![inquiry_animal-pics-qr](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/inquiry_animal-pics.png)
+    ![note_show_quick-menu-qr](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_show_quick-menu-qr.png)
     
-    ![recommend_join-as-member](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/recommend_join-as-member.png)
+    ![note_show_help-menu-qr](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_show_help-menu-qr.png)
+    
+    ![note_recommend_join-as-member-qr](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_recommend_join-as-member-qr.png)
     
 - Steps to configure:
 
-	![quick-replies-configs](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/quick-replies-configs.png)
+	![note_quick-replies-configs](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_quick-replies-configs.png)
 
 - _Quick Replies_ results as shown in chatbot:
 
-	![qr-results](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/qr-results.png)    
+	![note_qr-results](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_qr-results.png)    
     
 
 ## Card
 
 The _Card_ response type is suitable to use when images with hyperlinks are needed to be shown as a reply. This response type enables you to display images with action buttons for user to click.
 
-- Example: The following intents are configured with the _card_ response type:
+- Example: The following intent is configured with the _card_ response type:
 	- Intent **inquiry_animal-pics**
-	- Intent **show_quick-menu**
-	- Intent **show_help-menu**
-
-    ![inquiry_animal-pics-card](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/inquiry_animal-pics-card.png)
+	
+    ![note_inquiry_animal-pics-card](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_inquiry_animal-pics-card.png)
     
-    ![show_quick-menu-card](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/show_quick-menu-card.png)
-    
-    ![show_help-menu-card](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/show_help-menu-card.png)
-
 - Steps to configure:
 
-	![card-configs](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/card-configs.png)
+	![note_card-configs](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_card-configs.png)
 
 - _Card_ results as shown in chatbot:
 
-	![card-results](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/card-results.png)
+	![note_card-results](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_card-results.png)
 
 
 ## Rich Text Response
@@ -127,15 +124,15 @@ The _Rich Text Response_ response type is suitable to use when you need to inclu
 - Example: The following intent is configured with the _Rich Text Response_ response type:
 	- Intent **inquiry_operating-hours**
 
-    ![inquiry_operating-hours-rich-text](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/inquiry_operating-hours-rich-text.png)
+    ![note_inquiry_operating-hours-rich-text](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_inquiry_operating-hours-rich-text.png)
     
 - Steps to configure:
 
-	![rich-text-configs](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/rich-text-configs.png)
+	![note_rich-text-configs](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_rich-text-configs.png)
     
 - _Rich Text Response_ results as shown in chatbot:
 
-	![rich-text-results](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/rich-text-results.png)
+	![note_rich-text-results](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_rich-text-results.png)
 
 
 ## Event
@@ -147,14 +144,14 @@ The _Event_ response type is to enable the Second Intent to be automatically tri
 	- First Intent **inquiry_animal-pics**
 	- Second Intent **recommend_join-as-member** (contains the Event **event_join-as-a-member**)
 
-	![inquiry_animal-pics-event](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/inquiry_animal-pics-event.png)
+	![note_inquiry_animal-pics-event](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_inquiry_animal-pics-event.png)
 
-	![recommend_join-as-member-event](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/recommend_join-as-member.png)
+	![note_recommend_join-as-member-event](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_recommend_join-as-member-event.png)
 
 - Steps to configure:
 
-	![events-configs](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/events-configs.png)
+	![note_events-configs](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_events-configs.png)
 
 - _Event_ results as shown in chatbot:
 
-	![event-results](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/event-results.png)
+	![note_event-results](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_event-results.png)
