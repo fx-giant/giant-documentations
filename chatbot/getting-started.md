@@ -155,3 +155,53 @@ The _Event_ response type is to enable the Second Intent to be automatically tri
 - _Event_ results as shown in chatbot:
 
 	![note_event-results](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_event-results.png)
+    
+
+## Occurence Event
+
+The _Occurence Event_ response type is to enable the Second Intent to be automatically triggered after the First Intent is **triggered continuously** for a certain number of times. 
+
+- Example: After the First Intent **Default Fallback Intent** is triggered continuously for three times, the Second Intent **show_help-menu** is automatically triggered. The Second Intent contains the Event **event_ask-for-help**, configured in Dialogflow. As a result, after the bot fails to provide a response due to the user asking something that the bot can't understand and this happens for the specified number of times, the bot will show the **Help** menu. This is to ensure that the conversation can continue by providing the user some assistance.
+
+	- First Intent **Default Fallback Intent**
+	- Second Intent **show_help-menu** (contains the Event **event_ask-for-help**)
+
+	![note_default-fallback-intent-occurence-event](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_default-fallback-intent-occurence-event.png)
+
+	![note_show_help-menu-occurence-event](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_show_help-menu-occurence-event.png)
+
+- Steps to configure:
+
+	![note_occurence-events-configs](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_occurence-events-configs.png)
+
+- _Occurence Event_ results as shown in chatbot:
+
+	![note_occurence-event-results](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_occurence-event-results.png)
+
+
+## Change Language
+
+The _Change Language_ response type is to enable the user to change languages from the current language in use to another language option.
+
+- Example: User first starts the conversation in English. After that, he wants to change to Chinese language. The intents **show_language-options** and **show_greetings-bilingual** are created to handle this request. An entity called **LanguageCode** needs to be created with the language values defined. The **Training Phrases** for each language needs to be added in the **show_greetings-bilingual** intent for the feature to work.
+
+	- Intent **show_language-options**
+	- Intent **show_greetings-bilingual** (contains the Event **event_greetings-in-dual-language**)
+
+	![note_show_language-options-change-language](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_show_language-options-change-language.png)
+    ![note_show_greetings-bilingual-change-language](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_show_greetings-bilingual-change-language.png)
+
+- Steps to configure:
+
+	![note_add-language-configs](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_add-language-configs.png)
+    
+    ![note_add-language-entity-intent-configs](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_add-language-entity-intent-configs.png)
+    
+    ![note_add-change-language-response-configs](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_add-change-language-response-configs.png)
+    
+    ![note_add-bilingual-response-configs](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_add-bilingual-response-configs.png)
+    
+- _Change Language_ results as shown in chatbot:
+
+	![note_change-language-results](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images5/note_change-language-results.png)
+
