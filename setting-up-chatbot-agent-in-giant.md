@@ -21,7 +21,7 @@ You can [refer here](./setting-up-chatbot-agent-in-dialogflow.md) for the steps 
 
 	*NOTE: Please contact GIANT Administrator if you are unable to see the **Create new agent** button in the screen. Your account permission needs to be configured to enable your access to this feature.*
     
-    ![create-new-giant-agent](images/setting-up-chatbot-agent-in-giant-images/create-new-giant-agent.png)
+    ![create-new-giant-agent](./images/setting-up-chatbot-agent-in-giant-images/create-new-giant-agent.png)
      
 3.	The **Create New Agent** screen will be shown. Fill-in the following mandatory info in the screen:
 
