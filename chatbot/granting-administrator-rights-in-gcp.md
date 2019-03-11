@@ -13,47 +13,47 @@
 
 5. Select the chatbot agent that you want to grant the Administrator rights to the other user(s).
 
-	![select-agent](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images10/select-agent.png)
+	![select-agent](./chatbot/images/granting-administrator-rights-in-gcp-images/select-agent.png)
 
 6. Click the **cog icon** next to the Agent Name.
 
-	![click-cog-icon](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images10/click-cog-icon.png)
+	![click-cog-icon](./chatbot/images/granting-administrator-rights-in-gcp-images/click-cog-icon.png)
 
 7. Click on the **Project ID** shown in the screen.
 
-	![click-project-id](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images10/click-project-id.png)
+	![click-project-id](./chatbot/images/granting-administrator-rights-in-gcp-images/click-project-id.png)
 
 8. The Google Cloud Platform (GCP) console will be shown.
  
- 	![gcp-console](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images10/gcp-console.png)
+ 	![gcp-console](./chatbot/images/granting-administrator-rights-in-gcp-images/gcp-console.png)
  
  9. Hover your mouse cursor over the **IAM & admin** menu. Select **IAM** from the submenu shown.
  
- 	![select-iam](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images10/select-iam.png)
+ 	![select-iam](./chatbot/images/granting-administrator-rights-in-gcp-images/select-iam.png)
  
  10. The next screen shown will enable you to manage your project's permission (which also applies to the agent). Click **+ ADD** icon.
  
-		![click-add-icon](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images10/click-add-icon.png)
+		![click-add-icon](./chatbot/images/granting-administrator-rights-in-gcp-images/click-add-icon.png)
  
  11. Fill-in the details required to grant the access:
  - New members: Enter the Google email address of the user(s)
  - Select a role: Assign the Project Owner role
  - Click **SAVE** to save the changes made.
  
- 	![enter-user-details](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images10/enter-user-details.png)
+ 	![enter-user-details](./chatbot/images/granting-administrator-rights-in-gcp-images/enter-user-details.png)
  
  12. The selected user(s) will be added to the list of members that have the permission to the project.
  A **yellow icon** is shown to indicate that the user **has not accepted** the invitation to the project.
 
-		![pending-invitation](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images10/pending-invitation.png)
+		![pending-invitation](./chatbot/images/granting-administrator-rights-in-gcp-images/pending-invitation.png)
 
 13. Once the invitation is accepted, the **yellow icon** will disappear from the user's name.
 
-	![invitation-accepted](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images10/invitation-accepted.png)
+	![invitation-accepted](./chatbot/images/granting-administrator-rights-in-gcp-images/invitation-accepted.png)
 
 14. When you access your chatbot agent's **Setting** screen, the user will be listed as **Admin** under the **Share** tab.
 
-	![admin-role-assigned](https://github.com/fx-giant/giant-documentations/blob/master/chatbot/images10/admin-role-assigned.png)
+	![admin-role-assigned](./chatbot/images/granting-administrator-rights-in-gcp-images/admin-role-assigned.png)
 
 ## Reference on Sharing Rights
 
