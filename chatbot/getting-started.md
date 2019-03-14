@@ -23,6 +23,8 @@ In **Part 1** and **Part 2**, you have learnt on how to setup a chatbot in Dialo
 
 In this section, you can learn on how to configure the various response types in GIANT based on the use cases that your chatbot has to handle and the type of answers that you want to show to the users. We will use the Animal Centre use case to explain further.
 
+_NOTE: You can refer to [this guide](./chat-simulator-debugging-tips.md) if the answer(s) you configure fail to show in the chat simulator._
+
 ### Background
 
 Alice is the founder of an animal shelter called the Animal Centre. The animal shelter houses rescued abandoned pets such as dogs and cats. They welcome people from the public to visit their centre to get information on their activities and events, also to consider adopting the rescued animals as a pet. Alice has also founded the Animal Association for people to register as a member, so that they can get updates on the Animal Centre events and activities. To assist in their daily operations which consists of handling inquiries from the public and other tasks, Alice needs a chatbot set up in the Animal Centre website that represents a human Customer Service representative.
@@ -34,6 +36,8 @@ Alice is the founder of an animal shelter called the Animal Centre. The animal s
 3. The following Intents and Entities created in your chatbot agent:
 
 	![prerequisite-intents-entities](./images/getting-started-images/prerequisite-intents-entities.png)
+    
+    IMPORTANT: Ensure that the **Intents' Webhook Call toggle is enabled**. You can find this setting under the Intents' **Fulfillment** section in Dialogflow. Refer [this guide](./setting-up-chatbot-agent-in-giant.md) for the detailed steps on performing this action. 
     
     
 ### 3.1 Greeting Visitors
@@ -205,3 +209,34 @@ The _Change Language_ response type is to enable the user to change languages fr
 
 	![note_change-language-results](./images/getting-started-images/note_change-language-results.png)
 
+
+## Context
+
+There are times when the chatbot needs to get some input from the user and "remember" the user input to be shown later. For example, when a user states interest in paying a visit, the chatbot needs to ask on the Day and Time of the visit. When confirming the visit details, the chatbot will display the Day and Time of the visit as stated by the user. You can use Context to achieve this task. 
+
+- Example: The following intents have the Context section configured in Dialogflow. The replies shown to the user are configured in Dialogflow and/or GIANT:
+	- Intent **inquiry_operating-hours**
+	- Intent **get_visiting-day**
+	- Intent **get_visiting-time**
+	
+    ![note_inquiry-operating-hours-context](./images/getting-started-images/note_inquiry-operating-hours-context.png)
+    
+    ![note_get-visiting-day-context](./images/getting-started-images/note_get-visiting-day-context.png)
+    
+    ![note_get-visiting-time-context](./images/getting-started-images/note_get-visiting-time-context.png)
+    
+- Steps to configure:
+
+	![note_context-entities-configs](./images/getting-started-images/note_context-entities-configs.png)
+    
+    ![note_context-inquiry-operating-hours-configs](./images/getting-started-images/note_context-inquiry-operating-hours-configs.png)
+    
+    ![note_context-get-visiting-day-configs](./images/getting-started-images/note_context-get-visiting-day-configs.png)
+    
+    ![note_context-get-visiting-time-configs](./images/getting-started-images/note_context-get-visiting-time-configs.png)
+
+	![note_context-response-type-configs](./images/getting-started-images/note_context-response-type-configs.png)
+  
+- _Context_ results as shown in chatbot:
+
+	![note_context-results](./images/getting-started-images/note_context-results.png)
