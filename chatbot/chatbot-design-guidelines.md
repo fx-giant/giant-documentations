@@ -9,6 +9,49 @@ You can refer to [this guide](./getting-started.md) to learn more on how to conf
 2. A GIANT account (required to setup the bot in GIANT and link with the bot in Dialogflow)
 3. A data source (required to setup the dashboard. Answers shown in the chatbot will originate from the dashboard)
 
+## Design Guidelines
+
+### Do and Donts
+
+Dont: <br/>
+- Reply the user without follow up questions. <br/> <br/>
+![No follow up](./images/chatbot-design-guidelines-images/no_quick_replies.PNG "without follow up")
+
+Do: <br/>
+- Add follow up questions on replies to guide user through the bot. <br/> <br/>
+![Follow up](./images/chatbot-design-guidelines-images/quick_replies.PNG "follow up")
+
+Dont: <br/>
+- Use quick replies to show replies with various information. <br/><br/>
+![Quick replies claims](./images/chatbot-design-guidelines-images/quick_replies_claims.PNG "quick replies")
+
+Do: <br/>
+- Use cards to show replies with various information. <br/><br/>
+![Card replies claims](./images/chatbot-design-guidelines-images/card_replies_claims.PNG "card replies")
+
+
+### Practises 
+- Intent naming convention : ACTION_SUBJECT_DETAILS <br/>
+Eg: inquiry_claims_local-travel, inquiry_application_of_leave
+
+### Tips on designing responses
+- Use card replies to provide more information on replies.<br/><br/>
+Before: Replies without information <br/><br/>
+![Quick replies claims](./images/chatbot-design-guidelines-images/quick_replies_claims.PNG "quick replies") <br/><br/>
+After: Replies with informative icon and description <br/><br/>
+![Card replies claims](./images/chatbot-design-guidelines-images/card_replies_claims.PNG "card replies") <br/><br/>
+- Use different font type for text emphasising. <br/><br/>
+Before: Replies without same font <br/><br/>
+![Text without emphasis](./images/chatbot-design-guidelines-images/text_without_emphasis.PNG "Font emphasis") <br/><br/>
+After: Replies with different font for emphasising <br/><br/>
+![Text emphasis](./images/chatbot-design-guidelines-images/text_emphasis.PNG "Font emphasis") <br/><br/>
+- Use different color for text emphasising. <br/><br/>
+Before: Replies without color for emphasis <br/><br/>
+![Text without color emphasis](./images/chatbot-design-guidelines-images/text_without_color_emphasis.PNG "No color emphasis") <br/><br/>
+After: Replies with color for emphasis <br/><br/>
+![Color emphasis](./images/chatbot-design-guidelines-images/color_emphasis.PNG "Color emphasis")
+
+
 ## Part 1: Setup in Dialogflow
 _NOTE: Please [refer here](./setting-up-chatbot-agent-in-dialogflow.md) for the detailed steps on creating a chatbot agent, creating Entities and Intents in Dialogflow._
 
