@@ -144,13 +144,13 @@ After: Replies with informative icon and description <br/><br/>
 Before: Replies with same font <br/><br/>
 ![Text without emphasis](./images/chatbot-design-guidelines-images/text_without_emphasis.PNG "Font emphasis") <br/><br/>
 After: Replies with different font type to emphasize text <br/><br/>
-![Text emphasis](./images/chatbot-design-guidelines-images/text_emphasis.PNG "Font emphasis") <br/><br/>
+![Text emphasis](./images/chatbot-design-guidelines-images/text_emphasis.png "Font emphasis") <br/><br/>
 
 - Use different font color to emphasize text. <br/><br/>
 Before: Replies with same font colour <br/><br/>
 ![Text without color emphasis](./images/chatbot-design-guidelines-images/text_without_color_emphasis.PNG "No color emphasis") <br/><br/>
 After: Replies with different font color to emphasize text <br/><br/>
-![Color emphasis](./images/chatbot-design-guidelines-images/color_emphasis.PNG "Color emphasis")
+![Color emphasis](./images/chatbot-design-guidelines-images/color_emphasis.png "Color emphasis")
 
 
 ### Do
