@@ -134,56 +134,58 @@ _NOTE: Please [refer here](./setting-up-chatbot-agent-in-giant.md) for the detai
 ## Part 3: Design Tips
 
 ### Tips on designing responses
-- Use card replies to provide more information on replies.<br/><br/>
+- Use card replies to provide more information on responses.<br/><br/>
 Before: Replies without information <br/><br/>
 ![Quick replies claims](./images/chatbot-design-guidelines-images/quick_replies_claims.PNG "quick replies") <br/><br/>
 After: Replies with informative icon and description <br/><br/>
 ![Card replies claims](./images/chatbot-design-guidelines-images/card_replies_claims.PNG "card replies") <br/><br/>
-- Use different font type for text emphasising. <br/><br/>
+
+- Use different font type to emphasize text. <br/><br/>
 Before: Replies with same font <br/><br/>
 ![Text without emphasis](./images/chatbot-design-guidelines-images/text_without_emphasis.PNG "Font emphasis") <br/><br/>
-After: Replies with different font for emphasising <br/><br/>
+After: Replies with different font type to emphasize text <br/><br/>
 ![Text emphasis](./images/chatbot-design-guidelines-images/text_emphasis.PNG "Font emphasis") <br/><br/>
-- Use different color for text emphasising. <br/><br/>
-Before: Replies without color for emphasis <br/><br/>
+
+- Use different font color to emphasize text. <br/><br/>
+Before: Replies with same font colour <br/><br/>
 ![Text without color emphasis](./images/chatbot-design-guidelines-images/text_without_color_emphasis.PNG "No color emphasis") <br/><br/>
-After: Replies with color for emphasis <br/><br/>
+After: Replies with different font color to emphasize text <br/><br/>
 ![Color emphasis](./images/chatbot-design-guidelines-images/color_emphasis.PNG "Color emphasis")
 
 
 ### Do
 
-1. Use different types of responses as it makes User Interface cleaner and User eXperience better
+1. Use different types of responses as it makes User Interface cleaner and User Experience better.
 
-	1.1 Use Quick Replies when you need to ask user a question and open followup intent based on response
+	1.1 Use Quick Replies when you need to ask user a question and continue with a followup intent based on the user's response.
 
 	![quick-reply-response](./images/chatbot-design-guidelines-images/quick-reply-response.png)
 
-	1.2 Use Rich Text when you need to show user a big reply that contains a lot of information
+	1.2 Use Rich Text when you need to show user a reply that contains a lot of information.
 
 	![rich-text-response](./images/chatbot-design-guidelines-images/rich-text-response.png)
 
-	1.3 Use Card Response to show case different entities in the nicest way
+	1.3 Use Card Response to showcase different entities in the nicest way.
 
 	![card-response](./images/chatbot-design-guidelines-images/card-response.png)
 
-2. Make design consistent
+2. Maintain consistency throughout the design
 
-	2.1 Use same fonts, colors, sizes, highlights and etc to make the bot looks consistent.
+	2.1 Use same font types, font colors, font sizes, highlights etc. to make the bot looks consistent.
 
-	2.2 Use consistent elements for similar operations (Quick Replies, Rich Text, Card response)
+	2.2 Use consistent elements for similar operations (Quick Replies, Rich Text, Card response).
 
 
-### Donts
+### Don'ts
 
-1. Don't use default text responses in dialogflow, use Giant instead.
+1. Don't use the default text responses in Dialogflow. Instead, configure the responses from GIANT.
 
-2. Don't give meaningless names to intents, follow naming convention.
+2. Don't give meaningless names to intents. Follow the naming convention.
 
-3. Don't write all information in one paragraph.
+3. Don't write all information in one paragraph. Split the information for better readability.
 
-4. Don't use only text response from dialogflow
+4. Don't use only text responses from dialogflow. Combine them with the various response types in GIANT.
 
 ### Problems
-- two or more intents may use the same keyword(s) for training in dialogflow, the output may be something unexpected.
-- contexts need to be handled with care to avoid unexpected output.
+- Two or more intents may use the same keyword(s) for training in Dialogflow. This may cause unexpected output.
+- Contexts need to be handled with care to avoid unexpected output.
