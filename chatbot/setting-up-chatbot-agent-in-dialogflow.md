@@ -122,7 +122,7 @@ Tips on things to do when things go wrong:
 
 3. **Special note on Context** - the Intent that shows the parameter(s) collected from the previous Intent(s) needs to have the **webhook disabled** for the response configured in the Intent to show all parameters provided by the user. Refer to the documentation on [debugging tips](./chat-simulator-debugging-tips.md) for more details.  
 
-4. If you **accidentally deleted** the **Default Welcome Intent** and **Default Fallback Intent** which were automatically created by Dialoglow when you created your agent, just add a new Intent with the same name to replace the Intent that you deleted. You can refer to the images below on the required configuration for the default intents. To know more on the default intents, refer to Dialogflow documentation [here](https://dialogflow.com/docs/intents/default-intents).
+4. If you **accidentally deleted** the **Default Welcome Intent** and **Default Fallback Intent** which were automatically created by Dialogflow when you created your agent, just add a new Intent with the same name to replace the Intent that you deleted. You can refer to the images below on the required configuration for the default intents. To know more on the default intents, refer to Dialogflow documentation [here](https://dialogflow.com/docs/intents/default-intents).
 
 	![default-welcome-intent-setup](./images/setting-up-chatbot-agent-in-dialogflow-images/default-welcome-intent-setup.png)
 
