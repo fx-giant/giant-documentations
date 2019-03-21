@@ -139,11 +139,11 @@ When the **Chat Simulator** fails to show the responses as expected, follow the 
 	
 	- **Missing Intents List**: Delete the current agent, recreate the agent and attach the correct JSON file.
 	
-		![debug-missing-intent-list-resolution](./images/debug-missing-intent-list-resolution.png)
+		![debug-missing-intent-list-resolution](./images/chat-simulator-debugging-tips-images/debug-missing-intent-list-resolution.png)
     
     - **Chat Simulator not working**: Delete the current agent, recreate the agent and enter the correct Dialogflow Agent ID.
 	
-		![debug-chat-simulator-reassign-agentid-resolution](./images/debug-chat-simulator-reassign-agentid-resolution.png)
+		![debug-chat-simulator-reassign-agentid-resolution](./images/chat-simulator-debugging-tips-images/debug-chat-simulator-reassign-agentid-resolution.png)
 
 
 ### Issue Caused by Incorrect Dialogflow Agent Fulfillment Setup
