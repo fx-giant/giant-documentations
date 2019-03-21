@@ -110,3 +110,20 @@ For example, when the user says "I want to see dog pictures", the bot needs to s
     *NOTE: The Test Console helps you in identifying whether the Training Phrases (which corresponds to what the users are saying) can be matched to the correct intent. You may need to amend your Training Phrases if the user statements can’t be matched to the intended intent.*
     
 	![test-console](./images/setting-up-chatbot-agent-in-dialogflow-images/test-console.png)
+    
+    
+## Pro Tips
+
+Tips on things to do when things go wrong:
+
+1. Check the documentation on debugging tips [here](./chat-simulator-debugging-tips.md) if your Agent, Intents or Entities are not working as expected.   
+
+2. Ensure that the Intent's **webhook is enabled** after you make any changes to the Intent. Sometimes, it can get turned off somehow and this affects the results in Dialogflow's Test Console or GIANT's chat simulator.  
+
+3. **Special note on Context** - the Intent that shows the parameter(s) collected from the previous Intent(s) needs to have the **webhook disabled** for the response configured in the Intent to show all parameters provided by the user. Refer to the documentation on [debugging tips](./chat-simulator-debugging-tips.md) for more details.  
+
+4. If you **accidentally deleted** the **Default Welcome Intent** and **Default Fallback Intent** which were automatically created by Dialoglow when you created your agent, just add a new Intent with the same name to replace the Intent that you deleted. You can refer to the images below on the required configuration for the default intents. To know more on the default intents, refer to Dialogflow documentation [here](https://dialogflow.com/docs/intents/default-intents).
+
+	![default-welcome-intent-setup](./images/setting-up-chatbot-agent-in-dialogflow-images/default-welcome-intent-setup.png)
+
+	![default-fallback-intent-setup](./images/setting-up-chatbot-agent-in-dialogflow-images/default-fallback-intent-setup.png)
