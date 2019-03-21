@@ -14,14 +14,14 @@ This guide includes:
 ## Uploading Source to GIANT
 1. Sign in to [GIANT](https://giant2016-csgb.fusionexsite.com/AnalyticsI) or [GIANT in bison](http://giant-bison.fusionexsite.com/Websites/Analytics). 
 2. Press the menu button on the top left of the web and choose Connect to Source(s).
-   ![Connect to Source](images/giant-for-beginner/connectToSource.png)
+   ![Connect to Source](./images/giant-for-beginner/connectToSource.PNG)
 3. Choose your source file type from the list of file type.
 3. Drag the file or press Choose a File to upload source. 
 4. Wait for the file to be uploaded.
 
 ## Creating a Dashboard
 1. Go to My Dashboard(s) and press Add icon to add a new dashboard.
- ![Create Dashboard](images/giant-for-beginner/createDashboard.png)
+ ![Create Dashboard](./images/giant-for-beginner/createDashboard.PNG)
 2. To change the name of your dashbaord, click on the name of the dashboard and you can make the changes required.
    Just press away from the name to save the changes.
 
@@ -39,12 +39,12 @@ Company A want to know whether male or female spend more on their businesses.  T
 
 1. Press on view dashboard button on the any of the dashboards.
 2. Press on add icon to add a new chart.
- ![Create Chart](images/giant-for-beginner/addChart.png)
+ ![Create Chart](./images/giant-for-beginner/addChart.PNG)
 3. Select Pie on the Chart Selection and press Source icon.
- ![Select Chart](images/giant-for-beginner/chartSelection.png)
+ ![Select Chart](./images/giant-for-beginner/chartSelection.PNG)
 4. Select the data source file and press proceed icon.
 5. Select your Gender for Category-Axis and Sales for the Value-Axis. The Sales vs Gender pie chart will be created.
- ![Create Pie Chart](images/giant-for-beginner/createPieChart.png)
+ ![Create Pie Chart](./images/giant-for-beginner/createPieChart.PNG)
 6. Press on save to save the pie chart on your dashboard for future reference.
 
 Company A can determine which gender is spending more on their businesses based on the pie chart.
@@ -56,6 +56,6 @@ To determine whether there is a need to change the product based on country cult
 2. Select Bar on the Chart Selection and press Source icon.
 3. Select the your source file and press proceed icon.
 4. Select your desired field for X-Axis and Y-Axis. The Y-Axis by X-Axis bar chart will be created.
- ![Create Bar Chart](images/giant-for-beginner/createBarChart.png)
+ ![Create Bar Chart](./images/giant-for-beginner/createBarChart.PNG)
 
 Company A can go through the list of countries in the bar chart to see how their businesses do in each country.
