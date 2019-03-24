@@ -129,3 +129,63 @@ _NOTE: Please [refer here](./setting-up-chatbot-agent-in-giant.md) for the detai
 
 5. Launch your chatbot **Simulator** to test on the responses.
 ![launch-simulator](./images/chatbot-design-guidelines-images/launch-simulator.png)
+
+
+## Part 3: Design Tips
+
+### Tips on designing responses
+- Use card replies to provide more information on responses.<br/><br/>
+Before: Replies without information <br/><br/>
+![Quick replies claims](./images/chatbot-design-guidelines-images/quick_replies_claims.PNG "quick replies") <br/><br/>
+After: Replies with informative icon and description <br/><br/>
+![Card replies claims](./images/chatbot-design-guidelines-images/card_replies_claims.PNG "card replies") <br/><br/>
+
+- Use different font type to emphasize text. <br/><br/>
+Before: Replies with same font <br/><br/>
+![Text without emphasis](./images/chatbot-design-guidelines-images/text_without_emphasis.PNG "Font emphasis") <br/><br/>
+After: Replies with different font type to emphasize text <br/><br/>
+![Text emphasis](./images/chatbot-design-guidelines-images/text_emphasis.png "Font emphasis") <br/><br/>
+
+- Use different font color to emphasize text. <br/><br/>
+Before: Replies with same font colour <br/><br/>
+![Text without color emphasis](./images/chatbot-design-guidelines-images/text_without_color_emphasis.PNG "No color emphasis") <br/><br/>
+After: Replies with different font color to emphasize text <br/><br/>
+![Color emphasis](./images/chatbot-design-guidelines-images/color_emphasis.png "Color emphasis")
+
+
+### Do
+
+1. Use different types of responses as it makes User Interface cleaner and User Experience better.
+
+	1.1 Use Quick Replies when you need to ask user a question and continue with a followup intent based on the user's response.
+
+	![quick-reply-response](./images/chatbot-design-guidelines-images/quick-reply-response.png)
+
+	1.2 Use Rich Text when you need to show user a reply that contains a lot of information.
+
+	![rich-text-response](./images/chatbot-design-guidelines-images/rich-text-response.png)
+
+	1.3 Use Card Response to showcase different entities in the nicest way.
+
+	![card-response](./images/chatbot-design-guidelines-images/card-response.png)
+
+2. Maintain consistency throughout the design
+
+	2.1 Use same font types, font colors, font sizes, highlights etc. to make the bot looks consistent.
+
+	2.2 Use consistent elements for similar operations (Quick Replies, Rich Text, Card response).
+
+
+### Don'ts
+
+1. Don't use the default text responses in Dialogflow. Instead, configure the responses from GIANT.
+
+2. Don't give meaningless names to intents. Follow the naming convention.
+
+3. Don't write all information in one paragraph. Split the information for better readability.
+
+4. Don't use only text responses from dialogflow. Combine them with the various response types in GIANT.
+
+### Problems
+- Two or more intents may use the same keyword(s) for training in Dialogflow. This may cause unexpected output.
+- Contexts need to be handled with care to avoid unexpected output.
