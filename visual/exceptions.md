@@ -2,11 +2,11 @@
 
 When uploading a visual pack, there are some possibilities that exception might occur. This is one of the example of exception when uploading a visual pack:
 
-![Exception Example](https://github.com/fx-giant/giant-documentations/blob/master/visual/images/visual-exception-1.png)
+![Exception Example](./images/exceptions/visual-exception-1.png)
 
 The type of exception is described after ```FX.BDA.App.Common.Exceptions.BusinessException```, for example:
 
-![Exception Type](https://github.com/fx-giant/giant-documentations/blob/master/visual/images/visual-exception-2.png)
+![Exception Type](./images/exceptions/visual-exception-2.png)
 
 Use the type of exception to lookup for description and possible solution as follow:
 

@@ -55,11 +55,11 @@ This is an **absolutely mandatory** field to be configured if you want to use th
 2. Open browser developer tools, usually F12
 3. Go to network, you will see some items there, if you dont see any items, press F5 to refresh your browser.
 
-![Network List](https://github.com/fx-giant/giant-documentations/blob/master/visual/images/visual-sandbox-1.png)
+![Network List](./images/visual-sandbox/visual-sandbox-1.png)
 
 4. Click any of the item to see the request sent to the server, take the request cookie
 
-![Request Cookie](https://github.com/fx-giant/giant-documentations/blob/master/visual/images/visual-sandbox-2.png)
+![Request Cookie](./images/visual-sandbox/visual-sandbox-2.png)
 
 5. put the value right into the "cookie" in config.json
 ``` js
