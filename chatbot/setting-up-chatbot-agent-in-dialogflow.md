@@ -118,7 +118,7 @@ Tips on things to do when things go wrong:
 
 1. Check the documentation on debugging tips [here](./chat-simulator-debugging-tips.md) if your Agent, Intents or Entities are not working as expected.   
 
-2. Ensure that the Intent's **webhook is enabled** after you make any changes to the Intent. Sometimes, it can get turned off somehow and this affects the results in Dialogflow's Test Console or GIANT's chat simulator.  
+2. Ensure that the Intent's **webhook is enabled** after you make any changes to the Intent. You might accidentally disabled the webhook after making changes to the Intent. This affects the results in Dialogflow's Test Console and GIANT's chat simulator.  
 
 3. **Special note on Context** - the Intent that shows the parameter(s) collected from the previous Intent(s) needs to have the **webhook disabled** for the response configured in the Intent to show all parameters provided by the user. Refer to the documentation on [debugging tips](./chat-simulator-debugging-tips.md) for more details.  
 
