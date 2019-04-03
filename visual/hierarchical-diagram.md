@@ -35,7 +35,7 @@ This diagram put a visual emphasis on the major transfers or flows within a syst
 ### Display value in percentage
 - Calculate the percentage of each link from the source and display it in the link and tooltip.
 
-    ![Show Percentage](./images/hierarchical-diagram/show-percentage.PNG)
+    ![Show Percentage](./images/hierarchical-diagram/show-percentage.png)
 
 ### Fit to container
 - If fit to container is turned on, the container will fit to the size of the container. The container height and width can be set by entering your preference height and width with css units. 
@@ -52,7 +52,9 @@ This diagram put a visual emphasis on the major transfers or flows within a syst
 ---
 ### Product Distribution of a Food & Beverage Company
 
-A F&B Company wants to visualize their product distribution across the regions. From the diagram, the company can know the relationship between product group and product line and also the relationship between product line and region.
+A F&B Company wants to visualize their product distribution across the regions. From the diagram, the company can know the relationship between product group and product line and also the relationship between product line and region. Based on the diagram, we can deduce that Canned food is the major production of this F&B Company where they mostly export their product internationally.
+
+Download sample data [here](./sample-data/hierarchical-diagram/company-product-distribution.csv).
 
 #### Output
 
@@ -68,9 +70,11 @@ The diagram below shows the data binding for product distribution use case.
 ### US President Death Reason
 A list of US Presidents death reason can be shown using hierarchical diagram. This use case is a typical example of flow diagram usage. From the diagram, we can see that most of the US Presidents were assassinated.
 
+Download sample data [here](./sample-data/hierarchical-diagram/US-president-death-reason.csv).
+
 #### Output
 
-![US Presidents death reason](./images/hierarchical-diagram/us-president-death-reason.PNG)
+![US Presidents death reason](./images/hierarchical-diagram/us-president-death-reason.png)
 
 #### Binding
 
