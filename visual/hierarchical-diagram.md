@@ -74,7 +74,7 @@ Download sample data [here](./sample-data/hierarchical-diagram/US-president-deat
 
 #### Output
 
-![US Presidents death reason](./images/hierarchical-diagram/us-president-death-reason.png)
+![US Presidents death reason](./images/hierarchical-diagram/us-president-death-reason.PNG)
 
 #### Binding
 
