@@ -1,6 +1,5 @@
 # Hierarchical Diagram
-Hierarchical Diagram is a type of Flow Diagram that display the data flows with respect to the quantities.
-This diagram put a visual emphasis on the major transfers or flows within a system with multiple levels or categories.
+Hierarchical Diagram is a type of flow diagram that display the data flows with respect to the quantities. A flow diagram  is a diagram that visually displays interrelated information such as events, steps in a process, functions, etc., in an organized fashion, such as sequentially or chronologically. This diagram put a visual emphasis on the major transfers or flows within a system with multiple levels or categories. The thickness of line/link represents the magnitude of the flow. 
 
 ## Diagram Design / Configuration
 ---
