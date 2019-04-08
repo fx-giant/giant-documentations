@@ -21,7 +21,7 @@ Hierarchical Diagram is a type of flow diagram that display the data flows with 
     ![Remove Level](./images/hierarchical-diagram/remove-level.PNG)
 
 ### Label Font Size
-- Font size of the label in the hierarchical can be set based on input. The accepted unit are all accepted css units (cm, mm, in, px, pt, em, ...).
+- Font size of the label in the hierarchical can be set based on input. The accepted unit are all accepted css units (cm, mm, in, px, pt, em).
 
     ![Label Font Size](./images/hierarchical-diagram/label-font-size.PNG)
 
