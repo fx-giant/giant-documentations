@@ -19,11 +19,12 @@ These files define the quadrant controls presented on the quadrant-properties pa
 - [sort](#sort)
 - [filter](#filter)
 - [cross chart filter](#cross-chart-filter)
+- [hide header](#hide-header)
 
 
 #### # single dimension binding
 
-![single-dimension.PNG](../images/code-snippet/single-dimension.PNG)
+![single-dimension.PNG](./images/code-snippet/single-dimension.PNG)
 
 - `labelKey` defines the label presented above the control.
 - `addLabelKey` defines the placeholder label in the control before anything gets selected.
@@ -62,7 +63,7 @@ $.extend(true, me, {
 
 #### # single measurement binding
 
-![single-measurement.PNG](../images/code-snippet/single-measurement.PNG)
+![single-measurement.PNG](./images/code-snippet/single-measurement.PNG)
 
 Refer to [single dimension binding](#single-dimension). Measurement binding has aggregate operators like `None`, `Sum`, `Avarage`, etc. that help you group your raw data.
 
@@ -230,7 +231,7 @@ $.extend(true, me, {
 
 #### # separator
 
-![separator.PNG](../images/code-snippet/separator.PNG)
+![separator.PNG](./images/code-snippet/separator.png)
 
 The horizontal line between the quadrant controls.
 
@@ -240,7 +241,7 @@ The horizontal line between the quadrant controls.
 
 #### # textbox
 
-![normal-textbox-input.PNG](../images/code-snippet/normal-textbox-input.PNG)
+![normal-textbox-input.PNG](./images/code-snippet/normal-textbox-input.PNG)
 
 Make sure that you have `normalTextBoxInput` binding exported in the `viewModel`.
 
@@ -286,7 +287,7 @@ $.extend(true, me, {
 
 #### # select/drop down list
 
-![select.PNG](../images/code-snippet/select.PNG)
+![select.PNG](./images/code-snippet/select.png)
 
 ```html
 <div class="sandbox__row">
@@ -348,7 +349,7 @@ $.extend(true, me, {
 
 #### # switch
 
-![switch.PNG](../images/code-snippet/switch.PNG)
+![switch.PNG](./images/code-snippet/switch.PNG)
 
 ```html
 <div>
@@ -389,7 +390,7 @@ $.extend(true, me, {
 ```
 
 #### # top-bottom-filter
-![top-bottom-filter.PNG](../images/code-snippet/top-bottom-filter.PNG)
+![top-bottom-filter.PNG](./images/code-snippet/top-bottom-filter.PNG)
 ```html
 <quadrant-control params="controlType: 'topBottom',
                           quadrantComposer: quadrantComposer,
@@ -398,7 +399,7 @@ $.extend(true, me, {
 ```
 
 #### # sort
-![sort.PNG](../images/code-snippet/sort.PNG)
+![sort.PNG](./images/code-snippet/sort.PNG)
 ```html
 <quadrant-control params="controlType: 'sorting',
                           quadrantComposer: quadrantComposer,
@@ -407,7 +408,7 @@ $.extend(true, me, {
 ```
 
 #### # filter
-![filter.PNG](../images/code-snippet/filter.PNG)
+![filter.PNG](./images/code-snippet/filter.PNG)
 ```html
 <quadrant-control params="controlType: 'multiCondition',
                           quadrantComposer: quadrantComposer,
@@ -416,11 +417,30 @@ $.extend(true, me, {
 ```
 
 #### # cross chart filter
-![cross-chart-filter.PNG](../images/code-snippet/cross-chart-filter.PNG)
+![cross-chart-filter.PNG](./images/code-snippet/cross-chart-filter.PNG)
 ```html
 <quadrant-control params="controlType: 'filterSubscriber',
                           quadrant: quadrant">
 </quadrant-control>
 ```
 
+#### # hide header
+![hide-header.PNG](./images/code-snippet/hide-header.PNG)
+```js
+function hideHeader(myQuadrant) {
+    var localURL = document.URL;
+    if (!_.isEmpty(localURL.match(/Workspace/)))
+        return;
+    
+    var container = d3.select(d3.select(myQuadrant).node().closest(".leesa__cell.leesa__cell--noFooter.leesa__cell--grid"));
+    
+    if (!container.select(".your_visual_class_name").empty()) {
+        container.attr("style", "background-color: transparent; box-shadow: none");
+        d3.select($(container).closest(".grid-stack-item-content.leesa__flipContainer")[0])
+          .attr("style", "background-color: transparent; box-shadow: none");
+        container.select(".leesa__header").style("display", "none");
+        container.select(".leesa__content").attr("style", "padding-top: 0");
+    }
+}
+```
 > Notes: The JS functions to be implemented can be referred from other charts or samples.
