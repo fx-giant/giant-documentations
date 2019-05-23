@@ -19,6 +19,7 @@ These files define the quadrant controls presented on the quadrant-properties pa
 - [sort](#sort)
 - [filter](#filter)
 - [cross chart filter](#cross-chart-filter)
+- [hide header](#hide-header)
 
 
 #### # single dimension binding
@@ -423,4 +424,23 @@ $.extend(true, me, {
 </quadrant-control>
 ```
 
+#### # hide header
+![hide-header.PNG](./images/code-snippet/hide-header.PNG)
+```js
+function hideHeader(myQuadrant) {
+    var localURL = document.URL;
+    if (!_.isEmpty(localURL.match(/Workspace/)))
+        return;
+    
+    var container = d3.select(d3.select(myQuadrant).node().closest(".leesa__cell.leesa__cell--noFooter.leesa__cell--grid"));
+    
+    if (!container.select(".your_visual_class_name").empty()) {
+        container.attr("style", "background-color: transparent; box-shadow: none");
+        d3.select($(container).closest(".grid-stack-item-content.leesa__flipContainer")[0])
+          .attr("style", "background-color: transparent; box-shadow: none");
+        container.select(".leesa__header").style("display", "none");
+        container.select(".leesa__content").attr("style", "padding-top: 0");
+    }
+}
+```
 > Notes: The JS functions to be implemented can be referred from other charts or samples.
