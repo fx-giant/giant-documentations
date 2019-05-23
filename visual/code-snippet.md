@@ -23,7 +23,7 @@ These files define the quadrant controls presented on the quadrant-properties pa
 
 #### # single dimension binding
 
-![single-dimension.PNG](../images/code-snippet/single-dimension.PNG)
+![single-dimension.PNG](./images/code-snippet/single-dimension.PNG)
 
 - `labelKey` defines the label presented above the control.
 - `addLabelKey` defines the placeholder label in the control before anything gets selected.
@@ -62,7 +62,7 @@ $.extend(true, me, {
 
 #### # single measurement binding
 
-![single-measurement.PNG](../images/code-snippet/single-measurement.PNG)
+![single-measurement.PNG](./images/code-snippet/single-measurement.PNG)
 
 Refer to [single dimension binding](#single-dimension). Measurement binding has aggregate operators like `None`, `Sum`, `Avarage`, etc. that help you group your raw data.
 
@@ -230,7 +230,7 @@ $.extend(true, me, {
 
 #### # separator
 
-![separator.PNG](../images/code-snippet/separator.PNG)
+![separator.PNG](./images/code-snippet/separator.png)
 
 The horizontal line between the quadrant controls.
 
@@ -240,7 +240,7 @@ The horizontal line between the quadrant controls.
 
 #### # textbox
 
-![normal-textbox-input.PNG](../images/code-snippet/normal-textbox-input.PNG)
+![normal-textbox-input.PNG](./images/code-snippet/normal-textbox-input.PNG)
 
 Make sure that you have `normalTextBoxInput` binding exported in the `viewModel`.
 
@@ -286,7 +286,7 @@ $.extend(true, me, {
 
 #### # select/drop down list
 
-![select.PNG](../images/code-snippet/select.PNG)
+![select.PNG](./images/code-snippet/select.png)
 
 ```html
 <div class="sandbox__row">
@@ -348,7 +348,7 @@ $.extend(true, me, {
 
 #### # switch
 
-![switch.PNG](../images/code-snippet/switch.PNG)
+![switch.PNG](./images/code-snippet/switch.PNG)
 
 ```html
 <div>
@@ -389,7 +389,7 @@ $.extend(true, me, {
 ```
 
 #### # top-bottom-filter
-![top-bottom-filter.PNG](../images/code-snippet/top-bottom-filter.PNG)
+![top-bottom-filter.PNG](./images/code-snippet/top-bottom-filter.PNG)
 ```html
 <quadrant-control params="controlType: 'topBottom',
                           quadrantComposer: quadrantComposer,
@@ -398,7 +398,7 @@ $.extend(true, me, {
 ```
 
 #### # sort
-![sort.PNG](../images/code-snippet/sort.PNG)
+![sort.PNG](./images/code-snippet/sort.PNG)
 ```html
 <quadrant-control params="controlType: 'sorting',
                           quadrantComposer: quadrantComposer,
@@ -407,7 +407,7 @@ $.extend(true, me, {
 ```
 
 #### # filter
-![filter.PNG](../images/code-snippet/filter.PNG)
+![filter.PNG](./images/code-snippet/filter.PNG)
 ```html
 <quadrant-control params="controlType: 'multiCondition',
                           quadrantComposer: quadrantComposer,
@@ -416,7 +416,7 @@ $.extend(true, me, {
 ```
 
 #### # cross chart filter
-![cross-chart-filter.PNG](../images/code-snippet/cross-chart-filter.PNG)
+![cross-chart-filter.PNG](./images/code-snippet/cross-chart-filter.PNG)
 ```html
 <quadrant-control params="controlType: 'filterSubscriber',
                           quadrant: quadrant">
