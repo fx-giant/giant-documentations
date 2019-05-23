@@ -18,18 +18,18 @@ There are three options for this configuration which are *None*, *Name*, *Value*
 - Name: Arrange the node in ascending alphabetical order.
 - Value: Arrange the node in ascending *actual* value.
 
-    ![Sort Order](./images/sankey-diagram/sort-order.png)
+    ![Sort Order](./images/sankey-diagram/sort-order.PNG)
 
 ### Show value in percentage
 - Calculate the percentage of each link from the source and display it in the link and tooltip. It is used when the value are too large to be analyzed.
 
-    ![Show Percentage](./images/sankey-diagram/show-percentage.png)
+    ![Show Percentage](./images/sankey-diagram/show-percentage.PNG)
 
 ### Fit to container
 - If fit to container is turned on, the container will fit to the size of the container. The container height and width can be set by entering your preference height and width with css units. 
     >Set your container height if there are a lot of inputs so that the diagram can be extended.
 
-    ![Fit To Container](./images/sankey-diagram/fit-to-container.PNG)
+    ![Fit To Container](./images/sankey-diagram/fit-to-container.png)
 
 ### Label Font Size
 - Font size of the label in the hierarchical can be set based on input. The accepted unit are all accepted css units (cm, mm, in, px, pt, em).
