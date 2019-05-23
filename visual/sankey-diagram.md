@@ -6,8 +6,11 @@ Sankey diagram displays the data flows and the respective quantities. This chart
 ### Binding
 - The bindings required are 2 dimensions binding and 1 measurement binding.  
     >Source and Destination for dimensions and Actual for measurement.
+      
   ![Binding](./images/sankey-diagram/binding.PNG)
+  
 - The optional binding is color binding which binds the color of the nodes.
+
  ![Color Binding](./images/sankey-diagram/color-binding.PNG)
  ![Color Binding Example](./images/sankey-diagram/color-binding-example.PNG)
 Sample data download [here](./sample-data/sankey-diagram/annual-finances-of-a-married-couple-color.xlsx).
