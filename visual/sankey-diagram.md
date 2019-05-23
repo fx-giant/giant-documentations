@@ -44,6 +44,7 @@ There are three options for this configuration which are *None*, *Name*, *Value*
     - two directions flow, E.g: Kedah -> Perlis, Perlis -> Kedah. 
     - flow that flow back to itself. E.g: Kedah -> Kedah.
 - For the above cases, "maximum stack size exceeded" error will be shown. You will see that the setting panel opacity become lower.
+
  ![Setting Panel](./images/sankey-diagram/setting-panel.PNG)
 
 ## Use cases
