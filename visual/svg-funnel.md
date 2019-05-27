@@ -29,7 +29,7 @@ Example:
 ## Use Cases
 ### Coca Cola Ingredients
 We can use SVG Funnel to show the ingredients of coca cola. We can use coca cola icon to make the visual fascinating and attractive.
-Sample data download [here](./sample-data/svg-funnel/coca-cola-ingredients.csv). Get Coca Cola SVG Path [here](./sample-data/svg-funnel/coca-cola svg.txt)
+Sample data download [here](./sample-data/svg-funnel/coca-cola-ingredients.csv). Get Coca Cola SVG Path [here](./sample-data/svg-funnel/coca-cola-svg.txt)
 
 #### Ouput
 ![Coca Cola](./images/svg-funnel/coca-cola.PNG)
