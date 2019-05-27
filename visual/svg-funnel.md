@@ -23,14 +23,13 @@ SVG Funnel is a spiced up variation on a regular stacked bar or column chart. It
 - If there is a negative value, the chart will not function properly.
 
 Example: 
-![Caveat 1](./images/svg-funnel/caveat-1.PNG)
+![Caveat 1](./images/svg-funnel/caveats-1.PNG)
 ![Caveat 2](./images/svg-funnel/caveat-2.PNG)
 
 ## Use Cases
 ### Coca Cola Ingredients
 We can use SVG Funnel to show the ingredients of coca cola. We can use coca cola icon to make the visual fascinating and attractive.
-Sample data download [here](./sample-data/svg-funnel/coca-cola-ingredients.csv)
-Get Coca Cola SVG Path [here](./sample-data/svg-funnel/coca-cola-svg.txt)
+Sample data download [here](./sample-data/svg-funnel/coca-cola-ingredients.csv). Get Coca Cola SVG Path [here](./sample-data/svg-funnel/coca-cola svg.txt)
 
 #### Ouput
 ![Coca Cola](./images/svg-funnel/coca-cola.PNG)
@@ -42,8 +41,7 @@ The diagram below shows the data binding for coca cola ingredients use case.
 
 ### Airplane Materials
 We can use SVG Funnel to show the materials of an airplane. We can use an airplane icon to visualize the material of an airplane. 
-Sample data download [here](./sample-data/svg-funnel/airplane-material.csv)
-Get Airplane SVG Path [here](./sample-data/svg-funnel/airplane-svg.txt)
+Sample data download [here](./sample-data/svg-funnel/airplane-material.csv). Get Airplane SVG Path [here](./sample-data/svg-funnel/airplane-svg.txt)
 
 #### Output
 
