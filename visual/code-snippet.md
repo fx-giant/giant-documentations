@@ -448,7 +448,7 @@ function hideHeader(myQuadrant) {
 
 #### # color palette
 
-![color-palettes.PNG](./images/code-snippet/color-palettes.PNG)
+![color-palettes.PNG](./images/code-snippet/color-palettes.png)
 
 - To use color palette, go to `config.js` file and add `"canConfigureColor": true` in 
 ```js
