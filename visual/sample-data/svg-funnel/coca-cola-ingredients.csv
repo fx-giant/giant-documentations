@@ -1,7 +1,7 @@
-Ingredient,Weightage
-Carbonated Water,90
-Sugar,8
-Caramel color,0.5
-Phosphoric Acid,0.5
-Natural Flavorings,0.5
-Caffeine,0.5
+Ingredient,Weightage,Color
+Carbonated Water,90,#F40009
+Sugar,8,#e80009
+Caramel color,0.5,#d1040c
+Phosphoric Acid,0.5,#ba060c
+Natural Flavorings,0.5,#a80208
+Caffeine,0.5,#940308
