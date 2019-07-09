@@ -49,7 +49,7 @@ When a visitor starts a chat session, the chatbot needs to first greet the visit
 
 ### 3.2 Handling Inquiries on Rescued Animals
 
-As conversations progress, visitors usually state their preference on whether they love dogs or cats. The intent **inquiry_animal-pics** shows a series of animal pictures depending on the visitors' preferred animal type. When the visitor mentions that he loves cats, a series of cat photos available for adoption will be shown. Also, when the visitor mentioned that he loves dogs, a series of dog photos available for adoption will be shown. The entity **E_animal-type** which contains the parameters "cat" and "dog" enables the bot to know when to show the series of cat or dog photos, based on the animal type mentioned by the visitor.
+As conversations progress, visitors usually state their preference on whether they love dogs or cats. The intent **inquiry_animal-pics** shows a series of animal pictures depending on the visitors' preferred animal type. When the visitor mentions that he loves cats, a series of cat photos available for adoption will be shown. Also, when the visitor mentioned that he loves dogs, a series of dog photos available for adoption will be shown. The entity **animal-type** which contains the parameters "cat" and "dog" enables the bot to know when to show the series of cat or dog photos, based on the animal type mentioned by the visitor.
 
 To show the animal photos, a **Card** response type is created. An action button is also displayed with each photo for user to click and view more details of the respective animal.
 

@@ -41,7 +41,7 @@ You can [refer here](./google-account-setup-in-dialogflow.md) for the steps on s
 
 ## 1.2 Creating an Entity
 
-You can use an Entity to group together several values that falls under the same category. This is useful when you want to manage responses to return to the user based on the value given by the user. For example, when the user says "I want to see dog pictures", the bot needs to show pictures of dogs to the user. Whereas, when the user says "I want to see cat pictures", the bot needs to show pictures of cats to the user. We can create an Entity called "E_animal-type" to manage these values and also assign synonyms to them.
+You can use an Entity to group together several values that falls under the same category. This is useful when you want to manage responses to return to the user based on the value given by the user. For example, when the user says "I want to see dog pictures", the bot needs to show pictures of dogs to the user. Whereas, when the user says "I want to see cat pictures", the bot needs to show pictures of cats to the user. We can create an Entity called "animal-type" to manage these values and also assign synonyms to them.
 
 *NOTE: To learn more on Entities, you can refer to Dialogflow’s documentation at [this link](https://dialogflow.com/docs/entities). Refer to the [Naming Convention](./naming-convention.md) document to get tips on the naming convention best practices.*
 
@@ -73,7 +73,7 @@ You can use an Entity to group together several values that falls under the same
 
 Intents are used to match the *User Says* with the Intent's Training Phrases. As a result, the corresponding response will be returned to the user. As the responses returned may also be based on certain values provided by the user, the Training Phrases in the Intents may contain Entities to manage the values.
 
-For example, when the user says "I want to see dog pictures", the bot needs to show pictures of dogs to the user. Whereas, when the user says "I want to see cat pictures", the bot needs to show pictures of cats to the user. An Entity called "E_animal-type" is created to manage the values of "dog" and "cat". Entering the statement "I want to see dog pictures" as an Intent's Training Phrase enables the matching of the *User Says* with the Entity and Intent. The bot can then return the expected response based on these values. 
+For example, when the user says "I want to see dog pictures", the bot needs to show pictures of dogs to the user. Whereas, when the user says "I want to see cat pictures", the bot needs to show pictures of cats to the user. An Entity called "animal-type" is created to manage the values of "dog" and "cat". Entering the statement "I want to see dog pictures" as an Intent's Training Phrase enables the matching of the *User Says* with the Entity and Intent. The bot can then return the expected response based on these values. 
 
 *NOTE: To learn more on Intents, you can refer to Dialogflow’s documentation at [this link](https://dialogflow.com/docs/intents). Refer to the [Naming Convention](./naming-convention.md) document to get tips on the naming convention best practices.*
 
