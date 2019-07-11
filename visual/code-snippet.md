@@ -423,6 +423,68 @@ $.extend(true, me, {
                           quadrant: quadrant">
 </quadrant-control>
 ```
+- To publish the selected data using cross chart, use the below code in `app.js`
+    ```js
+    export default {
+        extend(quadrant) {
+            selectedDataPoint: ko.observable()
+        },
+        render(quadrant, callback) {
+        //More codes above
+        const { namePath } = parameters;
+        
+        //More codes
+
+        //This is to get the value of the selected value. You can get the value in your own way for your visual
+        var selectedDropDown = d3DropDownList.property("value");
+        //To get the binding of the path (required by createInclusionCondition)
+        var binding = quadrant.getBinding(namePath);
+
+        if(leesa && leesa.model && leesa.model.binding) {
+            var bindingModel = leesa.model.binding;
+            //create inclusion condition is used to create the condition to be publish to all the chart
+            var createInclusionCondition = bindingModel.createInclusionCondition; 
+            //selectedDropDown is the value you want to publish, Eg: 
+            var inclusionCondition = createInclusionCondition(selectedDropDown, binding);
+
+            if(quadrant.selectedDataPoint == allText)
+                inclusionCondition = createInclusionCondition(quadrant.selectedDataPoint, binding)
+                //true is to remove the condition from filter and return all the charts to normal.
+                quadrant.publishCondition(inclusionCondition, true);
+                quadrant.selectedDataPoint = "";
+            }
+            else{
+                //quadrant.publishCondtiion is to publish the condition and filter all the charts based on the conditions.
+                quadrant.selectedDataPoint = selectedDropDown;
+                quadrant.publishCondition(inclusionCondition);
+            }
+        }
+    ```
+- To disable filter subscriber (disable other from filtering), use the below code in `quadrant-properties.js`
+    ```js
+        //more codes
+        var visualFilterSubscriber = fxUtil.visualFilterSubscriber;
+        function viewModel(params) {
+            //more codes
+            function initValues() {
+                var visual = koVisual();
+                var parameters = visual.parameters || {};
+
+                //add this code to disable it.
+                visualFilterSubscriber(visual, false);
+
+                //more codes
+            }
+        }
+    ```
+- Usage of publish condition
+    - Filter all the charts by jan when Jan on the drop down list is selected.
+
+    ![Cross Chart Filter Jan](./images/code-snippet/cross-chart-filter-jan.PNG)
+
+    - Show all the data back when All on the drop down list is selected.
+    
+    ![Cross Chart Filter All](./images/code-snippet/cross-chart-filter-all.PNG)
 
 #### # hide header
 ![hide-header.PNG](./images/code-snippet/hide-header.PNG)
