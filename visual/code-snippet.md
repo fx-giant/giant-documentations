@@ -473,7 +473,7 @@ $.extend(true, me, {
             var createInclusionCondition = bindingModel.createInclusionCondition; 
 
             //pass the bindingPath and previously selected to create the inclusionCondition
-            var inclusionCondition = createInclusionCondition(quadrant.selectedDataPoint, bindingPathName);
+            var inclusionCondition = createInclusionCondition(quadrant.selectedDataPoint(), bindingPathName);
 
             //publish the condition to unfilter the condition
             quadrant.publishCondition(inclusionCondition, true);
