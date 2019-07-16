@@ -423,6 +423,91 @@ $.extend(true, me, {
                           quadrant: quadrant">
 </quadrant-control>
 ```
+- To publish the selected data using cross chart, use the below code in `app.js`
+    ```js
+    export default {
+        extend(quadrant) {
+            selectedDataPoint: ko.observable()
+        },
+        render(quadrant, callback) {
+        //More codes above
+        const { namePath } = parameters;
+        
+        //More codes
+
+        //This is to get the value of the selected value. You can get the value in your own way for your visual
+        var selectedDropDown = d3DropDownList.property("value");
+        //To get the binding of the path (required by createInclusionCondition)
+        var binding = quadrant.getBinding(namePath);
+
+        if(leesa && leesa.model && leesa.model.binding) {
+            
+            if(quadrant.selectedDataPoint == allText){
+                unpublishCrossChart(namePath, quadrant)
+            }
+            else{
+                publishCrossChart(namePath, selectedDropDown, quadrant);
+            }
+        }
+
+        //more codes below
+        function publishCrossChart(bindingPathName, arrayOfValuesForPublish, quadrant) {
+            //leesa is giant function
+            var bindingModel = leesa.model.binding;
+            //create inclusion condition is used to create the condition to be publish to all the chart
+            var createInclusionCondition = bindingModel.createInclusionCondition; 
+
+            //pass the bindingPath and selected value to create the inclusionCondition
+            var inclusionCondition = createInclusionCondition(arrayOfValuesForPublish, bindingPathName);
+            
+            //set the selecteDataPoint to selectedDropDown to use it when unpublish
+            quadrant.selectedDataPoint(selectedDropDown);
+
+            //quadrant.publishCondtiion is to publish the condition and filter all the charts based on the conditions.
+            quadrant.publishCondition(inclusionCondition);
+        }
+
+        function unpublishCrossChart(bindingPathName, quadrant) {
+            var bindingModel = leesa.model.binding;
+            //create inclusion condition is used to create the condition to be publish to all the chart
+            var createInclusionCondition = bindingModel.createInclusionCondition; 
+
+            //pass the bindingPath and previously selected to create the inclusionCondition
+            var inclusionCondition = createInclusionCondition(quadrant.selectedDataPoint(), bindingPathName);
+
+            //publish the condition to unfilter the condition
+            quadrant.publishCondition(inclusionCondition, true);
+
+            //set the selectedDataPoint to empty 
+            quadrant.selectedDataPoint("");
+        }
+    ```
+
+- To disable filter subscriber (disable other from filtering), use the below code in `quadrant-properties.js`
+    ```js
+        //more codes
+        var visualFilterSubscriber = fxUtil.visualFilterSubscriber;
+        function viewModel(params) {
+            //more codes
+            function initValues() {
+                var visual = koVisual();
+                var parameters = visual.parameters || {};
+
+                //add this code to disable it.
+                visualFilterSubscriber(visual, false);
+
+                //more codes
+            }
+        }
+    ```
+- Usage of publish condition
+    - Filter all the charts by jan when Jan on the drop down list is selected.
+
+    ![Cross Chart Filter Jan](./images/code-snippet/cross-chart-filter-jan.PNG)
+
+    - Show all the data back when All on the drop down list is selected.
+    
+    ![Cross Chart Filter All](./images/code-snippet/cross-chart-filter-all.PNG)
 
 #### # hide header
 ![hide-header.PNG](./images/code-snippet/hide-header.PNG)
