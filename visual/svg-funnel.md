@@ -23,7 +23,7 @@ After selecting the chart to add to your dashboard, you will see the following d
 
 ![accepted-colour-format](./images/svg-funnel/accepted-colour-format.png)
 
-2. SVG Path - Refer [here](https://www.w3schools.com/graphics/svg_path.asp) for more info on SVG Path. Get the sample [here](./visual/sample-data/svg-funnel/sample-svg.txt).
+2. SVG Path - Refer [here](https://www.w3schools.com/graphics/svg_path.asp) for more info on SVG Path. Get the sample [here](./sample-data/svg-funnel/sample-svg.txt).
  
 The next sections provide more details on the data bindings which are specific to the **Stacked SVG Funnel** and **Non-Stacked SVG Funnel**.
 
@@ -113,7 +113,7 @@ The image below shows the fields related to the chart's data bindings.
 - If there is a null value in **Value** field, it will not exist in the chart but shown in the legend.
 - If there is a negative value, the chart will not function properly.
 
-Examples: 
+Examples:   
 Caveat 1
 ![Caveat 1](./images/svg-funnel/caveats-1.PNG)
 
@@ -128,7 +128,7 @@ Caveat 2
     We can use the SVG Funnel to show the ingredients of the Coca Cola drink. We can use the Coca Cola icon to make the visual fascinating and attractive.
 Download sample data [here](./sample-data/svg-funnel/coca-cola-ingredients.csv). Get Coca Cola SVG file [here](./sample-data/svg-funnel/coca-cola-svg/coca-cola.svg).
 
-    #### Ouput
+    #### Output
     ![Coca Cola](./images/svg-funnel/coca-cola.PNG)
 
     #### Binding 
@@ -154,7 +154,7 @@ Download sample data [here](./sample-data/svg-funnel/airplane-material.csv). Get
     We can use the SVG Funnel to show the quantity of strawberry milk sold in stores. The pictogram makes it easy to analyse at a quick glance on the quantity sold (in bottles) at each store.
 Download sample data [here](./sample-data/svg-funnel/milk-sold.csv). Get the Milk Bottle SVG file [here](./sample-data/svg-funnel/non-stacked-svg/milk-bottle.svg).
 
-    #### Ouput
+    #### Output
     ![output-milk-sold](./images/svg-funnel/output-milk-sold.png)
 
     #### Binding 
@@ -166,7 +166,7 @@ Download sample data [here](./sample-data/svg-funnel/milk-sold.csv). Get the Mil
     The SVG Funnel can show the number of stars received by a child in kindergarten which corresponds to the child's daily behaviour in a week.
 Download sample data [here](./sample-data/svg-funnel/child-grades.csv). Get the Star SVG file [here](./sample-data/svg-funnel/non-stacked-svg/star.svg).
 
-    #### Ouput
+    #### Output
     ![output-child-grades](./images/svg-funnel/output-child-grades.png)
 
     #### Binding 
