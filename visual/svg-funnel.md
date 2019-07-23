@@ -30,11 +30,11 @@ The next sections provide more details on the data bindings which are specific t
 ### Data Binding for Stacked SVG Funnel
 To get this chart, you need to **enable** the **IsStack** toggle
 
-![IsStack Toggle](./images/svg-funnel/isStack-toggle.png)
+![IsStack Toggle](./images/svg-funnel/isStack-toggle.PNG)
 
 The image below shows the fields related to the chart's data bindings.
 
-![Stacked Bindings](./images/svg-funnel/stacked-bindings.png)
+![Stacked Bindings](./images/svg-funnel/stacked-bindings.PNG)
  
 - The required bindings are 1 dimension and 1 measurement.
     > **Name** will be the dimension and **Value** will be the measurement.
@@ -49,13 +49,13 @@ The image below shows the fields related to the chart's data bindings.
 
 - You can get the sample SVG [here](./sample-data/svg-funnel/sample-svg/sample.svg).
     > Copy and paste the svg path to see the below output.
-![Example SVG Path](./images/svg-funnel/sample-svg.png)
+![Example SVG Path](./images/svg-funnel/sample-svg.PNG)
 
 - If **SVG file** is not provided or **Icon SVG Path** not specified, the default human icon will be used.
     > NOTE: If the SVG file is provided, the **Icon SVG Path** will be ignored.
     
 - Here's the Sample Output of the chart with completed data bindings.
-![Sample Output](./images/svg-funnel/sample-output.png)
+![Sample Output](./images/svg-funnel/sample-output.PNG)
 
 ### Data Binding for Non-Stacked SVG Funnel
 To get this chart, you need to **disable** the **IsStack** toggle
@@ -73,40 +73,40 @@ The image below shows the fields related to the chart's data bindings.
 - Upload an SVG image (click on **Choose File** button to do so) or use the **Icon SVG Path** to set the image displayed in the chart.
 - You can get the sample SVG [here](./sample-data/svg-funnel/sample-svg/sample.svg).
     > Copy and paste the svg path to see the below output.
-![Example SVG Path](./images/svg-funnel/sample-svg.png)
+![Example SVG Path](./images/svg-funnel/sample-svg.PNG)
 
 - If **SVG file** is not provided or **Icon SVG Path** not specified, the default human icon will be used.
     > NOTE: If the SVG file is provided, the **Icon SVG Path** will be ignored.
 - **Display Orientation**: Select the value to display the icons in **Horizontal** or **Vertical** orientation.
 - **Show Maximum Number of Icon**: Enable the toggle to show the maximum number of icons for each Category (it will be the same as the number of icons shown for the category with the highest value).
 
-    ![Show Maximum Number of Icon](./images/svg-funnel/show-maximum-number-of-icons.png)
+    ![Show Maximum Number of Icon](./images/svg-funnel/show-maximum-number-of-icons.PNG)
 
 - **Display Label**: Choose to show the actual **Value**, show the value in **Percentage** or show both the **Value and Percentage**.
 
-    Example for Show Value
+    Example for **Show Value**
     ![show-value](./images/svg-funnel/show-value.png)
 
-    Example for Show Percentage
-    ![Show Percent](./images/svg-funnel/show-percent.png)
+    Example for **Show Percentage**
+    ![Show Percent](./images/svg-funnel/show-percent.PNG)
 
-    Example for Show Value and Percentage
-    ![Show Percent and Value](./images/svg-funnel/show-value-and-percent.png)
+    Example for **Show Value and Percentage**
+    ![Show Percent and Value](./images/svg-funnel/show-value-and-percent.PNG)
     
 - **Show Number with Suffix**: To show large numbers as formatted value (i.e. 1,000,000 will be shown as 1.00M)
 
-    ![Show Number with Suffix](./images/svg-funnel/show-number-with-suffix.png)
+    ![Show Number with Suffix](./images/svg-funnel/show-number-with-suffix.PNG)
 
 - **Color**: To set the color of the icons.
 
-    ![Color](./images/svg-funnel/color-blue.png)
+    ![Color](./images/svg-funnel/color-blue.PNG)
 
 - **Scale**: To set the value represented by one icon (e.g. to set one icon is equal to 8,000 units)
 
-    ![Scale 8000](./images/svg-funnel/scale-8000.png)
+    ![Scale 8000](./images/svg-funnel/scale-8000.PNG)
 
 - Here's the Sample Output of the chart with completed data bindings.
-    ![Sample Output](./images/svg-funnel/non-stacked-sample-output.png)
+    ![Sample Output](./images/svg-funnel/non-stacked-sample-output.PNG)
 
 ### Caveats
 - If there is a null value in the **Name** field, it will still show in the chart with only the value .
@@ -115,10 +115,10 @@ The image below shows the fields related to the chart's data bindings.
 
 Examples: 
 Caveat 1
-![Caveat 1](./images/svg-funnel/caveats-1.png)
+![Caveat 1](./images/svg-funnel/caveats-1.PNG)
 
 Caveat 2
-![Caveat 2](./images/svg-funnel/caveat-2.png)
+![Caveat 2](./images/svg-funnel/caveat-2.PNG)
 
 ## Use Cases
 
@@ -129,24 +129,24 @@ Caveat 2
 Download sample data [here](./sample-data/svg-funnel/coca-cola-ingredients.csv). Get Coca Cola SVG file [here](./sample-data/svg-funnel/coca-cola-svg/coca-cola.svg).
 
     #### Ouput
-    ![Coca Cola](./images/svg-funnel/coca-cola.png)
+    ![Coca Cola](./images/svg-funnel/coca-cola.PNG)
 
     #### Binding 
     The diagram below shows the data bindings for the Coca Cola ingredients use case.
 
-    ![Data binding](./images/svg-funnel/coca-cola-binding.png)
+    ![Data binding](./images/svg-funnel/coca-cola-binding.PNG)
 
 - ### Airplane Materials
     We can use the SVG Funnel to show the composition of materials of an airplane. We can use an airplane icon to visualize the use case. 
 Download sample data [here](./sample-data/svg-funnel/airplane-material.csv). Get Airplane SVG Path [here](./sample-data/svg-funnel/airplane-svg/airplane-svg.txt)
 
     #### Output
-    ![Airplane](./images/svg-funnel/airplane-material.png)
+    ![Airplane](./images/svg-funnel/airplane-material.PNG)
 
     #### Binding
     The diagram below shows the data bindings for the airplane materials composition use case.
     
-    ![Data binding](./images/svg-funnel/airplane-material-binding.png)
+    ![Data binding](./images/svg-funnel/airplane-material-binding.PNG)
     
 ### Non-Stacked SVG Funnel
 
