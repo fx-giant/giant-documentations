@@ -152,7 +152,7 @@ Download sample data [here](./sample-data/svg-funnel/airplane-material.csv). Get
 
 - ### Quantity of Strawberry Milk Sold
     We can use the SVG Funnel to show the quantity of strawberry milk sold in stores. The pictogram makes it easy to analyse at a quick glance on the quantity sold (in bottles) at each store.
-Download sample data [here](./sample-data/svg-funnel/milk-sold.csv). Get the Milk Bottle SVG file [here](./sample-data/svg-funnel/milk-bottle.svg).
+Download sample data [here](./sample-data/svg-funnel/milk-sold.csv). Get the Milk Bottle SVG file [here](./sample-data/svg-funnel/non-stacked-svg/milk-bottle.svg).
 
     #### Ouput
     ![output-milk-sold](./images/svg-funnel/output-milk-sold.png)
@@ -164,7 +164,7 @@ Download sample data [here](./sample-data/svg-funnel/milk-sold.csv). Get the Mil
 
 - ### Grade of a Child
     The SVG Funnel can show the number of stars received by a child in kindergarten which corresponds to the child's daily behaviour in a week.
-Download sample data [here](./sample-data/svg-funnel/child-grades.csv). Get the Star SVG file [here](./sample-data/svg-funnel/star.svg).
+Download sample data [here](./sample-data/svg-funnel/child-grades.csv). Get the Star SVG file [here](./sample-data/svg-funnel/non-stacked-svg/star.svg).
 
     #### Ouput
     ![output-child-grades](./images/svg-funnel/output-child-grades.png)
