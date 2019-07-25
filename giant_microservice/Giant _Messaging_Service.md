@@ -86,7 +86,7 @@ Following is the structure of the JSON request object.
   ],
   "subject": "Email Subject",
   "content": "Email Content",
-  "attachments": [{“attachmentId”: “08e7330b-24a4-4452-ba12-688fd336e06b”}]
+  "attachments": [{"attachmentId": "08e7330b-24a4-4452-ba12-688fd336e06b"}]
 }
 ```
 
