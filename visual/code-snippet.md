@@ -20,6 +20,7 @@ These files define the quadrant controls presented on the quadrant-properties pa
 - [filter](#filter)
 - [cross chart filter](#cross-chart-filter)
 - [hide header](#hide-header)
+- [color palette](#color-palette)
 
 
 #### # single dimension binding
@@ -529,3 +530,23 @@ function hideHeader(myQuadrant) {
 }
 ```
 > Notes: The JS functions to be implemented can be referred from other charts or samples.
+
+#### # color palette
+
+![color-palettes.PNG](./images/code-snippet/color-palettes.png)
+
+- To use color palette, go to `config.js` file and add `"canConfigureColor": true` in 
+```js
+install: {
+    ...//versionfile and output
+
+    visualConfig: {
+        ...///groupId, packageId, visualName, displayName
+        "canConfigureColor": true
+    },
+    ...//more codes
+}
+```
+- To use color chosen from the palette, in `app.js` get the colors by `const colors = parameters.color` or `const {colors} = parameters`.
+> Notes: colors is an array of color codes.
+
