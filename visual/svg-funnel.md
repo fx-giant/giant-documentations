@@ -18,6 +18,24 @@ After selecting the chart to add to your dashboard, you will see the following d
 
 ![chart-setting-panel](./images/svg-funnel/chart-setting-panel.png)
 
+- **Description**: Fill-in the **description** for the chart in this field.
+- **Connection Source**: Specify the data source from which the Categories and Values in chart would be displayed.
+- **Name**: Column in the data source which contains the **Category** values.
+- **Value**: Column in the data source which contains the **Values** for the Categories.
+- **Color**: Colour code to use for the image(s) shown in the Chart \**.
+- **Choose File**: Choose the SVG image to use in the chart (only SVG format is supported).
+- **Icon SVG Path**: Instead of uploading an SVG image, you can specify the image using the SVG Path \** .
+- **IsStack**: **Enable** the toggle to get a **Stacked SVG Funnel**, otherwise **disable** the toggle to get a **Non-Stacked SVG Funnel**.   
+   
+- **Display Orientation**: Applicable for **Non-Stacked SVG Funnel**. Choose either to display the images in **Horizontal** or **Vertical** orientation.
+- **Show Maximum Number of Icon**: Applicable for **Non-Stacked SVG Funnel**. **Enable** the toggle to get the **maximum number of icons** shown for each Category (which is the same as the number of icons shown for the category with the highest value).
+- **Display Label**: Applicable for **Non-Stacked SVG Funnel**. You can choose to display the **Value**, **Percentage** or both **Value and Percentage**.
+- **Show Number with Suffix**: Applicable for **Non-Stacked SVG Funnel**. When you **enable** the toggle, large numbers are shown as **formatted values** (i.e. 100,000 is shown as 100.00K).
+- **Color**: Applicable for **Non-Stacked SVG Funnel**. Select the colour to apply to the image.
+- **Scale**: Applicable for **Non-Stacked SVG Funnel**. The scale to apply for each image (e.g. one image is equivalent to 10,000 units).   
+- **Filter(s)**: Apply **filter** to restrict the data shown in the chart.
+- **Cross Chart**: Enable the toggle to turn on the Cross Chart Filter feature for the chart.
+
 \** NOTES:  
 1. Colour Code - This is the list of supported formats for the colour code:
 
