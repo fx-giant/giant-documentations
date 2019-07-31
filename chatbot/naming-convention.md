@@ -61,19 +61,19 @@ The name of an Intent can follow the format: "**action_intent-purpose**" (**Acti
 
 The name of an **Entity** has to be clear so that you can identify the **category of the parameter values** associated with the Intent.   
    
-The name of an **Entity** can follow the format: "**E_category-name**" ("**E**" prefix to represent that it is an **Entity** followed by an **Underscore** and the **Category Name**, each word separated with a "-").   
+The name of an **Entity** can follow the format: "**category-name**" (each word in the Category Name separated with a "-").   
 
 Below are some examples of **Entities** created based on the recommended naming convention. 
 
-- The entity **E_animal-type** created to capture the value of the **Animal Type** mentioned by the user.   
+- The entity **animal-type** created to capture the value of the **Animal Type** mentioned by the user.   
    
   ![entity_1](./images/naming-convention-images/entity_1.png)
 
-- The entity **E_day** created to capture the value of the **Day** mentioned by the user.   
+- The entity **day** created to capture the value of the **Day** mentioned by the user.   
    
   ![entity_2](./images/naming-convention-images/entity_2.png)
 
-- The entity **E_time** created to capture the value of the **Time** mentioned by the user.   
+- The entity **time** created to capture the value of the **Time** mentioned by the user.   
    
   ![entity_3](./images/naming-convention-images/entity_3.png)
 
