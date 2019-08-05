@@ -4,12 +4,12 @@
 The SVG Funnel is a visual that uses an image to represent the categories and values in a chart. There are two types available, depending on the chart mode that you choose for the chart:
 
 **a) Type 1 - Stacked SVG Funnel**   
-Stacked SVG Funnel is a spiced up variation of a regular stacked bar or column chart. It uses an image to provide an overview of the categories, represented in segments. Each segment corresponds to the value of each category.
+Stacked SVG Funnel is a spiced up variation of a regular stacked bar or column chart. It uses an image to provide an overview of the categories, represented in segments. Each segment corresponds to the value of each category. Refer [here][./visual/stacked-svg-funnel.md] for more details.
 
 ![intro-stack-svg-funnel](./images/svg-funnel/intro-stack-svg-funnel.png)
 
 **b) Type 2 - Non-Stacked SVG Funnel**   
-Non-Stacked SVG Funnel is a pictograph which shows data using images. A pictograph uses picture symbols to convey the meaning of statistical information. Each picture symbol stands for a certain value.
+Non-Stacked SVG Funnel is a pictograph which shows data using images. A pictograph uses picture symbols to convey the meaning of statistical information. Each picture symbol stands for a certain value. Refer [here][./visual/non-stacked-svg-funnel.md] for more details.
 
 ![intro-nonstack-svg-funnel](./images/svg-funnel/intro-nonstack-svg-funnel.png)
 
