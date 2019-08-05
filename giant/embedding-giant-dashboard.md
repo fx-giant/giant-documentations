@@ -1,6 +1,6 @@
-# Embedding Giant Dashboards
+# Embedding GIANT Dashboards or Charts
 
-Embedding is the basically getting the link of your dashboard so other users can see it.
+Embedding is the basically getting the link of your dashboard or chart, then using the link at a third-party location so other users can see the dashboards or charts without login to GIANT.
 
 There are three types of Dashboard embedding:
 
@@ -83,3 +83,7 @@ A pop up window should appear showing the Embed URL you can give to the audience
 ![Step4-chart](images/embedding-giant-dashboard/chart-embed-4.png)
 
 Note: When embedding charts, make sure that it is a saved chart. If it has not been saved to your dashboard yet, the **embed icon** will not be there for the chart.
+
+## When to use Embed feature
+- When you need anonymous users to access your GIANT dashboards or charts without login to GIANT.
+- When you need to display GIANT dashboards or charts at another location (e.g. display GIANT charts from company's website)
