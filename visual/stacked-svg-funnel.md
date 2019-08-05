@@ -1,7 +1,7 @@
 # Stacked SVG Funnel
 
 ## Introduction
-This document details out the data binding and use cases for Stacked SVG Funnel. Refer (here)[./visual/svg-funnel.md] to get an overview of SVG Funnel.
+This document details out the data binding and use cases for **Stacked SVG Funnel**. Refer [here](./svg-funnel.md) to get an overview of SVG Funnel.
 
 ## Data Binding
 To get this chart, you need to **enable** the **IsStack** toggle
@@ -39,10 +39,11 @@ The image below shows the fields related to the chart's data bindings.
 - If there is a negative value, the chart will not function properly.
 
 Examples:   
-Caveat 1
+   
+### Caveat 1
 ![Caveat 1](./images/svg-funnel/caveats-1.PNG)
 
-Caveat 2
+### Caveat 2
 ![Caveat 2](./images/svg-funnel/caveat-2.PNG)
 
 ## Use Cases
