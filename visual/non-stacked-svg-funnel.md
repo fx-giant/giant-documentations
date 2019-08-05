@@ -1,7 +1,7 @@
 # Non-Stacked SVG Funnel
 
 ## Introduction
-This document details out the data binding and use cases for Non-Stacked SVG Funnel. Refer (here)[./visual/svg-funnel.md] to get an overview of SVG Funnel.
+This document details out the data binding and use cases for Non-Stacked SVG Funnel. Refer [here](./svg-funnel.md) to get an overview of SVG Funnel.
 
 ## Data Binding
 To get this chart, you need to **disable** the **IsStack** toggle
