@@ -17,9 +17,9 @@ The image below shows the fields related to the chart's data bindings.
 - The **Color** field is an optional binding.
 - The values from the **Name** field will be shown as the label for each category. The number of icons shown for each category is auto-calculated from the **Value** field binding and the value specified in the **Scale** field. The value from the **Color** field will determine the color of the icon.    
 - Upload an SVG image (click on **Choose File** button to do so) or use the **Icon SVG Path** to set the image displayed in the chart.
-- You can get the sample SVG [here](./sample-data/svg-funnel/sample-svg/sample.svg).
+- You can get the sample SVG [here](./sample-data/svg-funnel/non-stacked-svg/milk-bottle.svg).
     > Copy and paste the svg path to see the below output.
-![Example SVG Path](./images/svg-funnel/sample-svg.PNG)
+![Example SVG Path](./images/svg-funnel/non-stacked-svg.png)
 
 - If **SVG file** is not provided or **Icon SVG Path** not specified, the default human icon will be used.
     > NOTE: If the SVG file is provided, the **Icon SVG Path** will be ignored.
