@@ -2,7 +2,7 @@
 
 Advanced Embed is used when you want to restrict the data based on the parameters you set. The example use case I will be using is with stationary sales.
 
-    When you have a dashboard that showcases the sales from the same company within different regions, you need embeded links to showcase the sales to specific branches within those regions. It does not make sense to show a branch within the east region the sales of the west region because they wouldn't be interested in the information. Thus we use advanced parameters to show our targeted user information they would be interested in. I will be using more examples such as items and time to showcase the filtering system of advanced embedding.
+> When you have a dashboard that showcases the sales from the same company within different regions, you need embeded links to showcase the sales to specific branches within those regions. It does not make sense to show a branch within the east region the sales of the west region because they wouldn't be interested in the information. Thus we use advanced parameters to show our targeted user information they would be interested in. I will be using more examples such as items and time to showcase the filtering system of advanced embedding.
 
 ## Filtering by region
 
