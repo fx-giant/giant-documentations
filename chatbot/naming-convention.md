@@ -77,6 +77,7 @@ Below are some examples of **Entities** created based on the recommended naming 
    
   ![entity_3](./images/naming-convention-images/entity_3.png)
 
+**IMPORTANT NOTE**: When adding entries under your entities, make sure the naming system is **consistent**. As you can see from the examples above, all of the entries under a single entity are either all in lower case or use pascal case. Please make sure that all your entries under an entity follow the same naming convention!
 
 
 ## Naming Convention of an Event
