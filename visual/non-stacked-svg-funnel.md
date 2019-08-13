@@ -60,22 +60,12 @@ The image below shows the fields related to the chart's data bindings.
     We can use the SVG Funnel to show the quantity of strawberry milk sold in stores. The pictogram makes it easy to analyse at a quick glance on the quantity sold (in bottles) at each store.
 Download sample data [here](./sample-data/svg-funnel/milk-sold.csv). Get the Milk Bottle SVG file [here](./sample-data/svg-funnel/non-stacked-svg/milk-bottle.svg).
 
-    #### Output
+    #### Output & Binding
     ![output-milk-sold](./images/svg-funnel/output-milk-sold.png)
-
-    #### Binding 
-    The diagram below shows the data bindings for the Quantity of Milk Sold use case.
-
-    ![milk-sold-binding](./images/svg-funnel/milk-sold-binding.png)
 
 - ### Grade of a Child
     The SVG Funnel can show the number of stars received by a child in kindergarten which corresponds to the child's daily behaviour in a week.
 Download sample data [here](./sample-data/svg-funnel/child-grades.csv). Get the Star SVG file [here](./sample-data/svg-funnel/non-stacked-svg/star.svg).
 
-    #### Output
+    #### Output & Binding
     ![output-child-grades](./images/svg-funnel/output-child-grades.png)
-
-    #### Binding 
-    The diagram below shows the data bindings for the Child's Daily Behaviour use case.
-
-    ![daily-behaviour-binding](./images/svg-funnel/daily-behaviour-binding.png)
