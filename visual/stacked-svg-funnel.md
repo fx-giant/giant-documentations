@@ -52,22 +52,8 @@ Examples:
     We can use the SVG Funnel to show the ingredients of the Coca Cola drink. We can use the Coca Cola icon to make the visual fascinating and attractive.
 Download sample data [here](./sample-data/svg-funnel/coca-cola-ingredients.csv). Get Coca Cola SVG file [here](./sample-data/svg-funnel/coca-cola-svg/coca-cola.svg).
 
-    #### Output
+    #### Output & Binding
     ![Coca Cola](./images/svg-funnel/coca-cola.PNG)
 
-    #### Binding 
-    The diagram below shows the data bindings for the Coca Cola ingredients use case.
 
-    ![Data binding](./images/svg-funnel/coca-cola-binding.PNG)
 
-- ### Airplane Materials
-    We can use the SVG Funnel to show the composition of materials of an airplane. We can use an airplane icon to visualize the use case. 
-Download sample data [here](./sample-data/svg-funnel/airplane-material.csv). Get Airplane SVG Path [here](./sample-data/svg-funnel/airplane-svg/airplane-svg.txt)
-
-    #### Output
-    ![Airplane](./images/svg-funnel/airplane-material.PNG)
-
-    #### Binding
-    The diagram below shows the data bindings for the airplane materials composition use case.
-    
-    ![Data binding](./images/svg-funnel/airplane-material-binding.PNG)
