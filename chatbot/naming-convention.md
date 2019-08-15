@@ -102,7 +102,7 @@ _NOTE: To learn more on how to use Context, refer to [this document](./getting-s
 
 When you need to **control the flow** of the user's conversation or **bring forward values** provided by the user into another Intent, you can use Context to achieve this.  
 
-The name of the Context can follow the format: "**_context_action-or-purpose_**" ("**context**" prefix to represent that it is a **Context** followed by an **Underscore** and the **Context Purpose**, each word separated with a "\_" or "-").
+The name of the Context can follow the format: "**intent_name_long-context**" ("**context**" postfix to represent that it is a **Context**).
 
 Consider this scenario - the user asks when he can come for a visit to the Animal Shelter. Then, the bot asks the Day and Time that the user wants to pay a visit. Lastly, the bot confirms on the visit session based on the Day and Time value provided by the user.
 
