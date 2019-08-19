@@ -76,7 +76,7 @@ Here is the final output of our histogram that shows the number of members withi
 
 **Sum** - Sums the numeric values within your column.
 
-**Average** - Takes the average value within your column
+**Average** - Takes the average value within your column.
 
 **None** - Does not affect your column. Used when your current data is already aggregated.
 
@@ -87,6 +87,8 @@ Here is the final output of our histogram that shows the number of members withi
 **Filter** - Allows you to choose columns within your table to filter our specific criteria for the data you want to show.
 
 ## Important notes:
+
+- If you have date-time data, It would be better to showcase your data using a line-chart.
 
 - This type of chart can only be used when ur data is two dimensional thus it is important to know how your data is structured and what you want to show before you actually create a chart.
 
