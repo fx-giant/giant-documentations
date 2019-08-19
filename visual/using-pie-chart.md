@@ -68,3 +68,5 @@ From here we can see that South has been providing most sales within 2016. So if
 - It is important to know that the pie chart is a simple chart that cannot handle data that requires 3 dimensions. 
 
 - You want to make it as easy as possible for your audience to understand your data. If you have categorical data that can be easily shown using a pie chart, I recommend using it rather than a bar chart as it is easier for the audience to read.
+
+- If the data you want to show has more than 5 categories, you may want to choose to use a bar chart instead to showcase the given information.
