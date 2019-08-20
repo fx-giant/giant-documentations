@@ -4,7 +4,7 @@
 
 Line charts effectively show the comparison and trends of data. Line charts are easy for the audience to understand and can also be used to show KPI's of a company. It is most effective when using date-time data. For example, using line charts you can show sales across years which is important in order to understand how your company is progressing.
 
-![lineicon](images\giant-101-linechart\line-icon.PNG)
+![lineicon](images/giant-101-linechart/line-icon.PNG)
 
 ## Example 1:
 
@@ -12,17 +12,17 @@ When using GIANT, it is very important to always think about the structure of yo
 
 In this example I will be showing the **total sales across years** using the **Stationary Sales** data source.
 
-![lineicon](images\giant-101-linechart\data-structure.PNG)
+![linestructure](images/giant-101-linechart/data-structure.PNG)
 
 This is the data structure of the sample data I am using. I have to use the built-in aggregate functions given my data structure if I want to show the **total sales across years**. 
 
-![lineicon](images\giant-101-linechart\data-bind.PNG)
+![lineicon](images/giant-101-linechart/data-bind.PNG)
 
 After we connect to our data source: **Stationery Sales**, we choose our x-axis to be **year** to represent the time and our y-axis as the **Sum** of **Units**. We have to use the **sum** built-in function because of the way our data is structured so we can visualize what we want.
 
 This is the given output:
 
-![linegraph](images\giant-101-linechart\line-graph.PNG)
+![linegraph](images/giant-101-linechart/line-graph.PNG)
 
 Since we are only showing the total number of sales across years there is no need for a legend. 
 
@@ -104,4 +104,4 @@ You can then set the number of which you want to limit your data. In this exampl
  
  
  Here it the link to line-chart documentation:
-    [using-bar-chart.md](giant-documentations\visual\using-bar-chart.md)
+    [using-bar-chart.md](giant-documentations/visual/using-bar-chart.md)
