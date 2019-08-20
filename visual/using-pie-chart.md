@@ -76,4 +76,4 @@ From here we can see that South has been providing most sales within 2016. So if
 - If the data you want to show has more than 5 categories, you may want to choose to use a bar chart instead to showcase the given information.
 
     Here it the link to line-chart documentation:
-    [using-bar-chart.md](giant-documentations/visual/using-bar-chart.md)
+    [using-bar-chart.md](using-bar-chart.md)
