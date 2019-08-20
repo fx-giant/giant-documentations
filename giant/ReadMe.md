@@ -4,7 +4,7 @@
 
 A glossary showing the documents available in the repository:
 
-[Glossary.md](ReadMe.md)
+[ReadMe.md](ReadMe.md)
 
 A quick guide for beginners on how to use GIANT:
 
@@ -22,100 +22,100 @@ A quick guide on how to use advanced embedding for your dashboard:
 
 A quick guide that shows snippets of code to help build your own visual pack:
 
-[code-snippet.md](visual/code-snippet.md)
+[code-snippet.md](code-snippet.md)
 
 Documentation regarding visual pack exceptions:
 
-[exceptions.md](visual/exceptions.md)
+[exceptions.md](exceptions.md)
 
 Documentations on the data binding/use cases for hierarchical diagrams:
 
-[exceptions.md](visual/hierarchical-diagram.md)
+[exceptions.md](hierarchical-diagram.md)
 
 Documentations on the data binding/use cases for non-stacked SVG Funnels:
 
-[non-stacked-svg-funnel.md](visual/non-stacked-svg-funnel.md)
+[non-stacked-svg-funnel.md](non-stacked-svg-funnel.md)
 
 Documentations on the data binding/use cases for sankey diagrams:
 
-[sankey-diagram.md](visual/sankey-diagram.md)
+[sankey-diagram.md](sankey-diagram.md)
 
 Documentations on the data binding/use cases for stacked SVG Funnels:
 
-[stacked-svg-funnel.md](visual/stacked-svg-funnel.md)
+[stacked-svg-funnel.md](stacked-svg-funnel.md)
 
 A quick guide on how to use bar charts:
 
-[using-bar-chart.md](visual/using-bar-chart.md)
+[using-bar-chart.md](using-bar-chart.md)
 
 A quick guide on how to use line charts:
 
-[using-line-chart.md](visual/using-line-chart.md)
+[using-line-chart.md](using-line-chart.md)
 
 A quick guide on how to use pie charts:
 
-[using-pie-chart.md](visual/using-pie-chart.md)
+[using-pie-chart.md](using-pie-chart.md)
 
 A quick guide that shows information on visual packs:
 
-[visual-pack.md](visual/visual-pack.md)
+[visual-pack.md](visual-pack.md)
 
 A quick guide on how to use Visual Sandbox:
 
-[visual-sandbox.md](visual/visual-sandbox.md)
+[visual-sandbox.md](visual-sandbox.md)
 
 ## Chatbot documentation:
 
 A quick guide on how to debug when using chatbot:
 
-[chatbot-simulator-debugging-tips.md](chatbot/chatbot-simulator-debugging-tips.md)
+[chatbot-simulator-debugging-tips.md](chatbot-simulator-debugging-tips.md)
 
 A quick guide on how to design chatbot:
 
-[chatbot-design-guidelines.md](chatbot/chatbot-design-guidelines.md)
+[chatbot-design-guidelines.md](chatbot-design-guidelines.md)
 
 A quick guide on getting started with chatbot:
 
-[getting-started.md](chatbot/getting-started.md)
+[getting-started.md](getting-started.md)
 
 Documentation on setting up a google account in Dialogflow:
 
-[google-account-setup-in-dialogflow.md](chatbot/google-account-setup-in-dialogflow.md)
+[google-account-setup-in-dialogflow.md](google-account-setup-in-dialogflow.md)
 
 Documentation on granting admin rights in Google Cloud Platform (GCP):
 
-[granting-administrator-rights-in-gcp.md](chatbot/granting-administrator-rights-in-gcp.md)
+[granting-administrator-rights-in-gcp.md](granting-administrator-rights-in-gcp.md)
 
 A quick guide on debugging Analytics Response in GIANT chatbot:
 
-[how-to-debug-analytics-response.md](chatbot/how-to-debug-analytics-response.md)
+[how-to-debug-analytics-response.md](how-to-debug-analytics-response.md)
 
 A quick guide on how to use chatbot with identity:
 
-[how-to-use-chat-bot-identity.md](chatbot/how-to-use-chat-bot-identity.md)
+[how-to-use-chat-bot-identity.md](how-to-use-chat-bot-identity.md)
 
 A quick guide on naming convention when using chatbot:
 
-[naming-convention.md](chatbot/naming-convention.md)
+[naming-convention.md](naming-convention.md)
 
 A quick guide on setting up chatbot agent in Dialogflow:
 
-[setting-up-chatbot-agent-in-dialogflow.md](chatbot/setting-up-chatbot-agent-in-dialogflow.md)
+[setting-up-chatbot-agent-in-dialogflow.md](setting-up-chatbot-agent-in-dialogflow.md)
 
 A quick guide on setting up chatbot agent in GIANT:
 
-[setting-up-chatbot-agent-in-giant.md](chatbot/setting-up-chatbot-agent-in-giant.md)
+[setting-up-chatbot-agent-in-giant.md](setting-up-chatbot-agent-in-giant.md)
 
 
 ## Giant connector documentation
 
 A quick guide on how to create a **Facebook** connector:
 
-[README.md](connector/Facebook/README.md)
+[README.md](Facebook/README.md)
 
 A quick guide on how to setup Google BigQuery connector:
 
-[README.md](connector/GoogleBigQuery/README.md)
+[README.md](GoogleBigQuery/README.md)
 
 ## Giant Form documentation
 
