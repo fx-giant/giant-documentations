@@ -64,6 +64,15 @@ A quick guide on how to use Visual Sandbox:
 
 [visual-sandbox.md](../visual/visual-sandbox.md)
 
+A quick guide on how to use descriptions and colour when creating your charts:
+[visual-styling-descriptions_colour.md](../visual/visual-styling-descriptions_colour.md)
+
+A quick guide on how to use labels when creating your charts:
+[visual-styling-labels.md](../visual/visual-styling-labels.md)
+
+A quick guide on how to use legends when creating your charts:
+[visual-styling-legend.md](../visual/visual-styling-legend.md)
+
 ## Chatbot documentation:
 
 A quick guide on how to debug when using chatbot:
