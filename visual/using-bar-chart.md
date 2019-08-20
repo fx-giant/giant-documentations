@@ -22,7 +22,7 @@ First we connect to our data source: **Stationary Sales**. The x-axis represents
 
 ![example1](images/giant-101-barchart/bar-chart-1-y.PNG)
 
-Make sure to always change your **Display Name** when choosing your column for the axis so that the information you are showcasing is clear to your audience. In this case, I label my **[Sum]Sales Data.Units** to be **Number of items sold** because that is what I get when aggregating my data using GIANT's built in function.
+Make sure to always change your **Display Name** when choosing your column for the axis so that the information you are showcasing is clear to your audience. In this case, I label my **[Sum]Sales Data.Units** to be **Number of items sold** because that is what I get when aggregating my data using GIANT's built in function. We want to make sure that the naming of your axis are appropriate for the target audience to read. Ideally, we do not want any "_" or "-" within our display name. Our axis should be labeled to reflect our ideas of what we want to show.
 
 The given result is as follows:
 
@@ -62,7 +62,11 @@ However, if we want to see our histogram on a bigger scale as **intervals.csv** 
 
 ![example2](images/giant-101-barchart/bar-chart-2-af.PNG)
 
-Here is the final output of our histogram that shows the number of members within each renewal interval period. 
+Here is the final output of our histogram that shows the number of members within each renewal interval period. We also want to include no legend in order to make the graph cleaner and easier to read for the target audience.
+
+![example2](images/giant-101-barchart/legends.PNG)
+
+Click the hamburger icon in the top right of your screen and you will see the **legend** option. Click the legend option and select **no legend**.
 
 ## Giant's built in functions:
 
@@ -88,8 +92,6 @@ Here is the final output of our histogram that shows the number of members withi
 
 ## Important notes:
 
-- If you have date-time data, It would be better to showcase your data using a line-chart.
-
 - This type of chart can only be used when ur data is two dimensional thus it is important to know how your data is structured and what you want to show before you actually create a chart.
 
 - If you have data you want to show that requires 3 dimensions, I recommend to find a different way to show your data.
@@ -101,3 +103,18 @@ Here is the final output of our histogram that shows the number of members withi
 ![problemexample](images/giant-101-barchart/what-not-to-do.PNG)
 
 In this example, I show the **total sales within each region grouped by the store which the items are sold from**. What I want to show requires both legends and data labels so it isn't ideal that I use this bar chart as it makes the data very messy and difficult to read.
+
+- If you wanted to perform more specific analysis by making comparisons, limit the data points. For example: if you wanted to show the **top products sold**, you might want to limit it to the **top 10** products so your chart does not get messy. 
+
+![example2](images/giant-101-barchart/limit.PNG)
+
+You can do this by going to the **All/Top/Bottom** feature under **settings**. Click the **All** button and click **Top**.
+
+![example2](images/giant-101-barchart/limit2.PNG)
+
+You can then set the number of which you want to limit your data. In this example, I choose the **top 10** points of my data. This will filter your data based on the axis of your data. You can also filter by seeing the bottom by clicking the **bottom** button.
+
+- If you have date-time data, It would be better to showcase your data using a line-chart.
+
+    Here it the link to line-chart documentation:
+    [using-line-chart.md](giant-documentations\visual\using-line-chart.md)
