@@ -47,10 +47,13 @@ A data matrix is created to display the information of top 10 purchased cars (wh
 3. Rename the data matrix as "Top 10 purchased cars information".
 4. Under the `Column(s)` section, click `Add Dimentions(s)` and choose "car_maker" column. Rename the column label as "Car Maker" and click `Apply`.
 
-    ![Select features](./images/analysing-using-top-10-and-crossfilter/4-selectFeatures.PNG)
+    ![Select Car Maker](./images/analysing-using-top-10-and-crossfilter/4.1-selectCarMaker.PNG)
 
 5. Choose "car_model" as another dimension. Rename the column label as "Car Model" and click `Apply`.
-6. Click `Add Measurement(s)` and choose "car_id" column. Rename the column label as "Total Transactions" and click `Apply`.
+6. Click `Add Measurement(s)` and choose `Count` of "car_id" column. Rename the column label as "Total Transactions" and click `Apply`.
+
+    ![Select Features](./images/analysing-using-top-10-and-crossfilter/4.2-selectFeatures.PNG)
+
 7. Under `Sort(s)`, drag `[Count]sample_data.car_id` to first position. Then, click it and choose `Descending`. The data matrix will display information of car with the highest number of transactions first.
 
     ![Sort Descending](./images/analysing-using-top-10-and-crossfilter/5-sortDescending.PNG)
