@@ -104,4 +104,4 @@ You can then set the number of which you want to limit your data. In this exampl
  
  
  Here it the link to line-chart documentation:
-    [using-bar-chart.md](giant-documentations/visual/using-bar-chart.md)
+    [using-bar-chart.md](using-bar-chart.md)
