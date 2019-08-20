@@ -68,7 +68,7 @@ A quick guide on how to use Visual Sandbox:
 
 A quick guide on how to debug when using chatbot:
 
-[chatbot-simulator-debugging-tips.md](../chatbot/chatbot-simulator-debugging-tips.md)
+[chat-simulator-debugging-tips.md](../chatbot/chat-simulator-debugging-tips.md)
 
 A quick guide on how to design chatbot:
 
