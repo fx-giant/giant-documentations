@@ -153,7 +153,7 @@ Documentation on how to use Form Sandbox:
 
 ## Giant Micro service documentation:
 
-A quick guide on Giant's messaging service:
+A quick guide on Giant's Messaging Service:
 
 [Giant_Messaging_Service.md](giant-documentations/giant_microservice/Giant_Messaging_Service.md)
 
