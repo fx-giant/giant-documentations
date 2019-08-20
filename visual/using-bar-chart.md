@@ -117,4 +117,4 @@ You can then set the number of which you want to limit your data. In this exampl
 - If you have date-time data, It would be better to showcase your data using a line-chart.
 
     Here it the link to line-chart documentation:
-    [using-line-chart.md](giant-documentations/visual/using-line-chart.md)
+    [using-line-chart.md](visual/using-line-chart.md)
