@@ -62,7 +62,7 @@ A data matrix is created to display the information of top 10 purchased cars (wh
 
     ![Select Features](./images/analysing-using-top-10-and-crossfilter/4.2-selectFeatures.PNG)
 
-7. Under `Sort(s)`, drag `[Count]sample_data.car_id` to first position. Then, click it and choose `Descending`. The data matrix will display information of the cars with the highest number of transactions first.
+7. Under `Sort(s)`, drag `car_id` column to the first position. Then, click it and choose `Descending`. The data matrix will display information of the cars with the highest number of transactions first.
 
     ![Sort Descending](./images/analysing-using-top-10-and-crossfilter/5-sortDescending.PNG)
 
