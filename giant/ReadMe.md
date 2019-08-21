@@ -4,7 +4,7 @@
 
 A glossary showing the documents available in the repository:
 
-[Glossary.md](Glossary.md)
+[ReadMe.md](ReadMe.md)
 
 A quick guide for beginners on how to use GIANT:
 
@@ -30,7 +30,7 @@ Documentation regarding visual pack exceptions:
 
 Documentations on the data binding and use cases for hierarchical diagram:
 
-[exceptions.md](../visual/hierarchical-diagram.md)
+[hierarchical-diagram.md](../visual/hierarchical-diagram.md)
 
 Documentations on the data binding and use cases for non-stacked SVG Funnel:
 
@@ -80,7 +80,7 @@ A quick guide on how to use legends when creating charts:
 
 A quick guide on how to debug when using chatbot:
 
-[chatbot-simulator-debugging-tips.md](../chatbot/chatbot-simulator-debugging-tips.md)
+[chat-simulator-debugging-tips.md](../chatbot/chat-simulator-debugging-tips.md)
 
 A quick guide on how to design a chatbot:
 
@@ -157,7 +157,7 @@ Documentation on Form pack exceptions:
 
 Documentation on end-to-end form development:
 
-[form-development.md]../form/form-development.md)
+[form-development.md](../form/form-development.md)
 
 Documentation on how to use Form Sandbox:
 
