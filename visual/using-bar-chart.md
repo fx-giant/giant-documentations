@@ -8,8 +8,6 @@ Bar charts are easy to visualize and understand making it one of the most useful
 
 ## Example 1
 
-When using GIANT, it is very important to always think about the structure of the data before using it to create a chart. GIANT has many built-in functions that make it easy to aggregate data within the system so think about this before trying to aggregate your data externally.
-
 In this example, we will be using a source called **Stationary Sales**.
 
 ![example1](images/giant-101-barchart/data-structure-e1.PNG)
