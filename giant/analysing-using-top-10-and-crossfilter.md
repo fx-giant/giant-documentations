@@ -10,7 +10,7 @@ This guide is to show you the top 10 and cross chart functions in GIANT and how 
 * A data source to use for visualization
 
 ## Uploading Source to GIANT and Creating a Dashboard
-1. In case you are new to Giant, refer to [GIANT for Beginner](https://github.com/fx-giant/giant-documentations/blob/master/giant/giant-for-beginner.md) to learn on how to upload source, create a dashboard and charts in GIANT.
+1. In case you are new to GIANT, refer to [GIANT for Beginner](https://github.com/fx-giant/giant-documentations/blob/master/giant/giant-for-beginner.md) to learn on how to upload source, create a dashboard and charts in GIANT.
 
 2. Download `Car sales.csv` in [sample-data folder](sample-data), then upload it in GIANT.
 
