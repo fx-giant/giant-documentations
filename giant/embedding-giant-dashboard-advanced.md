@@ -16,7 +16,7 @@ A pop-up window should appear. Click on the **add** button to start setting your
 
 First, fill in the **Filter Name**. In this case I want to filter by region to showcase info for the specific region I want.
 
-![Step3-advanced](images/images/embedding-giant-advanced-dashboard/advanced-embed-3.PNG)
+![Step3-advanced](images/embedding-giant-advanced-dashboard/advanced-embed-3.PNG)
 
 Select your column you are filtering in order to generate the **Embed url**. In this case it is region because that is what we are filtering by.
 
