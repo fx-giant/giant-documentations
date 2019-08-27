@@ -1,13 +1,13 @@
 # GIANT 101: Using Pie Charts
 
 ## Introduction
-Pie charts effectively show the proportions of data. When you want to understand what item makes the most of sales or what age group makes up the most of the consumer base, pie-charts are very effective as they are very simple to read.
+Pie charts effectively show the proportions of data. When we want to understand what item makes the most of sales or what age group makes up the most of the consumer base, pie-charts are very effective as they are very simple to read.
 
 ![pieicon](images/giant-101-piechart/pie.PNG)
 
 ## Example 1 
 
-In this example, we will be using a source called **Stationary Sales**. 
+In this example, we will be using a source called **Stationary Sales**. This can be found in [sample-data](sample-data/giant-101).
 
 ![data](images/giant-101-piechart/data-structure.PNG)
 
@@ -37,7 +37,7 @@ If we are only interested in looking at the sales within any specific regions wi
 
 ![pie-chart2](images/giant-101-piechart/pie-chart-filter.PNG)
 
-If the company we were showcasing to is only interested in **total sales in 2016 for the West, North and South region**, we would filter the data in order to showcase only the specific data that we want. Here you can see we filter by **North, South and West** and by data only within the year **2016**. This is the given output:
+If the company we were showcasing to is only interested in **total sales in 2016 for the West, North and South region**, we would filter the data in order to showcase only the specific data that we want. Here we filter by **North, South and West** and by data only within the year **2016**. This is the given output:
 
 ![pie-chart2](images/giant-101-piechart/pie-chart-filter-d.PNG)
 
