@@ -12,17 +12,17 @@ In this example, we want to show the **total sales across years** using the **St
 
 ![linestructure](images/giant-101-linechart/data-structure.PNG)
 
-This is the data structure of the sample data we are using. I have to use the built-in aggregate functions given the data structure if we want to show the **total sales across years**. 
+This is the data structure of the sample data we are using. We have to use the built-in aggregate functions given the data structure if we want to show the **total sales across years**. 
 
 ![lineicon](images/giant-101-linechart/data-bind.PNG)
 
-After we connect to our data source: **Stationery Sales**, we choose the x-Axis to be **year** to represent the time and the y-Axis as the **Sum** of **Units**. We have to use the **sum** built-in function because of the way the data is structured, so that we can visualize what we want.
+After we connect to our data source: **Stationery Sales**, we choose the x-axis to be **year** to represent the time and the y-axis as the **sum** of **units**. We have to use the **sum** built-in function because of the way the data is structured, so that we can visualize what we want.
 
 This is the given output:
 
 ![linegraph](images/giant-101-linechart/line-graph.PNG)
 
-Since we are only showing the total number of sales across years, there is no need for a legend. 
+Since we are only showing the **total number of sales across years**, there is no need for a legend. 
 
 ![example2](images/giant-101-linechart/legend.PNG)
 
@@ -30,7 +30,7 @@ Click the hamburger icon in the top right of the screen and the **legend** optio
 
 ## Example 2
 
-Now, we will be using data on the **profit growth across time for DHL Malaysia**. We are showcasing DHL trends in profit growth over time across years. The idea of comparing any KPI over months in specific years gives a good gauge of how well a company is performing. A linechart shows this information very effectively.
+Now, we will be using data on the DHL Malaysia. We are showcasing **DHL trends in profit growth over time across years**. The idea of comparing any KPI over months in specific years gives a good gauge of a company is performance. A linechart shows this information very effectively.
 
 ![example2](images/giant-101-linechart/data-structure2.PNG)
 
@@ -38,7 +38,7 @@ Given the structure of the data, we will not have to use any of GIANT's built-in
 
 ![example2](images/giant-101-linechart/data-bind-2.PNG)
 
-First, we connect to the source: **dhl-profit-growth.xlsx**. the x-axis will be **Month name** to represent the months over time and our y-axis will be **profit growth**
+First, we connect to the source: **dhl-profit-growth.xlsx**. This can be found in [sample-data](sample-data/giant-101). The x-axis will be **Month name** to represent the months over time and our y-axis will be **profit growth**.
 
 ![example2](images/giant-101-linechart/data-bind-x.PNG)
 
@@ -52,7 +52,7 @@ This line chart succesfully shows the data. However, what is wrong with it? Noti
 
 ![example2](images/giant-101-linechart/data-order.PNG)
 
-Within the data there is an extra column called **Month** which are integers assigned to each month e.g. **January = 1**, **February =2** etc. So we go to the **Sort(s)** section and we sort the data in **Ascending** order by my column **Month**.
+Within the data there is an extra column called **Month** which are integers assigned to each month e.g. **January = 1**, **February = 2** etc. So we go to the **Sort(s)** section and we sort the data in **Ascending** order by my column **Month**.
 
 This gives the following output:
 
