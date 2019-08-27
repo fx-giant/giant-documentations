@@ -16,7 +16,7 @@ By the columns of the data, it shows the information about different stationary 
 
 ![example1](images/giant-101-barchart/bar-chart-1-bind.PNG)
 
-First, we connect to our data source: **Stationary Sales**. The x-axis represents the different stores within the data. Since the data shows the number of **units** sold of **each specified item** from different stores, we have to use the built-in function **sum** when selecting **units** in order to get the **total number of items purchased from each store** for the Y-axis. 
+First, we connect to the data source: **Stationary Sales**. The x-axis represents the different stores within the data. Since the data shows the number of **units** sold of **each specified item** from different stores, we have to use the built-in function **sum** when selecting **units** in order to get the **total number of items purchased from each store** for the Y-axis. 
 
 ![example1](images/giant-101-barchart/bar-chart-1-y.PNG)
 
@@ -46,7 +46,7 @@ This is the structure of the data we will be using for this example. **Interval*
 
 ![example2](images/giant-101-barchart/bar-chart-2.PNG)
 
-Here we connect to our data source: **intervals.csv**. The x-axis represents the **interval** periods whilst the Y-axis represents the **number of members** that fit into each period.
+Here we connect to the data source: **intervals.csv**. The x-axis represents the **interval** periods whilst the y-axis represents the **number of members** that fit into each period.
 
 ![example2](images/giant-101-barchart/bar-chart-2-filter.PNG)
 
@@ -98,4 +98,4 @@ Here is the final output of our histogram that shows the number of members withi
 
 ![problemexample](images/giant-101-barchart/what-not-to-do.PNG)
 
-In this example, I show the **total sales within each region grouped by the store which the items are sold from**. What I=we want to show requires both legends and data labels so it isn't ideal that we use this bar chart as it makes the data very messy and difficult to read.
+In this example, we show the **total sales within each region grouped by the store which the items are sold from**. What we want to show requires both legends and data labels so it isn't ideal that we use this bar chart as it makes the data very messy and difficult to read.
