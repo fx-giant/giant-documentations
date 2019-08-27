@@ -60,7 +60,7 @@ To further the analysis, there needs to be a data matrix to display the informat
 
 5. Choose **car_model** as another dimension. Rename the column label as "Car Model" and click `Apply`.
 
-6. Click `Add Measurement(s)` and choose `Count` of **order_id** column. Rename the column label as *Total Transactions* and click `Apply`.
+6. Click `Add Measurement(s)` and choose `Count` of **car_id** column. Rename the column label as *Total Transactions* and click `Apply`.
 
     ![Select Features](./images/analysing-using-top-10-and-crossfilter/4.2-selectFeatures.PNG)
 
