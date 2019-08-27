@@ -26,6 +26,6 @@ Click the **hamburger icon** at the top right of the screen and click the **Pale
 
 ![bar](images/giant-101-description_colour/bar.PNG)
 
-Always choose a colour scheme that is bright, has many options and is different so it is easier for the audience to read. This is important as it may be essential for your audience to distinguish the differences in your data represented by your chart.
+Always choose a colour scheme that is bright and has many options so it is easier for the audience to read. This is important as it may be essential for your audience to distinguish the differences in your data represented by your chart.
 
 **Important note**: Choosing colours is dependant on what chart you are using and what information you want to convey to your audience.
