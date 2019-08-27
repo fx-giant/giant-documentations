@@ -1,10 +1,10 @@
 # Visual styling : Legend 
 
-## Introduction:
+## Introduction
 
 This guide will show how to properly use legends when creating charts in GIANT.
 
-## Example 1:
+## Example 1
 
 ![piechart](images/giant-101-legend/pie1.PNG)
 
@@ -21,7 +21,7 @@ Even though we do not have a legend anymore, we do not lose any information we w
 
 **Important Note**: Legends are normally used when it can provide information the current chart itself cannot convey to the user.
 
-## Example 2:
+## Example 2
 
 ![linechart](images/giant-101-legend/line1.PNG)
 
@@ -32,6 +32,6 @@ In this example, this line chart shows the **profit growth of a single company a
 
 If the line chart did not have any legend, the target audience could not tell which line represents the profit growth in which year. Without a legend, we lose important information that is key in telling the story from this chart.
 
-## Summary:
+## Summary
 
 Always think of how the legend affects the showcased information. If removing the legend causes a loss in key information for the target audience, keep it. However, depending on circumstances, consider keeping/removing the legend depending on the visual aesthetic of the chart. Decide on whether keeping the legend is appropriate based on the aesthetic and information parts of the chart.
