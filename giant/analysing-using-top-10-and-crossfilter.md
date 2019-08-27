@@ -4,6 +4,8 @@
 This guide is to show you the top 10 and cross chart functions in GIANT and how to use it to show top 10 products in your analytics works. This guide includes instructions on:
 - How to create a pie chart to show the total buyers by the gender category and a data matrix for top 10 products
 - How the cross chart function aids the analysis of top 10 products bought by the buyers in each of the gender category
+- Cross-chart is an important function used to deepen your analysis. It becomes particularly useful when analyzing specific groups within the data.
+- When a single chart cannot display all the given information, cross-chart may be more helpful in displaying that information using two or more charts.
 
 ### Prerequisites
 * Have an account to access GIANT
@@ -22,7 +24,7 @@ Company A is in the business of selling cars. Company A wants to know the breakd
 
 ### Determine the Total Transactions by Gender
 
-Company A wants to know the total cars purchased by male and female customers. To visualise this, a Gender pie chart can be created to get a clear view on total transactions by gender
+Company A wants to know the total cars purchased by male and female customers. Company A needs this information in order to better understand their consumer base. To visualise this, a Gender pie chart can be created to get a clear view on total transactions by gender
 
 1. From your dashboard, click the `Add` icon, then choose the `Pie` chart icon and click the `Source` icon.
 
@@ -32,7 +34,7 @@ Company A wants to know the total cars purchased by male and female customers. T
 
 3. Rename the pie chart as "Total transactions by Gender".
 
-4. In the `Setting` area, select **gender** for the `Category-Axis` and `Count` of **order_id** for the `Value-Axis`. This is our given output:
+4. In the `Setting` area, select **gender** for the `Category-Axis` and `Count` of **order_id** for the `Value-Axis`. `Count` of **order_id** represents the number of transactions made by the consumers. This is our given output:
 
     ![Create Pie Chart](./images/analysing-using-top-10-and-crossfilter/2-createPieChart.PNG)
 
@@ -42,7 +44,7 @@ Company A wants to know the total cars purchased by male and female customers. T
 
 ### Displaying Top 10 Purchased Cars Information
 
-A data matrix is created to display the information of top 10 purchased cars (which corresponds to the number of transactions, sorted in descending order).
+To further the analysis, there needs to be a data matrix to display the information of top 10 purchased cars (which corresponds to the number of transactions, sorted in descending order).
 
 1. From your dashboard, click on `Add` icon, select `Data Matrix` icon and click `Source` icon. 
 
@@ -58,7 +60,7 @@ A data matrix is created to display the information of top 10 purchased cars (wh
 
 5. Choose **car_model** as another dimension. Rename the column label as "Car Model" and click `Apply`.
 
-6. Click `Add Measurement(s)` and choose `Count` of **car_id** column. Rename the column label as *Total Transactions* and click `Apply`.
+6. Click `Add Measurement(s)` and choose `Count` of **order_id** column. Rename the column label as *Total Transactions* and click `Apply`.
 
     ![Select Features](./images/analysing-using-top-10-and-crossfilter/4.2-selectFeatures.PNG)
 
@@ -80,4 +82,4 @@ Now we can use the `Cross Chart` function to visualize the top 10 purchased cars
 
 ![Top 10 Male](./images/analysing-using-top-10-and-crossfilter/8-top10Male.PNG)
 
-By clicking on the gender segment in the pie chart, you can visualise the top 10 cars for purchased by the Male customers, Female customers or both genders of customers.
+By clicking on the Male segment in the pie chart, you can visualise the top 10 cars purchased by the Male customers, Female customers or both genders of customers. This can be important as Company A might want to come up with new marketing strategies by segementing their customer base by gender. An example is advertising specific car models to their customers based on the top 10 most popular car models popular among each gender.
