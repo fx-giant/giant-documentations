@@ -98,7 +98,7 @@ Go to the **All/Top/Bottom** feature under **Settings**. Click the **All** butto
 
 Set the number to limit the data. In this example, choose the **top 10** points of the data. This filters the data based on the axis of the data.
 
-- In certain situations, if there is certain **continous data**, use a bar chart instead.
+- In certain situations, if there is certain **continuous data**, use a bar chart instead.
  
  Here is the link to bar-chart documentation:
     [using-bar-chart.md](using-bar-chart.md)
