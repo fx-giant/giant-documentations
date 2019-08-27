@@ -1,10 +1,10 @@
 # Visual styling : Labels
 
-## Introduction:
+## Introduction
 
 This guide will show you how to appropriately utilize both data labels and axis labels.
 
-## Example of Data labels:
+## Example of Data labels
 
 Usage of data labels heavily depends on the story we are trying to tell with a chart. 
 
@@ -24,7 +24,7 @@ We click the hamburger icon in the top right of the screen and click on the **Da
 
 Removing the data labels have made it easier for my audience to read and understand my chart better as it is less messy and does not lose what we want to show from my data.
 
-## Example of axis labels:
+## Example of axis labels
 
 Axis labels are very important because it allows the target audience to understand your charts. Always include axis labels to make it easier for the viewer to read. In some cases, the column might not exactly reflect what we want to show to the reader, especially when we are using Giant's aggregate functions. 
 
