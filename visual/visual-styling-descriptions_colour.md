@@ -18,7 +18,7 @@ However, the description helps to show the purpose of the chart and why it was c
 
 ## Example colour:
 
-Choosing colours heavily depend on what chart is being used. Giant already has some built-in colour schemes that it provides when choosing the colours of a chart.
+Choosing colours heavily depend on what chart is being used. GIANT already has some built-in colour schemes that it provides when choosing the colours of a chart.
 
 ![colour](images/giant-101-description_colour/colour.PNG)
 
