@@ -38,7 +38,7 @@ Clicking these square icons denoted by the red square will provide options on wh
 
 ## Example 2 - Multi-Source Combination Charts:
 
-Using multi-source combination charts, we can combine different charts from **different sources** not binded by the same x-axis. In this example, we will be showcasing the **profit growth overall and grouped by years over months**. Instead of having two seperate graphs to showcase the combined and seperate profit growth over years, we can combine it into a single chart. In this example, we will be using a source called **dhl-profit-growth.xlsx**.
+Using multi-source combination charts, we can combine different charts from **different sources** with the data for x-axis and y-axis originating from multiple sources. In this example, we will be showcasing the **profit growth overall and grouped by years over months**. Instead of having two graphs to showcase the combined and separate profit growth over years, we can combine it into a single chart. In this example, we will be using a source called **dhl-profit-growth.xlsx**.
 
 ![data-structure2](images/giant-101-combinationchart/Data-structure-2.PNG)
 
@@ -46,7 +46,7 @@ This is the structure of the data. It shows the profit growth for DHL Malaysia a
 
 ![bind-multi](images/giant-101-combinationchart/bind-multi1.PNG)
 
-Under settings, there is an **Add Connection** button where we can choose multiple sources. In this case we are going to use the same source in order to show the **combined profit growth and seperate profit growth over years by months**.
+Under settings, there is an **Add Connection** button where we can choose multiple sources. In this case we are going to use the same source in order to show the **combined profit growth and separate profit growth over years by months**.
 
 ![bind-multi](images/giant-101-combinationchart/multi-bind2.PNG)
 
@@ -64,7 +64,7 @@ This is the given output:
 
 ![graph3](images/giant-101-combinationchart/graph3.PNG)
 
-Now the graph shows seperate lines which represents the profit growth for 2016, 2017, 2018, 2019 and for all years.
+Now the graph shows separate lines which represents the profit growth for 2016, 2017, 2018, 2019 and for all years.
 
 ## GIANT's Built-In Functions:
 
