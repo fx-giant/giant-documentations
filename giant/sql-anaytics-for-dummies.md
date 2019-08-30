@@ -334,7 +334,7 @@ Say we have a table called **user_transactions** that contains information about
 
 We start by finding out how many users are in the consumer base followed by the number of deals purchased by the users.
 
--  `Select` `count`(**deal_title**), **category** `from` **user_transactions** `group by` **Category** `order by` `count`(**deal_title**) `desc`
+-  `Select` `count`(**deal_title**), **category** `from` **user_transactions** `group by` **category** `order by` `count`(**deal_title**) `desc`
 
 Then, we find out which category is the most popular among the users.
 
@@ -366,7 +366,7 @@ Based on the information we have collected so far, we can now come up with an in
 
 ## Important points
 
-- This is just one example of analysis. The process is heavily dependant on the data that is available. 
+- This is just one example of analysis. The process is heavily dependant on the data that is available.
 
 - The general idea is to start the analysis from a bigger picture and then boiling it down to specifics. 
 
