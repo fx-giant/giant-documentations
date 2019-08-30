@@ -46,7 +46,7 @@ This is the structure of the data. It shows the profit growth for DHL Malaysia a
 
 ![bind-multi](images/giant-101-combinationchart/bind-multi1.PNG)
 
-Under settings, there is a **Add Connection** button where we can choose multiple sources. In this case we are going to use the same source in order to show the **combined profit growth and seperate profit growth over years by months**.
+Under settings, there is an **Add Connection** button where we can choose multiple sources. In this case we are going to use the same source in order to show the **combined profit growth and seperate profit growth over years by months**.
 
 ![bind-multi](images/giant-101-combinationchart/multi-bind2.PNG)
 
@@ -54,7 +54,7 @@ We choose our x-axis to **Month_name** and the y-axis to be **Profit_growth**. W
 
 ![multi-graph1](images/giant-101-combinationchart/multi-graph1.PNG)
 
-This shows the profit growth just in 2016. We now must repeat the binding shown above but for each binding filtering out the different years. 
+This shows the profit growth just in 2016. We now must repeat the binding shown above but for each binding filtering out the different years. Since one of the bindings will represent the profit growth of all the years combined, we do not need to filter out anything for that specifed binding.
 
 ![multi-bind3](images/giant-101-combinationchart/multi-bind3.PNG)
 
@@ -90,8 +90,8 @@ Now the graph shows seperate lines which represents the profit growth for 2016, 
 
 ## Important Notes:
 
-- A Multi-combination chart contains charts that are normally used to show summary or overviews for comparison. So, if there are a large number of data points that requires legends or data labels, it can get very messy.
+- A Multi-combination chart contains charts that are normally used to show summary or overviews for comparison. If there are a large number of data points that requires legends or data labels, it can get very messy.
 
-- There is something wrong with the legends, it is a behind the scenes problem. Add **rich text** to explain what each line actually represents or what your chart represents depending on the data.
+- There is something wrong with the legend feature, it is a behind the scenes problem. Add **rich text** to explain what each line actually represents or what your chart represents depending on the data.
 
 - Depending on the use case, using different charts provided by the options of the multi-source may be ideal.
