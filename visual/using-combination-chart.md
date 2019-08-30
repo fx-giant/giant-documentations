@@ -34,7 +34,7 @@ Now we have a chart that shows the **total revenue within regions** represented 
 
 ![bind3](images/giant-101-combinationchart/data-binding3.png)
 
-Clicking these square icons denoted by the red square will provide options on what charts to use. This feature provides a variety so make sure to know what chart to use given the data.
+Clicking these square icons denoted by the red square will provide options on what chart type to use. This feature provides a variety of chart types to choose from so make sure to know what chart type to use given the data.
 
 ## Example 2 - Multi-Source Combination Charts:
 
