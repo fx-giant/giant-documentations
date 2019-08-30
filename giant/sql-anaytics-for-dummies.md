@@ -150,7 +150,13 @@ This operator can be used to create different views and tables within pgAdmin.
 
 Views are virtual tables where you can insert specific portions of data from tables within your database. This is particularly useful when creating charts on GIANT.
 
-`Create` View **view_name** `as` (`Select` **column1**, **column2** from **Table_name**) --> Creates a view with columns selected from a given table.
+`Create` View **view_name** `as` (`Select` **column1**, **column2** `from` **Table_name**) --> Creates a view with columns selected from a given table.
+
+More specific example:
+
+`Create` View **profit_line-chart** `as` (`Select` **profit**, **year** `from` **company**) --> Creates a view named **profit_line-chart** from the columns **profit** and **year** from table: **company**.
+
+It is useful to create views when making charts instead of connecting to the table source directly if the user does not want to use cross-chart to avoid confusion for the audience or if there is very specific data needed to create this chart.
 
 ---
 
@@ -212,7 +218,7 @@ More specific example:
 
 - **number_products_bought** is in the table **transactions**. 
 
-This retrieves the two columns: **full_name** and **number_products_bought** from the two seperate tables and **joins** them based on a similar column that contains similar data. This allows the user to view **full_name** and **number_products_bought**.  '
+This retrieves the two columns: **full_name** and **number_products_bought** from the two separate tables and **joins** them based on a similar column that contains similar data. This allows the user to view **full_name** and **number_products_bought**.  '
 
 Note: `Inner join` only selects records that have matching values in both tables.
 
@@ -292,9 +298,9 @@ More specific example:
 
 ## How to use the data when using GIANT
 
-When using GIANT, It is very important to understand the structure of the data when making charts within dashboards. GIANT already has many built-in functions that helps aggregate data.
+When using GIANT, it is very important to understand the structure of the data when making charts within dashboards. GIANT already has many built-in functions that helps aggregate data.
 
-If Giant is unfamiliar, please refer to [giant-for-beginner.md](giant-for-beginner.md)
+If GIANT is unfamiliar, please refer to [giant-for-beginner.md](giant-for-beginner.md)
 
 If creating charts within GIANT is unfamiliar, please refer to the [visual folder](../visual) for access to guides on how to create different charts.
 
