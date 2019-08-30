@@ -10,7 +10,7 @@ Usage of data labels heavily depends on the story we are trying to tell with a c
 
 ![bar1](images/giant-101-labels/bar1.PNG)
 
-In this case my bar chart shows the **total sales within each region**. We want to use this chart to compare regions peformance so it is key that we keep the data label when we are presenting. This shows the signficance of the numbers paired with visuals making it easier for the target audience to understand. 
+In this case my bar chart shows the **total sales within each region**. We want to use this chart to compare regions performance so it is important that we keep the data label when we are presenting. This shows the signficance of the numbers paired with visuals making it easier for the target audience to understand. 
 
 ![line1](images/giant-101-labels/line1.PNG)
 
@@ -18,15 +18,15 @@ If we had a line chart which showcased the **profit growth over months grouped b
 
 ![label](images/giant-101-labels/label.PNG)
 
-We click the hamburger icon in the top right of the screen and click on the **Data Label** feature. Then click on the **no label** option to remove the data labels.
+Click the hamburger icon in the top right of the screen and click on the **Data Label** feature. Then click on the **no label** option to remove the data labels.
 
 ![line2](images/giant-101-labels/line2.PNG)
 
-Removing the data labels have made it easier for my audience to read and understand my chart better as it is less messy and does not lose what we want to show from my data.
+Removing the data labels have made it easier for the audience to read and understand the chart better as it is less messy and maintains key points to show from the data.
 
 ## Example of axis labels
 
-Axis labels are very important because it allows the target audience to understand your charts. Always include axis labels to make it easier for the viewer to read. In some cases, the column might not exactly reflect what we want to show to the reader, especially when we are using Giant's aggregate functions. 
+Axis labels are very important because it allows the target audience to understand your charts. Always include axis labels to make it easier for the viewer to read. In some cases, the column might not exactly reflect what we want to show to the reader, especially when we are using GIANT's aggregate functions. 
 
 ![axis](images/giant-101-labels/axis1.PNG)
 
