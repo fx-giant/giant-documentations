@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This guide gives tips on how to use github using bash. GitHub is a command line tool that allows other users to upload useful files, documentation and code in the same place. This is particularly useful when working in teams because other team members can make changes to the files and all the changes can be reviewed.
+This guide gives tips on how to use github using bash. GitHub is a command line tool that allows users to upload useful files, documentation and code in the same place. This is particularly useful when working in teams because other team members can make changes to the files and all the changes can be reviewed.
 
 ### Pre-requisites:
 
@@ -19,13 +19,13 @@ Repositories is a term commonly used in git. A repository is essentially a folde
 
 ![example](images/git-for-dummies/example1.PNG)
 
-For the sake of this example, we have to **fork a repository**. Forking a repository is copying someone else's repository for you to make your own changes to. First, go to the link of the other person's repository. Here is an example repository to use : [example repository](https://github.com/TuanNguyenAlpha/example)
+For the sake of this example, we have to **fork a repository**. Forking a repository is copying someone else's repository to make  changes to. First, go to the link of the other repository. Here is an example repository to use : [example repository](https://github.com/TuanNguyenAlpha/example)
 
 ![example2](images/git-for-dummies/example2.PNG)
 
-Once we log in to our account on [github.com](https://github.com/), click the **fork** button at the top right. Now we have a copy of the other person's repository.
+Once we log in to our account on [github.com](https://github.com/), click the **fork** button at the top right. Now we have a copy of the other repository.
 
-We will be running through some basic git commands using this newly created repository. Search **git bash** on the local machine and proceed to open it. A window will pop up looking something like this:
+We will be running through some basic git commands using this forked repository. Search **git bash** on the local machine and proceed to open it. A window will pop up looking like this:
 
 ![bashexample](images/git-for-dummies/bash.PNG)
 
@@ -49,15 +49,15 @@ Go to the link of the original repository and click the **Clone or download** bu
 
 ![remote2](images/git-for-dummies/remote2.PNG)
 
-In this case we call the remote **ogrepo** when we add it. Users normally name it **upstream** as it refers to the original repository. Type `cd` **folder_name** in order to be in the correct directory. In this case we type `cd` **example** because that is what the file is named. 
+In this case we call the remote **ogrepo**. Users normally name it **upstream** as it refers to the original repository. Type `cd` **folder_name** in order to be in the correct directory. In this case, we type `cd` **example** because that is what the file is named. 
 
 ![branch](images/git-for-dummies/cd.PNG)
 
-Notice that next to the directory in git bash, it states **(master)**. **Master** represents the original branch that we **NEVER** want to make changes to. Each branch represents unique changes to a project. If we make changes to the **master** branch, it will affect all the changes others have made. So what do we do? Make a new branch and make the changes there. We want to name the branch to reflect what we are changing. Say we want to upload a document called **example.md** to the repository. First, type `git checkout -b` **f-name_of_branch**, in order to create a new branch and switch to it.
+Notice that next to the directory in git bash, it states **(master)**. **Master** represents the original branch that we **NEVER** want to make changes to. Each branch represents unique changes to a project. If we make changes to the **master** branch, it will affect all the changes others have made. We want to avoid this so we make a new branch and make the changes there. Name the branch to reflect what we are changing. Say we want to upload a document called **example.md** to the repository. First, type `git checkout -b` **f-name_of_branch**, in order to create a new branch and switch to it.
 
 ![branch](images/git-for-dummies/create-branch.PNG)
 
-In this case, we create a new branch called **f-uploading-documents** and switch out to it. We name it **f-uploading-documents** because we are uploading new documents. Naming the branch doesn't always have to follow the changes being made to the repository. It can also be named based on the naming of the documents. For example, if i am adding multiple documents to the repository that share the name **Giant-101**, we would name the branch **f-giant-101**. Now we can start adding the new file **example.md** to the repository.
+In this case, we create a new branch called **f-uploading-documents** and switch out to it. We name it **f-uploading-documents** because we are uploading new documents. Naming the branch doesn't always have to follow the changes being made to the repository. It can also be named based on the naming of the documents. For example, if we add multiple documents to the repository that share the name **Giant-101**, we name the branch **f-giant-101**. Now we can add the new file **example.md** to the repository.
 
 ![local](images/git-for-dummies/local.PNG)
 
@@ -69,11 +69,11 @@ In this case, we move **example.md** to the forked repository folder **example**
 
 ![status1](images/git-for-dummies/status1.PNG)
 
-The file we added is highlighted in red, this means it is untracked. Type `git add` **filename** to add a specific file or `git add .` to add all the files you have added. Then, type `git status` to see the tracked files.
+The file we added is highlighted in red, this means it is untracked. Type `git add` **filename** to add a specific file or `git add .` to track all the files you have added. Then, type `git status` to see the tracked files.
 
 ![status2](images/git-for-dummies/status2.PNG)
 
-Now the file we added is being tracked. This is shown as the file is **highlighted in green**. Now that we know the file is tracked we have to use `git commit -m` **"statement here"**. This command is essentially commenting what you are changing in the repository. Make sure to be **specific** because if the commit is too vague, the owner of the original repository will not know what changed.
+Now the file we added is being tracked. This is shown as the file is **highlighted in green**. Now that we know the file is tracked we have to use `git commit -m` **"statement here"**. This command is essentially commenting what you are changing in the repository. Make sure to be **specific** because if the commit is too vague, the owner of the original repository will not know what changed. Avoid commiting using the same commit message as it may be confusing for the owner.
 
 ![commit](images/git-for-dummies/commit.PNG)
 
@@ -85,9 +85,9 @@ Now all the changes we made to the repository on the branch **f-uploading-docume
 
 ![githubexample](images/git-for-dummies/forked.PNG)
 
-In the forked repository under the branch we were working on. The document we added can be seen in the repository.
+In the forked repository under the branch we were working on, the document we added can be seen in the repository.
 
-Now we have to submit a **pull request**. A **pull request** is essentially asking the owner of the original repository to merge the branch we made changes to with the **master** of the original repository.
+Now we have to submit a **pull request**. A **pull request** is essentially asking the owner of the original repository to merge the branch we made changes to with another branch of the original repository.
 
 ![githubexample](images/git-for-dummies/online.PNG)
 
@@ -95,11 +95,11 @@ On the github website, once we have **pushed** our changes, a message pops up sa
 
 ![githubexample2](images/git-for-dummies/online2.PNG)
 
-We are directed to this page where we can edit the title of the PR and add a description for finer details. The details of the **PR** (pull request) can be viewed here. This PR states we want to merge the branch we worked on from the forked repository to the master of the original repository. Click the **Create pull request** button. Now we wait for the changes to be reviewed by the owner. 
+We are directed to this page where we can edit the title of the PR and add a description for finer details. The details of the **PR** (pull request) can be viewed here. This PR states we want to merge **f-uploading-documents** from the forked repository to the **master** of the original repository. Click the **Create pull request** button. Now we wait for the changes to be reviewed by the owner. 
 
 ## Important notes:
 
-- All pull requests will have a number assigned to them. In the example below, our PR is #1. It is always helpful to notify the owner of the original repository the number of the PR to make it easier for them to find and review the PR. Alternatively, giving the **link** of the PR will help the owner find it.
+- All pull requests will have a number assigned to them. In the example below, the PR is #1. It is always helpful to notify the owner of the original repository the number of the PR to make it easier for them to find and review the PR. Alternatively, giving the **link** of the PR will help the owner find it.
 
 ![pr](images/git-for-dummies/pr.PNG)
 
