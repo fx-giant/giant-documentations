@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This guide gives tips on how to layout dashboards to make it both aesthetically pleasing and organised. This is very important as GIANT's dashboard feature is a powerful presenting tool. Instead of using the conventional static powerpoint, GIANT's dashboard feature allows for more interesting and interactive presentations.
+This guide gives tips on how to design layout for dashboards to make it both aesthetically pleasing and organised. This is very important as GIANT's dashboard feature is a powerful presenting tool. Instead of using the conventional static powerpoint, GIANT's dashboard feature allows for more interesting and interactive presentations.
 
 ## Dashboard themes:
 
-First we want to decide on what theme is best to present the charts. GIANT provides many samples to choose from.
+First we want to decide on what theme is best to present the charts. GIANT provides many preset themes to choose from.
 
 ![edit](images/giant-101-layouting/edit.PNG)
 
@@ -14,7 +14,7 @@ Click the **edit** icon.
 
 ![themes](images/giant-101-layouting/theme.PNG)
 
-Then click the **hamburger icon** and it will come up with these options. Click **Change** and there will be different themes available. The white theme is the best option because it is clean and easy to match with other colours. However, it depends on the charts curated.
+Then click the **hamburger icon** and it will come up with these options. Click **Change** and there will be different themes available. The white theme is the best option because it is clean and easy to match with other colours. However, it depends on the charts created and the colour palettes applied to the charts.
 
 ## Example 1:
 
@@ -22,11 +22,11 @@ For this example, we are going to use the source: **Stationery Sales**. We are g
 
 ![themes](images/giant-101-layouting/Kpi1.PNG)
 
-First we create a dashboard with the title of what we are showcasing. We show all the important KPIs. We layout the dashboard as if we were presenting with it. So first, we talk about the total units sold followed by how much revenue was made and the total cost beared. Then we show visual examples that showcase summaries of the company's performance.
+First we create a dashboard with the title of what we are showcasing. We show all the important KPIs. We arrange the charts according to the flow of the data story presented in the dashboard. So first, we talk about the total units sold followed by how much revenue was made and the total cost beared. Then we show visual examples that showcase summaries of the company's performance.
 
 ![summary](images/giant-101-layouting/Summary.PNG)
 
-Here we show the **total units sold** over **years** by a line graph and the **proportion of items sold contributing to renvenue** by a pie chart. All these charts were created in order to showcase the **summary** of the Stationary company. These representations of data coincides with the story we are trying to tell: How is the company performing? However, If we wanted to perform more specific analysis on the same company it would be a good idea to create a seperate dashboard. In context, the overview dashboard will showcase different information than the other dashboard so it will be easier for the target audience to understand.
+Here we show the **total units sold** over **years** by a line graph and the **proportion of items sold contributing to revenue** by a pie chart. All these charts were created in order to showcase the **summary** of the Stationary company. These representations of data correspond with the story that we are trying to tell i.e. : How is the company performing? However, If we wanted to perform more specific analysis on the same company it would be a good idea to create a separate dashboard. In context, the overview dashboard will showcase different information than the other dashboard so it will be easier for the target audience to understand.
 
 ## Example 2:
 
@@ -42,14 +42,13 @@ We also create a barchart to showcase the top 5 products sold and use **cross-ch
 
 If you are new to the cross chart function, refer to [analysing-using-top-10-and-crossfilter](../giant/analysing-using-top-10-and-crossfilter.md)
 
-
 This allows us to tell our story specific to our analysis. We look at the revenue generated within each store to see which store is performing the best followed by filtering it out by the latest year of data we have. Then we see what products are popular within the stores that are doing the best using the **cross-chart** function. The Stationary company may want to know this to prioritize which item to stock in each store.
 
-As we are talking about a more specific part of the analysis, It is easier to use a seperate dashboard so the audience understands that we are telling a different part of the story.
+As we are talking about a more specific part of the analysis, it is easier to use a separate dashboard so the audience understands that we are telling a different part of the story.
 
 ## Important Points:
 
-- The layout of the dashboard heavily depends on the story being told. We seperate general analysis from specific analysis into different dashboards so we do not overpopulate a single dashboard and overwhelm the target audience with information.
+- The layout of the dashboard heavily depends on the story being told. We separate general analysis from specific analysis into different dashboards so we do not overpopulate a single dashboard and overwhelm the target audience with information.
 
 - This allows clear and concise dashboards as we use GIANT to present two different topics under the same analysis.
 
