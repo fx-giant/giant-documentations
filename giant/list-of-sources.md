@@ -2,23 +2,27 @@
 
 ## Introduction
 
+This document aims to explain a list of sources that was used both for analysis work and GIANT documentation
+
 ### PostgreSQL:
 
 Database : peter_8excite
 
 ### Tables:
 
-`deal` --> Table that includes all the information about deals sold by 8excite e.g. **title**, **selling_price**, **category** etc. This table is unique to **id** which is the deal id. There may be repeated **deal titles** but they are repeated because they have different **id**s.
+`deal` --> Table that includes all the information about deals sold by 8excite e.g. **title**, **selling_price**, **category** etc. This table is unique to **id** which is the deal id. There may be repeated deal titles because deal titles are not unique data row identifiers. The deal ids are unique and can be used to differentiate the deals.
 
-`member` --> Table that includes all the user information about members within 8excite e.g. **gender**, **age_group** etc. This table is unique to **id** which is the member id. 
+`member` --> Table that includes all the user information about members within 8excite e.g. **gender**, **age_group** etc. The unique identifier of this table is **id** (intepreted as member id).
 
-`transaction` --> Table that includes all the information on 8excite member's transactions (what deals they have purchased on 8excite) e.g. **payment_made_at_date**, **status** etc. This table is unique to **id** which is transaction id. 
+`transaction` --> Table that includes all the information on 8excite member's transactions (what deals they have purchased on 8excite) e.g. **payment_made_at_date**, **status** etc. The unique identifier of this table is **id** (intepreted as transaction id).
 
 `takaful_transaction` --> Table that includes information about Takaful/8excite members renewing their insurance policies e.g. **receipt_number**, **loyalty_account_id** (Takaful's member id), **receipt_date** etc. This table is unique to **receipt_number** which is the the receipt number of the policy renewed.
 
-`takaful_users` --> An agreggated table created from `deal`, `member`, `transaction` and `takaful_transaction`. This includes user information about takaful/8excite members e.g. **total_policy** (total policies renewed), **email**, **total_deal_purchase** etc. This table is unique to how many deals a user purchases so there will be repeated columns. 
+`takaful_users` --> An agreggated table created from `deal`, `member`, `transaction` and `takaful_transaction`. This includes user information about takaful/8excite members e.g. **total_policy** (total policies renewed), **email**, **total_deal_purchase** etc. There are repeated columns as the rows are based on the multiple deals purchased by users.
 
 ### Views:
+
+Below is a list of Views created from the Tables listed above.
 
 `member_takaful_transaction` --> Contains columns **loyalty_account_id** and **is_takaful_member_before** to create labels on dashboards to see how many members were brought in to takaful by 8excite and how many members were brought in to 8excite by takaful. Created from **member**.
 
