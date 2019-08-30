@@ -8,14 +8,14 @@ This guide gives tips on how to use github using bash. GitHub is a command line 
 
 - A git hub account that can be created here : [github.com](https://github.com/)
 
-- Donwloading Git bash here : [Git bash download](https://git-scm.com/downloads)
+- Downloading Git bash here : [Git bash download](https://git-scm.com/downloads)
 
 ![giticon](images/git-for-dummies/icon.PNG)
 
 
 ### Using Bash in a local machine:
 
-Repositories is a term commonly used in git. A repository is essentially a folder for a project. This is the place where files, documents and code will be uploaded to. 
+Repositories is a term commonly used in git. A repository is a place where you upload and store files, documents and code.
 
 ![example](images/git-for-dummies/example1.PNG)
 
