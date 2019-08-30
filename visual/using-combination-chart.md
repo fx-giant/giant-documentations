@@ -92,6 +92,6 @@ Now the graph shows separate lines which represents the profit growth for 2016, 
 
 - A Multi-combination chart contains charts that are normally used to show summary or overviews for comparison. If there are a large number of data points that requires legends or data labels, it can get very messy.
 
-- There is something wrong with the legend feature, it is a behind the scenes problem. Add **rich text** to explain what each line actually represents or what your chart represents depending on the data.
+- When you want to label individual lines on a line chart via legend, name the y-axis according to the filter applied e.g. **number of users 2018** based on the example above.
 
 - Depending on the use case, using different charts provided by the options of the multi-source may be ideal.
