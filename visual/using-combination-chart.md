@@ -32,7 +32,7 @@ As it is a combination chart, we can combine multiple columns from the y-axis to
 
 Now we have a chart that shows the **total revenue within regions** represented by a bar chart and the relative **total costs within regions**. Based on the use case and data shown, it does not always have to be represented by a bar chart and a line chart.
 
-![bind3](images/giant-101-combinationchart/data-binding3.PNG)
+![bind3](images/giant-101-combinationchart/data-binding3.png)
 
 Clicking these square icons denoted by the red square will provide options on what charts to use. This feature provides a variety so make sure to know what chart to use given the data.
 
