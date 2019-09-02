@@ -78,6 +78,8 @@ You can [refer here](./setting-up-chatbot-agent-in-dialogflow.md) for the steps 
 ![enter-service-account-name](./images/setting-up-chatbot-agent-in-giant-images/enter-service-account-name.png)
  
         vi. Next, assign the role Dialogflow API Admin to the Service Account. Then, click CONTINUE button to proceed. 
+		
+*NOTE: Please ensure that you have sufficient role **(Project IAM Admin)** within the GCP project to create the required service account and configure service account role. Please contact GIANT Administrator if you are unable to configure service account role. Your account permission needs to be configured to enable your access to this feature.*
         
 ![assign-role](./images/setting-up-chatbot-agent-in-giant-images/assign-role.png)
  
