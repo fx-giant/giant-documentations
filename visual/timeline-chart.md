@@ -7,13 +7,18 @@ Timeline chart is typically used to show a specific or huge event happening on a
 - The bindings required are 2 dimensions binding 
     >Date and event name for dimensions
       
-  ![Binding](./images/timeline-chart/01.DataBinding.PNG) 
+
+   ![Binding](./images/timeline-chart/01.DataBinding.PNG) 
   
 - The optional binding is measurement binding which shows a number of Value ( usually networth / calculated things )
 
- ![Optional Binding](./images/timeline-chart/02.OptionalDataBinding.PNG)
- ![Timeline Example](./images/timeline-chart/03.Example.PNG)
+    ![Optional Binding](./images/timeline-chart/02.OptionalDataBinding.PNG)
+
+    ![Timeline Example](./images/timeline-chart/03.Example.PNG)
+
 Sample data download [here](./sample-data/timeline-chart/01.TimelineApple.xlsx).
+
+---
 
 ### Diagram label align Order
 There are three options for this configuration which are *Alternate*, *Above*, *Below*. The default option is *Alternate*.
@@ -23,18 +28,23 @@ There are three options for this configuration which are *Alternate*, *Above*, *
 
     ![Sort Order](./images/timeline-chart/04.LabelPosition.PNG)
     
+    A. Alternate
     ![Example 1](./images/timeline-chart/04.LabelPositionA.PNG)
-    
+
+    B. Above  
     ![Example 2](./images/timeline-chart/04.LabelPositionB.PNG)
     
+    C. Below
     ![Example 3](./images/timeline-chart/04.LabelPositionC.PNG)
 
+---
 
 ## Incompatible data source 
-- The data source should not contain 
-    - Unmodified Date format , it should present DD-MM-YYYY 
+- The data source should not contain unmodified Date format , it should present DD-MM-YYYY 
 
 - For the above cases, "INVALID DATE" will occur on the Date label
+
+---
 
 ## Unhandled conditions
 - Date bindings from Date 1 to Date 2 are too short / long ( extreme ) since the chart xValue(date) the distance between Date1 to Date2 are proportional among all distance
@@ -43,7 +53,9 @@ There are three options for this configuration which are *Alternate*, *Above*, *
 
 - Haven't implemented a scrollbar to scroll the timeline to left / right 
 
- ![Setting Panel](./images/timeline-chart/05..PNG)
+   ![Setting Panel](./images/timeline-chart/05..PNG)
+
+---
 
 ## Use cases
 
@@ -51,7 +63,8 @@ There are three options for this configuration which are *Alternate*, *Above*, *
    
 To show what product has been launched by the company and it could input the value of it ( maybe networth / product price / market stock price)
 
- ![Timeline Example](./images/timeline-chart/03.Example.PNG)
+   ![Timeline Example](./images/timeline-chart/03.Example.PNG)
+
 Sample data download [here](./sample-data/timeline-chart/01.TimelineApple.xlsx).
 
 ### Specific events on an individual life
