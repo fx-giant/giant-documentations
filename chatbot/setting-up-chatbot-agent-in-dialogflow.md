@@ -118,4 +118,4 @@ Tips on things to do when things go wrong:
 
 1. If you would need to set default value for intent's parameter, **DO NOT** set JSON Object as default parameter. It will be treated as **string** value in the content of the parameter. 
 
-	![test-console](./images/setting-up-chatbot-agent-in-dialogflow-images/set-intent-param-default-value.PNG)
+	![set-intent-param-default-value](./images/setting-up-chatbot-agent-in-dialogflow-images/set-intent-param-default-value.PNG)
