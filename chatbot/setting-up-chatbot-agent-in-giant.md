@@ -189,3 +189,28 @@ Tips on things to do when things go wrong:
 6. You also need to refresh the Intent List in GIANT after you created any new Intents in Dialogflow. Newly-added Intents in Dialogflow **will not automatically appear** in GIANT's Intent List.
 
    ![protips-refresh-after-add-new-intent](./images/setting-up-chatbot-agent-in-giant-images/protips-refresh-after-add-new-intent.png)
+
+
+7. Ensure that all the parameters in RICH TEXT RESPONSE action for the intents in GIANT are get the parameter by adding a `$` infront. At the same time, ensure the parameter is configured in Dialog Flow parameter.
+
+>> Sample Configuration:
+
+>- Parameter Name in Dialog Flow: `package-type` 
+  ![df-intent-param](./images/setting-up-chatbot-agent-in-giant-images/df-intent-param.png)
+>- Way to get parameter in GIANT Intent Response: `$package-type`
+![intent-response-param](./images/setting-up-chatbot-agent-in-giant-images/intent-response-param.png)
+
+8. If you would like to configure the default value for specific parameter when user's answer hit specific intent's, you will need to create an event action in GIANT intent with specific condition to fullfill.
+
+
+>>8.1 Create EVENT action in GIANT Intent
+
+>>8.2 Add in conditions required to meet based on parameter (optional)
+
+>>8.3 Configure follow-up event based on which follow-up event you wanted to attach to.
+
+>>![sample-intent-event-name.png](./images/setting-up-chatbot-agent-in-giant-images/sample-intent-event-name.png)
+
+>>8.4 Configure parameter name and default value.
+
+>>![intent-event-parameter-default-value.png](./images/setting-up-chatbot-agent-in-giant-images/intent-event-parameter-default-value.png)

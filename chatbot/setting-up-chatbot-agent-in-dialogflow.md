@@ -110,3 +110,12 @@ For example, when the user says "I want to see dog pictures", the bot needs to s
     *NOTE: The Test Console helps you in identifying whether the Training Phrases (which corresponds to what the users are saying) can be matched to the correct intent. You may need to amend your Training Phrases if the user statements can’t be matched to the intended intent.*
     
 	![test-console](./images/setting-up-chatbot-agent-in-dialogflow-images/test-console.png)
+
+
+	## Pro Tips
+
+Tips on things to do when things go wrong:
+
+1. If you would need to set default value for intent's parameter, **DO NOT** set JSON Object as default parameter. It will be treated as **string** value in the content of the parameter. 
+
+	![test-console](./images/setting-up-chatbot-agent-in-dialogflow-images/set-intent-param-default-value.PNG)
