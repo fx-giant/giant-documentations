@@ -316,3 +316,11 @@ When the **Chat Simulator** fails to show the responses as expected, follow the 
 	- **Disable the webhook** for the Intent
 
 		![debug-context-value-missing-resolution](./images/chat-simulator-debugging-tips-images/debug-context-value-missing-resolution.png)
+
+## Part3: Using Dialogflow for debugging
+1. Direct to the interface of dialogflow, and switch to the specific chatbot which needs to be tested. Simulator panel is at right side. 
+	![df_simulator](./images/chat-simulator-debugging-tips-images/df_simulator.png)
+2. Key in the user input from "try it now" text field, and scroll down to "diagnostic info" part. 
+	![diagnostic_info_location](./images/chat-simulator-debugging-tips-images/diagnostic_info_location.png)
+3. Can check into all the active context parameter and its current value. 
+	![diagnostic_info](./images/chat-simulator-debugging-tips-images/diagnostic_info.png)
