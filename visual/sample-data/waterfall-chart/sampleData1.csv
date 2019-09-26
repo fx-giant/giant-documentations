@@ -1,0 +1,7 @@
+Category,Value,Open,DisplayValue,StepValue,Color
+0.1  Net Revenue,8786,0,8786,8786,#CFE385
+0.2 Cost of Sales,6000,8786,2786,6000,#E385A0
+0.3 Operating Expenses,4214,6000,1786,4214,#E38785
+0.4 Amortization,3761,4214,453,3761,#E3A385
+0.5 Income from equity,5217,3761,1456,5217,#85E391
+0.6 Operating Income,5217,0,5217,5217,#85E3AD
