@@ -15,15 +15,15 @@ A waterfall chart is a form of data visualization that helps in understanding th
     >StepValue presents the difference between current value and initial value. 
 
 
-![Data Bindings](./images/waterfall-chart/data-bindings.PNG)
+![Data Bindings](./images/waterfall-chart/data-bindings.png)
   
 * The optional bindings are:
     * `Color` binding which binds the color of the nodes
     * `Display Value` that shows the difference between amounts before a category was applied and after.
 
-![Color Change](./images/waterfall-chart/without-color.PNG)
+![Color Change](./images/waterfall-chart/without-color.png)
  
-Sample data download [here](./sample-data/waterfall-chart/sampledata1.csv).
+Sample data download [here](./sample-data/waterfall-chart/sampleData1.csv).
 
 ## Use cases
 
@@ -31,14 +31,15 @@ Sample data download [here](./sample-data/waterfall-chart/sampledata1.csv).
    
 This dataset shows all finance costs, expenses, income and net revenue of a company for a given period of time. We can see that the major expense for the company is a cost of sales, followed by operating expenses.
 
-![Color Binding](./images/waterfall-chart/sample-chart1.PNG)
+![Color Binding](./images/waterfall-chart/sample-chart1.png)
+./images/sankey-diagram/show-percentage.PNG
 
-Sample data download [here](./sample-data/waterfall-chart/sampledata1.csv).
+Sample data download [here](./sample-data/waterfall-chart/sampleData1.csv).
 
 ### Monthly Income Chart
    
 This dataset shows overall year income based on every month profit and loss. 
 
-![Color Binding](./images/waterfall-chart/sample-chart2.PNG)
+![Color Binding](./images/waterfall-chart/sample-chart-2.png)
 
-Sample data download [here](./sample-data/waterfall-chart/sampledata2.csv).
+Sample data download [here](./sample-data/waterfall-chart/sampleData2.csv).
