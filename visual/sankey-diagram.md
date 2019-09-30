@@ -1,4 +1,6 @@
 # Sankey Diagram
+
+![sankey-diagram](./images/sankey-diagram/sankey-diagram.svg)    
 Sankey diagram displays the data flows and the respective quantities. This chart is typically used to show flow of money, materials, information and energy. The width of the thread connecting from one point to another shows the relative strength of the flow.
 
 ## Diagram Design / Configuration

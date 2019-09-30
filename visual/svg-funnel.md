@@ -1,6 +1,8 @@
 # SVG Funnel
 
 ## Introduction
+
+![svg-funnel](./images/svg-funnel/svg-funnel.svg)     
 The SVG Funnel is a visual that uses an image to represent the categories and values in a chart. There are two types available, depending on the chart mode that you choose for the chart:
 
 **a) Type 1 - Stacked SVG Funnel**   

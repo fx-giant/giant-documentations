@@ -1,6 +1,8 @@
 # Stacked SVG Funnel
 
 ## Introduction
+     
+![svg-funnel](./images/svg-funnel/svg-funnel.svg)     
 This document details out the data binding and use cases for **Stacked SVG Funnel**. Refer [here](./svg-funnel.md) to get an overview of SVG Funnel.
 
 ## Data Binding
