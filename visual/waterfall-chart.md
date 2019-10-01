@@ -30,7 +30,7 @@ Sample data download [here](./sample-data/waterfall-chart/sampleData1.csv).
    
 This dataset shows all finance costs, expenses, income and net revenue of a company for a given period of time. We can see that the major expense for the company is a cost of sales, followed by operating expenses.
 
-![Color Binding](./images/waterfall-chart/sample-chart1.png)
+![Operative Income](./images/waterfall-chart/sample-chart1.png)
 
 Sample data download [here](./sample-data/waterfall-chart/sampleData1.csv).
 
@@ -38,7 +38,7 @@ Sample data download [here](./sample-data/waterfall-chart/sampleData1.csv).
    
 This dataset shows overall year income based on every month profit and loss. 
 
-![Color Binding](./images/waterfall-chart/sample-chart-2.png)
+![Monthly Income Chart](./images/waterfall-chart/sample-chart-2.png)
 
 Sample data download [here](./sample-data/waterfall-chart/sampleData2.csv).
 
@@ -48,4 +48,4 @@ Current dataset displays a person's savings based on one's salary and spendings.
 
 ![Monthly Savings](./images/waterfall-chart/monthly-savings.png)
 
-Sample data download [here](./sample-data/waterfall-chart/monthly-savings.csv).
+Sample data download [here](./sample-data/waterfall-chart/monthly-savings.xlsx).
