@@ -4,22 +4,21 @@ A waterfall chart is a form of data visualization that helps in understanding th
 ## Diagram Design / Configuration
 
 ### Binding
-- The bindings required are Category, Value, Open Value and StepValue.
+- The bindings required are Category and Value.
 
     >Category shows a name for a certain category. 
 
-    >Open Value shows the existing amount before the current category is applied. 
-
-    >Value reflects the amount after the current category is applied. 
-
-    >StepValue presents the difference between current value and initial value. 
+    >Value stores the amount of income or losses for a certain category
 
 
 ![Data Bindings](./images/waterfall-chart/data-bindings.png)
   
-* The optional bindings are:
-    * `Color` binding which binds the color of the nodes
-    * `Display Value` that shows the difference between amounts before a category was applied and after.
+Based on binded values that come from Excel Sheet, several required values will be automatically calculated.
+* These values are:
+    * `Start Value` shows the existing amount before the current category is applied. This value will always be 0 for the first and last columns and is equal to 'End Value' of previuos category in other cases. 
+    * `End Value` Value reflects the amount after the current category is applied. 'End Value' is a sup of 'Value' and 'Start Value'
+    * `Color` binding which binds the color of the nodes. It is always red for negative values, green for positive values and blue for first and last columns.
+    * `Display Label` that shows the difference between amounts before a category was applied and after. This is equal to Value.
 
 ![Color Change](./images/waterfall-chart/without-color.png)
  
@@ -32,7 +31,6 @@ Sample data download [here](./sample-data/waterfall-chart/sampleData1.csv).
 This dataset shows all finance costs, expenses, income and net revenue of a company for a given period of time. We can see that the major expense for the company is a cost of sales, followed by operating expenses.
 
 ![Color Binding](./images/waterfall-chart/sample-chart1.png)
-./images/sankey-diagram/show-percentage.PNG
 
 Sample data download [here](./sample-data/waterfall-chart/sampleData1.csv).
 
@@ -43,3 +41,11 @@ This dataset shows overall year income based on every month profit and loss.
 ![Color Binding](./images/waterfall-chart/sample-chart-2.png)
 
 Sample data download [here](./sample-data/waterfall-chart/sampleData2.csv).
+
+### Monthly Savings
+   
+Current dataset displays a person's savings based on one's salary and spendings. 
+
+![Monthly Savings](./images/waterfall-chart/monthly-savings.png)
+
+Sample data download [here](./sample-data/waterfall-chart/monthly-savings.csv).

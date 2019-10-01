@@ -1,14 +1,14 @@
-ID,Category,Value,Open,Color,DisplayValue,StepValue
-1,01. January,1800,800,green,1000,1800
-2,02. February,3000,1800,green,1200,3000
-3,03. March,3500,3000,green,500,3500
-4,04. April,2700,3500,red,800,2700
-5,05. May,2300,2700,red,400,2300
-6,06. June,2600,2300,green,300,2600
-7,07. July,1900,2600,red,700,1900
-8,08. August,900,1900,red,1000,900
-9,09. September,1600,900,green,700,1600
-10,10. October,2800,1600,green,1200,2800
-11,11. November,4800,2800,green,2000,4800
-12,12. December,7200,4800,green,2400,7200
-13,END,7200,0,blue,7200,7200
+ID,Category,Value
+0,Start,800
+1,01. January,1000
+2,02. February,1200
+3,03. March,500
+4,04. April,-800
+5,05. May,-400
+6,06. June,300
+7,07. July,-500
+8,08. August,-1000
+9,09. September,700
+10,10. October,1200
+11,11. November,2000
+12,12. December,2400
