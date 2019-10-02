@@ -317,10 +317,10 @@ When the **Chat Simulator** fails to show the responses as expected, follow the 
 
 		![debug-context-value-missing-resolution](./images/chat-simulator-debugging-tips-images/debug-context-value-missing-resolution.png)
 
-## Part3: Using Dialogflow for debugging
-1. Direct to the interface of dialogflow, and switch to the specific chatbot which needs to be tested. Simulator panel is at right side. 
+## Part 3: Using Dialogflow for debugging
+1. Go to the interface of dialogflow, and switch to the specific chatbot which needs to be tested. Simulator panel is at the right side of screen. 
 	![df_simulator](./images/chat-simulator-debugging-tips-images/df_simulator.png)
-2. Key in the user input from "try it now" text field, and scroll down to "diagnostic info" part. 
+2. Key in the user input in "try it now" text field, and scroll down to "diagnostic info" part.
 	![diagnostic_info_location](./images/chat-simulator-debugging-tips-images/diagnostic_info_location.png)
-3. Can check into all the active context parameter and its current value. 
+3. Click on "diagnostic info" button. A pop-up with diagnostic details is shown. You can check all the active context parameter and its current value in this section.
 	![diagnostic_info](./images/chat-simulator-debugging-tips-images/diagnostic_info.png)
