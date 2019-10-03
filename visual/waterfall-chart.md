@@ -15,10 +15,10 @@ A waterfall chart is a form of data visualization that helps in understanding th
   
 Based on binded values that come from Excel Sheet, several required values will be automatically calculated.
 * These values are:
-    * `Start Value` shows the existing amount before the current category is applied. This value will always be 0 for the first and last columns and is equal to 'End Value' of previuos category in other cases. 
-    * `End Value` Value reflects the amount after the current category is applied. 'End Value' is a sup of 'Value' and 'Start Value'
+    * `Start Value` shows the existing amount before the current category is applied. This value will always be 0 for the first and last columns and is equal to 'End Value' of previuos category. 
+    * `End Value` Value reflects the amount after the current category is applied. 'End Value' is a sum of 'Value' and 'Start Value'
     * `Color` binding which binds the color of the nodes. It is always red for negative values, green for positive values and blue for first and last columns.
-    * `Display Label` that shows the difference between amounts before a category was applied and after. This is equal to Value.
+    * `Display Label` that shows the difference between amounts before and after a category is applied. This is equal to Value.
 
 ![Color Change](./images/waterfall-chart/without-color.png)
  
@@ -44,7 +44,7 @@ Sample data download [here](./sample-data/waterfall-chart/sampleData2.csv).
 
 ### Monthly Savings
    
-Current dataset displays a person's savings based on one's salary and spendings. 
+Current dataset displays a person's savings based on one's salary and spending. 
 
 ![Monthly Savings](./images/waterfall-chart/monthly-savings.png)
 
