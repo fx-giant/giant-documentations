@@ -13,7 +13,7 @@ _Note: The value **jwt:sub** needs to be configured as the Intent Parameter valu
 ## Part 1: Setup in Giant
 
 1. Click into the _Default Welcome Intent_ and add another response to show for a logged-in user. 
-    ![Specific Response for User](./how-to-use-chat-bot-identity-images/user_response_1.png)
+    ![Specific Response for User](./images/how-to-use-chat-bot-identity-images/user_response_1.png)
 
 2. Configure the _Intent Parameter_ for the answer to show to a non-logged in user (i.e. _perform the action when **jwt:sub** is **not provided**_). 
     ![Intent Parameter for Non-User](./images/how-to-use-chat-bot-identity-images/user_response_2.png)
