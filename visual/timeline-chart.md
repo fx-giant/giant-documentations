@@ -21,7 +21,7 @@ Image Path enables the addition of images onto the timeline chart if there are i
 ![TimeLine Images](./images/timeline-chart/images.PNG)
 
 ### Sorting and Filtering
-Sorting and filtering helps in minimising large data sets to focus on certain 
+Sorting and filtering helps in minimising large data sets to focus on certain key points within the dataset.
 
 ![TimeLine Sort and Filter](./images/timeline-chart/sort-and-filter.PNG)
 
@@ -41,7 +41,7 @@ The diagram below shows the data binding for US President Deaths and Terms use c
 
 ![First Use Case Binding](./images/timeline-chart/binding-1.PNG)
 
-### Sample Use Case 2
+### Project Management Flow on Product Launching
 Current dataset displays the project management flow of a product release from the inception of the requirements until the launching of the product. Displayed in the chart, it can be seen that there are six different teams involved in the whole project, ranging from Product, Development, Growth, Marketing, CS and Sales.
 
 Download sample data [here](./sample-data/timeline-chart/sample-project-mgmt.csv).
