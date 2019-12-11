@@ -27,7 +27,7 @@ Sorting and filtering helps in minimising large data sets to focus on certain
 
 ## Use Cases
 ### US President Deaths and Terms
-A list of USA Presidents term length along with their deaths can be displayed using Timeline Chart. This use case uses a flow that has a start and end date using the year format From the diagram, we can see that year of when the US president gets elected until the end of their term, due to their deaths.
+A list of USA Presidents term length along with their deaths can be displayed using Timeline Chart. This use case uses a flow that has a start and end date using the year format. From the diagram, we can see that year of when the US president gets elected until the end of their term, due to their deaths.
 
 Download sample data [here](./sample-data/timeline-chart/US-president-death.xlsx).
 
@@ -42,9 +42,9 @@ The diagram below shows the data binding for US President Deaths and Terms use c
 ![First Use Case Binding](./images/timeline-chart/binding-1.PNG)
 
 ### Sample Use Case 2
-The FBI recorded the crimes that were happening within USA for the decade(1996-2016) to check whether the the crime rate would improve or worsen within the years to come. The timeline use case states the percentage of crime rate happening within the US against the total number of crimes that happen in chronological order.
+Current dataset displays the project management flow of a product release from the inception of the requirements until the launching of the product. Displayed in the chart, it can be seen that there are six different teams involved in the whole project, ranging from Product, Development, Growth, Marketing, CS and Sales.
 
-Download sample data [here](./sample-data/timeline-chart/US-crime-rate.xlsx).
+Download sample data [here](./sample-data/timeline-chart/sample-project-mgmt.csv).
 
 **Output**
 
@@ -52,6 +52,6 @@ Download sample data [here](./sample-data/timeline-chart/US-crime-rate.xlsx).
 
 **Binding**
 
-The diagram below shwos the data binding for US Crime Rate use case 
+The diagram below shows the data binding for project management use case 
 
 ![Second Use Case Binding](./images/timeline-chart/binding-2.PNG)
