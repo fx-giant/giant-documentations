@@ -39,9 +39,7 @@ From the diagram, we can see the amount of customers reduce as the process conti
 ![Real Estate Property](./images/funnel-chart/output-1.PNG)
 
 ### Multiple Sales Channel on Product Purchase Conversion Rates
-Current dataset displays the process of multiple sales channels on their product purchase conversion rates.  Within the visualised chart below, all five categories are summed up to show the total flow of the sales process on the product purchase. Download sample data [here](./sample-data/funnel-chart/sales-channel-dataset-conversion-rate.csv).
-
-Within the dataset, there are five different fields where the conversion rates are caused through, those being Ads, Media, Affiliates, Referrals and Direct, where each of those have their own number values from top to bottom. The dataset also has the fields for **Stages** and **Total** which will be used for the creation of this chart.
+Current dataset displays the process of customer acquisition from multiple sales channels. In the visualised chart below, figures from all five sales channels (Ads, Media, Affiliates, Referrals and Direct) are summed up by each stage to show the total figures. The fields **Stage** and **Total** are used for the creation of this chart. Download sample data [here](./sample-data/funnel-chart/sales-channel-dataset-conversion-rate.csv).
 
 |Bindings|Field to Select|
 |---|---|
