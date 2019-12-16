@@ -2,29 +2,33 @@
 
 ![TimeLine](./images/timeline-chart/timeline.PNG)
 
-TimeLine Chart is a graphical visualisation of a period of time, where the process is ordered chronologically. Since details are displayed graphically, the most important events can be easily seen and are marked from the start to the end. This chart is typically used for managing a project's schedule, where it adds transparency and gives the chance in analysing what happened in the past to plan for the future.
+Timeline Chart is a graphical visualisation of a period of time, where the process is ordered chronologically. Since details are displayed graphically, the most important events can be easily seen and are marked from the start to the end. This chart is typically used for managing a project's schedule, where it adds transparency and gives the chance in analysing what happened in the past to plan for the future.
 
 ## Data Binding
 
-For the timeline chart, the most important bindings that need to be set are the **Category**, **Start Date** and **End Date** properties. For each property, they require a dataset that uses specific data types within the whole field, such as can be seen below:
+For the timeline chart, there are a few mandatory bindings to genearte the chart which are the **Category**, **Start Date** and **End Date** properties. For each property, there are specific data types need to fulfill in order for the timeline chart to render correctly, such as can be seen below:
 
 |Bindings |Data Type|
 |---|---|
-|Category|General|
+|Category|String|
 |Start Date|Date|
 |End Date|Date|
 
+### Category
 
-- **Category** = For timeline chart generation, category is generally chosen with the fields that use a general stage type process, where key milestones could be used as a marker on the chart.
-- **Start Date** = For timeline chart generation, the start date is for the fields that have a date (ShortDate or LongDate) type of data to create a proper start line for the chart.
-- **End Date** = For timeline chart generation, the end date is for the fields that have a date (ShortDate or LongDate) type of data to create a proper end line for the chart.
+For timeline chart generation, category is generally chosen with the fields that use a general stage type process, where key milestones could be used as a marker on the chart.
+
+### Start Date
+
+For timeline chart generation, the start date is for the fields that have a date (ShortDate or LongDate) type of data to create a proper start line for the chart.
+
+### End Date
+
+For timeline chart generation, the end date is for the fields that have a date (ShortDate or LongDate) type of data to create a proper end line for the chart.
  
  *NOTE*: Start Date and End Date must be linked to different field columns respectively to avoid errors in the chart creation
 
-|Tooltips| |
-|Image| |
-|Sort| |
-|Filter| |
+## Other Settings
 
 ### Tooltips
 
@@ -55,9 +59,7 @@ As the sample dataset has provided with numerous different fields, the key field
 |Start Date|Elected Year|
 |End Date|End Year|
 |Tooltips|President|
-|Image|*(May leave blank)*|
-|Sort|Cause of Death *(Optional)*|
-|Filter|*(May use to filter out some data)*|
+|Image|NEED TO SHOW IMAGE FFS|
 
 From the diagram, we can see that year of when the US president gets elected until the end of their term, due to their deaths.
 
@@ -76,9 +78,6 @@ On the creation of this timeline chart, the project management flow on product l
 |Start Date|Task Start|
 |End Date|Task End|
 |Tooltips|Task|
-|Image|*(May leave blank)*|
-|Sort|Subtask *(Optional)*|
-|Filter|*(May use to filter out some data)*|
 
  Displayed in the chart, it can be seen that there are six different teams involved in the whole project, ranging from Product, Development, Growth, Marketing, CS and Sales. Each team had done multiple different subtasks throughout the whole project, each with having their own Start Date and End Date, making each team to reoccur in different points of the timeline.
 
