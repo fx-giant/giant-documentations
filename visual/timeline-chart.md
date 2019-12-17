@@ -81,10 +81,13 @@ On the creation of this timeline chart, the project management flow on product l
 |Start Date|Task Start|
 |End Date|Task End|
 |Tooltips|Task|
-
- Displayed in the chart, it can be seen that there are six different teams involved in the whole project, ranging from Product, Development, Growth, Marketing, CS and Sales. Each team had done multiple different subtasks throughout the whole project, each with having their own Start Date and End Date, making each team to reoccur in different points of the timeline.
+ 
+ Displayed in the chart, it can be seen that the six different teams had done multiple different subtasks throughout the whole project. As each subtask having their own Start Date and End Date, each team would reoccur in different points of the timeline. 
 
 **Output**
 
-![US Crime Rates](./images/timeline-chart/output-2.PNG)
+![Project Management Flow](./images/timeline-chart/output-2.PNG)
 
+**Analysis**
+
+By analysing the chart deeper, the tasks and subtasks actual start and end dates are documented, thus giving managers the opportunity to refer to the Project Management timeline chart for future projects on comparing actual and expected deadlines. Adding on, managers can recognise on which team would require more resources to accomplish the tasks in a given deadline. The chart also helps in road mapping future projects for the users whom can refer to it in order to work toward achieving the set goals.
