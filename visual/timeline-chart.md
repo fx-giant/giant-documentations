@@ -37,6 +37,7 @@ To indicate what the point markers created what the **Category** binding has set
 ### Image
 
 If the user has a dataset that stores image or image links, the **Image Path** enables the addition of images onto the timeline chart.
+>*NOTE*: If using imagelink, access to internet is required for image to appear on the chart
 
 ### Sort
 
@@ -51,7 +52,7 @@ Another setting that could be used is **Filter** where it applies filters to res
 ### US President Deaths and Terms
 A list of USA Presidents term length along with their deaths can be displayed using Timeline Chart. This use case uses a flow that has a start and end date using the year format. Download sample data [here](./sample-data/timeline-chart/US-president-death.xlsx).
 
-As the sample dataset has provided with numerous different fields, the key fields to use are **President**, **Elected Year** and **End Year**. Another field that could be used within the chart is the **Cause of Death**, as it could be placed to sort out the presidents that had different causes of death.
+As the sample dataset has provided with numerous different fields, the key fields to use are **President**, **Elected Year** and **End Year**. Another field that could be used within the chart is the **Image of President**, as it could be placed to make the images of the presidents appear as the marker within the chart.
 
 |Bindings |Field to Select|
 |---|---|
@@ -59,7 +60,9 @@ As the sample dataset has provided with numerous different fields, the key field
 |Start Date|Elected Year|
 |End Date|End Year|
 |Tooltips|President|
-|Image|NEED TO SHOW IMAGE FFS|
+|Image|Image of President|
+
+>*NOTE*: Since dataset is using imagelink, access to internet is required for image to appear in the chart
 
 From the diagram, we can see that year of when the US president gets elected until the end of their term, due to their deaths.
 
@@ -70,7 +73,7 @@ From the diagram, we can see that year of when the US president gets elected unt
 ### Project Management Flow on Product Launching
 Current dataset displays the project management flow of a product release from the inception of the requirements until the launching of the product. Download sample data [here](./sample-data/timeline-chart/sample-project-mgmt.csv).
 
-On the creation of this timeline chart, the project management flow on product launching use case has four fields that fits nicely to the chart, those being **Task**, **Subtask**, **Task Start** and **Task End**. The subtask field could be used to set as a sort to see what task a specific department has completed for within their project timeline.
+On the creation of this timeline chart, the project management flow on product launching use case has four fields that fits nicely to the chart, those being **Task**, **Task Start** and **Task End**. The subtask field could be used to set as a sort to see what task a specific department has completed for within their project timeline.
 
 |Bindings |Select|
 |---|---|
