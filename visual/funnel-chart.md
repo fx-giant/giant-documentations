@@ -57,3 +57,7 @@ Displayed in the chart below is the total customers that visit the shop, to the 
 **Output**
 
 ![Product Purchase Conversion Rates](./images/funnel-chart/output-2.PNG)
+
+**Analysis**
+
+By analysing the chart deeper, the amount of customers are totalled up from the different fields, thus having a summarised view of the whole sales process. From here, managers are able to identify the bottlenecks or potential problem areas within the Product Purchase Conversion Rates funnel chart, giving them an understanding on which process of the chart can be improved upon and be able to evaluate each stage accordingly. 
