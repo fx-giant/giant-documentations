@@ -6,7 +6,7 @@ Scatter plots are diagrams that uses dots to mark or represent values for two di
 
 ## Data Binding
 
-For the scatter plot, there are few mandatory bindings to generate the chart which are the **X-Axis** and **Y-Axis** properties. For each property, there are specific data types need to fulfill in order for the timeline chart to render correctly, such as can be seen below:
+For the scatter plot, there are few mandatory bindings to generate the chart which are the **X-Axis** and **Y-Axis** properties. For each property, there are specific data types need to fulfill in order for the scatter plot to render correctly, such as can be seen below:
 
 |Bindings|Data Type|
 |---|---|
