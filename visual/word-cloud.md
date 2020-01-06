@@ -2,56 +2,63 @@
 
 ![WordCloud](./images/word-cloud/wordcloud.PNG)
 
-Word Cloud chart is a visualisation method that displays how frequently words appear in a given body of text, by aking the size of each word proportional to its frequency. All of the words are arranged in a cloud of words, placing them horizontally and vertically at random, for aesthetic purposes to have easier readibility for the word cloud. This chart helps in analysing text to solve a number of problems, such as simplifying multiple feedback at once, finding out key patterns in data, and search engine optimisation.
+Word Cloud is a visualization used to represent keywords of your data which is useful for qualitative analysis. The size of each word or each word group corresponds to the value associated with the word; this can be the frequency of occurrence, amount or some other numerical value. All of the words are randomly arranged horizontally and vertically, in the shape of a cloud. This chart is useful when you need to perform qualitative analysis and when showing the exact value associated with the category items is not that important. Among the uses of word cloud are in analyzing feedback data, analyzing survey data and finding out commonly-used keywords for searching in websites.
 
 ## Data Binding
 
-For the word cloud chart, there is only one mandatory binding to generate the chart which is the **Group** property. For each property, there is a specific data type needed to fulfill in order for the word cloud chart to render correctly, such as can be seen below:
+There is only one mandatory binding to generate the chart, which is the **Group** field. However, for the Word Cloud analysis to make sense, you will need to also bind the **Size** field.
+
+For each field, specific data type need to be fulfilled in order for the Word Cloud chart to render correctly, as shown below:
 
 |Bindings |Data Type|
 |---|---|
 |Group|String|
+|Size|Numeric|
 
 ### Group
 
-With the **Group** binding, a string field could be used for giving categories on the chart generation as the datasets used would generally have alot of values that are linked to values on another field.
-
-## Other Settings
+A field with String data type can be used for **Group** binding. This will be displayed as the Category values.
 
 ### Size
 
-With the **Size** binding, a numerical field could be used for giving a sample size on the graph for the word cloud to display on how much is the frequency value by the size of each word.
+A field with numeric data type can be used for **Size** binding. The size of each word will correspond to the value of Size field binding i.e. words with a bigger value will be shown in a larger font size.
+
+## Other Settings
 
 ### Actual
 
-On this setting, the **Actual** values are used as the fields to be set as a standard for achieving a trend to be seen through the word cloud chart.
+Use this field to bind an **Actual** value to *compare against* the **Target** value. The Percentage of Achievement will be shown based on the Threshold setting (the default colours are Red, Yellow and Green).
 
 ### Target
 
-On this setting the expected or **Target** values are used as the field to be set as the goal for achieving a trend to be seen through the word cloud chart.
+Use this field to bind a **Target** value to *compare against* the **Actual** value. The Percentage of Achievement will be shown based on the Threshold setting (the default colours are Red, Yellow and Green).
 
-### Threshold
+### Range (% of Target)
 
-To find out if a trend could be achieved, a range could be set within the **Threshold** setting to alter percentages for the the **Actual** trend to what is the **Target** trend, thus getting displayed within the word cloud chart in a set of colours to distinguish the differences.
+When you have the **Actual** and **Target** field bindings, you can specify the threshold for the percentage achievement in this section. The default colours are Red for 0-30%, Yellow for 31-70% and Green for 71-120%.
+
+### Trending
+
+When you have the **Actual** and **Target** field bindings and **Range (% of Target)** specified, you can choose the trending value either Increasing Better or Decreasing Better. For example, the trend Increasing Better is used to track Actual Sales vs Target Sales figures. The trend Decreasing Better is used to track the actual number of crime cases reported against the target number of crime cases.
 
 ### Drill Down
 
-The **Drill Down** setting adds a level of detail on the data on the word cloud chart would display if a hierarchically structured dataset is used.
+If your data contains hierarchy (for example: Region > Country > State), you can use this field to drill down your data from the highest level to the lower levels.
 
 ### Sort
 
-For huge data sets, a setting called **Sort** can be used to alter the word cloud chart on different specifics that the user wants to view or create on the chart.
+You can use this section to specify the order in which your data should be arranged. For example, to sort by Country in ascending order.
 
-### Filtering
+### Filter
 
-Another setting that could be used is **Filter** where it applies filters to restrict or focus on data shown in the chart.
+Add filters to restrict your data so that analysis will be focused on data which are shown in the chart.
 
 ## Use Cases
 
 ### Population of Citizens within a Country
-A dataset of a nation's population count is used to see the which country has the most amount of people, thus using a word cloud would be a very easy method to display on the size of the population of each continent and country specifically. Download sample data [here](./sample-data/word-cloud/population.csv).
+A dataset of the world's population count is used to see which continent and country has the most amount of people. Thus, using a word cloud would be a very easy method to display this information and users can obtain the analysis at a glance. Download sample data [here](./sample-data/word-cloud/population.csv).
 
-As seen in the dataset, there are a few values that could be deemed as important for the generation of the word cloud. These fields are **Continent** and **Population**. The **Country** field will be used within the drill down setting to create a level of hierarchy for the word cloud.
+Below are the fields used for the data binding to generate the chart:
 
 |Bindings |Field to Select|
 |---|---|
@@ -59,9 +66,9 @@ As seen in the dataset, there are a few values that could be deemed as important
 |Size|Population|
 |Drill Down|Country|
 
-Displayed in the word cloud are the continents that have their population count according to the size of each word. Not only that, by using the drill down setting, several other word clouds could be generated to focus on certain continents of choice.
+Displayed in the word cloud are the continents that have the size of each word shown based on their population count. In this example, Asia has the largest population size compared to the other continents, as it has the word displayed in the largest font. Since we have the **Drill Down** binding, clicking on the continent will show the data of the countries under the selected continent.
 
-*Note:* This output will only display the **Drill Down** for the Asia and Europe continents, where a breadcrumb on the top-left of the chart will display which level is being displayed.
+*Note:* This output shows the **Drill Down** examples for the Asia and Europe continents. A Drill Down Breadcrumb is available on the top-left of the chart to indicate the Drill Down level currently being displayed.
 
 **Output**
 
@@ -72,9 +79,9 @@ Displayed in the word cloud are the continents that have their population count 
 ![Europe](./images/word-cloud/output-1b.PNG)
 
 ### Top Movies of 2018 by the Domestic Box Office
-The current dataset shows a list of the most popular movies in the year 2018, where it is ranked according to the Domestic Box Office. Download sample data [here](./sample-data/word-cloud/movies.xlsx).
+This dataset shows a list of the most popular movies in the year 2018, whereby the movies were ranked according to the Domestic Box Office collections. Download sample data [here](./sample-data/word-cloud/movies.xlsx).
 
-For the creation of the word cloud chart, the top movies of 2018 by domestic box office use case utilises all of their fields given, which are **Title**, **Domestic Gross**, **Metacritic Score** and **Rotten Tomatoes Score**. Both of the score fields from Metacritic and Rotten Tomatoes will be used the for the actual and target settings to analyse if the movies achieve similar ratings from two different parties.
+Refer below on the field bindings used for the creation of the word cloud chart. Both of the score fields from **Metacritic** and **Rotten Tomatoes** will be used for the **Actual** and **Target** settings to analyse if the movies achieve similar ratings from two different parties.
 
 |Bindings |Select|
 |---|---|
@@ -83,9 +90,9 @@ For the creation of the word cloud chart, the top movies of 2018 by domestic box
 |Actual|Metacritic Score|
 |Target|Rotten Tomatoes Score|
 |Threshold|Set Trending to *Increasing Better*|
-||Set Range starting from 75%, 80%, 85%, 90% to 95%|
+||Set Range starting from 75 - 80%(Red), 80 - 85%(Yellow), 85 - 90%(Green), 90% - 95%(Blue)|
 
- Within the chart are the movies displayed through their **Domestic Gross**, **Metacritic Score** and **Rotten Tomatoes Score**. The size/frequency of each word is dependant on the domestic gross, whereas the different colours of the words display whether the trend threshold of the scores is achieved.
+From the chart analysis, it can be concluded that although a movie achieve a high gross value, it may not get a high score rating from both key critics. This can be seen when comparing the size of the movie titles with the colours shown. For example, the movie Avengers: Infinity War achieved a high gross value but it is shown in red, which indicates that there is a gap in score ratings from two of the movie critics.
 
 **Output**
 
