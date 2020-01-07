@@ -1,4 +1,4 @@
-# Word Cloud
+# Combination Chart
 
 ![Combination](./images/combination-chart/combination.PNG)
 
