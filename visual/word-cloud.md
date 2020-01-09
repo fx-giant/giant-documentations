@@ -12,12 +12,12 @@ For each field, specific data type need to be fulfilled in order for the Word Cl
 
 |Bindings |Data Type|
 |---|---|
-|Group|String|
+|Group|Text|
 |Size|Numeric|
 
 ### Group
 
-A field with String data type can be used for **Group** binding. This will be displayed as the Category values.
+A field with text data type can be used for **Group** binding. This will be displayed as the Category values.
 
 ### Size
 
