@@ -1,41 +1,43 @@
 # Multisource Combination Chart
 
-![MultisourceCombination](./images/multisource-combination/multisourcecombination.PNG)
+![Multisource Combination](./images/multisource-combination/multisourcecombination.PNG)
 
-Multisource Combination Chart is a chart that combines different data sources onto a single combination chart, where the features of the different graphs would be used to display the information. Within GIANT, there are multiple options for data display, as each data source used could be set by using different graphic styles, making the multisource combination chart very versatile chart to work with. The chart is generally used to compare different data sources with one another to find the similarities for creating trends within the chart. The data represented is similar to how a regular combination chart works, where the bars or lines would represent different categories.
+Multi-source Combination Chart is similar to Combination chart whereby it is useful when you have multiple measurements to show in a single chart, each one displayed as a different chart type. This chart is an enhanced version of the Combination chart that enables you to combine data from multiple data sources in a single chart, without having to merge the data sources into a single data source. Multi-source Combination chart also supports multiple Dimension binding, each Dimension bound from a different data source. For example, you can bind Region from Data Source 1, Country from Data Source 2 and bind Sales Amount from Source 1 and Source 2. They can be displayed together in the same chart for you to compare the figures.
+
+*NOTE : Click here(**No current link since waiting for branch to be merged to master**) to find out more on Combination chart*
 
 ## Data Binding
 
-For the multisource combination chart, the usage of multiple data sources is highly needed in the generation of the chart, thus the setting of **Source Bindings** is used to include several Source Connections into one chart.
+To generate the multi-source combination chart, **multiple** data sources are needed (at least 2 data sources - they can be the same data source or different data source). Before you can proceed with the data binding, you need to first add the Connection Sources to the chart's setting panel. The data binding fields are then available under each of the connection source that you added.
 
 ### Source Bindings
 
-This is the most integral field that needs to be used in order to even display the other settings, which is the **Source Bindings** setting, where adding a new connection source is done here.
+The **Source Binding** section will be shown when you have added at least one Connection Source in the chart's Setting panel. Click the arrow icon shown at the end of the connection source name to expand the list of data binding fields for the chart.
 
-> *NOTE:* Be sure that each data source added needs to have relevance to one another.
+*NOTE: Be sure that each data source that you added have relevance to one another for the data analysis to make sense.*
 
- Following on, there are a few mandatory bindings to generate the chart within each of the added connection sources which are the **X-Axis** and **Y-Axis** properties. However, for Multisource Combination Chart analysis to make sense, you will need to also fill in more than one **Y-Axis** field. For each property, there are specific data types need to fulfill in order for the combination chart to render correctly, such as can be seen below:
+There are a few mandatory bindings to generate the chart within each of the added connection sources, which are the **X-Axis** and **Y-Axis** properties, at least for two different sources (i.e. Source 1 and Source 2). For each property, there are specific data types need to be fulfilled in order for the multi-source combination chart to render correctly, such as can be seen below:
 
-|Bindings |Data Type|
-|---|---|
-|X-Axis|String|
-|Y-Axis|Numeric|
+Source #|Bindings|Data Type|Status|
+|---|---|---|---|
+|Source 1|X-Axis|String|Required|
+|Source 2|Y-Axis|Numeric|Required|
+|Subsequent source(s)|X-Axis|Text| Required to get the data to show, if additional source is added|
+|Subsequent source(s)|Y-Axis|Numeric| Required to get the data to show, if additional source is added|
 
 ### X-Axis
 
-A field with String data type can be used for **X-Axis** binding. This will be displayed as the Category values.
+A field with Text data type can be used for **X-Axis** binding. This will be displayed as the Category values. At least one column must be added to **X-Axis of Source 1** and one column to **X-Axis of Source 2** for the chart to generate the data
 
 ### Y-Axis
 
-A field with numeric data type can be used for **Y-Axis** binding. The Y-Axis values would be filled in by numerous fields as the Combination chart requires more than one **Y-Axis** field to properly be generated.
+A field with Numeric data type can be used for **Y-Axis** binding. At least one column must be added to **Y-Axis of Source 1** and one column to **Y-Axis of Source 2** for the chart to generate the data.
 
 ## Other Settings
 
 ### All/Top/Bottom
 
-This setting is used to focus on the amount of categories the user wants to see, whether it would be **All** of the chart, the **Top** number within the chart, or even the **Bottom** number of the chart. By default, this setting will be placed on **All** to display the full chart accordingly.
-
->*NOTE:* Once reverting back to the **All** option, the **X-Axis** will not be arranged according to the initial arrangement.
+By default, the option selected is All (which means, all the data points will be shown in the chart). Select Top or Bottom, followed by the number of data points required to show the selected number of top-most data rows **OR** selected number of bottom-most data rows.
 
 ### Drill Down
 
@@ -43,11 +45,11 @@ If your data contains hierarchy (for example: Region > Country > State), you can
 
 ### Sort
 
-You can use this section to specify the order in which your data should be arranged. For example, to sort by Country in ascending order.
+You can use this setting to arrange your data points based on the field that you need. For example, to sort data by Country field in Ascending order.
 
 ### Filter
 
-Add filters to restrict your data so that analysis will be focused on data which are shown in the chart.
+Another setting that can be used is **Filter** whereby specifying the filter(s) will restrict the values shown so that users can focus on analyzing the filtered data shown in the chart.
 
 ## Use Cases
 
