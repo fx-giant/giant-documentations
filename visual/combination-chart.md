@@ -61,7 +61,6 @@ From the chart analysis, it can be concluded that although ABC company receives 
 ### Newrock Funland's Profits on Rainy Days
 Newrock Funland theme park has a dataset that stores the information of their monthly profits with the total amount of rainy days within the month. A combination chart can be used to compare the different outcomes of each month by utilising the line and bar graph. Download sample data [here](./sample-data/combination-chart/nf-rainyprofits.csv).
 
-Provided within the dataset are the necessary fields needed to generate the combination chart. As the **Rainy Days** and **Profit** fields are switchable with another for the **Y-Axis** field, it means that the **Month** field would be placed within the **X-Axis** field.
 Provided within the dataset are the necessary fields needed to generate the combination chart. The **Rainy Days** and **Profit** fields are used for the **Y-Axis** field, and the **Month** field is placed in the **X-Axis** field.
 
 |Bindings |Field to Select|Chart Type|
@@ -70,7 +69,7 @@ Provided within the dataset are the necessary fields needed to generate the comb
 |Y-Axis|Rainy Days|Bar Graph|
 |Y-Axis|Profit|Line Graph|
 
-Displayed in the combination chart is the profit margin and rainy days that occur monthly for Newrock Funland. As there are more rainy days that occur, Newrock Funland would gain less profit within the month respectively, thus having better customer ratings during non-rainy seasons such as seen from May to October.
+Displayed in the combination chart is the profit margin vs rainy days that occur monthly for Newrock Funland. As there are more rainy days that occur, Newrock Funland gained less profit within the month respectively. During the non-rainy seasons such as seen from May to October, the profits gained are much better which may correspond to higher number of customers visits.
 
 **Output**
 
