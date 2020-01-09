@@ -1,6 +1,6 @@
 # Chord Diagram
 
-![ChordDiagram](./images/chord-diagram/chord.PNG)
+![Chord Diagram](./images/chord-diagram/chord.PNG)
 
 Chord Diagram visualises the flows or connections between several entities. The entities are represented by the fragment on the outer part of the diagram, where their connections are used to display the similarities between each entity. This makes Chord Diagrams ideal for comparing the similarities within a dataset or between different groups of data. Each connection will have a value assigned to it, represented proportionally by the size of each arc. Furthermore, the usage of colour is used to differentiate the categories, which aids in making comparisons and distinguishing groups.
 
@@ -25,11 +25,16 @@ A field with text data type can be used for **Source** binding. This will be dis
 ### Destination
 
 A field with text data type can be used for **Destination** binding. This will also be displayed as another Category or Entity value **BUT** it is needed to be paired with the **Source** binding to properly generate the relationship.
+
 ### Actual
 
 A field with numeric data type can be used for **Actual** binding. The size of each arc will correspond to the value of Actual field binding i.e. sum of data with bigger values will be shown in a larger arc size.
 
 ## Other Settings
+
+### All/Top/Bottom
+
+By default, the option selected is All (which means, all the data points will be shown in the chart). Select Top or Bottom, followed by the number of data points required to show the selected number of top-most data rows **OR** selected number of bottom-most data rows.
 
 ### Sort
 
@@ -37,7 +42,7 @@ You can use this setting to arrange your data points based on the field that you
 
 ### Filter
 
-Another setting that can be used is **Filter** whereby specifiying the filter(s) will restrict the values shown so that users can focus on analysing the filtered data shown in the chart.
+Add filters to restrict your data so that analysis will be focused on data which are shown in the chart.
 
 ## Use Cases
 
