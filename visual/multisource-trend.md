@@ -47,12 +47,12 @@ When you have the **Actual** and **Target** field bindings, you can specify the 
 
 ## Use Cases
 
-### Traffic Indicator on Malaysia Population for 2018 and 2019
+### Trend Indicator on Malaysia Population for 2018 and 2019
 As this is a multisource trend chart, two separate datasets can be used to generate the chart. Thus, the datasets represent the total population of citizens and non-citizens that are in Malaysia during the years of 2018 and 2019. The data sources are seperated in two such as below:
 - *Malaysia Population 2018:* Download sample data [here](./sample-data/multisource-trend/MY-pop18.csv). 
 - *Malaysia Population 2019:* Download sample data [here](./sample-data/multisource-trend/MY-pop19.csv).
 
-Provided within the dataset are the necessary fields needed to generate the multisource trend chart. The **Total(2019)** field could be used as the **Actual** setting, whereas the **Total(2018)** could be used as the **Target** setting. The **Trend Indicator** may be changed at any time to display both types of progress.
+Provided within the dataset are the necessary fields needed to generate the multisource trend chart. The **Total(2019)** field could be used as the **Actual** setting, whereas the **Total(2018)** could be used as the **Target** setting. The **Trend Indicator** will be set to **Trend** to check on the comparison between the two values.
 
 Source #|Bindings|Fields to Select|
 |---|---|---|
@@ -61,16 +61,16 @@ Source #|Bindings|Fields to Select|
 ||Threshold|Set Trending to *Increasing Better*|
 |||Set Range starting from 0 - 100%(Red), 100 - 200%(Green)|
 
-Displayed in the multisource trend chart is the total population of citizens and non-citizens in Malaysia in 2018 and 2019. Both years display the total amount on the text, whereby they both have above 32 million(total of citizens and non-citizens). The traffic value can be shown at the right-hand side of the graph, where the circle is displayed with a green value at 100.61%, meaning that the total population for 2019 has increased by 0.61% from the total population for 2018.
+Displayed in the multisource trend chart is the total population of citizens and non-citizens in Malaysia in 2018 and 2019. Both years display the total amount on the text, whereby they both have above 32 million(total of citizens and non-citizens). The trend value is shown as the upwards red triangle on the right-hand side of the graph, noting a value of 0.61% increase from the current year to the previous year of Malaysia Population.
 
 **Output**
 
-![Traffic](./images/multisource-trend/output-1.PNG)
+![Trend](./images/multisource-trend/output-1.PNG)
 
-### Trend Indicator on Financial Budgeting for Actual and Target for Year 2016
+### Traffic Indicator on Financial Budgeting for Actual and Target for Year 2016
 A sample dataset of FY company's financial year for 2016 is used to see how their current budgeting compares to their forecasted budgeting. Thus, a multisource trend chart can be used to display their current progress for the year. Download sample data [here](./sample-data/multisource-trend/AnnualBudgetForecast2.xslx). 
 
-Provided within the dataset are the necessary fields needed to generate the multisource trend chart. The **FY16 Budget** field could be used as the **Actual** setting, whereas the **FY16 Forecast** could be used as the **Target** setting. The **Trend Indicator** may be changed at any time to display both types of progress.
+Provided within the dataset are the necessary fields needed to generate the multisource trend chart. The **FY16 Budget** field could be used as the **Actual** setting, whereas the **FY16 Forecast** could be used as the **Target** setting. The **Trend Indicator** will be set to **Traffic** to check on the progress of the two values.
 
 Source #|Bindings|Fields to Select|
 |---|---|---|
@@ -79,12 +79,12 @@ Source #|Bindings|Fields to Select|
 ||Threshold|Set Trending to *Decreasing Better*|
 ||*For Trend*|Set Range starting from 0 - 100%(Red), 100 - 200%(Green)|
 
-Displayed in the multisource trend chart is the total budget on the actual year and the forecasted year. Both values of Budget and Forecast are represented through a text, where the total sum of both values are used. The trend value is also shown in the right-hand side of the graph, having a triangle facing downwards, meaning that the budget for 2016 has gone below by 7.87% the expected forecast for 2016.
+Displayed in the multisource trend chart is the total budget on the actual year and the forecasted year. Both values of Budget and Forecast are represented through a text, where the total sum of both values are used. The traffic value is also shown as the green circle in the right-hand side of the graph, meaning that the budget for 2016 has gone below by 7.87% the expected forecast for 2016.
 
 **Output**
 
-![Trend](./images/multisource-trend/output-2.PNG)
+![Traffic](./images/multisource-trend/output-2.PNG)
 
 **Analysis**
 
-The conclusion of the use case chart showcases that the FY16 Budget does not reach the expected value of FY16 Forecast, which it is displayed for its trend graph that was had the value lower than expected, making it a green triangle facing downwards. This means that FY company did not overspend their budget for 2016, saving their money for future prospects. The FY company could use this graph as a guide to check their progress throughout the year of 2016, where they could make notes on how they managed to cut costs to get below their forecasted results in company finance. Furthermore, FY company could also use this graph to predict their financial forecast for future years, setting this current graph as a reference, to ensure the company can manage their finance better in the coming years.
+The conclusion of the use case chart showcases that the FY16 Budget does not reach the expected value of FY16 Forecast, which it is displayed for its traffic graph that was had the value lower than expected, showcasing a green circle that could be easily understood by FY company. This means that FY company did not overspend their budget for 2016, saving their money for future prospects. The FY company could use this graph as a guide to check their progress throughout the year of 2016, where they could make notes on how they managed to cut costs to get below their forecasted results in company finance. Furthermore, FY company could also use this graph to predict their financial forecast for future years, setting this current graph as a reference, to ensure the company can manage their finance better in the coming years.
