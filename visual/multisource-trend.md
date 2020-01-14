@@ -6,7 +6,7 @@ Multisource Trend Chart visualises the trend or traffic that happens between two
 
 ## Data Binding
 
-To generate the multi-source combination chart, only **TWO** data sources are needed (they can be the same data source or different data source). Before you can proceed with the data binding, you need to first add the Connection Sources to the chart's setting panel. The data binding fields are then available under each of the connection source that you added.
+To generate the multi-source trend chart, only **TWO** data sources are needed (they can be the same data source or different data source). Before you can proceed with the data binding, you need to first add the Connection Sources to the chart's setting panel. The data binding fields are then available under each of the connection source that you added.
 
 ### Source Bindings
 
@@ -14,7 +14,7 @@ The **Source Binding** section will be shown when you have added at least one Co
 
 *NOTE: Be sure that each data source that you added have relevance to one another for the data analysis to make sense.*
 
-There are a few mandatory bindings to generate the chart within each of the added connection sources, which are the **Actual** and **Target** properties, at least for two different sources (i.e. Source 1 and Source 2). For each property, there are specific data types need to be fulfilled in order for the multi-source combination chart to render correctly, such as can be seen below:
+There are a few mandatory bindings to generate the chart within each of the added connection sources, which are the **Actual** and **Target** properties, at least for two different sources (i.e. Source 1 and Source 2). For each property, there are specific data types need to be fulfilled in order for the multi-source trend chart to render correctly, such as can be seen below:
 
 Source #|Bindings|Data Type|
 |---|---|---|
@@ -45,16 +45,42 @@ When you have the **Actual** and **Target** field bindings, you can specify the 
 
 ## Use Cases
 
-### Financial Budgeting for Actual and Target for Year 2016
-A sample dataset of FY company's financial year for 2016 is used to see how their current budgeting compares to their forecasted budgeting. Thus, a multisource trend chart can be used to display their current progress for the year. Download sample data [here](./sample-data/multisource-trend/AnnualBudgetForecast2.xslx). 
+### Malaysia Population for 2018 and 2019
+As this is a multisource trend chart, two separate datasets can be used to generate the chart. Thus, the datasets represent the total population of citizens and non-citizens that are in Malaysia during the years of 2018 and 2019. The data sources are seperated in two such as below:
+- *2018:* Download sample data [here](./sample-data/multisource-trend/MY-pop18.csv). 
+- *2019:* Download sample data [here](./sample-data/multisource-trend/MY-pop19.csv).
 
-Provided within the dataset are the necessary fields needed to generate the multisource combination chart. The **FY16 Budget** field could be used as the **Actual** setting, whereas the **FY16 Forecast** could be used as the **Target** setting. The **Trend Indicator** may be changed at any time to display both types of progress.
+Provided within the dataset are the necessary fields needed to generate the multisource trend chart. The **Total(2019)** field could be used as the **Actual** setting, whereas the **Total(2018)** could be used as the **Target** setting. The **Trend Indicator** may be changed at any time to display both types of progress.
 
 Source #|Bindings|Fields to Select|
 |---|---|---|
-|Source 1|Actual|FY16 Budget|
-|Source 2|Target|FY16 Forecast|
-||Threshold|Set Range starting from 0 - 100%(Red), 100 - 200%(Green)|
+|Malaysia Population 2019|Actual||
+|Malaysia Population 2018|Target||
+||Threshold|Set Trending to *Increasing Better*|
+||*For Trend*|Set Range starting from 0 - 0.5%(Red), 0.5 - 1%(Green)|
+||*For Traffic*|Set Range starting from 0 - 100%(Red), 100 - 200%(Green)|
+
+Displayed in the multisource trend chart is the total population of citizens and non-citizens in Malaysia in 2018 and 2019. Both years display the total amount on the text, whereby they both have above 32 million(total of citizens and non-citizens). Both trend and traffic values can be shown within the right-hand side of the graph, where they are displayed with a green value, meaning that the total for 2019 has increased from the total of 2018.
+
+*NOTE: This output shows the **Trend Indicator** examples for the **Trend** and **Traffic** values respectively. The **Trend** within the chart is displayed by a triangle, whereas the **Traffic** within the chart is displayed by a circle.*
+
+**Output**
+
+![Trend](./images/multisource-trend/output-1a.PNG)
+![Traffic](./images/multisource-trend/output-1b.PNG)
+
+### Financial Budgeting for Actual and Target for Year 2016
+A sample dataset of FY company's financial year for 2016 is used to see how their current budgeting compares to their forecasted budgeting. Thus, a multisource trend chart can be used to display their current progress for the year. Download sample data [here](./sample-data/multisource-trend/AnnualBudgetForecast2.xslx). 
+
+Provided within the dataset are the necessary fields needed to generate the multisource trend chart. The **FY16 Budget** field could be used as the **Actual** setting, whereas the **FY16 Forecast** could be used as the **Target** setting. The **Trend Indicator** may be changed at any time to display both types of progress.
+
+Source #|Bindings|Fields to Select|
+|---|---|---|
+|Annual Budget Forecast|Actual|FY16 Budget|
+|Annual Budget Forecast|Target|FY16 Forecast|
+||Threshold|Set Trending to *Decreasing Better*|
+||*For Trend*|Set Range starting from 0 - 5%(Red), 5 - 10%(Green)|
+||*For Traffic*|Set Range starting from 0 - 50%(Red), 50 - 100%(Green)|
 
 Displayed in the multisource trend chart is the total budget on the actual year and the forecasted year. Both values of Budget and Forecast are represented through a text, where the total sum of both values are used. The trend and traffic is also shown, to ensure the company would be able to get an easy comparison between the two distinct values.
 
@@ -62,9 +88,9 @@ Displayed in the multisource trend chart is the total budget on the actual year 
 
 **Output**
 
-![Trend](./images/multisource-trend/output-1.PNG)
-![Traffic](./images/multisource-trend/output-2.PNG)
+![Trend](./images/multisource-trend/output-2a.PNG)
+![Traffic](./images/multisource-trend/output-2b.PNG)
 
 **Analysis**
 
-The conclusion of the use case chart showcases that the FY16 Budget does not meet up to the criteria of the expected FY16 Forecast, thus it is displayed within both outputs of the trend and traffic graphs, where both values are displayed with a red colour. The FY company could use this graph as a guide to check their progress throughout the year of 2016, where they could make improvements towards their company finance in order to achieve their forecasted result. Furthermore, FY company could also use this graph to predict their financial forecast for future years, setting this current graph as a reference, to ensure the company would achieve better heights in the near future.
+The conclusion of the use case chart showcases that the FY16 Budget does not reach the expected value of FY16 Forecast, which it is displayed within both outputs of the trend and traffic graphs, where both values are displayed with a red colour. This means that FY company did not overspend their budget for 2016, saving their money for future prospects. The FY company could use this graph as a guide to check their progress throughout the year of 2016, where they could make notes on how they managed to cut costs to get below their forecasted results in company finance. Furthermore, FY company could also use this graph to predict their financial forecast for future years, setting this current graph as a reference, to ensure the company can manage their finance better in the coming years.
