@@ -2,15 +2,15 @@
 
 ![Chord Diagram](./images/chord-diagram/chord.PNG)
 
-Chord Diagram visualises the flows or connections between several entities. The entities are represented by the fragment on the outer part of the diagram, where their connections are used to display the similarities between each entity. This makes Chord Diagrams ideal for comparing the similarities within a dataset or between different groups of data. Each connection will have a value assigned to it, represented proportionally by the size of each arc. Furthermore, the usage of colour is used to differentiate the categories, which aids in making comparisons and distinguishing groups.
+Chord Diagram visualises the flows or connections between several entities. The entities are represented by the fragment on the outer part of the circular diagram, whereby their connections are used to display the relationships between the entities. This makes Chord Diagrams ideal for visualising the connections within a dataset or connections between different groups of data. Each connection will have a value assigned to it, represented proportionally by the size of each arc. Furthermore, the usage of colour is used to differentiate the categories, which aids in making comparisons and distinguishing groups.
 
-> *NOTE:* An issue that could occur within Chord Diagrams is overcluttering if there are too many connections being displayed at once.
+> *NOTE:* An issue that can occur within Chord Diagrams is overcluttering if there are too many connections being displayed at once.
 
 ## Data Binding
 
 For the chord diagram, there are a few mandatory bindings to generate the chart which are the **Source**, **Destination** and **Actual** properties. For each property, there are specific data types need to fulfill in order for the combination chart to render correctly, such as can be seen below:
 
-For each field, specific data type need to be fulfilled in order for the Word Cloud chart to render correctly, as shown below:
+For each field, specific data type need to be fulfilled in order for the chart to render correctly, as shown below:
 
 |Bindings |Data Type|
 |---|---|
@@ -20,15 +20,15 @@ For each field, specific data type need to be fulfilled in order for the Word Cl
 
 ### Source
 
-A field with text data type can be used for **Source** binding. This will be displayed as the Category or Entity values, where it represents the origin or initial flow of a particular data.
+A field with text data type can be used for **Source** binding. This will be displayed as the Category or Entity values, whereby it represents the origin, beginning or initial flow of a particular data.
 
 ### Destination
 
-A field with text data type can be used for **Destination** binding. This will also be displayed as another Category or Entity value **BUT** it is needed to be paired with the **Source** binding to properly generate the relationship, where it represents the destination or end flow of a particular data from above **Source**.
+A field with text data type can be used for **Destination** binding. This will also be displayed as another Category or Entity value **BUT** it is needed to be paired with the **Source** binding to properly generate the relationship. It represents the destination, ending or final flow of a particular data from above **Source**.
 
 ### Actual
 
-A field with numeric data type can be used for **Actual** binding. The size of each arc will correspond to the value of Actual field binding i.e. sum of data with bigger values will be shown in a larger arc size.
+A field with numeric data type can be used for **Actual** binding. The size of each arc will correspond to the value of Actual field binding i.e. data with bigger values will be shown in a larger arc size.
 
 ## Other Settings
 
@@ -57,16 +57,16 @@ Below are the fields used for the data binding to generate the chart:
 |Destination|Prefers|
 |Actual|Count|
 
-Displayed in the chord diagram are the count value of the teenagers that either **Has** or **Prefers** the hair colours respectively. The values are represented through the different segments of the diagram with the size and colour of the arcs. From this, it can be seen that teenagers with the most **Has** value of brown colour much more **Prefers** to change their hair colour, as opposed to the teenagers with the least **Has** value of red colour would much rather **Prefers** to maintain their hair colour.
+The segments in the chord diagram represents two things - the **current hair colour** and the **preferred hair colour** of the teenagers. When there is an arc connecting the data **from the particular category** INTO the **same category**, it means that the teenagers prefer to **maintain their current hair colour**. On the other hand, when there is an arc **connecting the data from** the particular category OUT TO **another category**, it means that the teenagers prefer to **change their hair colour** to that other hair colour category. The **size** of the arc corresponds to the number of teenagers that either prefer to maintain their current hair colour OR change their hair colour. By analysing the chart, we can see that at least half of teenagers with **Red** and **Blond** hair prefer to maintain their current hair colour. Teenagers with **Black** and **Brown** hair make up the most of those who prefer to change their hair colour to other colours.
 
 **Output**
 
 ![Hair Preference](./images/chord-diagram/output-1.PNG)
 
 ### Import Trade of Certain Countries that Start with 'A'
-This dataset shows a list of the import and export trade within the year of 2009 among the countries that start with the letter *'A'*. As the dataset has a few fields that have the value of 0, a Complex Chord Chart will be generated. Download sample data [here](./sample-data/chord-diagram/trade-a.csv).
+This dataset shows a list of the import and export trade within the year of 2009 among the countries that start with the letter *'A'*. As the dataset has a few fields that have the value of 0(which means no trade activity available between the two countries), a Complex Chord Chart will be generated. Download sample data [here](./sample-data/chord-diagram/trade-a.csv).
 
-As the dataset had provided several similar fields, only a few of the fields would need to be used to generate the diagram accordingly. The **Export Country** and **Import Country** fields will be used for the **Source** and **Destination** settings as they are the countries used to reflect the relationship. The **Frequency** field is used for adding a numerical value for the arcs within the chord diagram to appear.
+From the dataset, the **Export Country** and **Import Country** fields will be used for the **Source** and **Destination** settings as they are the values used to reflect the relationship between the countries. The **Frequency** field is used for the arcs within the chord diagram to appear; this shows the number of trade activities between the countries.
 
 |Bindings |Select|
 |---|---|
@@ -74,14 +74,14 @@ As the dataset had provided several similar fields, only a few of the fields wou
 |Destination|Import Country|
 |Actual|Frequency|
 
-Within this chord diagram is the import and export trade frequency that happens within the countries, where it can be seen that major countries that participate in the trade are displayed with a bigger segment and arc. It can also be seen that some of the countries have little to no export values to the other countries.
+From the chord diagram, it can be seen that the major countries that participated in the trade activities are displayed with a bigger segment and arc i.e. Argentina and Austria. It can also be seen that some of the countries had little to no export activities with the other countries.
 
 **Output**
 
->*NOTE:* Due to the length of some country names being too long, some labels were cut off/extended outside the diagram.
+>*NOTE:* Due to the length of some country names being too long, some data labels are cut off/extended outside the diagram.
 
 ![Import Trade A](./images/chord-diagram/output-2.PNG)
 
 **Analysis**
 
-The conclusion of the use case chart displays the countries that have the highest count of export trading among other countries, which are Austria, Argentina, Azerbaijan, and Algeria. This can be said as their segments within the chord diagram have a slightly big arc compared to the rest, which are most likely to only import items from the trade. By analysing the chart deeper, the export trade happens frequently within the four said countries is due to the amount of resources that they can send overseas, whereas the remaining countries would either require more resources or afford more resources respectively. From the diagram, it can be concluded that the complex diagram can be used by numerous trade companies to check on which countries more keen in exporting or importing according to the size of their segment and arcs.
+The chart displays the countries that had the highest count of export trading activities compared with the other countries, which are Austria, Argentina, Azerbaijan and Algeria. This can be said as their segments within the chord diagram have bigger arc compared to the rest, which are most likely to only import items from the trade. Most probably, the export trade happened frequently within the four said countries due to the amount of resources that they could send overseas, whereas the remaining countries would either require more resources or afford more resources respectively. From the diagram, it can be concluded that the diagram can be used by numerous trade companies to check on which countries are more keen in exporting or importing items according to the size of their segment and arcs.
