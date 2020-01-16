@@ -33,7 +33,7 @@ Use this field to bind a **Target** value to *compare against* the **Actual** va
 
 ### Trend Indicator
 
-This setting is used to display the *Trend* or *Traffic* that could be changed accordingly to fit the criteria of the use case. The *Trend* setting displays the difference percentage between the two values. The *Traffic* setting displays the progression percentage between the two values.
+This setting is used to display the *Trend* or *Traffic* that could be changed accordingly to fit the criteria of the use case. The *Trend* setting displays the difference between the two values in terms of percentage achievement (i.e whether Actual value is less OR more than the Target value, in percentage). The *Traffic* setting displays the progression percentage between the two values (i.e. how much of the Actual value is achieved compared to the Target value, in percentage).
 
 *NOTE: The output for **Trend Indicator** setting for **Trend**  is displayed by a triangle, whereas the **Traffic** is displayed by a circle.*
 
@@ -68,7 +68,7 @@ Displayed in the multisource trend chart is the total population of citizens and
 ![Trend](./images/multisource-trend/output-1.PNG)
 
 ### Traffic Indicator on Financial Budgeting for Actual and Target for Year 2016
-A sample dataset of FY company's financial year for 2016 is used to see how their current budgeting compares to their forecasted budgeting. Thus, a multisource trend chart can be used to display their current progress for the year. Download sample data [here](./sample-data/multisource-trend/AnnualBudgetForecast2.xslx). 
+A sample dataset of FY company's financial year for 2016 is used to see how their current budgeting compares to their forecasted budgeting. Thus, a multisource trend chart can be used to display their current progress for the year. Download sample data [here](./sample-data/multisource-trend/AnnualBudgetForecast2.xlsx). 
 
 Provided within the dataset are the necessary fields needed to generate the multisource trend chart. The **FY16 Budget** field could be used as the **Actual** setting, whereas the **FY16 Forecast** could be used as the **Target** setting. The **Trend Indicator** will be set to **Traffic** to check on the progress of the two values.
 
@@ -79,7 +79,9 @@ Source #|Bindings|Fields to Select|
 ||Threshold|Set Trending to *Decreasing Better*|
 ||*For Trend*|Set Range starting from 0 - 100%(Red), 100 - 200%(Green)|
 
-Displayed in the multisource trend chart is the total budget on the actual year and the forecasted year. Both values of Budget and Forecast are represented through a text, where the total sum of both values are used. The traffic value is also shown as the green circle in the right-hand side of the graph, meaning that the budget for 2016 has gone below by 7.87% the expected forecast for 2016.
+*NOTE: Be sure to change the display name for **FY16 Budget** to **Actual Spent** and **FY16 Forecast** to **Total Budget** to produce the same output.*
+
+Displayed in the multisource trend chart is the total budget on the actual year and the forecasted year. Both values of Budget and Forecast are represented through a text(Actual Spent and Total Budget) respectively, where the total sum of both values are used. The traffic value is also shown as the green circle in the right-hand side of the graph, meaning that the budget for 2016 has gone below by 7.87% the expected forecast for 2016.
 
 **Output**
 
@@ -87,4 +89,4 @@ Displayed in the multisource trend chart is the total budget on the actual year 
 
 **Analysis**
 
-The conclusion of the use case chart showcases that the FY16 Budget does not reach the expected value of FY16 Forecast, which it is displayed for its traffic graph that was had the value lower than expected, showcasing a green circle that could be easily understood by FY company. This means that FY company did not overspend their budget for 2016, saving their money for future prospects. The FY company could use this graph as a guide to check their progress throughout the year of 2016, where they could make notes on how they managed to cut costs to get below their forecasted results in company finance. Furthermore, FY company could also use this graph to predict their financial forecast for future years, setting this current graph as a reference, to ensure the company can manage their finance better in the coming years.
+The conclusion of the use case chart showcases that the Actual Spent does not reach the expected value of Total Budget, which it is displayed for its traffic graph that was had the value lower than expected, showcasing a green circle that could be easily understood by FY company. This means that FY company did not overspend their budget for 2016, saving their money for future prospects. The FY company could use this graph as a guide to check their progress throughout the year of 2016, where they could make notes on how they managed to cut costs to get below their forecasted results in company finance. Furthermore, FY company could also use this graph to predict their financial forecast for future years, setting this current graph as a reference, to ensure the company can manage their finance better in the coming years.
