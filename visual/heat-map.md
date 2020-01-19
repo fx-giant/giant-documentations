@@ -6,7 +6,7 @@ A heat map is a visualisation of a matrix where the individual values are depict
 
 ## Data Binding
 
-For the chord diagram, there are a few mandatory bindings to generate the chart which are the **Column**, **Row** and **Measurement** properties. For each property, there are specific data types need to fulfill in order for the combination chart to render correctly, as shown below:
+For the heat map diagram, there are a few mandatory bindings to generate the chart which are the **Column**, **Row** and **Measurement** properties. For each property, there are specific data types need to fulfill in order for the combination chart to render correctly, as shown below:
 
 |Bindings|Data Type|
 |---|---|
