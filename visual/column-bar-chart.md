@@ -10,13 +10,13 @@ For both column and bar charts, there are only two mandatory bindings to generat
 
 |Bindings|Data Type|
 |---|---|
-|X-Axis|Text|
+|X-Axis|Text, Date|
 |Y-Axis|Numeric|
-|Group|Category(Text, Numeric or Date)|
+|Group|Category(Text or Date)|
 
 ### X-Axis
 
-A field with Text data type can be used for **X-Axis** binding. This will be displayed as the Category values.
+A field with Text or Date data type can be used for **X-Axis** binding. This will be displayed as the dimension values.
 
 ### Y-Axis
 
@@ -24,7 +24,7 @@ A field with Numeric data type can be used for **Y-Axis** binding. This will dis
 
 ### Group
 
-The **Group** binding determines the category to use to display the data points in the chart. It can be a Date, Text or Numeric data type.
+The **Group** binding determines the category to use to group X-Axis values in the chart. It can be a Date or Text data type.
 
 ## Other Settings
 
@@ -48,7 +48,7 @@ Add filters to restrict your data so that analysis will be focused on data which
 ### Mastercard's Top 5 Destination Cities in 2019 (Bar Chart)
 The dataset on this use case was created by Mastercard to keep track on the top 5 destination cities in 2019, having the values of cities and total international visitors (in millions). A bar chart will be used to display the data. Download sample data [here](./sample-data/column-bar-chart/mastercard-topdestination.csv).
 
-Provided within the dataset are the necessary fields needed to generate the combination chart. The **City** field is used for the **X-Axis** and **Group** fields, and the **Total International Visitors (Millions)** field is placed in the **Y-Axis** field.
+Provided within the dataset are the necessary fields needed to generate the bar chart. The **City** field is used for the **X-Axis** and **Group** fields, and the **Total International Visitors (Millions)** field is placed in the **Y-Axis** field.
 
 |Bindings |Select|
 |---|---|
