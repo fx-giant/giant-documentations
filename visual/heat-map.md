@@ -2,7 +2,7 @@
 
 ![Heat Map](./images/heat-map/heatmap.PNG)
 
-A heat map is a visualisation of a matrix where the individual values are depicted by different colours, to show their measurement in an easy to understand manner. The values are displayed by different colours in their matrix to give the metrics to show which values are interacted with more, but also lacks in the detail to provide "WHY" the values are interacted with in the first place. The heat map is generally used by analysts in order for them to be directed towards the areas of data that matter most for creating trends to benefit their respective projects.
+A heat map is a visualisation of a matrix where the individual values are depicted by different colours, to show their measurement in an easy to understand manner. The values are displayed by different colours based on the threshold setting, which aids in identifying certain trends. For example, when the trending is set to "Decreasing Better" for a traffic flow dataset, we can identify which hour of the day where the traffic is extremely high (the respective cells will be depicted in Red colour). The heat map is generally used by analysts in order for them to spot trends and benefit from it for decision-making.
 
 ## Data Binding
 
@@ -26,7 +26,10 @@ A field with text data type can be used for **Row** binding. This will be displa
 
 ### Measurement
 
-A field with numeric data type can be used for **Measurement** binding. The color of each value within the heat map will change by the comparison among other values i.e. data with bigger values will be shown in a different colour which is set within the **Range** binding.
+A field with numeric data type can be used for **Measurement** binding. The color of each value within the heat map will change by the comparison among other values, also based on the **Threshold** setting which consists of the:
+
+- Trending (Increasing Better/Decreasing Better)
+- Range % of Target
 
 ## Other Settings
 
@@ -57,26 +60,24 @@ Add filters to restrict your data so that analysis will be focused on data which
 ## Use Cases
 
 ### Movie Tickets Sold by Carriageworks Theatre
-Carriageworks Theatre recorded their data from January to September 2016 on the amount of tickets sold from each month. A Heat Map can be used to display which months have a higher amount in ticket sales according to the weeks within the month they are sold. Download sample data [here](./sample-data/heat-map/ticketsold-jansep.csv).
+Carriageworks Theatre recorded their data from years 2016 to 2018 on the amount of tickets sold from each month. A Heat Map can be used to display which months have a higher amount in ticket sales according to the years they are sold. Download sample data [here](./sample-data/heat-map/ticketsold-jansep.csv).
 
 Below are the fields used for the data binding to generate the chart:
 
 |Bindings|Field to Select|
 |---|---|
-|Column|From|
-|Row|To|
+|Column|Year|
+|Row|Month|
 |Measurement|Ticket Sales|
 
-*NOTE: The **Column** and **Row** values will be set according to their Months instead of Days to avoid over-cluttering the Heat Map generation.*
-
-As the **From** and **To** values have similar data fields, thus the Heat Map is generated with a diagonal design to reflect each Month comparing to other Months to be showcased. From the diagram, it can be seen that Months such as January, February, May, June, and September have the highest numbers of Ticket Sales within their respective month, but start slowing down on their sales when transitioning into the following month. By analysing the chart, it can be seen that the movie tickets are generally sold within months that have more holidays compared to the rest, where the management could take into consideration for creating strategies on the months that do not have a high ticket sales number to increase their revenue.
+From the heat map, it can be seen that only two Months have a high value on their ticket sales. These respective dates are February 2016 and November 2018, whereas the following months do not have a high enough number of sales when comparing against these two months. By analysing the chart, it can be seen that Carriageworks Theatre only have a short period of 5-6 months on getting steady average sales, this could be due to their intense competition against other theatres on selling movie tickets or that the company only decides to screen specific movies that the audience intends to watch. The management of Carriageworks Theatre could take into consideration for creating strategies on the months that do not have a high ticket sales number to increase their revenue.
 
 **Output**
 
 ![Tickets Sold](./images/heat-map/output-1.PNG)
 
 ### Site Visits of Excel Champs By Days of the Week and Hourly Time
-This dataset shows a site visit activity of Excel Champs according to the hourly time and days of the week. Download sample data [here](./sample-data/heat-map/site-visits.xlsx).
+This dataset shows a site visit activity of Excel Champs according to the hourly time (after P.M.) and days of the week. Download sample data [here](./sample-data/heat-map/site-visits.xlsx).
 
 From the dataset, the **Day** and **Time** fields will be used for the **Column** and **Row** settings as they are the values used to reflect the relationship between the values. The **Measurement** field is used for giving each value a distinct colour; this shows the amount of site visits within website.
 
@@ -85,9 +86,8 @@ From the dataset, the **Day** and **Time** fields will be used for the **Column*
 |Column|Day|
 |Row|Time|
 |Measurement|Site Visits|
-|Filter|Allow **Time** to only display values with *P.M.*|
 
-*NOTE: The **Filter** setting is used to prevent over-cluttering of the Heat Map.*
+*NOTE: Set the **Decimal** setting within the **Measurement** to be 0.*
 
 From the heat map, it can be seen that some days within the week have a higher site activity rate, along with the time that the site is accessed more, where both values are displayed with a Green colour in contrast to the other colours of Yellow and Red i.e. Monday and Saturday. It can also be seen that Thursday has the lowest customer activity throughout the day as compared to other days.
 
