@@ -2,7 +2,7 @@
 
 ![Column](./images/column-bar-chart/columnchart.PNG) ![Bar](./images/column-bar-chart/barchart.PNG)
 
-A column/Bar chart is a representation of categorical data with rectangular bars with height/length that is proportional to the values being plotted. They are both the same in the sense that the data would be displayed in a rectangular format, but their only differences is the orientation of the graph, being either horizontal(Bar Chart) or vertical(Column Chart), thus making the data sources very interchangable among the two. These two charts are generally used to display a large number of data sets on the category axis, where it makes it easier analysts to learn patterns for creating future predictions for their respective projects.
+A Column/Bar chart is a representation of categorical data with rectangular bars with height/length that is proportional to the values being plotted. They are both the same in the sense that the data would be displayed in a rectangular format, but their only differences is the orientation of the graph, being either horizontal(Bar Chart) or vertical(Column Chart), thus making the data sources very interchangable among the two. These two charts are generally used to display a large number of data sets on the category axis, where it makes it easier analysts to learn patterns for creating future predictions for their respective projects.
 
 ## Data Binding
 
@@ -10,13 +10,13 @@ For both column and bar charts, there are only two mandatory bindings to generat
 
 |Bindings|Data Type|
 |---|---|
-|X-Axis|Text|
+|X-Axis|Text or Date|
 |Y-Axis|Numeric|
-|Group|Category(Text, Numeric or Date)|
+|Group|Category(Text or Date)|
 
 ### X-Axis
 
-A field with Text data type can be used for **X-Axis** binding. This will be displayed as the Category values.
+A field with Text or Date data type can be used for **X-Axis** binding. This will be displayed as the Category values.
 
 ### Y-Axis
 
@@ -24,7 +24,7 @@ A field with Numeric data type can be used for **Y-Axis** binding. This will dis
 
 ### Group
 
-The **Group** binding determines the category to use to display the data points in the chart. It can be a Date, Text or Numeric data type.
+The **Group** binding determines the category to use to group **X-Axis** values in the chart. It can be a Date, Text or Numeric data type.
 
 ## Other Settings
 
@@ -48,17 +48,21 @@ Add filters to restrict your data so that analysis will be focused on data which
 ### Mastercard's Top 5 Destination Cities in 2019 (Bar Chart)
 The dataset on this use case was created by Mastercard to keep track on the top 5 destination cities in 2019, having the values of cities and total international visitors (in millions). A bar chart will be used to display the data. Download sample data [here](./sample-data/column-bar-chart/mastercard-topdestination.csv).
 
-Provided within the dataset are the necessary fields needed to generate the combination chart. The **City** field is used for the **X-Axis** and **Group** fields, and the **Total International Visitors (Millions)** field is placed in the **Y-Axis** field.
+Provided within the dataset are the necessary fields needed to generate the bar chart. The **City** field is used for the **X-Axis** and **Group** fields, and the **Total International Visitors (Millions)** field is placed in the **Y-Axis** field.
 
 |Bindings |Select|
 |---|---|
 |X-Axis|City|
-|Y-Axis|Total International Visitors (Millions)|
-|Group|City|
+|Y-Axis|Number of Oversea Client (Millions)|
+|Filter|Number of Oversea Client (Millions) to *Greater than or equal to* 14.67|
+
+*NOTE:* The **Filter** setting is set to 14.67 value as it is the fifth highest value within the chart
 
 From the chart analysis, it is easily visible that Bangkok is the city with the highest rate of international visitors (22.79 million), where it has a difference of 3.69 million visitors compared to the second highest, which is Paris with the value of 19.1 million visitors. This creates the assumption of Bangkok becoming an important contender among other cities that promote tourism, where Mastercard could also take note on promoting their services within the countries that have a ton of potential customers.
 
 **Output**
+
+>*NOTE:* Remember to sort out the chart in the order of Y-Axis > X-Axis **AND** Y-Axis (Decreasing) to generate the same output as below
 
 ![Top Destinations](./images/column-bar-chart/output-1.PNG)
 
