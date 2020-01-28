@@ -6,7 +6,7 @@ A Column/Bar chart is a representation of categorical data with rectangular bars
 
 ## Data Binding
 
-For both column and bar charts, there are only two mandatory bindings to generate the chart which are the **X-Axis** and **Y-Axis**. However, to analyse both chart properly, the **Group** field should also be binded to fulfill in order for the charts to render correctly, as shown below:
+For both column and bar charts, there are only two mandatory bindings to generate the chart which are the **X-Axis** and **Y-Axis**. THe **Group** field binding is optional, depending on the analysis that needs to be performed, refer below for the field bindings:
 
 |Bindings|Data Type|
 |---|---|
@@ -48,7 +48,7 @@ Add filters to restrict your data so that analysis will be focused on data which
 ### Mastercard's Top 5 Destination Cities in 2019 (Bar Chart)
 The dataset on this use case was created by Mastercard to keep track on the top 5 destination cities in 2019, having the values of cities and total international visitors (in millions). A bar chart will be used to display the data. Download sample data [here](./sample-data/column-bar-chart/mastercard-topdestination.csv).
 
-Provided within the dataset are the necessary fields needed to generate the bar chart. The **City** field is used for the **X-Axis** and **Group** fields, and the **Total International Visitors (Millions)** field is placed in the **Y-Axis** field.
+Provided within the dataset are the necessary fields needed to generate the bar chart. The **City** field is used for the **X-Axis** field, and the **Total International Visitors (Millions)** field is placed in the **Y-Axis** field.
 
 |Bindings |Select|
 |---|---|
