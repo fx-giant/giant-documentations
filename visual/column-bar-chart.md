@@ -54,9 +54,9 @@ Provided within the dataset are the necessary fields needed to generate the bar 
 |---|---|
 |X-Axis|City|
 |Y-Axis|Number of Oversea Client (Millions)|
-|Filter|Number of Oversea Client (Millions) to *Greater than or equal to* 14.67|
+|All/Top/Bottom|Set to *Top* with the value of **5**|
 
-*NOTE:* The **Filter** setting is set to 14.67 value as it is the fifth highest value within the chart
+*NOTE:* The **All/Top/Bottom** setting is set to 5 as the use case is meant to show the Top 5 Destinations
 
 From the chart analysis, it is easily visible that Bangkok is the city with the highest rate of international visitors (22.79 million), where it has a difference of 3.69 million visitors compared to the second highest, which is Paris with the value of 19.1 million visitors. This creates the assumption of Bangkok becoming an important contender among other cities that promote tourism, where Mastercard could also take note on promoting their services within the countries that have a ton of potential customers.
 
