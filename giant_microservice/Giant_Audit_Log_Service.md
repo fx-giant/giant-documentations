@@ -19,7 +19,7 @@ Please prepare for following informations to integrate with GIANT Audit Log serv
 
 ### Audit Log Service
 
-Audit Log Service is using RabbitMq to listen for new log. To create a new log, user needs to send a new queue to RabbitMq. Messaging Service to send out email. The service is connected to SMTP Service specified in Email Service URL Module in ìConfigure Systemî page.
+Audit Log Service is using RabbitMq to listen for new log. To create a new log, user needs to send a new queue to RabbitMq. Messaging Service to send out email. The service is connected to SMTP Service specified in Email Service URL Module in ‚ÄúConfigure System‚Äù page.
 
 ## Audit Log Service
 
@@ -38,14 +38,14 @@ Audit Log Service is using queue:
 
 | Field Name | Data Type | Description |
 | :------------ | :------------ | :------------ | 
-| LogId | String |	GUID of the log. (Optional)<br>If no LogId is provided, Audit Log Service will generate a new logId for the new log.<br><br> *Example:* <br>`ìLogIdî:ìc4fe61ae-2213-4024-a5ec-450a0cb4ed5dî` |
+| LogId | String |	GUID of the log. (Optional)<br>If no LogId is provided, Audit Log Service will generate a new logId for the new log.<br><br> *Example:* <br>`‚ÄúLogId‚Äù:‚Äúc4fe61ae-2213-4024-a5ec-450a0cb4ed5d‚Äù` |
 | **Severity** | Object | This is an enum of severity. Please refer to **Structure of Severity Field** section. |
-| Message | String | Message of the log <br><br> *Example:* <br> `ìMessageî:ì2017-12-06 16:53:59.9883 ERROR FX.Messaging.Service Fail to send email.î` |
-| Origin | String | Method Name/Class Name/Origin of audit being logged <br><br> *Example:* <br> `ìOriginî:ìFX.Messaging.Service.SendEmailî` |
-| Module | String | Module of the log <br><br> *Example:* <br> `ìModuleî:ìMessagingî` |
+| Message | String | Message of the log <br><br> *Example:* <br> `‚ÄúMessage‚Äù:‚Äú2017-12-06 16:53:59.9883 ERROR FX.Messaging.Service Fail to send email.‚Äù` |
+| Origin | String | Method Name/Class Name/Origin of audit being logged <br><br> *Example:* <br> `‚ÄúOrigin‚Äù:‚ÄúFX.Messaging.Service.SendEmail‚Äù` |
+| Module | String | Module of the log <br><br> *Example:* <br> `‚ÄúModule‚Äù:‚ÄúMessaging‚Äù` <br><br>  *Suggest create uniq module to separate from other and ease for retreive back desire audit record.*  <br> *Avoid using "ConnectionSource", "DashboardView", "ConnectionSourceLibrary", "DashboardViewLibrary", "ConnectionSourceSecurity", "Job", "Security", "SmartQuery", "System", "UserManagement"*  <br>  |
 | **Parameter** | Object | Please refer to **Structure of Parameter** section. |
-| CreatedBy | String | Giant UserId in GUID.<br><br> *Example:* <br> `ìUserIdî:ìb3410fdc-1111-2222-3333-7adc3225c058î` |
-| CreatedUtcDateTime | String | Date time of the log is being created.<br> The date time string is using ISO 8601 format.(`YYYY-MM-DDTHH:mm:ss.sssZ`)<br><br> *Example:* <br> `ìCreatedUtcDateTimeî:ì2015-07-04T12:08:56.235+08:00î` |
+| CreatedBy | String | Giant UserId in GUID.<br><br> *Example:* <br> `‚ÄúUserId‚Äù:‚Äúb3410fdc-1111-2222-3333-7adc3225c058‚Äù` |
+| CreatedUtcDateTime | String | Date time of the log is being created.<br> The date time string is using ISO 8601 format.(`YYYY-MM-DDTHH:mm:ss.sssZ`)<br><br> *Example:* <br> `‚ÄúCreatedUtcDateTime‚Äù:‚Äú2015-07-04T12:08:56.235+08:00‚Äù` |
 
 
 * **Structure of Severity Field**
@@ -56,8 +56,8 @@ The severity field is an enum as followings:
 
 | Field Name | Data Type | Description |
 | :------------ | :------------ | :------------ | 
-| Name | String | Log severity name.<br>The severity name is a enum as followings:<br>`Trace`, `Debug`, `Info`, `Warn`, `Error`, `Fatal`, `Off`<br><br> *Example:* <br> `ìSeverityî:ìInfoî` |
-| Ordinal | String | Log severity ordinal number.<br>The `ordinal` is the number value of enum of Severity. The value of Ordinal is depending on which severity name it is as followings.<br>(`Trace: 0`, `Debug: 1`, `Info: 2`, `Warn: 3`, `Error: 4`, `Fatal: 5`, `Off: 6`)<br><br> *Example:* <br> `{"Severityî:ìInfoî,ìOrdinalî:ì2î}` |
+| Name | String | Log severity name.<br>The severity name is a enum as followings:<br>`Trace`, `Debug`, `Info`, `Warn`, `Error`, `Fatal`, `Off`<br><br> *Example:* <br> `‚ÄúSeverity‚Äù:‚ÄúInfo‚Äù` |
+| Ordinal | String | Log severity ordinal number.<br>The `ordinal` is the number value of enum of Severity. The value of Ordinal is depending on which severity name it is as followings.<br>(`Trace: 0`, `Debug: 1`, `Info: 2`, `Warn: 3`, `Error: 4`, `Fatal: 5`, `Off: 6`)<br><br> *Example:* <br> `{"Severity‚Äù:‚ÄúInfo‚Äù,‚ÄúOrdinal‚Äù:‚Äú2‚Äù}` |
 
 * **Parameter**
 
@@ -67,9 +67,9 @@ Additional parameter/variable stored with the log.
 
 | Field Name | Data Type | Description |
 | :------------ | :------------ | :------------ | 
-| UserId | String | Giant UserId of who is involved in the log.<br><br> *Example:* <br> `ìUserIdî:ìb3410fdc-1111-2222-3333-7adc3225c058î` |
-| userName | String | Giant UserName of who is involved in the log.<br>This field is used when filtering with Audit Log API Service.<br><br> *Example:* <br> `ìuserNameî:ìuser@email.comî` |
-| FormattedMessage | String | Formatted Message.<br> Required Field in order to display the Summary message Log in Giant Audit Page<br><br> *Example:* <br> `ìFormattedMessageî:ìSuccessfully sent emailî` |
+| UserId | String | Giant UserId of who is involved in the log.<br><br> *Example:* <br> `‚ÄúUserId‚Äù:‚Äúb3410fdc-1111-2222-3333-7adc3225c058‚Äù` |
+| userName | String | Giant UserName of who is involved in the log.<br>This field is used when filtering with Audit Log API Service.<br><br> *Example:* <br> `‚ÄúuserName‚Äù:‚Äúuser@email.com‚Äù` |
+| FormattedMessage | String | Formatted Message.<br> Required Field in order to display the Summary message Log in Giant Audit Page<br><br> *Example:* <br> `‚ÄúFormattedMessage‚Äù:‚ÄúSuccessfully sent email‚Äù` |
 
 ##### Example of the Log 1
 
@@ -187,7 +187,7 @@ User needs to include following HTTP header in the request.
 
 | Name  | Description  | Required  | Remarks  |
 | :------------ | :------------ | :------------ | :------------ |
-| `ClientId`  | Client Id sends request  | Yes  | Default value ìFusionexî, can be the application/service name  |
+| `ClientId`  | Client Id sends request  | Yes  | Default value ‚ÄúFusionex‚Äù, can be the application/service name  |
 | `UserId`  | UUID of the user sends the request  | Yes  | Prefer using GIANT userId.  |
 | `OrganizationId`  | Organization id of the user sends the request  | Yes  | Prefer using GIANT organizationId.  |
 
@@ -196,18 +196,18 @@ User needs to include following HTTP header in the request.
 
 | Field Name | Data Type | Description |
 | :------------ | :------------ | :------------ | 
-| userId | String |	UserId of who is getting the log records. The UserId is GIANT userId. <br><br> *Example:* <br>`ìuserIdî:ìc4fe61ae-2213-4024-a5ec-450a0cb4ed5dî` |
-| size | Integer | Maximum number of rows to display in the filtered result. <br><br> *Example:* <br> `ìsizeî:100` |
-| pageNo | Integer | Page number of filtered result. This field is used with `size` field.<br>As example: <br>`"size":50, "pageNo":"0"` means the display the 1st page of 50 rows. (1 - 50) <br> `"size":30, "pageNo":"2"` means the display the 3rd page of 30 rows. (61 - 90) <br><br> *Example:* <br> `ìpageNoî:ì0î` |
-| text | String | Filter logs containing text inside logId, severity name, module, userName, title. <br><br> *Example:* <br> `ìtextî:ìConnection Timeoutî` |
-| logId | String | Filter logs with the matching logId. <br><br> *Example:* <br> `ìlogIdî:ìc4fe61ae-2213-4024-a5ec-450a0cb4ed5dî` |
-| severities | Array of String | Filter logs with the matching severity name to list of severity.<br>The severity can be any of the followings: <br>`info`, `warning`, `error`, `fatal`, `debug`, `trace`<br><br> *Example:* <br> `ìseveritiesî:[ìinfoî,"warning"]` |
-| message | String | Filter logs with the exact matching of message.<br><br> *Example:* <br> `ìmessageî:ìCreate Connection Failedî` |
-| modules | Array of String | Filter logs with matching module inside the list. <br><br> *Example:* <br> `ìmodulesî:[ìauthentiationî]` |
-| origin | String | Filter logs with the matching origin. <br><br> *Example:* <br> `ìoriginî:ìFX.Authenticateî` |
-| userNames | Array of String | Filter logs with matching parameter.userName to list of userNames.<br><br> *Example:* <br> `ìuserNamesî:["user@email.com"]` |
-| startDate | String | Filter logs which is created after the date.<br>The date time string is using ISO 8601 format.<br>(`YYYY-MM-DDTHH:mm:ss.sssZ`)<br><br> *Example:* <br> `ìstartDateî:ì2015-07-04T12:08:56.235+08:00î` |
-| endDate | String | Filter logs which is created before the date.<br>The date time string is using ISO 8601 format.<br>(`YYYY-MM-DDTHH:mm:ss.sssZ`)<br><br> *Example:* <br> `ìendDateî:ì2015-07-04T12:08:56.235+08:00î` |
+| userId | String |	UserId of who is getting the log records. The UserId is GIANT userId. <br><br> *Example:* <br>`‚ÄúuserId‚Äù:‚Äúc4fe61ae-2213-4024-a5ec-450a0cb4ed5d‚Äù` |
+| size | Integer | Maximum number of rows to display in the filtered result. <br><br> *Example:* <br> `‚Äúsize‚Äù:100` |
+| pageNo | Integer | Page number of filtered result. This field is used with `size` field.<br>As example: <br>`"size":50, "pageNo":"0"` means the display the 1st page of 50 rows. (1 - 50) <br> `"size":30, "pageNo":"2"` means the display the 3rd page of 30 rows. (61 - 90) <br><br> *Example:* <br> `‚ÄúpageNo‚Äù:‚Äú0‚Äù` |
+| text | String | Filter logs containing text inside logId, severity name, module, userName, title. <br><br> *Example:* <br> `‚Äútext‚Äù:‚ÄúConnection Timeout‚Äù` |
+| logId | String | Filter logs with the matching logId. <br><br> *Example:* <br> `‚ÄúlogId‚Äù:‚Äúc4fe61ae-2213-4024-a5ec-450a0cb4ed5d‚Äù` |
+| severities | Array of String | Filter logs with the matching severity name to list of severity.<br>The severity can be any of the followings: <br>`info`, `warning`, `error`, `fatal`, `debug`, `trace`<br><br> *Example:* <br> `‚Äúseverities‚Äù:[‚Äúinfo‚Äù,"warning"]` |
+| message | String | Filter logs with the exact matching of message.<br><br> *Example:* <br> `‚Äúmessage‚Äù:‚ÄúCreate Connection Failed‚Äù` |
+| modules | Array of String | Filter logs with matching module inside the list. <br><br> *Example:* <br> `‚Äúmodules‚Äù:[‚Äúauthentiation‚Äù]` |
+| origin | String | Filter logs with the matching origin. <br><br> *Example:* <br> `‚Äúorigin‚Äù:‚ÄúFX.Authenticate‚Äù` |
+| userNames | Array of String | Filter logs with matching parameter.userName to list of userNames.<br><br> *Example:* <br> `‚ÄúuserNames‚Äù:["user@email.com"]` |
+| startDate | String | Filter logs which is created after the date.<br>The date time string is using ISO 8601 format.<br>(`YYYY-MM-DDTHH:mm:ss.sssZ`)<br><br> *Example:* <br> `‚ÄústartDate‚Äù:‚Äú2015-07-04T12:08:56.235+08:00‚Äù` |
+| endDate | String | Filter logs which is created before the date.<br>The date time string is using ISO 8601 format.<br>(`YYYY-MM-DDTHH:mm:ss.sssZ`)<br><br> *Example:* <br> `‚ÄúendDate‚Äù:‚Äú2015-07-04T12:08:56.235+08:00‚Äù` |
 
 ##### Example of POST Auditlog to get logs with filter
 
