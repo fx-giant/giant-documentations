@@ -57,17 +57,17 @@ Displayed clearly within the pie chart, there is a split between two candidates,
 ![US Elections](./images/pie-donut-chart/output-1.PNG)
 
 ### Retail Sales by Product Category and Store Type (Donut Chart)
-A sample dataset is used to display the most common items sold compared to its store location. A donut chart will be used to display the data. Download sample data [here](./sample-data/pie-donut-chart/Retail Sales by Store Type.xlsx).
+A sample dataset is used to display the most common items sold compared to its store location. A donut chart will be used to display the data. Download sample data [here](./sample-data/pie-donut-chart/retail-sales-by-store-type.xlsx).
 
-Provided within the dataset are the necessary fields needed to generate the donut chart. The **Category** field is used for the **Category** field, and the **Sales This Category** field is placed in the **Value** field.
+Provided within the dataset are the necessary fields needed to generate the donut chart. The **Category** field is used for the **Category** field, and the **Sales** field is placed in the **Value** field.
 
 |Bindings |Select|
 |---|---|
 |Category|Category|
-|Value|Sales This Category|
+|Value|Sales|
 |Drill Down|Store Type|
 
-Displayed within the chart are the product categories that make up their own segment according to the total sales. In this example, Women's, juniors' & misses' wear has the biggest segment size of 47.12% compared to the other categories. Not only that, with the usage of the **Drill Down** binding, clicking on each will show the data of the which specific Store Type that it was bought from.
+Displayed within the chart are the product categories that make up their own segment according to the total sales. In this example, **Women's, juniors' & misses' wear** has the biggest segment size of 47.12% compared to the other categories. Not only that, with the usage of the **Drill Down** binding, clicking on each segment will show the data of the specific Store Type that it was bought from.
 
 **Output**
 
@@ -81,4 +81,4 @@ Displayed within the chart are the product categories that make up their own seg
 
 **Analysis**
 
-The conclusion of the use case chart displays the percentage of items bought from each product category and store type, where the Women's, juniors' & misses' wear takes up to almost half of the whole sales, with 47.12% across all store types. As the drill down was used for this use case, it is shown that Clothing & clothing accessories stores along with General merchandise stores contribute the most towards the sales of Women's, juniors' & misses' wear. From this, the management of the company should use the donut chart as an analysis tool to see which products should be focused on to garner in more revenue for the company, as well as which stores should specialise in selling said products to eventually gain a higher profit throughout their business year.
+The conclusion of the use case chart displays the percentage of items bought from each product category and store type, where the **Women's, juniors' & misses' wear** takes up to almost half of the whole sales, with 47.12% across all store types. From the drill down of the largest segment, it is shown that **Clothing & clothing accessories stores** along with **General merchandise stores** contribute the most towards the sales of **Women's, juniors' & misses' wear**. Perhaps, this is due to the fact that there are more product variety sold in general merchandise stores and clothing & accessories stores. From this, the management of the company should use the donut chart as an analysis tool to see which products they should be more focused on, as well as which stores should specialise in selling the said products to eventually gain a higher profit throughout their business year.
