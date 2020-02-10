@@ -15,7 +15,7 @@ You can [refer here](./setting-up-chatbot-agent-in-dialogflow.md) for the steps 
 
 ## 1.1 Creating an Agent
 
-1. Launch the browser and log in into GIANT. Access the **Conversation Flow** main screen by clicking on **My Form(s)** menu in the left panel, followed by **All Form(s)** menu. Then, click on Conversation flow's **VIEW FORM** button.
+1. Launch the browser and log in into [GIANT](https://giant2019-csgb.fusionexgiant.com/AnalyticsI/). Access the **Conversation Flow** main screen by clicking on **My Form(s)** menu in the left panel, followed by **All Form(s)** menu. Then, click on Conversation flow's **VIEW FORM** button.
 
 2. Click on **Create a new agent**.
 
@@ -83,7 +83,7 @@ You can [refer here](./setting-up-chatbot-agent-in-dialogflow.md) for the steps 
         
 ![assign-role](./images/setting-up-chatbot-agent-in-giant-images/assign-role.png)
  
-        vii. Click on + CREATE KEY button. 
+        vii. Click on + CREATE KEY button. (If Keys already exist, click on EDIT, then click on + CREATE KEY button.)
         
 ![add-key](./images/setting-up-chatbot-agent-in-giant-images/add-key.png)
         
