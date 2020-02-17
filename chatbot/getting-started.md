@@ -55,6 +55,14 @@ To show the animal photos, a **Card** response type is created. An action button
 
 ![inquiry_animal-pics-card](./images/getting-started-images/inquiry_animal-pics-card.png)
 
+> **Note: The 'Intent parameters' fields are case sensitive for Diaglogflow. Please ensure the exact 'PARAMETER NAME' field and the 'ENTITY reference value' from Dialogflow are used in GIANT form.**
+
+> **If cards not showing properly following 'Intent parameters', copy and paste values from Dialogflow directly instead of manually typing.**
+
+![inquiry_animal-pics-card-intent-parameters](./images/getting-started-images/note_inquiry_animal-pics-card-intent-parameters.png)
+
+
+
 
 ### 3.3 Handling Inquiries on Animal Centre Opening Hours
 
@@ -230,7 +238,13 @@ There are times when the chatbot needs to get some input from the user and "reme
 	![note_context-entities-configs](./images/getting-started-images/note_context-entities-configs.png)
     
     ![note_context-inquiry-operating-hours-configs](./images/getting-started-images/note_context-inquiry-operating-hours-configs.png)
-    
+
+
+
+	> **Note: The input context is 'context_visiting_day' while the output context is 'context_visiting_time'.** 
+
+
+
     ![note_context-get-visiting-day-configs](./images/getting-started-images/note_context-get-visiting-day-configs.png)
     
     ![note_context-get-visiting-time-configs](./images/getting-started-images/note_context-get-visiting-time-configs.png)
@@ -240,3 +254,5 @@ There are times when the chatbot needs to get some input from the user and "reme
 - _Context_ results as shown in chatbot:
 
 	![note_context-results](./images/getting-started-images/note_context-results.png)
+
+> **Note: If unable to obtain desired output, check whether 'input context' and 'output context' values were correctly keyed in.**

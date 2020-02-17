@@ -8,8 +8,8 @@ This guide provides instructions on how to:
 - linking Intents to GIANT chatbot agent
 
 ### Pre-Requisite
-You **MUST** have a Chatbot agent set up in Dialogflow before proceeding with the steps below.
-
+1. GIANT account with form **Conversation Flow** access.
+2. You **MUST** have a Chatbot agent set up in Dialogflow before proceeding with the steps below.
 
 You can [refer here](./setting-up-chatbot-agent-in-dialogflow.md) for the steps on setting up a chatbot agent in Dialogflow.
 
@@ -83,7 +83,7 @@ You can [refer here](./setting-up-chatbot-agent-in-dialogflow.md) for the steps 
         
 ![assign-role](./images/setting-up-chatbot-agent-in-giant-images/assign-role.png)
  
-        vii. Click on + CREATE KEY button. 
+        vii. Click on + CREATE KEY button. (If Keys already exist, click on EDIT, then click on + CREATE KEY button.)
         
 ![add-key](./images/setting-up-chatbot-agent-in-giant-images/add-key.png)
         
