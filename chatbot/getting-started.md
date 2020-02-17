@@ -238,8 +238,12 @@ There are times when the chatbot needs to get some input from the user and "reme
 	![note_context-entities-configs](./images/getting-started-images/note_context-entities-configs.png)
     
     ![note_context-inquiry-operating-hours-configs](./images/getting-started-images/note_context-inquiry-operating-hours-configs.png)
-    
-> **Note: The input context is 'context_visiting_day' while the output context is 'context_visiting_time'**
+
+
+
+	> **Note: The input context is 'context_visiting_day' while the output context is 'context_visiting_time'.** 
+
+
 
     ![note_context-get-visiting-day-configs](./images/getting-started-images/note_context-get-visiting-day-configs.png)
     
