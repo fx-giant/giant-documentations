@@ -55,7 +55,7 @@ To show the animal photos, a **Card** response type is created. An action button
 
 ![inquiry_animal-pics-card](./images/getting-started-images/inquiry_animal-pics-card.png)
 
-> **Note: The 'Intent parameters' fields in GIANT are case sensitive and should follow the 'PARAMETER NAME' field and the 'ENTITY reference value' from Dialogflow exactly.**
+> **Note: The 'Intent parameters' fields are case sensitive for Diaglogflow. Please ensure the exact 'PARAMETER NAME' field and the 'ENTITY reference value' from Dialogflow are used in GIANT form.**
 
 > **If cards not showing properly following 'Intent parameters', copy and paste values from Dialogflow directly instead of manually typing.**
 
