@@ -8,14 +8,14 @@ This guide provides instructions on how to:
 - linking Intents to GIANT chatbot agent
 
 ### Pre-Requisite
-You **MUST** have a Chatbot agent set up in Dialogflow before proceeding with the steps below.
-
+1. GIANT account with form **Conversation Flow** access.
+2. You **MUST** have a Chatbot agent set up in Dialogflow before proceeding with the steps below.
 
 You can [refer here](./setting-up-chatbot-agent-in-dialogflow.md) for the steps on setting up a chatbot agent in Dialogflow.
 
 ## 1.1 Creating an Agent
 
-1. Launch the browser and log in into [GIANT](https://giant2019-csgb.fusionexgiant.com/AnalyticsI/). Access the **Conversation Flow** main screen by clicking on **My Form(s)** menu in the left panel, followed by **All Form(s)** menu. Then, click on Conversation flow's **VIEW FORM** button.
+1. Launch the browser and log in into GIANT. Access the **Conversation Flow** main screen by clicking on **My Form(s)** menu in the left panel, followed by **All Form(s)** menu. Then, click on Conversation flow's **VIEW FORM** button.
 
 2. Click on **Create a new agent**.
 
