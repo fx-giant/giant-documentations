@@ -1,6 +1,6 @@
 # Multisource Combination Chart
 
-![Multisource Combination](./images/multisource-combination/multicombination.PNG)
+![Multisource Combination](./images/multisource-combination/multisourcecombination.PNG)
 
 Multi-source Combination Chart is similar to Combination chart whereby it is useful when you have multiple measurements to show in a single chart, each one displayed as a different chart type. This chart is an enhanced version of the Combination chart that enables you to combine data from multiple data sources in a single chart, without having to merge the data sources into a single data source. Multi-source Combination chart also supports multiple Dimension binding, each Dimension bound from a different data source. For example, you can bind Region from Data Source 1, Country from Data Source 2 and bind Sales Amount from Source 1 and Source 2. They can be displayed together in the same chart for you to compare the figures.
 
@@ -53,21 +53,33 @@ Another setting that can be used is **Filter** whereby specifying the filter(s) 
 
 ## Use Cases
 
-### Gross Profit and Revenue Comparison of Apple
-As this is a multisource combination chart, two separate datasets would be used to generate the chart. Thus, Apple documented their Annual Gross Profit and Revenue Sales throughout the years of 2009 until 2019, which could be used within the Multisource Combination chart as the data sources are seperated in two:
-- *Gross Profit:* Download sample data [here](./sample-data/multisource-combination/apple-grossprofit.csv). 
-- *Revenue:* Download sample data [here](./sample-data/multisource-combination/apple-revenue.csv).
+### Annual and Monthly Budgeting for FY 2015 and 2016
+As this is a multisource combination chart, two separate datasets would be used to generate the chart. Thus, FY documented their Annual and Monthly budgeting throughout the year of 2015 and 2016, which could be used within the Multisource Combination chart as the data sources are seperated in two:
+- *Annual:* Download sample data [here](./sample-data/multisource-combination/AnnualBudgetForecast). 
+- *Monthly:* Download sample data [here](./sample-data/multisource-combination/MonthlyBudgetForecast).
 
-Provided within both dataset are the necessary fields needed to generate the multisource combination chart. The **Year** field could be used as both **X-Axis** settings for the Sources, whereas the **Revenue** and **Gross Profit** fields would be placed within the **Y-Axis** setting respectively.
+Provided within both dataset are the necessary fields needed to generate the multisource combination chart. The **Revenue** field could be used as both **X-Axis** setting, whereas the remainder of the fields should be listed down within the **Y-Axis** setting. The **Y-Axis** values should have tweaks within the settings as to display the current graph in a more understandable manner.
 
-Source #|Bindings|Field to Select|
-|---|---|---|
-|Apple Revenue|X-Axis|Year|
-|Apple Revenue|Y-Axis (Bar Graph)|Revenue (Millions in US$)|
-|Apple Gross Profit|X-Axis|Year|
-|Apple Gross Profit|Y-Axis (Area Graph)|Gross Profit (Millions in US$)|
+**Annual FY Dataset**
 
-Displayed in the multisource combination chart is Apple's Sales on their Gross Profit and Revenue. Throughout the years of 2009 to 2019,The Gross Profit is displayed using the bar graph, whereas the Revenue is displayed using the area graph. The Y-Axis on the left-hand side is meant for the Revenue values(auto-scaled to 400,000) and the right-hand side is meant for the Gross Profit values(auto-scaled to 160,000).
+|Bindings |Field to Select|
+|---|---|
+|X-Axis|Revenue|
+|Y-Axis (1st Area Graph)|Contract Monthly|
+|Y-Axis (2nd Area Graph)|Non-Contract Monthly|
+|Y-Axis (3rd Area Graph)|Other Monthly|
+|Y-Axis (Line Graph)|Total Budget Monthly|
+
+**Monthly FY Dataset**
+
+|Bindings |Field to Select|
+|---|---|
+|X-Axis|Revenue|
+|Y-Axis (1st Bar Graph)|Contract|
+|Y-Axis (2nd Bar Graph)|Non-Contract|
+|Y-Axis (2nd Bar Graph)|Other|
+
+Displayed in the multisource combination chart is the total budget on the actual year and the forecasted year. The annual budget for FY15 and FY16 are displayed using the bar graphs, whereas the monthly budget for each month respectively is displayed using area graph, along with the expected total monthly budget represented by the line graph.
 
 **Output**
 
@@ -75,4 +87,4 @@ Displayed in the multisource combination chart is Apple's Sales on their Gross P
 
 **Analysis**
 
-The conclusion of the use case chart displays that the Revenue Sales of Apple increase exponentially throughout the decade, which could also be said for their Gross Profit. Although the Gross Profit for each year does not equal to the Revenue, each year Apple manages to reach at least 50% margin, where they had peaked in the year 2012 and 2015, both years managing to reach a little less than 50%. Delving deeper into the analysis, Apple could refer to the multisource combination chart to check on their patterns or trends made within the years that had peaked for their Gross Profit Margin, in a sense that they could put in the same effort for what they did in their previous successful years, and implement it to their future years. 
+By analysing the chart deeper, it is shown within the chart that the FY15 Actual bar graph results total up to be the same with the revenue budgeting from the Total Budget Monthly area graph from the months of July to December. This proves that the two datasets are related to one another, thus further analysis and predictions could be done within the chart. The FY16 Budget and Forecast bar graphs is used to predict the total budgeting that FY would need to have in order to run their following year smoothly, where a further detailed display on the monthly contract, non-contract and others are represented within the chart. From the multisource combination chart, FY could refer to the chart as their guidance for the following years ahead, where they could list down their current revenue expenses, and forecast what their budget would be.
