@@ -23,7 +23,7 @@ Categorical cylinder gauge is similar to the cylinder gauge, but instead of only
 
 ### Calculation Scenario & Data Generated for Chart Visualization
 
-![Cylinder Gauge use case scenario](./images/categorical-cylinder-gauge/categorical-cylinder-gauge-use-cases.png)
+![Cylinder Gauge use case scenario](./images/categorical-cylinder-gauge/cylinder-gauge-use-case.PNG)
   
 The above use cases shows that based on the values bound from the data source and the `Measurement Type` setting, the `Target` and `% Achievement` can be automatically calculated. You need to ensure that the data you use matches with the `Measurement Type` setting in order to get the correct values to be displayed in the chart.
 
