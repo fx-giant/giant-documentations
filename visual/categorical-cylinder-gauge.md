@@ -29,7 +29,7 @@ The above use cases shows that based on the values bound from the data source an
 
 ## Use cases
 
-### Actual & Target Sales of Software Applications
+### Sales Performance of Software Applications
 
 Download sample data [here](./sample-data/categorical-cylinder-gauge/categorical-cylinder-gauge-sample-data-app-sale.csv).
 
