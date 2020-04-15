@@ -1,0 +1,1001 @@
+id,product_name,return_amount,total_sold,date
+1,Bread - French Baquette,54,94,19/09/2019
+2,Chambord Royal,78,86,07/01/2019
+3,"Beans - Turtle, Black, Dry",23,23,23/01/2020
+4,Squash - Sunburst,55,59,03/09/2019
+5,"Flour - Buckwheat, Dark",52,98,18/05/2019
+6,Olives - Morracan Dired,74,15,04/03/2019
+7,Tea - Decaf 1 Cup,16,5,07/04/2020
+8,Potatoes - Pei 10 Oz,27,84,05/01/2020
+9,Shrimp - 150 - 250,1,56,23/08/2019
+10,"Pepper - White, Ground",64,36,14/02/2019
+11,Squeeze Bottle,94,64,04/01/2020
+12,Beer - Sleeman Fine Porter,71,20,30/01/2020
+13,"Jam - Blackberry, 20 Ml Jar",91,99,26/12/2019
+14,Radish - Pickled,49,81,30/12/2019
+15,Salmon Steak - Cohoe 8 Oz,40,99,21/10/2019
+16,Sprouts - Onion,50,62,19/01/2020
+17,Buffalo - Tenderloin,56,31,22/10/2019
+18,Wine - Mondavi Coastal Private,53,23,10/04/2019
+19,"Fish - Scallops, Cold Smoked",19,76,22/10/2019
+20,Lettuce - Sea / Sea Asparagus,14,32,09/01/2019
+21,Longos - Lasagna Veg,36,93,05/02/2019
+22,Fib N9 - Prague Powder,13,78,11/02/2019
+23,Juice - Propel Sport,33,60,13/02/2020
+24,Syrup - Chocolate,54,31,19/07/2019
+25,Juice - Lime,31,41,13/11/2019
+26,Wine - Rhine Riesling Wolf Blass,24,69,16/03/2019
+27,Gatorade - Xfactor Berry,49,18,10/01/2020
+28,Fiddlehead - Frozen,93,27,28/02/2020
+29,Wine - Rioja Campo Viejo,18,73,17/08/2019
+30,"Lemonade - Strawberry, 591 Ml",40,1,07/10/2019
+31,Cheese Cloth No 100,24,17,24/03/2020
+32,Peppercorns - Green,35,31,14/09/2019
+33,Wine - Redchard Merritt,77,24,18/01/2019
+34,"Veal - Round, Eye Of",75,40,16/05/2019
+35,"Bread - Dark Rye, Loaf",87,19,08/02/2020
+36,Cake - Cake Sheet Macaroon,89,40,19/03/2020
+37,Chervil - Fresh,100,48,15/05/2019
+38,Evaporated Milk - Skim,8,19,05/02/2020
+39,"Oil - Shortening,liqud, Fry",35,35,19/05/2019
+40,Wine - Taylors Reserve,70,84,02/01/2019
+41,"Flour - Bran, Red",5,61,05/12/2019
+42,Shrimp - Tiger 21/25,39,39,21/02/2019
+43,"Nut - Chestnuts, Whole",42,96,24/03/2019
+44,Muffin - Zero Transfat,79,33,16/11/2019
+45,"Soup - Campbells, Butternut",66,25,06/11/2019
+46,"Mustard - Dry, Powder",63,35,23/04/2019
+47,Dried Peach,56,7,19/08/2019
+48,"Juice - Pineapple, 48 Oz",65,71,26/03/2020
+49,Venison - Striploin,13,28,16/02/2019
+50,Bread - Petit Baguette,34,48,15/05/2019
+51,Sprouts - Bean,12,31,06/05/2019
+52,The Pop Shoppe - Root Beer,16,66,25/01/2020
+53,Port - 74 Brights,1,53,09/04/2019
+54,Port - 74 Brights,2,87,31/05/2019
+55,Salt - Table,3,80,07/03/2020
+56,Pate - Peppercorn,18,89,17/01/2020
+57,Longos - Chicken Wings,60,73,06/01/2020
+58,"Coconut - Shredded, Sweet",53,74,02/03/2019
+59,Ketchup - Tomato,42,37,13/12/2019
+60,Bagel - 12 Grain Preslice,15,23,03/02/2019
+61,Puree - Raspberry,94,43,27/03/2020
+62,"Beef - Rib Roast, Cap On",35,73,13/01/2020
+63,Water - Aquafina Vitamin,61,1,01/10/2019
+64,"Marjoram - Dried, Rubbed",88,75,19/01/2020
+65,Onions - Red Pearl,80,41,04/10/2019
+66,Limes,3,15,04/10/2019
+67,Wine - Barbera Alba Doc 2001,70,70,02/03/2019
+68,"Gingerale - Schweppes, 355 Ml",35,67,06/01/2020
+69,Dried Peach,100,98,17/05/2019
+70,Wine - Peller Estates Late,93,8,20/11/2019
+71,Sardines,83,69,03/12/2019
+72,Water - San Pellegrino,55,65,19/03/2020
+73,Myers Planters Punch,31,48,13/11/2019
+74,Onions - Vidalia,98,56,22/03/2020
+75,"Soup - Cream Of Broccoli, Dry",30,82,09/05/2019
+76,Cheese - Parmesan Cubes,86,11,25/11/2019
+77,"Trout - Rainbow, Frozen",29,29,07/12/2019
+78,Wine - Kwv Chenin Blanc South,81,99,23/03/2020
+79,Icecream - Dstk Strw Chseck,9,71,19/08/2019
+80,Salmon - Fillets,46,1,13/04/2019
+81,Vinegar - Cider,30,48,11/03/2020
+82,"Beef - Rouladin, Sliced",5,79,06/07/2019
+83,Triple Sec - Mcguinness,40,88,14/03/2019
+84,Spinach - Frozen,46,82,22/01/2019
+85,"Plate - Foam, Bread And Butter",51,96,19/03/2019
+86,Bread - Pain Au Liat X12,84,46,03/08/2019
+87,Muffin - Bran Ind Wrpd,11,61,04/08/2019
+88,"Oranges - Navel, 72",74,18,07/02/2019
+89,Easy Off Oven Cleaner,33,55,07/03/2019
+90,"Mushroom - Shitake, Fresh",81,59,29/01/2020
+91,Fork - Plastic,33,38,11/06/2019
+92,Cake - Lemon Chiffon,32,15,10/03/2020
+93,"Bread - Roll, Italian",58,73,13/05/2019
+94,Cardamon Seed / Pod,59,24,29/08/2019
+95,Fudge - Cream Fudge,32,4,20/07/2019
+96,Swordfish Loin Portions,23,54,28/01/2019
+97,Coffee - Irish Cream,98,41,31/01/2020
+98,Wine - Ej Gallo Sierra Valley,43,22,01/03/2020
+99,Cheese - La Sauvagine,28,10,30/01/2020
+100,Shrimp - Tiger 21/25,29,87,03/09/2019
+101,"Beef - Rib Roast, Cap On",58,66,25/01/2020
+102,Cup - 8oz Coffee Perforated,87,80,22/08/2019
+103,Wine - Ruffino Chianti Classico,64,8,27/07/2019
+104,Cheese - Gouda,66,48,13/11/2019
+105,Ice Cream Bar - Oreo Sandwich,98,17,10/01/2019
+106,Pastry - Plain Baked Croissant,62,52,12/02/2020
+107,Yoghurt Tubes,33,26,21/10/2019
+108,"Wine - Niagara,vqa Reisling",56,80,12/03/2020
+109,Cheese - Brick With Onion,48,20,20/04/2019
+110,Nescafe - Frothy French Vanilla,94,79,23/02/2019
+111,"Sauce - Black Current, Dry Mix",34,88,06/03/2019
+112,"Wine - Red, Harrow Estates, Cab",86,7,08/12/2019
+113,"Pasta - Lasagne, Fresh",27,54,02/03/2020
+114,Bread - Frozen Basket Variety,45,97,22/04/2019
+115,Flour - Fast / Rapid,21,17,22/05/2019
+116,Fruit Mix - Light,5,37,01/08/2019
+117,Scallops - 20/30,87,66,07/12/2019
+118,Pork - Suckling Pig,77,17,18/07/2019
+119,Foam Cup 6 Oz,34,64,27/02/2019
+120,Cookie Trail Mix,29,13,14/03/2020
+121,Wine - Zonnebloem Pinotage,87,58,29/01/2020
+122,Chinese Foods - Chicken Wing,14,86,24/07/2019
+123,Longos - Chicken Caeser Salad,58,17,12/03/2020
+124,Tea - Honey Green Tea,75,72,22/04/2019
+125,Pasta - Ravioli,3,7,05/07/2019
+126,Puree - Mocha,94,17,15/01/2020
+127,Gloves - Goldtouch Disposable,4,43,26/10/2019
+128,"Bread - Roll, Whole Wheat",64,10,30/11/2019
+129,Beef - Eye Of Round,14,37,31/10/2019
+130,Oxtail - Cut,35,28,30/01/2020
+131,Beef - Diced,71,74,26/12/2019
+132,Tia Maria,80,81,03/01/2019
+133,Wine - Barbera Alba Doc 2001,84,47,22/03/2019
+134,Rolled Oats,67,76,28/11/2019
+135,"Yogurt - Peach, 175 Gr",61,87,11/09/2019
+136,Towels - Paper / Kraft,23,41,28/02/2020
+137,Rice - Sushi,98,21,21/06/2019
+138,Soup - Campbells Beef Noodle,37,20,30/11/2019
+139,Bacardi Breezer - Strawberry,85,27,12/11/2019
+140,"Juice - Pineapple, 48 Oz",96,95,22/01/2020
+141,Bread - Olive,48,80,09/06/2019
+142,"Yogurt - Raspberry, 175 Gr",95,10,04/09/2019
+143,Ecolab - Hobart Washarm End Cap,65,17,21/02/2020
+144,Hinge W Undercut,60,39,05/03/2019
+145,Slt - Individual Portions,68,74,23/11/2019
+146,Cod - Fillets,12,37,30/12/2019
+147,Vodka - Moskovskaya,62,46,15/09/2019
+148,Creme De Menth - White,44,5,23/02/2020
+149,Puree - Raspberry,2,48,14/11/2019
+150,Sesame Seed Black,28,21,17/02/2019
+151,Salt - Sea,67,6,05/09/2019
+152,Papayas,78,98,17/01/2020
+153,Hand Towel,74,90,16/02/2019
+154,Jicama,89,55,03/03/2020
+155,Cookie Dough - Chocolate Chip,89,44,01/05/2019
+156,"Bread - Pumpernickle, Rounds",94,3,11/12/2019
+157,Ecolab Silver Fusion,94,90,24/09/2019
+158,Container - Foam Dixie 12 Oz,17,99,26/08/2019
+159,Appetizer - Seafood Assortment,49,53,22/06/2019
+160,Tea - Jasmin Green,40,13,16/08/2019
+161,"Bread - Roll, Soft White Round",87,85,02/10/2019
+162,Turkey Leg With Drum And Thigh,83,7,09/02/2020
+163,"Pork - Butt, Boneless",92,32,15/11/2019
+164,Melon - Honey Dew,18,70,27/07/2019
+165,Tia Maria,51,75,03/01/2019
+166,Sauce - Ranch Dressing,19,14,26/12/2019
+167,Sauce - Hollandaise,97,14,29/07/2019
+168,"Wine - White, Riesling, Henry Of",56,40,18/06/2019
+169,"Tart Shells - Savory, 3",26,52,03/03/2019
+170,Tea - Green,95,20,30/09/2019
+171,Pepper - Jalapeno,98,6,28/12/2019
+172,"Nut - Almond, Blanched, Sliced",51,4,22/03/2020
+173,Cinnamon - Stick,14,55,22/12/2019
+174,The Pop Shoppe - Black Cherry,71,96,24/11/2019
+175,Goat - Leg,62,25,20/03/2020
+176,Soup - Campbells Broccoli,23,90,11/12/2019
+177,Bread Bowl Plain,41,44,25/03/2019
+178,Wine - Shiraz South Eastern,10,76,24/05/2019
+179,"Bread - Roll, Calabrese",31,88,14/04/2019
+180,Bread - Italian Corn Meal Poly,54,39,09/12/2019
+181,"Thyme - Lemon, Fresh",3,90,01/07/2019
+182,Scotch - Queen Anne,42,66,20/02/2019
+183,Sauce - Ranch Dressing,27,46,07/02/2019
+184,Russian Prince,77,23,08/05/2019
+185,Wine - Port Late Bottled Vintage,25,53,07/03/2019
+186,Tea - Green,49,85,24/01/2020
+187,"Ecolab - Orange Frc, Cleaner",91,27,04/03/2020
+188,Pineapple - Golden,78,31,24/05/2019
+189,Curry Paste - Green Masala,100,17,23/05/2019
+190,Beets,35,12,07/03/2020
+191,Ecolab - Mikroklene 4/4 L,86,5,31/03/2019
+192,"Lid - High Heat, Super Clear",75,13,28/01/2019
+193,Pear - Asian,79,33,30/06/2019
+194,Corn Syrup,82,34,26/07/2019
+195,Cheese - Augre Des Champs,15,79,02/12/2019
+196,Skirt - 29 Foot,86,30,22/01/2020
+197,Cheese - Pont Couvert,17,7,04/12/2019
+198,Beer - Creemore,66,80,13/04/2019
+199,Rice Wine - Aji Mirin,74,16,13/12/2019
+200,Creme De Cacao White,24,35,14/02/2020
+201,Appetizer - Shrimp Puff,88,5,30/09/2019
+202,Pepper - Sorrano,82,16,01/04/2019
+203,Garbage Bag - Clear,70,73,23/06/2019
+204,Cucumber - Pickling Ontario,25,3,07/12/2019
+205,Island Oasis - Pina Colada,59,90,06/02/2020
+206,Pomegranates,94,45,22/06/2019
+207,Salt - Celery,50,67,16/05/2019
+208,"Nut - Pistachio, Shelled",48,49,24/04/2019
+209,Soup - French Onion,7,45,04/10/2019
+210,Pork - Backfat,64,49,20/06/2019
+211,Muffin Hinge Container 6,49,92,22/04/2019
+212,Strawberries - California,37,67,24/03/2020
+213,"Lemonade - Black Cherry, 591 Ml",29,18,10/03/2020
+214,Soup - Base Broth Chix,33,76,27/03/2019
+215,Carbonated Water - Wildberry,42,62,14/07/2019
+216,Tomato Paste,34,3,14/08/2019
+217,Cornflakes,2,64,05/09/2019
+218,Lotus Rootlets - Canned,29,58,03/06/2019
+219,Wine - Trimbach Pinot Blanc,41,76,06/03/2019
+220,Beef - Short Loin,12,70,16/04/2019
+221,Chinese Foods - Chicken,14,52,23/02/2020
+222,Tea - Grapefruit Green Tea,9,76,17/06/2019
+223,Muffin Chocolate Individual Wrap,25,42,24/12/2019
+224,Bols Melon Liqueur,74,25,30/03/2020
+225,"Wine - Sherry Dry Sack, William",5,81,19/05/2019
+226,Lobak,30,63,15/06/2019
+227,"Sauce - Bernaise, Mix",46,60,09/01/2020
+228,Buffalo - Tenderloin,16,29,26/10/2019
+229,Sausage - Breakfast,50,38,23/01/2019
+230,Wine - Magnotta - Cab Sauv,50,76,24/01/2020
+231,Molasses - Fancy,58,71,19/04/2019
+232,Beets,75,3,17/02/2019
+233,Macaroons - Homestyle Two Bit,62,69,14/02/2020
+234,Sultanas,35,3,20/09/2019
+235,Soup - Base Broth Chix,23,66,08/03/2019
+236,Wine - Remy Pannier Rose,25,69,13/02/2020
+237,"Sauce - Soya, Dark",54,54,31/10/2019
+238,Haggis,77,34,15/03/2020
+239,"Turnip - White, Organic",13,28,18/05/2019
+240,Buffalo - Tenderloin,57,43,03/02/2020
+241,"Oil - Truffle, Black",22,47,15/11/2019
+242,Mayonnaise - Individual Pkg,3,2,23/06/2019
+243,Lychee,1,88,14/12/2019
+244,Wine - Lamancha Do Crianza,61,32,13/04/2020
+245,Mints - Striped Red,86,51,26/01/2019
+246,Fondant - Icing,81,10,25/02/2020
+247,Pickerel - Fillets,12,39,04/12/2019
+248,Fuji Apples,84,96,26/01/2020
+249,Sesame Seed,39,72,03/08/2019
+250,"Coconut - Creamed, Pure",3,3,11/09/2019
+251,Pears - Anjou,73,35,12/02/2019
+252,Island Oasis - Pina Colada,79,55,25/05/2019
+253,Guinea Fowl,45,4,23/03/2019
+254,The Pop Shoppe - Black Cherry,48,40,26/07/2019
+255,Munchies Honey Sweet Trail Mix,47,87,23/12/2019
+256,Macaroons - Two Bite Choc,43,69,11/05/2019
+257,V8 Splash Strawberry Kiwi,50,39,06/03/2020
+258,Ostrich - Prime Cut,55,80,27/12/2019
+259,Quail - Jumbo,19,26,28/07/2019
+260,"Pasta - Rotini, Colour, Dry",82,41,23/03/2019
+261,"Pasta - Detalini, White, Fresh",64,2,16/01/2019
+262,Walkers Special Old Whiskey,72,11,18/08/2019
+263,Hog / Sausage Casing - Pork,30,35,02/10/2019
+264,Bread - French Baquette,15,57,23/06/2019
+265,Wheat - Soft Kernal Of Wheat,2,14,23/01/2020
+266,Lettuce - Treviso,31,11,20/01/2019
+267,"Bread - Roll, Canadian Dinner",100,42,16/12/2019
+268,Eel - Smoked,69,49,10/10/2019
+269,Truffle Cups - Red,69,16,15/12/2019
+270,White Baguette,14,80,16/07/2019
+271,Beef - Top Butt,32,60,03/03/2020
+272,Cheese - Montery Jack,22,27,11/12/2019
+273,Beer - Steamwhistle,98,99,16/05/2019
+274,Lettuce - Radicchio,41,72,24/05/2019
+275,"Salmon - Atlantic, Skin On",86,50,02/01/2019
+276,Fruit Mix - Light,72,68,11/01/2020
+277,"Tray - Foam, Square 4 - S",4,44,08/06/2019
+278,Foil Cont Round,1,41,07/02/2020
+279,Olives - Nicoise,14,92,11/04/2019
+280,Mix Pina Colada,75,12,03/03/2020
+281,"Beef - Ox Tail, Frozen",72,61,05/10/2019
+282,Plasticforkblack,3,34,29/08/2019
+283,Maple Syrup,35,13,22/09/2019
+284,"Shrimp - 16 - 20 Cooked, Peeled",18,69,11/12/2019
+285,Cloves - Whole,4,74,28/03/2020
+286,Crab - Meat,40,100,13/05/2019
+287,Plasticspoonblack,76,17,16/04/2019
+288,Ketchup - Tomato,91,64,23/04/2019
+289,"Tomatoes - Vine Ripe, Red",13,28,16/04/2019
+290,Sprouts - Peppercress,19,5,30/01/2020
+291,Chef Hat 20cm,59,76,11/04/2019
+292,Gherkin - Sour,75,38,20/10/2019
+293,"Wine - Red, Gamay Noir",52,51,28/03/2020
+294,Tray - 12in Rnd Blk,17,13,04/04/2020
+295,"Nut - Almond, Blanched, Whole",46,38,12/02/2019
+296,Monkfish Fresh - Skin Off,64,30,01/03/2019
+297,"Sauce - Soya, Dark",88,34,13/02/2019
+298,Ice Cream - Super Sandwich,23,50,12/03/2020
+299,Wine - Vineland Estate Semi - Dry,40,65,13/01/2019
+300,Pickles - Gherkins,8,8,24/01/2019
+301,Shrimp - Black Tiger 26/30,11,92,22/09/2019
+302,"Fish - Base, Bouillion",26,30,30/04/2019
+303,Truffle Cups - Brown,69,81,30/09/2019
+304,Creme De Cacao White,88,74,05/12/2019
+305,Juice - Ocean Spray Cranberry,7,58,12/12/2019
+306,Tomato Puree,34,55,26/02/2020
+307,Almonds Ground Blanched,22,13,30/07/2019
+308,"Melon - Watermelon, Seedless",61,67,08/03/2019
+309,Wine - Rosso Toscano Igt,78,7,29/08/2019
+310,Wine - Beaujolais Villages,64,73,01/02/2020
+311,Shrimp - 31/40,6,73,19/09/2019
+312,Wine - Ruffino Chianti Classico,80,35,26/12/2019
+313,Gloves - Goldtouch Disposable,80,9,12/08/2019
+314,Cornstarch,2,48,21/07/2019
+315,Wine - Chateau Aqueria Tavel,32,19,08/09/2019
+316,"Beans - Black Bean, Canned",96,14,24/02/2019
+317,Chicken - Whole Roasting,40,99,02/02/2020
+318,Wine - Kwv Chenin Blanc South,30,79,05/11/2019
+319,Nantucket Cranberry Juice,45,92,25/04/2019
+320,"Nut - Walnut, Pieces",27,26,21/01/2020
+321,Pepper - Green Thai,33,54,17/02/2019
+322,Calypso - Strawberry Lemonade,27,73,20/05/2019
+323,Thyme - Dried,20,89,10/02/2020
+324,Dc - Sakura Fu,21,37,28/01/2020
+325,Wine - Vovray Sec Domaine Huet,53,9,04/07/2019
+326,"Yogurt - Blueberry, 175 Gr",8,88,14/11/2019
+327,"Nut - Hazelnut, Ground, Natural",12,32,07/02/2019
+328,Bread - Mini Hamburger Bun,68,47,06/02/2019
+329,Shichimi Togarashi Peppeers,61,19,07/11/2019
+330,Juice - Orange 1.89l,25,75,23/09/2019
+331,Juice - Orange 1.89l,5,6,08/11/2019
+332,Cookie Dough - Double,70,29,21/03/2020
+333,"Noodles - Cellophane, Thin",2,51,10/01/2019
+334,"Asparagus - Green, Fresh",19,25,27/04/2019
+335,Bread Base - Italian,58,99,17/09/2019
+336,Langers - Ruby Red Grapfruit,64,75,22/09/2019
+337,Daikon Radish,35,21,15/05/2019
+338,Cake - Pancake,13,25,16/05/2019
+339,Beans - Fava Fresh,92,85,14/04/2020
+340,Soup Campbells Mexicali Tortilla,1,6,12/01/2020
+341,"Tray - Foam, Square 4 - S",87,99,07/01/2020
+342,"Cake Circle, Paprus",17,36,22/01/2019
+343,Garlic - Elephant,99,32,29/02/2020
+344,Kiwano,51,90,05/02/2020
+345,"Capon - Breast, Wing On",14,14,17/03/2020
+346,Wine - Delicato Merlot,67,68,09/11/2019
+347,Nut - Pumpkin Seeds,27,3,01/11/2019
+348,Bagel - Whole White Sesame,44,53,25/11/2019
+349,The Pop Shoppe - Grape,27,57,20/07/2019
+350,"Soup - Knorr, Chicken Noodle",98,59,26/05/2019
+351,Wine - Barbera Alba Doc 2001,19,97,02/06/2019
+352,Hinge W Undercut,4,89,02/07/2019
+353,"Shrimp - 16/20, Peeled Deviened",73,82,06/03/2019
+354,Soup - Cream Of Potato / Leek,48,26,24/10/2019
+355,Wine - Dubouef Macon - Villages,51,14,26/02/2020
+356,"Wine - White, Ej",24,62,12/05/2019
+357,"Pasta - Lasagna, Dry",27,36,09/02/2019
+358,Towel Multifold,38,53,03/01/2019
+359,Kale - Red,43,68,17/09/2019
+360,Taro Root,75,97,27/09/2019
+361,Fennel,78,87,28/09/2019
+362,Bread Roll Foccacia,42,90,27/09/2019
+363,Initation Crab Meat,11,73,04/04/2019
+364,Beef - Ground Medium,58,21,12/03/2019
+365,Wiberg Cure,84,71,21/10/2019
+366,"Chicken - Breast, 5 - 7 Oz",80,57,25/09/2019
+367,"Beef - Rib Roast, Cap On",52,75,12/01/2019
+368,Shrimp - Black Tiger 16/20,69,94,15/02/2019
+369,Mayonnaise - Individual Pkg,61,44,20/08/2019
+370,"Tortillas - Flour, 12",97,26,09/03/2020
+371,"Onions - Dried, Chopped",63,45,16/11/2019
+372,"Nut - Pecan, Pieces",23,38,16/09/2019
+373,Buffalo - Short Rib Fresh,39,90,16/08/2019
+374,Tomato - Green,22,51,09/04/2020
+375,Shrimp - Black Tiger 26/30,31,43,28/05/2019
+376,Oven Mitts - 15 Inch,70,4,28/01/2019
+377,Milk - Condensed,46,31,07/02/2019
+378,Mikes Hard Lemonade,89,46,21/10/2019
+379,Beef - Sushi Flat Iron Steak,62,58,29/10/2019
+380,"Pasta - Spaghetti, Dry",63,16,08/12/2019
+381,Tea - Apple Green Tea,49,51,07/02/2020
+382,Salmon - Sockeye Raw,39,19,26/03/2020
+383,Cognac - Courvaisier,44,12,08/09/2019
+384,Seaweed Green Sheets,72,53,30/12/2019
+385,Cilantro / Coriander - Fresh,85,1,12/03/2020
+386,Plasticspoonblack,9,5,14/01/2019
+387,Pepper - Red Chili,87,74,26/07/2019
+388,Cookie Dough - Chocolate Chip,15,60,21/09/2019
+389,Spice - Peppercorn Melange,49,3,04/08/2019
+390,Tomato - Tricolor Cherry,24,42,28/02/2020
+391,Kiwi Gold Zespri,60,26,11/11/2019
+392,Iced Tea Concentrate,92,60,04/01/2019
+393,Juice - Ocean Spray Cranberry,89,39,05/04/2020
+394,Lambcasing,37,71,21/12/2019
+395,Apple - Custard,15,72,19/10/2019
+396,Wine - Penfolds Koonuga Hill,49,17,22/12/2019
+397,Pork - Ham Hocks - Smoked,86,45,12/09/2019
+398,Juice - Orangina,23,93,08/06/2019
+399,Chips Potato Swt Chilli Sour,69,97,25/06/2019
+400,"Potatoes - Yukon Gold, 80 Ct",51,78,07/10/2019
+401,Wine - Pinot Noir Pond Haddock,77,76,13/11/2019
+402,"Squash - Pattypan, Yellow",79,14,24/03/2020
+403,Sloe Gin - Mcguinness,85,21,09/04/2020
+404,Potatoes - Yukon Gold 5 Oz,55,63,11/01/2019
+405,Sauce - Salsa,73,53,17/04/2019
+406,Lambcasing,74,4,03/07/2019
+407,"Tea - Darjeeling, Azzura",20,46,19/01/2020
+408,Arizona - Green Tea,44,71,10/12/2019
+409,Water - Tonic,13,46,15/01/2019
+410,"Pepper - Chipotle, Canned",43,50,05/09/2019
+411,Wine - Duboeuf Beaujolais,65,24,29/10/2019
+412,Crab - Soft Shell,90,78,08/09/2019
+413,Parsnip,12,15,02/11/2019
+414,"Fish - Artic Char, Cold Smoked",83,100,06/04/2020
+415,"Bread - Crumbs, Bulk",33,86,09/11/2019
+416,Tart - Raisin And Pecan,40,82,02/12/2019
+417,Grand Marnier,30,38,27/07/2019
+418,Fib N9 - Prague Powder,72,16,01/07/2019
+419,"Sugar - Sweet N Low, Individual",89,18,05/03/2019
+420,Lid Tray - 16in Dome,9,34,24/04/2019
+421,Canada Dry,56,92,29/10/2019
+422,Milk - 2%,70,40,24/08/2019
+423,Dried Peach,7,91,05/06/2019
+424,Muffin - Mix - Strawberry Rhubarb,15,57,24/05/2019
+425,Flower - Potmums,49,9,05/01/2019
+426,Bag Stand,44,19,05/06/2019
+427,Apricots Fresh,76,71,02/03/2020
+428,Venison - Denver Leg Boneless,83,90,29/01/2020
+429,Pecan Raisin - Tarts,26,56,29/06/2019
+430,Mushroom - Porcini Frozen,88,86,14/05/2019
+431,"Wine - Sherry Dry Sack, William",18,91,10/06/2019
+432,"Seedlings - Buckwheat, Organic",87,100,28/05/2019
+433,Wine - Acient Coast Caberne,91,22,21/07/2019
+434,"Mushroom - Morels, Dry",71,61,16/10/2019
+435,Cut Wakame - Hanawakaba,90,90,15/01/2019
+436,"Fish - Atlantic Salmon, Cold",91,71,10/01/2019
+437,"Lettuce - Romaine, Heart",70,1,07/03/2020
+438,"Cheese - Romano, Grated",64,42,19/08/2019
+439,Cinnamon Rolls,75,85,17/03/2020
+440,Lettuce - Spring Mix,33,80,20/07/2019
+441,"Bag - Bread, White, Plain",17,45,27/12/2019
+442,Wine - Fume Blanc Fetzer,36,88,18/03/2020
+443,General Purpose Trigger,83,70,04/01/2019
+444,Appetizer - Chicken Satay,50,41,22/01/2019
+445,Langers - Ruby Red Grapfruit,8,81,12/03/2020
+446,Amaretto,73,35,10/01/2019
+447,"Mushrooms - Black, Dried",92,43,27/07/2019
+448,Ecolab Crystal Fusion,67,3,19/02/2020
+449,"Club Soda - Schweppes, 355 Ml",8,58,06/03/2020
+450,Squid U5 - Thailand,100,49,13/05/2019
+451,Chicken - Whole Fryers,3,14,03/04/2019
+452,Soup - Campbells Chicken,18,84,19/12/2019
+453,Banana - Leaves,50,34,22/01/2019
+454,Potatoes - Pei 10 Oz,44,48,06/10/2019
+455,"Bread - Crumbs, Bulk",23,58,08/05/2019
+456,Appetizer - Tarragon Chicken,56,78,06/02/2019
+457,Coffee - Ristretto Coffee Capsule,87,96,09/03/2020
+458,Sobe - Berry Energy,86,55,15/02/2019
+459,Flour - All Purpose,90,75,16/08/2019
+460,"Yogurt - Banana, 175 Gr",75,16,27/05/2019
+461,"Vermacelli - Sprinkles, Assorted",58,80,20/03/2019
+462,Chervil - Fresh,61,60,24/08/2019
+463,Longan,65,87,15/12/2019
+464,Lemonade - Pineapple Passion,52,1,19/03/2020
+465,Beer - Camerons Auburn,78,77,11/01/2020
+466,"Chocolate - Pistoles, Lactee, Milk",58,12,17/03/2019
+467,Soup - Base Broth Beef,17,84,24/10/2019
+468,Bread - Rye,85,45,06/02/2020
+469,Amarula Cream,53,30,31/10/2019
+470,Sobe - Cranberry Grapefruit,6,7,21/12/2019
+471,Tomatillo,76,99,29/11/2019
+472,Beef - Shank,65,100,25/09/2019
+473,Couscous,44,34,18/11/2019
+474,Sprouts Dikon,93,81,15/07/2019
+475,Lettuce - Belgian Endive,93,23,10/12/2019
+476,Container Clear 8 Oz,76,37,31/01/2019
+477,Pizza Pizza Dough,38,6,21/05/2019
+478,"Placemat - Scallop, White",74,21,24/03/2020
+479,Curry Powder,28,20,05/02/2019
+480,Cookies - Englishbay Wht,42,26,08/02/2019
+481,Cheese Cloth No 60,4,79,03/08/2019
+482,Syrup - Pancake,2,18,27/03/2019
+483,"Apple - Delicious, Golden",91,51,29/03/2019
+484,Soup Knorr Chili With Beans,32,51,03/03/2019
+485,"Wine - Red, Cabernet Merlot",20,28,05/03/2020
+486,Veal - Liver,67,31,29/10/2019
+487,"Beans - Turtle, Black, Dry",34,61,27/06/2019
+488,Scotch - Queen Anne,11,55,14/07/2019
+489,Blue Curacao - Marie Brizard,24,59,16/03/2020
+490,Bread - Petit Baguette,63,86,17/05/2019
+491,Cake - Sheet Strawberry,71,95,16/02/2020
+492,Chips - Miss Vickies,13,68,02/03/2020
+493,"Split Peas - Yellow, Dry",52,69,21/01/2020
+494,"Squash - Pattypan, Yellow",91,5,24/03/2019
+495,V8 Pet,52,19,19/07/2019
+496,Roe - White Fish,6,32,19/05/2019
+497,Pork - Caul Fat,5,23,28/02/2020
+498,Poppy Seed,74,99,09/08/2019
+499,"Wine - White, Schroder And Schyl",65,27,06/01/2020
+500,Blueberries - Frozen,47,65,29/05/2019
+501,Cheese - Perron Cheddar,55,77,23/10/2019
+502,Cheese - Wine,35,13,02/01/2019
+503,Numi - Assorted Teas,98,30,15/11/2019
+504,Salmon - Fillets,35,100,17/03/2020
+505,Stock - Fish,37,3,29/02/2020
+506,Nantucket - 518ml,12,92,17/03/2019
+507,Broom - Angled,20,51,24/12/2019
+508,Honey - Lavender,36,77,24/01/2020
+509,Tea - Camomele,31,67,07/03/2019
+510,Snapple Lemon Tea,52,8,06/12/2019
+511,Beef - Ox Tongue,50,79,14/01/2020
+512,Veal - Insides Provini,3,85,05/02/2020
+513,Sauce - Caesar Dressing,61,51,30/05/2019
+514,Madeira,98,75,31/01/2019
+515,Piping Jelly - All Colours,53,36,18/04/2019
+516,Halibut - Fletches,14,36,05/03/2019
+517,Raspberries - Frozen,24,69,20/01/2019
+518,Crackers - Water,82,10,18/11/2019
+519,"Wine - Red, Cooking",18,34,17/04/2019
+520,"Potatoes - Purple, Organic",41,20,04/07/2019
+521,Cranberries - Dry,31,32,26/01/2019
+522,Yoplait - Strawbrasp Peac,17,12,19/03/2019
+523,Mustard - Dijon,39,83,29/06/2019
+524,Plasticforkblack,73,6,03/01/2020
+525,Cranberries - Dry,62,55,26/02/2019
+526,Juice - Mango,22,35,31/10/2019
+527,Island Oasis - Peach Daiquiri,51,76,19/01/2019
+528,"Wine - Red, Gamay Noir",65,4,10/10/2019
+529,Dooleys Toffee,83,27,09/03/2019
+530,"Marsala - Sperone, Fine, D.o.c.",84,47,22/08/2019
+531,"Soup - Beef Conomme, Dry",9,100,25/03/2019
+532,The Pop Shoppe - Grape,85,2,05/05/2019
+533,Lid Tray - 12in Dome,2,64,05/04/2019
+534,Beer - Original Organic Lager,85,92,26/07/2019
+535,Mudslide,75,75,26/01/2019
+536,Island Oasis - Sweet And Sour Mix,85,49,15/03/2019
+537,Longos - Burritos,68,53,10/03/2020
+538,"Lamb - Loin, Trimmed, Boneless",7,30,14/04/2020
+539,Brandy - Bar,88,54,14/03/2020
+540,"Bread - Rolls, Corn",32,8,03/07/2019
+541,Crackers - Soda / Saltins,63,6,05/11/2019
+542,Smoked Tongue,36,61,08/02/2020
+543,Beans - Fine,22,25,03/03/2019
+544,Pastry - Trippleberry Muffin - Mini,35,34,30/01/2020
+545,Beer - Camerons Cream Ale,85,18,28/07/2019
+546,"Beef - Baby, Liver",48,33,29/06/2019
+547,"Coke - Classic, 355 Ml",80,15,05/10/2019
+548,"Juice - Grape, White",22,62,16/03/2019
+549,Yams,100,30,31/12/2019
+550,Sponge Cake Mix - Vanilla,27,39,16/03/2019
+551,"Fish - Soup Base, Bouillon",19,49,27/09/2019
+552,Cheese - Provolone,35,15,24/01/2020
+553,"Juice - Pineapple, 48 Oz",64,3,22/03/2020
+554,Bread - Multigrain Oval,35,2,17/10/2019
+555,"Pork - Loin, Boneless",40,73,14/07/2019
+556,Oxtail - Cut,12,36,06/03/2020
+557,Chocolate Bar - Coffee Crisp,88,32,16/02/2019
+558,Tea - Green,46,28,16/02/2020
+559,Beef Cheek Fresh,95,11,24/01/2019
+560,Papayas,25,3,27/04/2019
+561,Longos - Cheese Tortellini,46,61,10/06/2019
+562,Mix - Cocktail Ice Cream,53,43,22/11/2019
+563,Bag - Clear 7 Lb,57,52,19/03/2020
+564,Lamb Rack Frenched Australian,70,5,04/01/2019
+565,Tea - English Breakfast,51,82,26/01/2019
+566,"Tendrils - Baby Pea, Organic",63,78,10/06/2019
+567,"Ham - Smoked, Bone - In",25,48,14/01/2019
+568,Glaze - Apricot,51,68,19/11/2019
+569,Mushroom - Portebello,49,55,27/02/2020
+570,"Veal - Inside, Choice",90,10,09/04/2019
+571,Mousse - Passion Fruit,23,69,26/02/2020
+572,Bar Energy Chocchip,31,79,11/01/2019
+573,Jello - Assorted,79,61,19/04/2019
+574,Wine - Barolo Fontanafredda,41,11,27/02/2020
+575,Five Alive Citrus,35,47,01/02/2020
+576,Lid Tray - 12in Dome,85,97,08/04/2020
+577,Wine - Black Tower Qr,82,25,09/02/2019
+578,Nut - Macadamia,80,12,07/04/2020
+579,Leeks - Large,13,97,26/05/2019
+580,"Basil - Dry, Rubbed",79,7,15/04/2019
+581,Pie Box - Cello Window 2.5,80,70,17/02/2020
+582,"Soup - Campbells, Minestrone",83,89,18/03/2020
+583,"Syrup - Monin, Irish Cream",35,15,19/03/2020
+584,Sauce - Sesame Thai Dressing,51,91,27/07/2019
+585,"Jam - Marmalade, Orange",74,26,18/03/2019
+586,Milk - Condensed,14,49,23/03/2019
+587,Sour Puss Sour Apple,49,2,27/01/2020
+588,Sugar - Brown,20,5,11/05/2019
+589,"Shrimp - 21/25, Peel And Deviened",66,96,23/06/2019
+590,Muffin - Mix - Strawberry Rhubarb,39,9,13/06/2019
+591,"Seedlings - Buckwheat, Organic",78,31,15/07/2019
+592,Whmis - Spray Bottle Trigger,21,60,09/10/2019
+593,Shrimp - Prawn,92,1,31/12/2019
+594,Corn Syrup,81,4,10/01/2019
+595,Coffee Beans - Chocolate,96,62,06/03/2020
+596,Tofu - Firm,2,77,07/01/2020
+597,Celery,7,68,19/08/2019
+598,Plastic Arrow Stir Stick,62,77,05/12/2019
+599,Napkin White - Starched,80,60,08/01/2020
+600,Sprouts - Corn,90,70,14/01/2019
+601,Radish,63,89,06/06/2019
+602,Onions - Red Pearl,42,75,14/04/2019
+603,Sunflower Seed Raw,32,23,31/05/2019
+604,Cheese - Swiss,9,73,02/09/2019
+605,"Pepper - Black, Whole",17,92,26/01/2020
+606,Grouper - Fresh,37,33,08/02/2019
+607,Sauce Tomato Pouch,52,38,26/10/2019
+608,Tea - Camomele,46,56,26/02/2020
+609,Tea - Herbal I Love Lemon,6,26,18/03/2019
+610,Peppercorns - Green,34,41,19/07/2019
+611,"Napkin - Beverge, White 2 - Ply",96,51,04/12/2019
+612,Pear - Asian,44,80,04/05/2019
+613,Garbage Bags - Clear,82,11,15/06/2019
+614,Chinese Foods - Cantonese,72,6,05/11/2019
+615,"Trout - Rainbow, Fresh",47,10,26/03/2020
+616,Flower - Commercial Bronze,74,12,23/06/2019
+617,Chocolate - Liqueur Cups With Foil,97,91,19/03/2019
+618,Ham - Virginia,3,65,22/02/2019
+619,Clementine,52,40,28/08/2019
+620,"Soup - Campbells, Beef Barley",91,63,10/10/2019
+621,Juice - Apple Cider,81,79,11/01/2019
+622,Wine - Vovray Sec Domaine Huet,12,74,06/11/2019
+623,"Brandy - Orange, Mc Guiness",25,68,05/12/2019
+624,Miso Paste White,43,92,27/03/2020
+625,Basil - Seedlings Cookstown,48,35,04/06/2019
+626,Beer - Corona,28,82,22/03/2020
+627,Oven Mitts 17 Inch,50,70,04/08/2019
+628,Sandwich Wrap,39,11,05/05/2019
+629,Ocean Spray - Ruby Red,94,43,28/01/2019
+630,Mussels - Cultivated,21,61,01/04/2019
+631,Mushroom - Portebello,76,22,09/01/2020
+632,Foam Tray S2,12,17,22/06/2019
+633,"Bread - Roll, Calabrese",25,60,14/02/2019
+634,Pork - Bacon Cooked Slcd,7,45,12/04/2019
+635,Bacardi Limon,13,20,20/03/2019
+636,"Salmon - Whole, 4 - 6 Pounds",14,62,16/04/2019
+637,Chocolate - Dark,96,22,04/02/2020
+638,Mushrooms - Honey,21,24,23/02/2019
+639,"Veal - Insides, Grains",72,27,09/04/2019
+640,Bacardi Limon,98,67,23/02/2020
+641,"Mustard - Dry, Powder",90,80,07/07/2019
+642,Cake - Cake Sheet Macaroon,51,51,02/02/2020
+643,Longos - Chicken Caeser Salad,81,34,02/02/2019
+644,Apple - Northern Spy,83,85,26/10/2019
+645,Beans - Fava Fresh,18,19,07/05/2019
+646,Ice Cream Bar - Hageen Daz To,60,78,16/05/2019
+647,Hipnotiq Liquor,40,60,07/05/2019
+648,Appetizer - Escargot Puff,3,34,10/11/2019
+649,Steam Pan Full Lid,45,27,17/03/2019
+650,Pop Shoppe Cream Soda,17,77,30/07/2019
+651,Salt - Kosher,29,98,03/10/2019
+652,Wine - Malbec Trapiche Reserve,9,31,05/02/2020
+653,Nantucket - 518ml,17,100,08/02/2020
+654,Rice - Jasmine Sented,26,19,30/04/2019
+655,Radish - Pickled,50,98,24/09/2019
+656,"Juice - Clam, 46 Oz",98,10,15/03/2020
+657,Frangelico,62,73,26/09/2019
+658,Bagel - Ched Chs Presliced,57,30,14/05/2019
+659,Salt - Kosher,13,27,24/02/2019
+660,Bread - Italian Sesame Poly,93,19,15/11/2019
+661,Onion - Dried,45,2,25/08/2019
+662,Turkey Tenderloin Frozen,39,72,06/05/2019
+663,Table Cloth 72x144 White,30,39,19/04/2019
+664,Buffalo - Short Rib Fresh,21,91,17/02/2020
+665,"Juice - Cranberry, 341 Ml",15,5,15/07/2019
+666,"Soup - Campbells, Chix Gumbo",70,19,19/01/2019
+667,Seedlings - Clamshell,17,34,08/09/2019
+668,"Tendrils - Baby Pea, Organic",48,3,13/12/2019
+669,Pork - Inside,18,74,27/05/2019
+670,Parsnip,51,24,09/06/2019
+671,Chocolate - White,11,59,07/04/2019
+672,Wine - Lou Black Shiraz,99,40,15/08/2019
+673,Wine - Chablis J Moreau Et Fils,85,59,05/01/2019
+674,Rice - Long Grain,90,21,18/01/2020
+675,Bread - Pain Au Liat X12,98,26,24/03/2020
+676,Carbonated Water - White Grape,3,42,24/12/2019
+677,Coffee Swiss Choc Almond,44,47,03/10/2019
+678,Bread - Kimel Stick Poly,78,12,22/07/2019
+679,Teriyaki Sauce,94,91,04/12/2019
+680,"Butter - Salted, Micro",42,94,22/02/2020
+681,Lime Cordial - Roses,71,1,04/10/2019
+682,Steam Pan - Half Size Deep,92,40,12/01/2020
+683,Cucumber - Pickling Ontario,80,71,17/04/2019
+684,Towels - Paper / Kraft,3,81,11/12/2019
+685,"Lid - 10,12,16 Oz",97,93,06/03/2019
+686,"Cheese - Mozzarella, Shredded",69,4,04/10/2019
+687,Sugar - White Packet,90,46,14/03/2020
+688,Orange - Tangerine,75,28,20/04/2019
+689,Dried Cranberries,11,97,10/04/2019
+690,"Chilli Paste, Sambal Oelek",33,55,14/12/2019
+691,Coffee Decaf Colombian,97,93,06/03/2019
+692,Ecolab Digiclean Mild Fm,6,66,04/10/2019
+693,Pepper - Scotch Bonnet,28,57,16/04/2019
+694,Beer - Creemore,82,98,15/11/2019
+695,Guava,28,61,27/12/2019
+696,"Beef - Tongue, Fresh",32,96,24/03/2019
+697,Beer - Camerons Cream Ale,100,53,19/09/2019
+698,Pork - Sausage Casing,38,38,05/03/2019
+699,"Cheese - Boursin, Garlic / Herbs",51,88,07/04/2019
+700,Sauce - Soy Low Sodium - 3.87l,40,91,13/08/2019
+701,"Tea - Darjeeling, Azzura",59,5,07/09/2019
+702,Container - Hngd Cll Blk 7x7x3,88,90,06/06/2019
+703,Longos - Chicken Wings,61,16,20/01/2020
+704,Coffee Beans - Chocolate,41,26,04/09/2019
+705,Trueblue - Blueberry 12x473ml,60,33,22/07/2019
+706,Sauce - Chili,21,90,17/10/2019
+707,Rhubarb,27,36,01/06/2019
+708,Longos - Lasagna Veg,92,26,01/04/2019
+709,Peppercorns - Pink,33,85,07/02/2020
+710,Beef - Top Sirloin - Aaa,36,59,14/03/2020
+711,Chocolate - Feathers,61,80,31/07/2019
+712,Soup - Campbells - Chicken Noodle,14,66,31/08/2019
+713,Sprouts - China Rose,93,60,22/03/2020
+714,Sugar - Crumb,21,91,26/03/2020
+715,Spice - Montreal Steak Spice,45,68,19/12/2019
+716,"Pasta - Penne, Lisce, Dry",70,73,12/11/2019
+717,"Wine - Sherry Dry Sack, William",55,14,31/12/2019
+718,Paper - Brown Paper Mini Cups,48,88,25/03/2019
+719,Cookie Dough - Chocolate Chip,93,44,19/01/2020
+720,Shopper Bag - S - 4,4,59,10/09/2019
+721,Piping - Bags Quizna,86,36,15/04/2019
+722,Sobe - Berry Energy,79,54,29/05/2019
+723,Foie Gras,23,93,01/03/2020
+724,Saskatoon Berries - Frozen,60,26,01/01/2020
+725,Oil - Canola,10,88,21/05/2019
+726,Cape Capensis - Fillet,36,66,16/09/2019
+727,Puree - Mango,9,100,11/02/2020
+728,Crab - Meat,46,90,08/01/2019
+729,Muffin - Mix - Mango Sour Cherry,92,100,15/04/2019
+730,Pepper - Gypsy Pepper,92,24,29/04/2019
+731,Compound - Mocha,93,2,18/05/2019
+732,Milk 2% 500 Ml,25,39,26/03/2020
+733,Beer - Mcauslan Apricot,46,41,07/02/2019
+734,"Pasta - Orzo, Dry",33,68,04/04/2020
+735,Smoked Paprika,48,38,05/01/2019
+736,"Salmon - Atlantic, Fresh, Whole",7,54,05/04/2020
+737,Mint - Fresh,78,9,18/01/2019
+738,Pears - Anjou,40,42,27/07/2019
+739,"Soup - Campbells, Butternut",83,29,14/07/2019
+740,Wine - Rhine Riesling Wolf Blass,79,90,20/03/2019
+741,"Oranges - Navel, 72",47,52,18/01/2020
+742,Sauce - Chili,73,68,20/01/2019
+743,Rosemary - Dry,68,7,25/01/2020
+744,Soup Knorr Chili With Beans,44,52,20/08/2019
+745,Pepper - Chili Powder,62,86,22/05/2019
+746,Dc - Frozen Momji,40,22,21/09/2019
+747,Wine - Penfolds Koonuga Hill,57,78,28/04/2019
+748,Tuna - Loin,74,55,02/01/2020
+749,Snapple Raspberry Tea,90,40,09/06/2019
+750,Tamarillo,54,97,11/06/2019
+751,Pastry - Trippleberry Muffin - Mini,67,97,18/04/2019
+752,Wine - Magnotta - Cab Franc,68,44,27/08/2019
+753,Bread - Hamburger Buns,73,35,30/11/2019
+754,Sugar Thermometer,68,50,01/03/2020
+755,"Flour - Corn, Fine",65,33,26/03/2020
+756,Sauce - Fish 25 Ozf Bottle,77,39,01/12/2019
+757,"Wine - Red, Colio Cabernet",76,84,13/05/2019
+758,Pepper - Green Thai,70,39,03/04/2019
+759,Syrup - Kahlua Chocolate,60,86,10/08/2019
+760,True - Vue Containers,34,5,09/10/2019
+761,"Onions - Dried, Chopped",65,100,31/05/2019
+762,Longos - Chicken Curried,13,41,25/09/2019
+763,Wine - Casillero Deldiablo,22,24,31/08/2019
+764,Blueberries - Frozen,35,42,24/05/2019
+765,Wine - Guy Sage Touraine,20,61,21/01/2019
+766,Beer - Tetleys,33,88,16/03/2020
+767,Beef - Ox Tongue,34,4,16/02/2019
+768,Persimmons,53,68,23/03/2020
+769,"Beef - Ground, Extra Lean, Fresh",98,67,24/04/2019
+770,Bagelers,46,67,13/10/2019
+771,"Bread - Roll, Whole Wheat",14,54,22/01/2020
+772,Sesame Seed Black,50,100,10/08/2019
+773,"Pork - Chop, Frenched",98,86,05/03/2020
+774,V8 Pet,74,86,23/05/2019
+775,Wine - Port Late Bottled Vintage,23,82,30/01/2020
+776,"Soup - Campbells, Classic Chix",14,83,13/09/2019
+777,Sauce - Fish 25 Ozf Bottle,49,51,26/03/2019
+778,Canadian Emmenthal,22,86,14/01/2020
+779,Vaccum Bag 10x13,26,22,10/10/2019
+780,Bar Bran Honey Nut,93,74,31/01/2020
+781,Pastry - Apple Muffins - Mini,71,89,10/04/2020
+782,Halibut - Fletches,65,86,14/09/2019
+783,Fruit Mix - Light,56,1,18/07/2019
+784,Cheese - Stilton,70,83,20/03/2019
+785,Dried Figs,79,5,15/07/2019
+786,Chocolate Liqueur - Godet White,73,16,17/02/2019
+787,Chocolate Bar - Coffee Crisp,33,38,01/12/2019
+788,Swordfish Loin Portions,58,34,17/05/2019
+789,Pork Casing,82,66,04/01/2019
+790,Strawberries - California,26,95,01/02/2020
+791,Nutmeg - Ground,56,30,02/02/2020
+792,Fib N9 - Prague Powder,54,46,17/10/2019
+793,"Plate - Foam, Bread And Butter",48,100,26/12/2019
+794,"Nut - Pine Nuts, Whole",13,2,14/01/2020
+795,Duck - Whole,6,87,20/01/2019
+796,"Tendrils - Baby Pea, Organic",42,98,12/04/2020
+797,Beef - Ground Medium,38,47,11/08/2019
+798,Basil - Seedlings Cookstown,3,47,14/12/2019
+799,Nougat - Paste / Cream,99,90,13/10/2019
+800,Sponge Cake Mix - Chocolate,71,40,01/12/2019
+801,"Soup - Beef Conomme, Dry",12,16,14/05/2019
+802,"Plate - Foam, Bread And Butter",20,69,24/01/2019
+803,Fond - Chocolate,33,82,06/12/2019
+804,Beef Dry Aged Tenderloin Aaa,1,43,21/01/2019
+805,Durian Fruit,55,48,16/01/2020
+806,Beef Wellington,67,87,28/07/2019
+807,Mix - Cocktail Ice Cream,95,40,22/06/2019
+808,Beer - Camerons Cream Ale,24,54,26/12/2019
+809,Icecream - Dstk Cml And Fdg,19,54,27/12/2019
+810,Vaccum Bag 10x13,39,49,24/03/2020
+811,Chocolate - Liqueur Cups With Foil,77,19,27/12/2019
+812,Muffin Puck Ww Carrot,57,39,22/03/2020
+813,Extract - Lemon,88,20,20/11/2019
+814,"Cheese - Mozzarella, Shredded",35,45,09/01/2019
+815,Sponge Cake Mix - Chocolate,27,8,30/03/2020
+816,"Bread - Bagels, Mini",97,95,08/08/2019
+817,Wine - Ruffino Chianti Classico,59,20,26/06/2019
+818,Hinge W Undercut,9,94,12/02/2020
+819,"Olives - Green, Pitted",73,91,31/12/2019
+820,Crackers - Trio,88,43,02/04/2020
+821,Wine - Vovray Sec Domaine Huet,83,38,27/02/2020
+822,Sauce - Roasted Red Pepper,23,78,27/01/2019
+823,Beef - Striploin,82,63,02/08/2019
+824,Dr. Pepper - 355ml,40,49,21/11/2019
+825,"Wine - Red, Harrow Estates, Cab",87,41,08/07/2019
+826,"Pasta - Cappellini, Dry",61,96,17/05/2019
+827,Vinegar - Champagne,2,15,06/04/2020
+828,Wine - Crozes Hermitage E.,21,14,09/01/2019
+829,Steamers White,95,42,30/01/2020
+830,"Rum - Cream, Amarula",47,92,31/10/2019
+831,Liquid Aminios Acid - Braggs,29,45,01/04/2019
+832,Coffee Caramel Biscotti,67,43,25/08/2019
+833,Carbonated Water - Cherry,95,29,17/03/2020
+834,Rice Wine - Aji Mirin,74,49,06/06/2019
+835,"Coke - Classic, 355 Ml",6,24,06/07/2019
+836,Tea - Honey Green Tea,93,88,11/02/2019
+837,Sage - Rubbed,89,4,23/06/2019
+838,Cheese - Pont Couvert,12,28,28/03/2020
+839,Liners - Baking Cups,54,95,26/03/2019
+840,Pork - Ground,94,60,27/01/2020
+841,Lamb Shoulder Boneless Nz,48,92,12/04/2020
+842,Tomatoes - Heirloom,66,97,10/10/2019
+843,"Potatoes - Yukon Gold, 80 Ct",75,31,29/07/2019
+844,Onions - Cippolini,81,11,14/02/2019
+845,Piping - Bags Quizna,36,100,26/08/2019
+846,Food Colouring - Orange,13,69,04/11/2019
+847,Onions - Spanish,64,11,04/07/2019
+848,Asparagus - Mexican,38,79,11/05/2019
+849,"Juice - Apple, 500 Ml",26,38,01/09/2019
+850,Wine - Two Oceans Cabernet,57,89,31/01/2020
+851,Foam Cup 6 Oz,33,96,21/02/2019
+852,Greens Mustard,6,64,08/11/2019
+853,Wine - Trimbach Pinot Blanc,53,75,15/05/2019
+854,Rhubarb,40,37,11/06/2019
+855,Ginger - Fresh,41,5,13/03/2019
+856,Vinegar - White,67,46,04/12/2019
+857,Sauce - Thousand Island,46,38,21/03/2019
+858,Kale - Red,43,32,08/03/2020
+859,Cheese - Brick With Onion,84,71,23/10/2019
+860,Chives - Fresh,80,34,21/03/2020
+861,Pepper - Orange,11,3,03/01/2020
+862,Wine - Pinot Noir Pond Haddock,35,45,25/05/2019
+863,Sea Urchin,76,65,23/02/2020
+864,Tofu - Soft,69,35,09/01/2020
+865,Tea - Lemon Green Tea,5,67,19/04/2019
+866,Island Oasis - Mango Daiquiri,77,75,02/03/2019
+867,Flavouring Vanilla Artificial,31,87,21/04/2019
+868,Squid U5 - Thailand,68,65,11/04/2019
+869,Egg Patty Fried,94,98,03/04/2020
+870,"Pasta - Penne Primavera, Single",16,90,16/08/2019
+871,Corn Syrup,85,58,03/08/2019
+872,Crush - Cream Soda,20,69,11/10/2019
+873,Tea - Herbal I Love Lemon,97,1,16/05/2019
+874,Huck Towels White,22,24,18/10/2019
+875,Paper - Brown Paper Mini Cups,26,86,25/05/2019
+876,Lychee,28,12,05/06/2019
+877,Crackers - Trio,94,44,26/03/2020
+878,"Nut - Almond, Blanched, Ground",93,52,08/07/2019
+879,Garbage Bag - Clear,38,52,30/11/2019
+880,Soup Campbells - Italian Wedding,50,70,31/10/2019
+881,Longos - Grilled Salmon With Bbq,59,73,17/01/2020
+882,Curry Paste - Madras,44,73,23/07/2019
+883,"Crush - Orange, 355ml",95,68,28/10/2019
+884,"Cheese - Boursin, Garlic / Herbs",54,21,03/02/2019
+885,"Napkin - Dinner, White",5,18,24/03/2020
+886,Cheese - Bakers Cream Cheese,66,15,18/10/2019
+887,Pizza Pizza Dough,72,72,09/09/2019
+888,Wine - Lou Black Shiraz,13,47,20/06/2019
+889,Octopus,57,35,09/06/2019
+890,Tea - Jasmin Green,72,41,27/12/2019
+891,Cafe Royale,80,38,22/04/2019
+892,Tomato - Green,3,50,27/09/2019
+893,Bread - Calabrese Baguette,21,66,10/08/2019
+894,Pears - Anjou,1,95,23/03/2020
+895,Squid U5 - Thailand,44,74,11/01/2020
+896,Island Oasis - Mango Daiquiri,28,51,21/10/2019
+897,Tart - Lemon,29,96,01/02/2019
+898,Cookies - Englishbay Oatmeal,11,5,26/01/2019
+899,Beef - Shank,60,67,04/05/2019
+900,Eggroll,21,9,22/10/2019
+901,Sambuca - Ramazzotti,24,83,07/03/2019
+902,"Lettuce - Mini Greens, Whole",79,74,14/12/2019
+903,Wine - Casablanca Valley,61,27,07/02/2020
+904,Salami - Genova,53,41,20/02/2020
+905,Onions - Red Pearl,83,28,20/03/2019
+906,Gatorade - Lemon Lime,71,86,28/11/2019
+907,Toothpick Frilled,56,77,30/03/2020
+908,Muffin Mix - Corn Harvest,75,50,07/10/2019
+909,"Wine - Magnotta, White",14,26,01/06/2019
+910,Coffee Cup 12oz 5342cd,50,36,25/04/2019
+911,Sauce - Fish 25 Ozf Bottle,24,87,12/06/2019
+912,Vegetable - Base,15,43,14/01/2020
+913,"Veal - Shank, Pieces",47,77,11/10/2019
+914,Tart - Butter Plain Squares,75,94,07/01/2020
+915,Steel Wool,92,15,22/10/2019
+916,Chicken - Base,81,13,22/03/2020
+917,Wine - Vouvray Cuvee Domaine,76,51,16/05/2019
+918,Soup - Campbells Pasta Fagioli,47,62,12/01/2019
+919,"Wine - White, Ej Gallo",9,1,24/07/2019
+920,"Bread - White, Sliced",100,55,26/04/2019
+921,Bread - Ciabatta Buns,79,6,02/03/2020
+922,Oil - Grapeseed Oil,17,12,19/01/2019
+923,"Cheese - Havarti, Roasted Garlic",46,49,19/02/2020
+924,Lemon Balm - Fresh,33,93,29/09/2019
+925,"Red Snapper - Fresh, Whole",49,20,27/01/2020
+926,Cabbage - Red,4,26,07/03/2020
+927,Cake Slab,48,7,21/02/2020
+928,Pork Ham Prager,38,75,23/10/2019
+929,Chip - Potato Dill Pickle,8,7,02/01/2019
+930,Chicken - Base,12,60,01/04/2020
+931,Mcguinness - Blue Curacao,30,47,13/11/2019
+932,Bag - Regular Kraft 20 Lb,41,23,23/01/2019
+933,"Chicken - White Meat, No Tender",52,35,06/08/2019
+934,Apple - Royal Gala,83,17,15/02/2019
+935,Thermometer Digital,76,99,20/07/2019
+936,Tomatoes - Yellow Hot House,40,90,24/02/2020
+937,"Wine - White, Pelee Island",65,25,13/03/2020
+938,Mustard - Seed,3,50,16/11/2019
+939,Brandy Cherry - Mcguinness,15,44,04/03/2020
+940,Wine - Sauvignon Blanc,81,38,19/01/2019
+941,Milk - 2% 250 Ml,72,50,17/06/2019
+942,Pasta - Angel Hair,99,74,06/04/2019
+943,Lamb - Bones,28,29,06/04/2020
+944,Cheese - St. Paulin,28,43,25/03/2020
+945,"Sprite, Diet - 355ml",46,4,08/09/2019
+946,Pancetta,20,7,11/09/2019
+947,Carbonated Water - Raspberry,58,98,09/03/2020
+948,Latex Rubber Gloves Size 9,29,97,11/04/2020
+949,Noodles - Steamed Chow Mein,3,6,12/08/2019
+950,Greens Mustard,55,19,23/04/2019
+951,Energy Drink Red Bull,7,23,01/04/2020
+952,Beer - Moosehead,17,86,12/10/2019
+953,Water Chestnut - Canned,61,95,17/07/2019
+954,Chef Hat 25cm,24,73,07/09/2019
+955,Sloe Gin - Mcguinness,26,74,15/01/2019
+956,Chocolate - Mi - Amere Semi,51,33,03/04/2020
+957,Soup Campbells,98,65,19/01/2020
+958,Oil - Olive Bertolli,30,85,10/01/2020
+959,Marjoram - Fresh,23,99,03/02/2019
+960,"Pork - Loin, Bone - In",99,36,08/03/2019
+961,Beer - Blue Light,70,25,31/03/2020
+962,Truffle Shells - Semi - Sweet,51,23,08/09/2019
+963,Sambuca - Opal Nera,30,63,03/12/2019
+964,Apples - Sliced / Wedge,83,96,06/06/2019
+965,Melon - Honey Dew,98,96,07/07/2019
+966,Madeira,85,73,14/06/2019
+967,Banana Turning,95,94,18/03/2020
+968,Shiro Miso,90,39,07/04/2020
+969,Soup - Campbells Mac N Cheese,43,29,15/02/2019
+970,Isomalt,86,8,10/10/2019
+971,"Coconut - Shredded, Sweet",12,78,27/07/2019
+972,"Turkey - Whole, Fresh",57,76,18/10/2019
+973,"Shrimp - 16/20, Iqf, Shell On",41,74,23/03/2020
+974,Kellogs Cereal In A Cup,27,22,02/05/2019
+975,"Crab - Blue, Frozen",28,17,02/08/2019
+976,"Tart Shells - Savory, 3",93,88,19/02/2019
+977,Wine - Kwv Chenin Blanc South,57,54,25/11/2019
+978,Pear - Prickly,20,100,13/04/2019
+979,Olives - Morracan Dired,8,6,13/10/2019
+980,Calaloo,66,7,03/02/2020
+981,Fenngreek Seed,12,87,24/03/2020
+982,Corn Meal,6,6,06/02/2019
+983,Lettuce - Boston Bib,37,22,18/10/2019
+984,"Tart Shells - Sweet, 4",12,47,06/01/2019
+985,Wine - Rhine Riesling Wolf Blass,34,49,05/08/2019
+986,Sugar - Palm,1,84,15/07/2019
+987,Lettuce - Arugula,93,5,11/03/2019
+988,Bread - Olive Dinner Roll,63,71,16/02/2019
+989,Wine - Ej Gallo Sierra Valley,60,41,04/03/2020
+990,Cheese - Bakers Cream Cheese,78,62,02/07/2019
+991,Mousse - Mango,27,33,03/09/2019
+992,"Mushroom - Trumpet, Dry",67,61,20/06/2019
+993,Cloves - Whole,87,64,21/06/2019
+994,"Halibut - Whole, Fresh",86,16,11/05/2019
+995,"Veal - Shank, Pieces",23,60,08/01/2019
+996,Beer - Upper Canada Lager,22,92,14/12/2019
+997,Almonds Ground Blanched,92,76,11/02/2019
+998,Kumquat,51,49,12/02/2019
+999,Hagen Daza - Dk Choocolate,84,61,20/02/2019
+1000,Sansho Powder,69,26,11/03/2020
