@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>oAuth2 with GIANT Example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+        <button onclick="authenticateGiant()">Login with GIANT</button>
+</body>
+
+<script>
+        //replace giantOAuthUrl, clientId, callbackUrl with your value
+        var giantOAuthUrl = "https://giant-bison.fusionexsite.com/WebSites/Analytics/oauth/authorize";
+        var clientId = "D5AE980CD4ED4FB0A0A5B79F3AE71071";
+        var callbackUrl = "http://localhost:8080/";
+        var url = giantOAuthUrl + "?client_id=" + clientId + "&redirect_uri=" + callbackUrl + "&response_type=token";
+
+        (function () {
+                function getFragment() {
+                        if (window.location.hash.indexOf("#") === 0) {
+                                return parseQueryString(window.location.hash.substr(1));
+                        } else {
+                                return {};
+                        }
+                }
+
+                function parseQueryString(queryString) {
+                        var data = {},
+                                pairs,
+                                pair,
+                                separatorIndex,
+                                escapedKey,
+                                escapedValue,
+                                key,
+                                value;
+
+                        if (queryString === null) {
+                                return data;
+                        }
+
+                        pairs = queryString.split("&");
+
+                        for (var i = 0; i < pairs.length; i++) {
+                                pair = pairs[i];
+                                separatorIndex = pair.indexOf("=");
+
+                                if (separatorIndex === -1) {
+                                        escapedKey = pair;
+                                        escapedValue = null;
+                                } else {
+                                        escapedKey = pair.substr(0, separatorIndex);
+                                        escapedValue = pair.substr(separatorIndex + 1);
+                                }
+
+                                key = decodeURIComponent(escapedKey);
+                                value = decodeURIComponent(escapedValue);
+
+                                data[key] = value;
+                        }
+
+                        return data;
+                }
+
+                var fragments = getFragment();
+
+                if (window.opener && window.opener.oauth && window.opener.oauth.callback) {
+                        window.opener.oauth.callback(fragments);
+                        window.close();
+                }
+        })();
+        window.oauth = {};
+        window.oauth.callback = function (data) {
+                //this is acces_token when success authenticate GIANT via OAuth
+                //Change below logic for your use case
+                access_token = data.access_token;
+                alert(access_token);
+        };
+
+        function authenticateGiant() {
+                window.open(url, 'Authorize', 'width=640,height=480');
+        }
+</script>
+
+</html>

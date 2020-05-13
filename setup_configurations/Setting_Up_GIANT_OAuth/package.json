@@ -1,0 +1,10 @@
+{
+  "name": "oauth-giant-example",
+  "version": "1.0.0",
+  "description": "An example of oAuth with GIANT",
+  "main": "index.js",
+  "author": "GIANT Support Team",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
