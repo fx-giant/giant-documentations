@@ -90,9 +90,11 @@ The complete structure:
         "script": "name of html file, this will override the formName",
         "style": "name of html file, this will override the formName",
         "dataStore": "the GIANT datastore structure, see bellow for explanation",
+        "isHideSearchbar": "flag to indicate to turn off GIANT search bar when access this form in GIANT.",
         "isApplication": "indicate whether the form to be appear as part of GIANT menu list for quick access.",
         "applicationIcon": "font awesome css class for the form icon in the GIANT menu list.",
-        "isHideSearchbar": "flag to indicate to turn off GIANT search bar when access this form in GIANT."
+        "menuItems": "array of menu items to be nested under this form. Only work with isApplication set to true",
+        "toogleFeatures": "Toggle Feature list for form"
     },{
 
     },
@@ -109,11 +111,12 @@ The complete structure:
 |html| String | Specific html file name, will override name deriven from ```formName```
 |style | String | Specific css file name, will override name deriven from ```formName```
 | script | String | Specific js file name, will override name deriven from ```formName```
-| dataStore | DataStore | The API request endpoint when using ```fx.DataContext.Application.formRecord```, this is a more comprehensive configuration that will be explained below.
+| dataStore | [DataStore](#GIANT-DataStore-structure) | The API request endpoint when using ```fx.DataContext.Application.formRecord```, this is a more comprehensive configuration that will be explained below.
+| isHideSearchbar | Boolean | Flag to indicate whether GIANT search bar availibilty when access this form in GIANT
 | isApplication | Boolean | Flag to indicate whether the form to be part of GIANT menu list for quick access.
 | applicationIcon | String | Css class name for the form icon appear in GIANT menu list. Default icon will be used if not assign. Refer [Font Awesome](https://fontawesome.com) for list of icon class name.
-| isHideSearchbar | Boolean | Flag to indicate whether GIANT search bar availibilty when access this form in GIANT
-
+| menuItems | [MenuItem](#GIANT-MenuItem-structure)[] | List of menu item under this parent menu item in GIANT menu list
+| toogleFeatures | [ToggleFeatures](#GIANT-ToggleFeatures-structure) | List of feature for form to be turn on/off. Example hide form header.
 
 ## GIANT DataStore structure
 
@@ -154,6 +157,83 @@ so the example of a form with data store configuration is as follow:
             "X-ANOTHER-HEADER": "123456",
         },
         "allowCustomRouting": false
+    }
+  }]
+}
+```
+
+## GIANT MenuItem structure
+In any event that you need to have nested menu item for this form, you can define it using menuItems and put the configuration inside. The structure of menuItems is as follow:
+``` json
+"menuItems": [
+    {
+        "id": "88888888-8888-8888-8888-000000001111",
+        "title": "My Menu Level 1",
+        "url": "http://localhost:12345/menu1",
+        "iconCss": "",
+        "iconUrl": "http://myimageUrl.png",
+        "menuItems": []
+    }
+]
+```
+
+|Field | Data Type | Description|
+|-|-|-|
+|id| GUID | Must be unique within this particular form
+|title | String | Display title of the sub menu item
+| url | String | Redirect url for this menu item when user click on it.
+| iconCss | String | Css class name for the menu item icon appear in GIANT menu list. Default icon will be used if not assign. Refer [Font Awesome](https://fontawesome.com) for list of icon class name.
+| iconUrl | String | Icon url for the menu item icon appear in GIANT menu list.
+| menuItems | [MenuItem](#GIANT-MenuItem-structure)[] | List of menu item under this menu item in GIANT menu list
+
+so the example of a form with data store configuration is as follow:
+
+``` json
+
+{
+  "forms": [{
+    "formId": "37782e85-64ea-0de5-2f9c-b0c335e997fa",
+    "formName": "sample",
+    "title": "sample",
+    "version": "0.0.0",
+    "menuItems": [
+        {
+            "id": "88888888-8888-8888-8888-000000001111",
+            "title": "My Menu Level 1",
+            "url": "http://localhost:12345/menu1",
+            "iconCss": "",
+            "iconUrl": "http://myimageUrl.png",
+            "menuItems": []
+        }
+    ]
+  }]
+}
+```
+
+## GIANT ToggleFeatures structure
+In any event that you need to turn off some default feature for this form, you can define it using toggleFeatures and put the configuration inside. The structure of toggleFeatures is as follow:
+``` json
+"toggleFeatures": {
+  "formHeader": "hidden"
+}
+```
+
+|Field | Data Type | Description|
+|-|-|-|
+|formHeader| String | Status for form header. Values can be `visible`, `hidden`
+
+so the example of a form with toggle feature configuration is as follow:
+
+``` json
+
+{
+  "forms": [{
+    "formId": "37782e85-64ea-0de5-2f9c-b0c335e997fa",
+    "formName": "sample",
+    "title": "sample",
+    "version": "0.0.0",
+    "toggleFeatures": {
+      "formHeader": "hidden"
     }
   }]
 }
