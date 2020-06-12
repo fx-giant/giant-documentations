@@ -59,13 +59,15 @@ Add filters to restrict your data so that analysis will be focused on data which
 ## Use Case for Radial Gauge
 ### Bank's Website Weekly Downtime
 A dataset is generated using Mockaroo. Download sample data [here](./sample-data/target-visuals/downtime.csv).
-
-Provided within the dataset are the necessary fields needed to generate the radial gauge.
+<br/>Provided within the dataset are the necessary fields needed to generate the radial gauge.
 
 |Bindings|Select|
 |---|---|
 |Actual|actual_downtime|
 |Target|estimated_downtime|
+
+
+--------IN PROGRESS-----------
 
 The line graph shows a steady increase in revenue from its initial point to its end point. This means that Nike has a constant growth in their revenue as the years pass on. Their highest revenue is in the year of 2019, where they earned US$39.117 million. This is an 8.3% increase in revenue as compared to 2018, where they collected US$36.397 million. As the revenue is on a steady path of increase, Nike can continue their current marketing and business plans for the future as the data shows that their marketing campaigns had been successful in generating a steady sales.
 
