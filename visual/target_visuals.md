@@ -161,27 +161,32 @@ skewed the output and could further drill down the cause(s) by targeting the spe
 A dataset is generated using Mockaroo. Download sample data [here](./sample-data/target-visuals/sales.csv).
 <br/>Provided within the dataset are the necessary fields needed to generate the bullet vertical/horizontal.
 
---------IN PROGRESS----------------IN PROGRESS----------------IN PROGRESS----------------IN PROGRESS--------
-
 |Bindings|Select|
 |---|---|
-|Actual|\[Average]rated_satisfaction|
-|Target|\[Maximum]full_satisfaction|
+|Actual|\[Sum]converted_sales|
+|Target|\[Maximum]conversion_target|
 
-There are three fields in the CSV file, two of which are mentioned above, while the last one is a customer_name field. You could filter 
-customer_name to look into individual satisfaction score. 
-As shown in the table above, selecting \[Average] expression for Actual field because we are calculating the average CSAT of all 
-customers, \[Maximum] or \[Minimum] could be interchangably used for Target field in this case because full_satisfaction is defined
-as a fixed value to depict the CSAT scale.
+There are four fields in the CSV file, two of which are mentioned above, the other two are sales_rep_name and date fields. Filter
+could be used to filter per sales rep, or by date. 
+As shown in the table above, selecting \[Sum] expression for Actual field because we are calculating the total converted sales of all 
+customers, \[Maximum] or \[Minimum] could be interchangably used for Target field in this case because conversion_target is defined
+as a fixed value throughout the dataset.
 
 **Output**
 
-![Average CSAT](./images/target-visuals/csat_output.PNG)
+![Monthly Sales Conversion vs Sales Target](./images/target-visuals/sales_output_1.PNG)
+![Monthly Sales Conversion vs Sales Target 2](./images/target-visuals/sales_output_2.PNG)
+
 
 **Analysis**
 
-A customer satisfaction (CSAT) score is critical for a business's customer service to understand how do their products or services are
-being perceived by their customers. From the output as shown above, you could see that the actual value lies within the orange zone with 
-the average CSAT score standing at 5.10 which is only 51% out of the maximum score of 10.00. Since the thresholds defined
-that 3 - 7 as average score, this means that customers are slightly unsatisfied with its products or services. It shows that the
-business has room for improvement and you could filter by customer_name to find out specifically who are giving lower ratings that skewed the output and could further drill down the cause(s) by targeting the specific group and inquire about it.
+Tracking sales conversion is important to a business as it reflects the effectiveness of sales representatives in converting 
+strangers/visitors/leads to customers. The output above shows the monthly overall sales conversion vs. sales target. Filter could be
+applied on sales_rep_name or date field to look into per sales rep or per day. This dataset contains daily sales conversion of each
+sales rep's for May 2020. From the output shown above, you can see that in May 2020, the total converted sales by all sales reps are
+154 deals, which surpassed the sales target of 50 deals, standing at 308% beyond the target. This results show that the business is
+doing well and all sales reps have contributed in achieving the sales target for that particular month.
+However, it is worth noting that although it is common to have only 3 levels of threshold, you could always add more to it.
+Take this output for example, if your business continues to overachieve the sales target, you can either start adjusting the sales
+target appropriately or to add another level of threshold of Blue colour depicting a 'bonus' threshold. It will serve as a motivation
+to sales reps who managed to achieve more than the green zone which depicts 'good' threshold.
