@@ -17,10 +17,10 @@ threshold bar with colours shown according to your settings. When you hover your
 except that the bar indicating the actual value are shown on the right side of the threshold bar and it is blue colour. When you hover 
 your cursor over the blue bar, more information will be shown.
 
+
 ## Data Binding
 
 The Data Binding options are the same across all target visuals. There are two mandatory bindings which are **Actual** value and **Target** value.
-
 
 |Bindings|Data Type|
 |---|---|
@@ -55,7 +55,6 @@ add more quartile if you need more and remove them by pressing on 'X' button bes
 
 Add filters to restrict your data so that analysis will be focused on data which are shown in the chart.
 
-
 ## Use Case for Radial Gauge
 ### Bank's Website Weekly Downtime
 A dataset is generated using Mockaroo. Download sample data [here](./sample-data/target-visuals/downtime.csv).
@@ -63,35 +62,59 @@ A dataset is generated using Mockaroo. Download sample data [here](./sample-data
 
 |Bindings|Select|
 |---|---|
-|Actual|actual_downtime|
-|Target|estimated_downtime|
+|Actual|\[Sum]actual_downtime|
+|Target|\[Sum]estimated_downtime|
 
-
---------IN PROGRESS-----------
-
-The line graph shows a steady increase in revenue from its initial point to its end point. This means that Nike has a constant growth in their revenue as the years pass on. Their highest revenue is in the year of 2019, where they earned US$39.117 million. This is an 8.3% increase in revenue as compared to 2018, where they collected US$36.397 million. As the revenue is on a steady path of increase, Nike can continue their current marketing and business plans for the future as the data shows that their marketing campaigns had been successful in generating a steady sales.
-
-**Output**
-
-![Nike Revenue](./images/area-line-graph/output-1.PNG)
-
-### Wildlife Population throughout the Years (Area Chart)
-A sample Wildlife Population dataset is used for the area chart, whereby the total number of 3 animals (Bears, Dolphins and Whales) sighted at the selected research venue are displayed throughout the years of 2012 to 2017. The area chart is suitable to display the data in a grouped format, which makes comparison easier for analysis. Download sample data [here](./sample-data/area-line-graph/Wildlife_Population.xlsx).
-
-Provided within the dataset are the necessary fields needed to generate the area graph. The **Year** field will be placed in the **X-Axis** setting, whereas the **Population** field will be placed in the **Y-Axis** setting. As there are multiple animals listed within the dataset, the **Animals** columns is used for the **Group** field setting.
-
-|Bindings|Select|
-|---|---|
-|X-Axis|Year|
-|Y-Axis|Population|
-|Group|Animals|
-
-The chart shows the total number of respective wildlife animals sighted during each year of sampling at the selected research area, whereby each of the animals has a varied counts throughout the years. The number of **Bears** sighted by researchers has an increase in count throughout the years, as opposed to the number of **Dolphins** sighted which are steadily declining year after year. However, the number of **Whales** sighted fluctuated throughout the years of 2012 to 2017.
+There are three fields in the CSV file, two of which are mentioned above, while the last one is a Date field. You could filter Date to look into the downtime per day. As shown in the table above, selecting \[Sum] expression for both
+fields because you need the total value of actual downtime for a week and since the estimated downtime is defined per day, it should be
+\[Sum] as well.
 
 **Output**
 
-![Wildlife Population](./images/area-line-graph/output-2.PNG)
+![Bank Website Weekly Downtime](./images/target-visuals/downtime_output.PNG)
 
 **Analysis**
 
-From the use case, it gives us an idea of the survival status for the three different animals within the years of 2012 to 2017, in the area where the research was conducted. Overall, the highest number of wildlife sighting is **Bears** with a count of 184 in the year 2017, whereby it also has an increasing trend from the year 2012. As for **Dolphins**, the number of sighting drastically decreases within the timeline of 2012 to 2017, which is something to be worried about. Having the count of only 1 in the year of 2017 from the highest count of 150 in the year 2012, this indicates that either the **Dolphins** are becoming extinct in the area of research **OR** they have chosen to migrate to another area due to external factors such as pollution, rise in the sea water temperature or threat. The number of sightings for **Whales** fluctuated from year to year, with the count ranging from 54 - 100. By analysing this graph, wildlife conservation organisations can take the initiative to focus more efforts on protecting the **Dolphins** due to their extreme low count as of 2017, finding methods to save their habitat to make it more favourable for **Dolphins** in the future. The same can be said for the **Whales** as the inconsistent numbers shows that certain measures need to be taken to protect them. As for the **Bears**, the increasing trend shows that conservation methods are working in preserving the numbers and they should be maintained.
+The green colour threshold is typically used to indicate a 'good zone', orange for slightly worse than expectation but still acceptable,
+and red is for unsatisfactory output which requires immediate attention.
+In this radial gauge, you can see that the green zone is leaning towards smaller number, which means this radial gauge is a "Decreasing
+is better" trend as downtime is something every business trying to minimize.
+Since the needle is pointing towards the orange zone, it means that something unusual have happened even though it is not as major that it would skew the output towards the red zone.
+As you could see from the information pop-up box, the actual downtime is 3 hours more than the expected downtime. From here, you could 
+deduce that the average downtime per day is 2 hours which are for bank to perform maintenance and transactional verification. 
+Subtracting the expected value, you get a variance of 3 hours and this meant that the 3 hours are unexpected and unusual, you might
+want to look into this further such as drilling down what day or hour when it happened, and to find out what is the cause. 
+It might be due to lacking server memory as the business grows, so it is time to bring this issue to the management to procure a better 
+server or to upgrade the memory.
+
+
+## Use Case for Cylinder Gauge
+### Tracking Kickstarter's Project Fund
+A dataset is generated using Mockaroo. Download sample data [here](./sample-data/target-visuals/kickstarter.csv).
+<br/>Provided within the dataset are the necessary fields needed to generate the radial gauge.
+
+|Bindings|Select|
+|---|---|
+|Actual|\[Sum]fund_raised|
+|Target|\[Maximum]fund_needed|
+|Filter|kickstarter_project|
+
+There are four fields in the CSV file, three of which are mentioned above, while the last one is a Date field. You could filter Date to
+look into the amount of fund raised per day. 
+As shown in the table above, selecting \[Sum] expression for Actual field because you need the total amount of fund raised, 
+\[Maximum] or \[Minimum] could be interchangably used for Target field in this case because the fund_needed is defined per project so it 
+is a fixed value.
+Filter is used to select a specific project to generate the output.
+
+**Output**
+
+![Kickstarter Project Fund](./images/target-visuals/kickstarter_output.PNG)
+
+**Analysis**
+
+A Kickstarter project owner would need to monitor its project fund status at all times to track if it is on track in reaching the 
+funding goal so that the project will have sufficient budget to sustain.
+From the output shown above, you could see that the fund raised is $16,827 currently, as compared to the fund needed of $20,000.
+The variance shows that it is $3,173 shy from reaching the goal.
+The colour filling up the cylinder represents the threshold defined and since it is showing green in this case, it meant that the
+funding is in a healthy status currently.
