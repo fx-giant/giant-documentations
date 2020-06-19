@@ -95,7 +95,7 @@ server or to upgrade the memory.
 ## Use Case for Cylinder Gauge
 ### Tracking Kickstarter's Project Fund
 A dataset is generated using Mockaroo. Download sample data [here](./sample-data/target-visuals/kickstarter.csv).
-<br/>Provided within the dataset are the necessary fields needed to generate the radial gauge.
+<br/>Provided within the dataset are the necessary fields needed to generate the cylinder gauge.
 
 |Bindings|Select|
 |---|---|
@@ -122,3 +122,66 @@ From the output shown above, you could see that the fund raised is $16,827 curre
 The variance shows that it is $3,173 shy from reaching the goal.
 The colour filling up the cylinder represents the threshold defined and since it is showing green in this case, it meant that the
 funding is in a healthy status currently.
+
+<br/>
+
+## Use Case for Bullet Vertical/Horizontal
+### Average Customer Satisfaction (CSAT) of All Customers
+A dataset is generated using Mockaroo. Download sample data [here](./sample-data/target-visuals/csat.csv).
+<br/>Provided within the dataset are the necessary fields needed to generate the bullet vertical/horizontal.
+
+|Bindings|Select|
+|---|---|
+|Actual|\[Average]rated_satisfaction|
+|Target|\[Maximum]full_satisfaction|
+
+There are three fields in the CSV file, two of which are mentioned above, while the last one is a customer_name field. You could filter 
+customer_name to look into individual satisfaction score. 
+As shown in the table above, selecting \[Average] expression for Actual field because we are calculating the average CSAT of all 
+customers, \[Maximum] or \[Minimum] could be interchangably used for Target field in this case because full_satisfaction is defined
+as a fixed value to depict the CSAT scale.
+
+**Output**
+
+![Average CSAT](./images/target-visuals/csat_output.PNG)
+
+**Analysis**
+
+A customer satisfaction (CSAT) score is critical for a business's customer service to understand how do their products or services are
+being perceived by their customers. From the output as shown above, you could see that the actual value lies within the orange zone with 
+the average CSAT score standing at 5.10 which is only 51% out of the maximum score of 10.00. Since the thresholds defined
+that 3 - 7 as average score, this means that customers are slightly unsatisfied with its products or services. It shows that the
+business has room for improvement and you could filter by customer_name to find out specifically who are giving lower ratings that 
+skewed the output and could further drill down the cause(s) by targeting the specific group and inquire about it.
+
+<br/>
+
+## Use Case for Thermometer Vertical/Horizontal
+### Monthly Sales Conversion vs. Sales Target
+A dataset is generated using Mockaroo. Download sample data [here](./sample-data/target-visuals/sales.csv).
+<br/>Provided within the dataset are the necessary fields needed to generate the bullet vertical/horizontal.
+
+--------IN PROGRESS----------------IN PROGRESS----------------IN PROGRESS----------------IN PROGRESS--------
+
+|Bindings|Select|
+|---|---|
+|Actual|\[Average]rated_satisfaction|
+|Target|\[Maximum]full_satisfaction|
+
+There are three fields in the CSV file, two of which are mentioned above, while the last one is a customer_name field. You could filter 
+customer_name to look into individual satisfaction score. 
+As shown in the table above, selecting \[Average] expression for Actual field because we are calculating the average CSAT of all 
+customers, \[Maximum] or \[Minimum] could be interchangably used for Target field in this case because full_satisfaction is defined
+as a fixed value to depict the CSAT scale.
+
+**Output**
+
+![Average CSAT](./images/target-visuals/csat_output.PNG)
+
+**Analysis**
+
+A customer satisfaction (CSAT) score is critical for a business's customer service to understand how do their products or services are
+being perceived by their customers. From the output as shown above, you could see that the actual value lies within the orange zone with 
+the average CSAT score standing at 5.10 which is only 51% out of the maximum score of 10.00. Since the thresholds defined
+that 3 - 7 as average score, this means that customers are slightly unsatisfied with its products or services. It shows that the
+business has room for improvement and you could filter by customer_name to find out specifically who are giving lower ratings that skewed the output and could further drill down the cause(s) by targeting the specific group and inquire about it.
