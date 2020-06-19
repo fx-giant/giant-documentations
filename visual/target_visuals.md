@@ -65,10 +65,11 @@ A dataset is generated using Mockaroo. Download sample data [here](./sample-data
 
 |Bindings|Select|
 |---|---|
-|Actual|\[Sum]actual_downtime|
-|Target|\[Sum]estimated_downtime|
+|Actual|\[Sum]*actual_downtime*|
+|Target|\[Sum]*estimated_downtime*|
 
-There are three fields in the CSV file, two of which are mentioned above, while the last one is a Date field. You could filter Date to look into the downtime per day. As shown in the table above, selecting \[Sum] expression for both
+There are three fields in the CSV file, two of which are mentioned above, while the last one is a *date* field. You could filter *date* 
+to look into the downtime per day. As shown in the table above, selecting \[Sum] expression for both
 fields because you need the total value of actual downtime for a week and since the estimated downtime is defined per day, it should be
 \[Sum] as well.
 
@@ -99,16 +100,14 @@ A dataset is generated using Mockaroo. Download sample data [here](./sample-data
 
 |Bindings|Select|
 |---|---|
-|Actual|\[Sum]fund_raised|
-|Target|\[Maximum]fund_needed|
-|Filter|kickstarter_project|
+|Actual|\[Sum]*fund_raised*|
+|Target|\[Maximum]*fund_needed*|
+|Filter|*kickstarter_project*|
 
-There are four fields in the CSV file, three of which are mentioned above, while the last one is a Date field. You could filter Date to
-look into the amount of fund raised per day. 
-As shown in the table above, selecting \[Sum] expression for Actual field because you need the total amount of fund raised, 
-\[Maximum] or \[Minimum] could be interchangably used for Target field in this case because the fund_needed is defined per project so it 
-is a fixed value.
-Filter is used to select a specific project to generate the output.
+There are four fields in the CSV file, three of which are mentioned above, while the last one is a *date* field. You could filter *date*
+to look into the amount of fund raised per day. As shown in the table above, selecting \[Sum] expression for Actual field because you 
+need the total amount of fund raised, \[Maximum] or \[Minimum] could be interchangably used for Target field in this case because the 
+fund_needed is defined per project so it is a fixed value. Filter is used to select a specific project to generate the output.
 
 **Output**
 
@@ -132,14 +131,13 @@ A dataset is generated using Mockaroo. Download sample data [here](./sample-data
 
 |Bindings|Select|
 |---|---|
-|Actual|\[Average]rated_satisfaction|
-|Target|\[Maximum]full_satisfaction|
+|Actual|\[Average]*rated_satisfaction*|
+|Target|\[Maximum]*full_satisfaction*|
 
-There are three fields in the CSV file, two of which are mentioned above, while the last one is a customer_name field. You could filter 
-customer_name to look into individual satisfaction score. 
-As shown in the table above, selecting \[Average] expression for Actual field because we are calculating the average CSAT of all 
-customers, \[Maximum] or \[Minimum] could be interchangably used for Target field in this case because full_satisfaction is defined
-as a fixed value to depict the CSAT scale.
+There are three fields in the CSV file, two of which are mentioned above, while the last one is a *customer_name* field. You could 
+filter *customer_name* to look into individual satisfaction score. As shown in the table above, selecting \[Average] expression for 
+Actual field because we are calculating the average CSAT of all customers, \[Maximum] or \[Minimum] could be interchangably used for 
+Target field in this case because full_satisfaction is defined as a fixed value to depict the CSAT scale.
 
 **Output**
 
@@ -151,7 +149,7 @@ A customer satisfaction (CSAT) score is critical for a business's customer servi
 being perceived by their customers. From the output as shown above, you could see that the actual value lies within the orange zone with 
 the average CSAT score standing at 5.10 which is only 51% out of the maximum score of 10.00. Since the thresholds defined
 that 3 - 7 as average score, this means that customers are slightly unsatisfied with its products or services. It shows that the
-business has room for improvement and you could filter by customer_name to find out specifically who are giving lower ratings that 
+business has room for improvement and you could filter by *customer_name* to find out specifically who are giving lower ratings that 
 skewed the output and could further drill down the cause(s) by targeting the specific group and inquire about it.
 
 <br/>
@@ -163,13 +161,13 @@ A dataset is generated using Mockaroo. Download sample data [here](./sample-data
 
 |Bindings|Select|
 |---|---|
-|Actual|\[Sum]converted_sales|
-|Target|\[Maximum]conversion_target|
+|Actual|\[Sum]*converted_sales*|
+|Target|\[Maximum]*conversion_target*|
 
-There are four fields in the CSV file, two of which are mentioned above, the other two are sales_rep_name and date fields. Filter
+There are four fields in the CSV file, two of which are mentioned above, the other two are *sales_rep_name* and *date* fields. Filter
 could be used to filter per sales rep, or by date. 
 As shown in the table above, selecting \[Sum] expression for Actual field because we are calculating the total converted sales of all 
-customers, \[Maximum] or \[Minimum] could be interchangably used for Target field in this case because conversion_target is defined
+customers, \[Maximum] or \[Minimum] could be interchangably used for Target field in this case because *conversion_target* is defined
 as a fixed value throughout the dataset.
 
 **Output**
@@ -182,11 +180,13 @@ as a fixed value throughout the dataset.
 
 Tracking sales conversion is important to a business as it reflects the effectiveness of sales representatives in converting 
 strangers/visitors/leads to customers. The output above shows the monthly overall sales conversion vs. sales target. Filter could be
-applied on sales_rep_name or date field to look into per sales rep or per day. This dataset contains daily sales conversion of each
-sales rep's for May 2020. From the output shown above, you can see that in May 2020, the total converted sales by all sales reps are
-154 deals, which surpassed the sales target of 50 deals, standing at 308% beyond the target. This results show that the business is
-doing well and all sales reps have contributed in achieving the sales target for that particular month.
-However, it is worth noting that although it is common to have only 3 levels of threshold, you could always add more to it.
+applied on *sales_rep_name* or *date* field to look into per sales rep or per day. 
+This dataset contains daily sales conversion of each sales rep's for May 2020. 
+From the output shown above, you can see that in May 2020, the total converted sales by all sales reps are 154 deals, which surpassed 
+the sales target of 50 deals, standing at 308% beyond the target. 
+This results show that the business is doing well and all sales reps have contributed in achieving the sales target for that particular 
+month.
+However, it is worth noting that although it is common to have 3 levels of threshold, you could always add more to it.
 Take this output for example, if your business continues to overachieve the sales target, you can either start adjusting the sales
 target appropriately or to add another level of threshold of Blue colour depicting a 'bonus' threshold. It will serve as a motivation
 to sales reps who managed to achieve more than the green zone which depicts 'good' threshold.
