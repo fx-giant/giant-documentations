@@ -17,6 +17,7 @@ threshold bar with colours shown according to your settings. When you hover your
 except that the bar indicating the actual value are shown on the right side of the threshold bar and it is blue colour. When you hover 
 your cursor over the blue bar, more information will be shown.
 
+<br/>
 
 ## Data Binding
 
@@ -55,6 +56,8 @@ add more quartile if you need more and remove them by pressing on 'X' button bes
 
 Add filters to restrict your data so that analysis will be focused on data which are shown in the chart.
 
+<br/>
+
 ## Use Case for Radial Gauge
 ### Bank's Website Weekly Downtime
 A dataset is generated using Mockaroo. Download sample data [here](./sample-data/target-visuals/downtime.csv).
@@ -87,6 +90,7 @@ want to look into this further such as drilling down what day or hour when it ha
 It might be due to lacking server memory as the business grows, so it is time to bring this issue to the management to procure a better 
 server or to upgrade the memory.
 
+<br/>
 
 ## Use Case for Cylinder Gauge
 ### Tracking Kickstarter's Project Fund
