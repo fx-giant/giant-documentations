@@ -60,7 +60,15 @@ Add filters to restrict your data so that analysis will be focused on data which
 
 ## Use Case for Radial Gauge
 ### Bank's Website Weekly Downtime
-A dataset is generated using Mockaroo. Download sample data [here](./sample-data/target-visuals/downtime.csv).
+The dataset used simulates a bank's website weekly downtime. For example, Bank ABC will have a daily fixed downtime from 12:00 AM to
+2:00 AM for their internals to perform maintenance. The estimated downtime per day is 2 hours and would amount to a total of 14 hours
+per week. An allowance for mistakes is given 1 hour per day, totalling 7 hours per week.
+
+In this case, it is an 'Decreasing Better' trend, a green threshold should be within the range of 0% - 100%, indicating the percentage 
+of target (14 hours and below). An orange threshold should be within the range of 100% - 150% (Above 14hrs, 21hrs and below) and 
+anything above 150% should be classified as red.
+
+Download sample data [here](./sample-data/target-visuals/downtime.csv).
 <br/>Provided within the dataset are the necessary fields needed to generate the radial gauge.
 
 |Bindings|Select|
@@ -95,7 +103,16 @@ server or to upgrade the memory.
 
 ## Use Case for Cylinder Gauge
 ### Tracking Kickstarter's Project Fund
-A dataset is generated using Mockaroo. Download sample data [here](./sample-data/target-visuals/kickstarter.csv).
+The dataset used simulates a Kickstarter's project fund tracker. For example, Person A created a new Kickstarter project and gauged the
+fund required to kickstart the project. The project owner set the end goal of the project at $20,000 required, with $15,000 as a healthy
+progression, $10,000 to $14,999 as on track progression, and anything below $10,000 as off track progression.
+
+In this case, it is an 'Increasing Better' trend, a green threshold should be within the range of 75% - 100%, indicating the percentage 
+of target ($20,000). An orange threshold should be within the range of 50% - 75% and anything below 50% should be classified as red. Of 
+course, sometimes a Kickstarter's project would receive more funding than expected, a blue threshold can then be added as well, to 
+indicate a progression of beyond 100% (expected target).
+
+Download sample data [here](./sample-data/target-visuals/kickstarter.csv).
 <br/>Provided within the dataset are the necessary fields needed to generate the cylinder gauge.
 
 |Bindings|Select|
@@ -126,7 +143,13 @@ funding is in a healthy status currently.
 
 ## Use Case for Bullet Vertical/Horizontal
 ### Average Customer Satisfaction (CSAT) of All Customers
-A dataset is generated using Mockaroo. Download sample data [here](./sample-data/target-visuals/csat.csv).
+The dataset used simulates a business's customer satisfaction score. For example, CSAT uses a 10-point scale to rate customer's 
+satisfaction, with 1 - 3 as bad, 3 - 7 as average, and 7 - 10 as good.
+
+In this case, it is an 'Increasing Better' trend, a green threshold should be within the range of 66% - 100%, indicating the percentage 
+of target (10-point). An orange threshold should be within the range of 33% - 66% and anything below 33% should be classified as red.
+
+Download sample data [here](./sample-data/target-visuals/csat.csv).
 <br/>Provided within the dataset are the necessary fields needed to generate the bullet vertical/horizontal.
 
 |Bindings|Select|
@@ -156,7 +179,17 @@ skewed the output and could further drill down the cause(s) by targeting the spe
 
 ## Use Case for Thermometer Vertical/Horizontal
 ### Monthly Sales Conversion vs. Sales Target
-A dataset is generated using Mockaroo. Download sample data [here](./sample-data/target-visuals/sales.csv).
+The dataset used simulates a sales company. For example, a water bottle sales company with several sales representatives and a monthly
+target of 50 sales conversion. The number of sales conversion is calculated daily so you could see which sales representatives converted 
+how many customers per day vs. their monthly target. The sales manager then sets the benchmarks, 0 - 15 as bad, 15 - 30 as average, 
+30 - 60 as good.
+
+In this case, it is an 'Increasing Better' trend, a green threshold should be within the range of 60% - 120%, indicating the percentage 
+of target (50 conversion). An orange threshold should be within the range of 30% - 60% and anything below 30% should be classified as 
+red. Although it is optional but a blue threshold can be added as well, to indicate sales covnersion of beyond 120% (>60) as an
+overachieving range of conversion.
+
+Download sample data [here](./sample-data/target-visuals/sales.csv).
 <br/>Provided within the dataset are the necessary fields needed to generate the bullet vertical/horizontal.
 
 |Bindings|Select|
