@@ -98,7 +98,9 @@ Both Kedah and Penang have 5 sales representatives each, 3 in Selangor and 7 in 
 target of 20 and it is a cumulative sales target depending on the number of sales representatives in each branch office, sales target for
 each branch office is then depicted as 100 for both Kedah and Penang, 60 for Selangor and 140 for Johor. By looking at the colour of each
 data bubble on the map, we know that two of its branch offices are performing well and two are within the average threshold. The threshold
-levels and its ranges can be seen on the top left corner of the map chart. From this chart, the sales manager could then drill-down into Kedah
+levels and its ranges can be seen on the top left corner of the map chart. As for the size of each data bubble, it is based on the number
+of sales representatives each branch office has. As seen in the snippet provided above, Johor's branch office named "Lmaooo" has the largest
+data bubble as it has the most sales representatives, at 7. From this chart, the sales manager could then drill-down into Kedah
 and Selangor branch offices, look into the individuals that did not hit their sales target and to find out what is the cause/reason/issue.
 Another perspective is that the sales manager could use the map chart to help in making decision whether certain branch offices should be
 closed down as they are consistently having a loss in profit, or certain branch offices should be allocated more budget to operate as they are
