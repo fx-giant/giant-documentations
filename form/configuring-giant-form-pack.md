@@ -116,7 +116,7 @@ The complete structure:
 | isHideSearchbar | Boolean | Flag to indicate whether GIANT search bar availibilty when access this form in GIANT
 | isApplication | Boolean | Flag to indicate whether the form to be part of GIANT menu list for quick access.
 | applicationIcon | String | Css class name for the form icon appear in GIANT menu list. Default icon will be used if not assign. Refer [Font Awesome](https://fontawesome.com) for list of icon class name.
-| applicationOrdering | Integer | Ordering number of the form in form list menu in GIANT menu list.
+| applicationOrdering | Integer | Ordering number of the form in form list menu in GIANT menu list. If same ordering number, form title will be used for ordering.
 | menuItems | [MenuItem](#GIANT-MenuItem-structure)[] | List of menu item under this parent menu item in GIANT menu list
 | toogleFeatures | [ToggleFeatures](#GIANT-ToggleFeatures-structure) | List of feature for form to be turn on/off. Example hide form header.
 
