@@ -124,6 +124,40 @@ values: higherIsBetter / lowerIsBetter
 | to | number | |
 | color | string | any color code |
 
+**quadrant-properties-{name}.html**: This html is the setting interface used in GIANT. Here is the sample of a basic setting to configure a chart. Data-binding is done using Knockout JS, go through Knockout JS documentation to understand how data binding works.
+```
+<div class="quadrant-properties">
+    <div class="quadrant-properties__databind">
+    
+        <quadrant-control params=" controlType: 'connectionSource',  quadrantViewModel: quadrantViewModel, "></quadrant-control>
+
+        <!--Single Binding Dimension-->
+        <quadrant-control ve-type="single-dimension-quadrant-control" params="
+            labelKey: 'Dimension',
+            parameterKey: 'columnField', 
+            controlType: 'simpleSingleBinding', 
+            bindingType: 'dimension', 
+            quadrantViewModel: quadrantViewModel, 
+        "></quadrant-control>
+
+        <!--Single Binding Measurement> -->
+        <quadrant-control ve-type="single-dimension-quadrant-control" params="
+            labelKey: 'Measurement',
+            parameterKey: 'valueField', 
+            controlType: 'simpleSingleBinding', 
+            bindingType: 'measurement', 
+            quadrantViewModel: quadrantViewModel, 
+        "></quadrant-control>
+
+        <!--Separator-->
+        <hr class="quadrant-properties__seperator">
+
+    </div>
+</div>
+```
+**|-quadrant-properties-{name}.js**  Binding of properties based on user input is done here.
+**{script1}.js** Your chart js file which create the chart.
+
 ### Full Example
 Here is the example of visual parameters with all of the configuration provided:
 ```
