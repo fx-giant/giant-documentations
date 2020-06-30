@@ -93,6 +93,7 @@ The complete structure:
         "isHideSearchbar": "flag to indicate to turn off GIANT search bar when access this form in GIANT.",
         "isApplication": "indicate whether the form to be appear as part of GIANT menu list for quick access.",
         "applicationIcon": "font awesome css class for the form icon in the GIANT menu list.",
+        "applicationOrdering": "ordering number of the form in the GIANT menu list.",
         "menuItems": "array of menu items to be nested under this form. Only work with isApplication set to true",
         "toogleFeatures": "Toggle Feature list for form"
     },{
@@ -115,6 +116,7 @@ The complete structure:
 | isHideSearchbar | Boolean | Flag to indicate whether GIANT search bar availibilty when access this form in GIANT
 | isApplication | Boolean | Flag to indicate whether the form to be part of GIANT menu list for quick access.
 | applicationIcon | String | Css class name for the form icon appear in GIANT menu list. Default icon will be used if not assign. Refer [Font Awesome](https://fontawesome.com) for list of icon class name.
+| applicationOrdering | Integer | Ordering number of the form in form list menu in GIANT menu list.
 | menuItems | [MenuItem](#GIANT-MenuItem-structure)[] | List of menu item under this parent menu item in GIANT menu list
 | toogleFeatures | [ToggleFeatures](#GIANT-ToggleFeatures-structure) | List of feature for form to be turn on/off. Example hide form header.
 
