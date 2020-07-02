@@ -2,8 +2,7 @@
 
 ![Facebook](./images/social-media/facebook.PNG) ![Twitter](./images/social-media/twitter.PNG) 
 
-There are two social media widgets including Facebook and Twitter. By using the widget, you could keep track
-of what is going on in the social media of a certain page, people or group that you wish to monitor.
+There are two social media widgets including Facebook and Twitter. By using the widget, you could keep track of what is going on in the social media of a certain page, people or group that you wish to monitor. It can be used to redirect users as well, to visit the pages and learn more about the page.
 
 <br/>
 
@@ -66,7 +65,7 @@ The **Language** allows you to choose your preferred language from the drop-down
 
 <br/>
 
-## Use Case
+## Use Case 1
 ### Customer Service on Social Media
 Most if not all companies today have their own social media pages because of its customer traffic,
 accessibility from anywhere, anytime and the low costs to market your business. Customers could reach out to
@@ -103,3 +102,31 @@ By using the social widgets, a social media manager or online customer service c
 page on Facebook/Twitter as long as the posts are visible to the public, including reactions, shares and 
 comments. It is also clickable where it directs you to the particular post if any changes to the post is
 needed or replying feedback.
+
+## Use Case 2
+### Social Media Widget to Redirect Users
+World Health Organization (WHO) is one of the key organizations in the world in the year 2020 due to the COVID-19 pandemic. For example, several charts have been added to the dashboard including current donation vs. amount of donation needed, number of new cases, patients recovered and death count.
+
+Social media widgets could then be added after all the aforementioned charts to redirect users to learn more about WHO such as what the organization is about, what are they doing to tackle the emergence of this very new global pandemic - COVID-19.
+
+Configure the Facebook widget with settings as follows:
+
+|Bindings|Select|
+|---|---|
+|Facebook Page Url|https://www.facebook.com/WHO|
+
+Configure the Twitter widget with settings as follows:
+
+|Bindings|Select|
+|---|---|
+|Twitter Id|WHO|
+
+Other settings that are not mentioned in the tables above, are just aesthethic settings which will not have any significant impact.
+
+**Output**
+
+![Social Media 2](./images/social-media/social_media_output_2.PNG)
+
+**Analysis**
+
+With the inclusion of these social widgets, the page is just one-click away for users that are interested to learn more about WHO. This will help WHO to spread more awareness about the COVID-19 pandemic and thus bringing in more people to donate to those who are in need or spread the news through word-of-mouth.
