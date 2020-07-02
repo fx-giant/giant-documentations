@@ -129,4 +129,4 @@ Other settings that are not mentioned in the tables above, are just aesthethic s
 
 **Analysis**
 
-With the inclusion of these social widgets, the page is just one-click away for users that are interested to learn more about WHO. This will help WHO to spread more awareness about the COVID-19 pandemic and thus bringing in more people to donate to those who are in need or spread the news through word-of-mouth.
+With the inclusion of social widget, the page is just one-click away for users that are interested to learn more about WHO. This will help WHO to spread more awareness about the COVID-19 pandemic and thus bringing in more people to donate to those who are in need or spread the news via word-of-mouth.
