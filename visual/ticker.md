@@ -2,13 +2,13 @@
 
 ![Ticker](./images/ticker/ticker.PNG) 
 
-A Ticker chart allows us to have a clear view on each subject tagged to their respective category with additional details including message, date/time and a thumbnail. The subject could be hyperlinked so that it is clickable and would direct the user to the link attached. Category is clickable as well, to filter all the subjects tagged under the particular category.
+A Ticker chart allows us to have a clear view on each subject tagged to their respective category with additional details including message, date/time and a thumbnail. The subject could be hyperlinked so that it is clickable and would direct the user to the link attached. Category is clickable as well, to filter all the subjects tagged under the particular category. Furthermore, a ticker chart could be used as a news feed as well, showing headlines row-by-row.
 
 <br/>
 
 ## Data Binding
 
-There are two mandatory bindings which are **Subject** and **Category**.
+There are two mandatory bindings which are **Subject** and **Category** and four optional bindings including **Message**, **Date Time**, **Image URL** and **Link**.
 
 |Bindings|Data Type|
 |---|---|
@@ -19,20 +19,13 @@ There are two mandatory bindings which are **Subject** and **Category**.
 
 Both **Subject** and **Category** accept String data type. **Subject** is the title of each row of record which could be hyperlinked and **Category** determines the grouping of each subject.
 
-## Other Settings
-
-### All/Top/Bottom
-
-By default, the option selected is All (which means, all the data points will be shown in the chart). Select Top or Bottom, followed by the 
-number of data points required to show the selected number of top-most data rows **OR** selected number of bottom-most data rows.
-
 ### Message
 
-The **Message** binding accepts String data type and is shown below the subject input.
+The **Message** binding accepts String data type and is shown below the subject input. It can be used to show a description of the subject or a brief explanation about the subject.
 
 ### Date Time
 
-The **Date Time** binding accepts Date and Time data type and is shown below the message input.
+The **Date Time** binding accepts Date and Time data type and is shown below the message input. It can be used to show the due date of an ongoing project or sub-project, or to show published date for news feed usage.
 
 ### Image URL 
 
@@ -40,7 +33,14 @@ The **Image URL** binding accepts URL data type. It retrieves the image from ins
 
 ### Link
 
-The **Link** binding accepts any link and will hyperlink the subject.
+The **Link** binding accepts any link and will hyperlink the subject. A clickable title that directs user to look into further details of the subject.
+
+## Other Settings
+
+### All/Top/Bottom
+
+By default, the option selected is All (which means, all the data points will be shown in the chart). Select Top or Bottom, followed by the 
+number of data points required to show the selected number of top-most data rows **OR** selected number of bottom-most data rows.
 
 ### Filter
 
