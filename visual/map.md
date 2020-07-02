@@ -19,15 +19,8 @@ There are two mandatory bindings which are **Longitude** and **Latitude**.
 
 ### Longitude/Latitude
 
-Both Longitude and Latitude values should be in numerical data type such that it is <0.000000>. It should not be in GPS coordinate values
+The **Longitude** and **Latitude** bindings determine the specific location of data bubble(s) shown on the map chart. Both values should be in numerical data type such that it is <0.000000>. It should not be in GPS coordinate values
 such that it is <0° 0' 0" N> or <0° 0' 0" E>.
-
-## Other Settings
-
-### All/Top/Bottom
-
-By default, the option selected is All (which means, all the data points will be shown in the chart). Select Top or Bottom, followed by the 
-number of data points required to show the selected number of top-most data rows **OR** selected number of bottom-most data rows.
 
 ### Group
 
@@ -39,7 +32,21 @@ The **Size** binding determines the size of the data points marked on the map ch
 
 ### Actual/Target 
 
-The **Actual/Target** bindings are of Numeric data type.
+Only Numeric data type can be used for both **Actual** and **Target** bindings with an exception for 'Unique' and 'Count' expressions.
+For example, if you are to include a non-numeric data type field named 'Movie Name' and you would like to:
+1. Find out how many non-repeated movies are in the connected source --> 'Unique' expression can be applied on non-numeric field to 
+generate the total number of rows without repeated value.
+2. Find out how many movies are there in total --> 'Count' expression can be applied on non-numeric field to generate the total number of
+rows.
+
+Ultimately, only numerical values will be shown.
+
+## Other Settings
+
+### All/Top/Bottom
+
+By default, the option selected is All (which means, all the data points will be shown in the chart). Select Top or Bottom, followed by the 
+number of data points required to show the selected number of top-most data rows **OR** selected number of bottom-most data rows.
 
 ### Size/Actual/Target Label
 
