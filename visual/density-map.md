@@ -1,4 +1,4 @@
-# Heat Map Diagram
+# Density Map Diagram
 
 ![Heat Map](./images/heat-map/heatmap.PNG)
 
