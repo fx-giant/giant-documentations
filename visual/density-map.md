@@ -10,7 +10,7 @@ The values are displayed by different colours based on the pallete, style and th
 
 For the density map diagram, there are 4 bindings to generate the chart which are:
 
-1) **Country Code** (Mandatory) (ISO Alpha-2 Code (Reference here: https://www.iban.com/country-codes)
+1) **Country Code** (Mandatory) - ISO Alpha-2 Code (Reference here: https://www.iban.com/country-codes)
 2) **State Name**
 3) **Actual Value** (Mandatory)
 4) **Target Value**
