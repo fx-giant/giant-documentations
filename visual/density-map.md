@@ -4,7 +4,7 @@
 
 
 A density map is a visualisation of a world map where the individual values are displayed on an interactive map as areas color-coded based on the population density of locations on the map.
-The values are displayed by different colours based on the pallete, style and threshold setting, which aids in identifying certain trends. For example, you can display areas with a high concentration of stores in dark red, with the colour tone gettign lighter when approaching areas with lower concentration of stores. The density map is generally used by analysts in order for them to represent variability of the desired measurement, across a region.
+The values are displayed by different colours based on the pallete, style and threshold setting, which aids in identifying certain trends. For example, you can display areas with a high concentration of stores in dark red, with the colour tone getting lighter when approaching areas with lower concentration of stores. The density map is generally used by analysts in order for them to represent variability of the desired measurement, across a region.
 
 ## Data Binding
 
@@ -17,18 +17,18 @@ For the density map diagram, there are 4 bindings to generate the chart which ar
 
 For each property, there are specific data types need to fulfill in order for the combination chart to render correctly, as shown below:
 
-|Bindings|Data Type|
+|Bindings|Data Type|Reference|
 |---|---|
-|Country Code|Text|
-|State Name|Text|
-|Target Value|Numeric|
-|Actual Value|Numeric|
+|Country Code|Text|ISO Alpha-2 Code (Reference here:https://www.iban.com/country-codes)|
+|State Name|Text||
+|Target Value|Numeric||
+|Actual Value|Numeric||
 
 **Country Code** data can be used to create a relationship with **Actual Value** to display density information on a world map. The color of each value within the density map will change by the comparison among other values, as described below:
 
 If **State Name** data is binded, the map will further show state level density information on the map. 
 
-When all **County Code**, **State Name**, **Actual Value** and **Target Value** data are binded, information displayed will be based on the **Threshold** setting which consists of:
+When all **Country Code**, **State Name**, **Actual Value** and **Target Value** data are binded, information displayed will be based on the **Threshold** setting which consists of:
 
 - Trending (Increasing Better/Decreasing Better)
 - Range % of Target
