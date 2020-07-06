@@ -10,7 +10,7 @@ The values are displayed by different colours based on the pallete, style and th
 
 For the density map diagram, there are 4 bindings to generate the chart which are:
 
-1) **Country Code** (Mandatory)
+1) **Country Code** (Mandatory) (ISO Alpha-2 Code (Reference here: https://www.iban.com/country-codes)
 2) **State Name**
 3) **Actual Value** (Mandatory)
 4) **Target Value**
@@ -19,10 +19,10 @@ For each property, there are specific data types need to fulfill in order for th
 
 |Bindings|Data Type|Reference|
 |---|---|
-|Country Code|Text|ISO Alpha-2 Code (Reference here:https://www.iban.com/country-codes)|
-|State Name|Text||
-|Target Value|Numeric||
-|Actual Value|Numeric||
+|Country Code|Text|
+|State Name|Text|
+|Target Value|Numeric|
+|Actual Value|Numeric|
 
 **Country Code** data can be used to create a relationship with **Actual Value** to display density information on a world map. The color of each value within the density map will change by the comparison among other values, as described below:
 
