@@ -2,7 +2,7 @@
 
 ![Heat Map](./images/heat-map/heatmap.PNG)
 
-" 
+<iframe width="560" height="315" src="https://giant2019-csgb.fusionexgiant.com/AnalyticsI/Quadrant/6485e445-2c7a-4b78-a9b9-20909da82050/Embed/e21a82d2-cb33-4917-b70e-66a398f65e7f" frameborder="0" allowfullscreen></iframe>
 
 A density map is a visualisation of a world map where the individual values are displayed on an interactive map as areas color-coded based on the population density of locations on the map.
 The values are displayed by different colours based on the pallete, style and threshold setting, which aids in identifying certain trends. For example, you can display areas with a high concentration of stores in dark red, with the colour tone gettign lighter when approaching areas with lower concentration of stores. The density map is generally used by analysts in order for them to represent variability of the desired measurement, across a region.
