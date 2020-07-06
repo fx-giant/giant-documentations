@@ -17,7 +17,7 @@ For the density map diagram, there are 4 bindings to generate the chart which ar
 
 For each property, there are specific data types need to fulfill in order for the combination chart to render correctly, as shown below:
 
-|Bindings|Data Type|Reference|
+|Bindings|Data Type|
 |---|---|
 |Country Code|Text|
 |State Name|Text|
