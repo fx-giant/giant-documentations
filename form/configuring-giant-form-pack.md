@@ -116,7 +116,7 @@ The complete structure:
 | isHideSearchbar | Boolean | Flag to indicate whether GIANT search bar availibilty when access this form in GIANT
 | isApplication | Boolean | Flag to indicate whether the form to be part of GIANT menu list for quick access.
 | applicationIcon | String | Css class name for the form icon appear in GIANT menu list. Default icon will be used if not assign. Refer [Font Awesome](https://fontawesome.com) for list of icon class name.
-| applicationOrdering | Integer | Ordering number of the form in form list menu in GIANT menu list. If same ordering number, form title will be used for ordering.
+| applicationOrdering | Integer | Ordering number of the form in form list menu in GIANT menu list. If same ordering number, form title will be used for ordering. Refer [GIANT Menu Ordering](#GIANT-Menu-Ordering) for more details.
 | menuItems | [MenuItem](#GIANT-MenuItem-structure)[] | List of menu item under this parent menu item in GIANT menu list
 | toogleFeatures | [ToggleFeatures](#GIANT-ToggleFeatures-structure) | List of feature for form to be turn on/off. Example hide form header.
 
@@ -240,3 +240,26 @@ so the example of a form with toggle feature configuration is as follow:
   }]
 }
 ```
+
+## GIANT Menu Ordering
+GIANT default menu ordering
+|GIANT Menu Title | Ordering Number |
+|-|-|
+|Home |0 |
+|My Dashboard(s) |10000 |
+|Library |20000 |
+|Connect to Source(s) |30000 |
+|Visual Editor |40000 |
+|My Form(s) |60000 |
+|Manage System |80000 |
+|Manage Security |90000 |
+|Privacy Policy |100000 |
+|Terms and Condition |110000 |
+
+To set the form menu place before GIANT menu `Home`, set the `applicationOrdering` to be negative value (Example: -1, -2, etc);
+
+To set the form menu in between `My Form(s)`, set the `applicationOrdering` to number between 60000 and 80000 (Example: 60001, 60002, 79999, etc)
+
+To set the form menu after GIANT default menu, set the `applicationOrdering` to number after 110000 (Example: 110001, 120003, etc)
+
+`applicationOrdering` with empty value will make the form be default order by GIANT after GIANT default menu.
