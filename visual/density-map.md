@@ -80,12 +80,12 @@ Below are the fields used for the data binding to generate the chart:
 Here's a output of the chart once the fields above are bound:
 
 - With **Country Code** and **Actual Value** data bindings:
-[(./images/density-map/country-level.JPG)]
+![](./images/density-map/country-level.jpg)
 
 - With **Country Code**, **State Name** and **Actual Value** data bindings:
-[(./images/density-map/state-level.JPG)]
+![](./images/density-map/state-level.jpg)
 
 - With **Country Code**, **State Name**, **Actual Value** and **Target Value** data bindings:
-[(./images/density-map/threshold.JPG)]
+![](./images/density-map/threshold.jpg)
 
 From the map, we are able to see that as of 03/07/2020, most of the states in the US have a low recovery rate. Most of the area are shown in Red colour, which means that the number of patients which have recovered are low compared to the total number of infections. There are no state at all that falls within the Green threshold, which shows a very worrying trend in terms of patients' recovery. One interesting point to note is Alaska; although the area covered by the state's bounderies are quite large, the total cases is only 1,166 cases and out of this number, 452 patients have recovered. Overall, Alaska falls within the Yellow range of the threshold.
