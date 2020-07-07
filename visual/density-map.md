@@ -2,7 +2,6 @@
 
 
 
-
 A density map is a visualisation of a world map whereby the values are displayed on an interactive map as color-coded areas. Values with higher amount will have a stronger colour, representing the higher density of the locations on the map. The values can be displayed by different colours based on the pallete, style and threshold setting, which aids in identifying certain trends. For example, you can display areas with a high concentration of retail stores in dark red, with the colour tone getting lighter when approaching areas with lower concentration of retail stores. The density map is generally used by analysts in order for them to represent variability of the data across countries or regions, in a graphical way.
 
 ## Data Binding
