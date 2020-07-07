@@ -22,15 +22,15 @@ For each property, there are specific data types need to fulfill in order for th
 |Target Value|Numeric|
 |Actual Value|Numeric|
 
-**Country Code** data can be used to create a relationship with **Actual Value** to display density information on a world map. The color of each value within the density map will change by the comparison among other values, as described below:
+**Country Code** data can be used to create a relationship with the **Actual Value** to display the data density information on the world map. The color of each value within the density map will change based on the comparison with other values.
 
-If **State Name** data is binded, the map will further show state level density information on the map. 
+If the **State Name** field is bound, the map will further show the data density information at the state level, on the map.
 
-When all **Country Code**, **State Name**, **Actual Value** and **Target Value** data are binded, information displayed will be based on the **Threshold** setting which consists of:
+When all **Country Code**, **State Name**, **Actual Value** and **Target Value** field are bound, the information displayed for the **Actual Value** versus the **Target Value** will be based on the **Threshold setting** which consists of:
 
 - Trending (Increasing Better/Decreasing Better)
 - Range % of Target
-- Separate colour setting to display threshold levels
+- Different colour setting to represent each threshold level. By default, the traffic light colour setting is applied to the chart.
 
 ## Other Settings
 
@@ -66,7 +66,7 @@ If **State Name** column is NOT bound, the entire map (except the locations wher
 ## Use Cases
 
 ### CoVid19 Infections in USA
-Covid19 infection data from all the states in the USA for 03/07/2020 is recorded in this dataset. 2016 to 2018 on the amount of tickets sold from each month. A Density Map can be used to display which states have a denser population of infections compared to the others. Download sample data [here](./sample-data/density-map/USA-Covid19-Cases-03.07.2020.csv).
+COVID-19 infection data from all the states in the USA for 03/07/2020 is recorded in this dataset. The Density Map can be used to display the rate of recovery between the states by comparing each state's total number of discharged patients against the total number of cases. Download sample data [here](./sample-data/density-map/USA-Covid19-Cases-03.07.2020.csv).
 
 Below are the fields used for the data binding to generate the chart:
 
@@ -74,13 +74,18 @@ Below are the fields used for the data binding to generate the chart:
 |---|---|
 |Country Code|Country ISO|(MANDATORY)
 |State Name|State|
-|Actual Value|Actual Infections|(MANDATORY)
-|Target Value|Target Infections|
+|Actual Value|Discharged Patients|(MANDATORY)
+|Target Value|Total Cases|
 
-The map displays the density information of Covid-19 infections in the USA for the 3rd of July 2020. When **Country Code** data and **Actual Value** data is binded, the density information is displayed on the world map on a country level. When **State Name** data is binded, state level density information is displayed. 
+Here's a output of the chart once the fields above are bound:
 
-From this map, when **Country Code**, **State Name** and **Actual Value** data fields are binded, we are able to see that the densest location in terms of Covid-19 infections are in New York, with 31,836 infections. The least dense location is Alaska, with only 13 cases.
+- With **Country Code** and **Actual Value** data bindings:
+(./images/Density-Map-(Density Information)-Country-Level)
 
-When **Target Value** data is binded, the map displays threshold information on the map. 
+- With **Country Code**, **State Name** and **Actual Value** data bindings:
+(./images/Density-Map-(Density Information)-State-Level)
 
-The trending in this case is **decreasing better**, and we are able to see that Alaska has the closest **Actual Value** as compared to its **Target Value**, therefore displays the lowest threshold information. In comparison, New York has the highest number of infections and is the furthest from it's target, therefore displays the highest threshold information. 
+- With **Country Code**, **State Name**, **Actual Value** and **Target Value** data bindings:
+(./images/Density-Map-(Threshold-Information)
+
+From the map, we are able to see that as of 03/07/2020, most of the states in the US have a low recovery rate. Most of the area are shown in Red colour, which means that the number of patients which have recovered are low compared to the total number of infections. There are no state at all that falls within the Green threshold, which shows a very worrying trend in terms of patients' recovery. One interesting point to note is Alaska; although the area covered by the state's bounderies are quite large, the total cases is only 1,166 cases and out of this number, 452 patients have recovered. Overall, Alaska falls within the Yellow range of the threshold.
