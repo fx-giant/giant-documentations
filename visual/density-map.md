@@ -54,18 +54,19 @@ Add filters to restrict your data so that analysis will be focused on data which
 
 ### Density Colour
 
-Changes the colour of the locations with data binding to reflect users choice. The colour tone will reflect the population density in relation to the binded data.
+You can choose the colour to represent the data available for the locations in the map. The colour tone will reflect the data density in relation to the bound data fields.
 
 ### Empty Value Colour
 
-Changes the colour of locations with no value on the map. If **State Name** data is binded, the map will only display the above colour for states without any data bindings. 
+You can choose a different colour to represent the unavailable data for the locations in the map. If the **State Name** column is bound, the map will only display the Empty Value Colour for states without any data available.
 
-If **State Name** data is NOT binded, the entire map, minus the locations where **Country Code** bindings are present, will display the above colour for states. 
+If **State Name** column is NOT bound, the entire map (except the locations where the **Country Code** data are present), will display the Empty Value Colour for states.
+ 
 
 ## Use Cases
 
 ### CoVid19 Infections in USA
-Covid19 infection data from all the states in the USA for 03/07/2020 is recorded in this dataset. 2016 to 2018 on the amount of tickets sold from each month. A Density Map can be used to display which states have a denser population of infections compared to the others. Download sample data [here](./sample-data/density-map/Covid19-Info.csv).
+Covid19 infection data from all the states in the USA for 03/07/2020 is recorded in this dataset. 2016 to 2018 on the amount of tickets sold from each month. A Density Map can be used to display which states have a denser population of infections compared to the others. Download sample data [here](./sample-data/density-map/USA-Covid19-Cases-03.07.2020.csv).
 
 Below are the fields used for the data binding to generate the chart:
 
