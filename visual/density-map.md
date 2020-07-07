@@ -1,21 +1,20 @@
-# Density Map Diagram
-
-![Heat Map](./images/heat-map/heatmap.PNG)
+# Density Map
 
 
-A density map is a visualisation of a world map where the individual values are displayed on an interactive map as areas color-coded based on the population density of locations on the map.
-The values are displayed by different colours based on the pallete, style and threshold setting, which aids in identifying certain trends. For example, you can display areas with a high concentration of stores in dark red, with the colour tone getting lighter when approaching areas with lower concentration of stores. The density map is generally used by analysts in order for them to represent variability of the desired measurement, across a region.
+
+
+A density map is a visualisation of a world map whereby the values are displayed on an interactive map as color-coded areas. Values with higher amount will have a stronger colour, representing the higher density of the locations on the map. The values can be displayed by different colours based on the pallete, style and threshold setting, which aids in identifying certain trends. For example, you can display areas with a high concentration of retail stores in dark red, with the colour tone getting lighter when approaching areas with lower concentration of retail stores. The density map is generally used by analysts in order for them to represent variability of the data across countries or regions, in a graphical way.
 
 ## Data Binding
 
-For the density map diagram, there are 4 bindings to generate the chart which are:
+For the density map chart, there are 4 bindings available to generate the chart which are:
 
 1) **Country Code** (Mandatory) - ISO Alpha-2 Code (Reference here: https://www.iban.com/country-codes)
 2) **State Name**
 3) **Actual Value** (Mandatory)
 4) **Target Value**
 
-For each property, there are specific data types need to fulfill in order for the combination chart to render correctly, as shown below:
+For each property, there are specific data types need to fulfill in order for the density map to render correctly, as shown below:
 
 |Bindings|Data Type|
 |---|---|
