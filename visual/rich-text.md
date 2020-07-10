@@ -52,9 +52,20 @@ Relative length units specify a length relative to another length property. Rela
 |vmax|Relative to 1% of viewport's* larger dimension|
 |%|Relative to the parent element|
 
-## Output
+## Use Case
+Rich Text widget can be used to showcase images, videos, links and some other styled text as shown below. 
+
+### Output
 ![Output 1](./images/rich-text/rich-text-output-1.PNG)
 
 ![Output 2](./images/rich-text/rich-text-output-2.PNG)
 
 ![Output 3](./images/rich-text/rich-text-output-3.PNG)
+
+## Use Case 2
+Rich Text widget can also be used as a header in a dashboard as shown below.
+
+### Output
+![Output 4](./images/rich-text/rich-text-output-4.PNG)
+
+![Output 5](./images/rich-text/rich-text-output-5.PNG)
