@@ -62,11 +62,6 @@ add more quartile by pressing on "+ Add more" button or remove them by pressing 
 
 Add filters to restrict your data so that analysis will be focused on data that are shown in the chart.
 
-### Zoom In/Out
-
-You could zoom in and out the map chart by using "+" and "-" buttons located at top right corner, respectively. Alternatively, you could
-also use your mouse scroll wheel.
-
 <br/>
 
 ## Use Case
