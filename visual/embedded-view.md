@@ -26,31 +26,41 @@ Do kindly take note that only websites that allow embedded view will work in thi
 |allow-top-navigation-by-user-activation|Allows the iframe content to navigate its top-level browsing context, but only if initiated by user|
 
 
-## Use Cases
+## Use Case 1
 
-### Embedded Website, Actionable Button & Video
+### Embedded Website, Video & Actionable Button
 
-There are more ways than one to utilise the visual - Embedded View. You could embed a website as long as the website allows embedded view, some might not due to security reasons. You could embed an actionable button like Twitter's Tweet button as well as videos such as YouTube.
+There are more ways than one to utilise the visual - Embedded View. You could embed a website as long as the website allows embedded view, some might not due to security reasons. You could embed a YouTube video as well as an actionable button like Twitter's Tweet button.
 
 Three different Embedded View charts could be generated with configuration as follows:
 
 |Bindings|Input Value|
 |---|---|
 |URL|http://www.fusionexgiant.com|
+|URL|https://www.youtube.com/embed/t2JtvuPMLRo|
 |URL|https://platform.twitter.com/widgets/tweet_button.html|
-|URL|https://www.youtube.com/embed/8cN7LWGO-gE|
-
 
 **Output**
 
-![Embedded Website](./images/embedded-view/embedded-view-output-1.PNG)
+![Embedded View](./images/embedded-view/embedded-view-output-1.PNG)
 
-The output image as shown above, shows an embedded website of Fusionex Giant in which users could view and interact with the website via the embedded view visual.
+The output image above shows an example of onboarding dashboard in which there is an embedded view of Fusionex's website for users to navigate through the website without having to open up a new browser window or tab. On the second embedded view chart, there is an embedded YouTube video on Fusionex's donation for users to learn about the corporate social responsibility of Fusionex. Lastly, on the third embedded view chart, there is an embedded Tweet button that directs users to Tweet about their onboarding experience after going through the session, hence the button is placed at the last chart.
 
-![Embedded Button](./images/embedded-view/embedded-view-output-2.PNG)
 
-The output image as shown above, shows an embedded actionable button of Twitter in which users could press on it to Tweet.
+## Use Case 2
 
-![Embedded Video](./images/embedded-view/embedded-view-output-3.PNG)
+### Embedded View as a Supporting Visual
 
-The output image as shown above, shows an embedded video of YouTube in which users could watch the video via the embedded view visual.
+Embedded View can be used as a supporting visual as well, for users to visit the website if interested without having to open up a new browser window or tab.
+
+The chart could be generated with configuration as follows:
+
+|Bindings|Input Value|
+|---|---|
+|URL|http://www.fusionexgiant.com|
+
+**Output**
+
+![Embedded View 2](./images/embedded-view/embedded-view-output-2.PNG)
+
+The output image above shows an example of a dashboard which showcases several data-driven charts with embedded view as a supporting chart at the bottom of the dashboard for users to interact with the website itself to learn more about the company mentioned in the dashboard.
