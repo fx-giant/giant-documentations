@@ -1,0 +1,52 @@
+Country,States,Total Cases,Discharged Patients
+US,New York,"422,851","11,616"
+US,California,"277,433","9,294"
+US,Texas,"210,006","5,110"
+US,Florida,"206,447","13,013"
+US,New Jersey,"177,384","9,323"
+US,Illinois,"148,987","5,944"
+US,Massachusetts,"110,137","6,337"
+US,Arizona,"101,441","6,508"
+US,Georgia,"97,064","11,055"
+US,Pennsylvania,"95,187","14,009"
+US,North Carolina,"74,834","6,036"
+US,Michigan,"73,267","9,300"
+US,Maryland,"69,904","14,024"
+US,Louisiana,"66,327","6,731"
+US,Virginia,"66,102","13,321"
+US,Ohio,"58,013","8,874"
+US,Tennessee,"52,155","11,026"
+US,Indiana,"48,331","14,820"
+US,Connecticut,"46,976","11,360"
+US,South Carolina,"46,380","14,556"
+US,Alabama,"44,878","8,281"
+US,Minnesota,"38,569","10,249"
+US,Washington,"37,885","8,868"
+US,Colorado,"34,257","10,449"
+US,Wisconsin,"32,061","7,676"
+US,Iowa,"31,716","12,579"
+US,Mississippi,"31,257","13,467"
+US,Utah,"25,469","8,493"
+US,Missouri,"24,444","9,306"
+US,Arkansas,"24,253","12,482"
+US,Nevada,"22,909","8,153"
+US,Nebraska,"20,046","13,618"
+US,Kentucky,"17,152","7,447"
+US,Rhode Island,"16,991","13,810"
+US,Kansas,"16,973","8,920"
+US,Oklahoma,"16,362","5,321"
+US,New Mexico,"13,507","1,156"
+US,Delaware,"12,293","3,467"
+US,District Of Columbia,"10,515","2,794"
+US,Oregon,"10,395",523
+US,Idaho,"8,052","1,164"
+US,South Dakota,"7,105",523
+US,New Hampshire,"5,914",681
+US,North Dakota,"3,849",941
+US,West Virginia,"3,442",473
+US,Maine,"3,423",350
+US,Wyoming,"1,675",178
+US,Vermont,"1,251",671
+US,Montana,"1,249",321
+US,Alaska,"1,166",452
+US,Hawaii,"1,030",113
