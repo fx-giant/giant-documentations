@@ -2,7 +2,7 @@
 
 ![Facebook](./images/social-media/facebook.PNG) ![Twitter](./images/social-media/twitter.PNG) 
 
-There are two social media widgets including Facebook and Twitter. By using the widget, you could keep track of what is going on in the social media of a certain page, people or group that you wish to monitor. It can be used to redirect users as well, to visit the pages and learn more about the page.
+There are two social media widgets in GIANT, which are the Facebook and Twitter widget. By using the widget, you could keep track of what is going on in the social media of a certain page, people or group that you wish to monitor. It can be used to redirect users as well, to visit the pages and learn more about the people or companies.
 
 <br/>
 
