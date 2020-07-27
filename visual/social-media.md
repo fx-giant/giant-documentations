@@ -67,15 +67,9 @@ The **Language** allows you to choose your preferred language from the drop-down
 
 ## Use Case 1
 ### Customer Service on Social Media
-Most if not all companies today have their own social media pages because of its customer traffic,
-accessibility from anywhere, anytime and the low costs to market your business. Customers could reach out to
-customer service quicker than ever nowadays with the use of social media and some businesses even provide
-real-time customer serivce online and have their social media managers monitoring their social media and
-make responses accordingly.
+Most, if not all, companies today have their own social media pages. This is due to the ease of managing customer traffic when providing information, social media accessibility from anywhere, anytime and the low costs to market their businesses. Consumers could reach out to customer service quicker than ever nowadays with the use of social media and some businesses even provide real-time customer service online. Their social media managers will monitor the companies' social media and make responses accordingly.
 
-To monitor its page's posts, reactions and comments, a social media widget consisting of two of the largest
-social media platforms worldwide, Facebook and Twitter, is needed. You could also utilise it to monitor
-other pages such that you are analysing your competitors.
+To monitor the social media's posts, reactions and comments, a social media widget that connects to two of the largest social media platforms worldwide, Facebook and Twitter, is needed. Apart from monitoring your own social media content, you can also use it to monitor and analyse your competitors' social media pages.
 
 Configure the Facebook widget with settings as follows:
 
@@ -98,10 +92,7 @@ significant impact.
 
 **Analysis**
 
-By using the social widgets, a social media manager or online customer service could monitor any available 
-page on Facebook/Twitter as long as the posts are visible to the public, including reactions, shares and 
-comments. It is also clickable where it directs you to the particular post if any changes to the post is
-needed or replying feedback.
+By using the social media widgets, a social media manager or online customer service representative could monitor any available page on Facebook/Twitter as long as the posts are visible to the public, including reactions, shares and comments. It is also clickable whereby upon clicking on the post from the widget, it redirects you to the particular post. Hence, if any changes to the post is needed or replying feedback, this can be done quite easily.
 
 ## Use Case 2
 ### Social Media Widget to Redirect Users
