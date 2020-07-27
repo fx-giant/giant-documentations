@@ -8,7 +8,7 @@ There are two social media widgets in GIANT, which are the Facebook and Twitter 
 
 ## Data Binding
 
-There is only a single mandatory binding for each widget which are **Facebook Page Url** and **Twitter Id** for Facebook and Twitter, respectively.
+There is only a single mandatory binding for each widget which are **Facebook Page Url** for Facebook and **Twitter Id** for Twitter.
 
 |Bindings|Data Type|
 |---|---|
@@ -23,15 +23,15 @@ Copy the Url of the Facebook Page that you wish to include in the chart.
 
 ### Cover Photo
 
-The **Cover Photo** option allows you to turn on or off the cover photo.
+The **Cover Photo** option allows you to turn on or turn off the cover photo.
 
 ### Profile Photos
 
-The **Profile Photos** option allows you to turn on or off the profile photos.
+The **Profile Photos** option allows you to turn on or turn off the profile photos.
 
 ### Small Header
 
-The **Small Header** option allows you to turn on or off the small header.
+The **Small Header** option allows you to turn on or turn off the small header.
 
 ### Locale
 
@@ -41,7 +41,7 @@ The **Locale** allows you to choose your preferred language from the drop-down l
 
 ### Twitter Id
 
-Based on "twitter.com/XXXXXX", where XXXXXX is the twitter ID.
+Based on "twitter.com/XXXXXX", where XXXXXX is the Twitter ID.
 
 ### Data Widget Id
 
@@ -49,15 +49,15 @@ Insert Twitter's data widget ID if there is any available widget in-use.
 
 ### Header
 
-The **Header** option allows you to turn on or off the header.
+The **Header** option allows you to turn on or turn off the header.
 
 ### Footer
 
-The **Footer** option allows you to turn on or off the footer.
+The **Footer** option allows you to turn on or turn off the footer.
 
 ### Border 
 
-The **Border** option allows you to turn on or off the border.
+The **Border** option allows you to turn on or turn off the border.
 
 ### Language
 
