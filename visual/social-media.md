@@ -96,9 +96,9 @@ By using the social media widgets, a social media manager or online customer ser
 
 ## Use Case 2
 ### Social Media Widget to Redirect Users
-World Health Organization (WHO) is one of the key organizations in the world in the year 2020 due to the COVID-19 pandemic. For example, several charts have been added to the dashboard including current donation vs. amount of donation needed, number of new cases, patients recovered and death count.
+World Health Organization (WHO) is one of the key organizations followed by the online community across the globe in the year 2020 due to the COVID-19 pandemic. A dashboard consisting of COVID-19 data can be built to showcase information such as current donation vs. amount of donation needed, number of new cases, patients recovered and death count.
 
-Social media widgets could then be added after all the aforementioned charts to redirect users to learn more about WHO such as what the organization is about, what are they doing to tackle the emergence of this very new global pandemic - COVID-19.
+On top of that, the social media widgets could then be added to redirect users to learn more about WHO, such as what the organization is about and what are they doing to tackle the emergence of this very new global pandemic - COVID-19.
 
 Configure the Facebook widget with settings as follows:
 
@@ -120,4 +120,4 @@ Other settings that are not mentioned in the tables above, are just aesthethic s
 
 **Analysis**
 
-With the inclusion of social widget, the page is just one-click away for users that are interested to learn more about WHO. This will help WHO to spread more awareness about the COVID-19 pandemic and thus bringing in more people to donate to those who are in need or spread the news via word-of-mouth.
+With the inclusion of social media widget, the actual social media page is just one-click away for users that are interested to learn more about WHO. This will help WHO to spread more awareness about the COVID-19 pandemic and thus bringing in more people to donate to those who are in need or spread the news via word-of-mouth.
