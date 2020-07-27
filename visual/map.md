@@ -89,7 +89,7 @@ Using the sample data [here](./sample-data/map/map.csv), configure the chart wit
 |Target Label|Total Sales Target|
 |Trending|Increasing Better|
 |Threshold|From 0%, To 30%, To 70%, To 120%|
-|Filter(s)|*[01-01-2020 to 31-01-2020]date*|
+|Filter(s)|[01-01-2020 to 31-01-2020]*date*|
 
 **Output**
 
