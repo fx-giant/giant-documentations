@@ -2,7 +2,7 @@
 
 ![Embedded View](./images/embedded-view/embedded-view.PNG)
 
-Embedded View allows you to include an entire view inside another. Using this component allows you to select a view to display, and to pass parameters into the view. Because of this, views can easily act as templates for information.
+Embedded View allows you to include an entire webpage for users to view it within GIANT dashboard. Using this component allows you to complement your dashboard by adding external content, in which the content is in the form of a website.
 
 ## Data Binding
 
