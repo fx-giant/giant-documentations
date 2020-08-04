@@ -30,7 +30,7 @@ Do kindly take note that only websites that allow embedded view will work in thi
 
 ### Embedded Website, Video & Actionable Button
 
-There are more ways than one to utilise the visual - Embedded View. You could embed a website as long as the website allows embedded view, some might not due to security reasons. You could embed a YouTube video as well as an actionable button like Twitter's Tweet button.
+There are more than one way to utilise the Embedded View visual. You could embed a website, as long as the website allows embedded view (some websites do not allow embedded feature due to security reasons). You could embed a YouTube video, also embed an actionable button like Twitter's Tweet button. Just ensure that the content to embed is accessible via a valid URL, for you to configure the URL field binding for the visual.
 
 Three different Embedded View charts could be generated with configuration as follows:
 
