@@ -33,9 +33,11 @@ The absolute length units are fixed and a length expressed in any of these will 
 |cm|centimetres|
 |mm|millimetres|
 |in|inches (1in = 96px = 2.54cm)|
-|px|pixels (1px = 1/96th of 1in)|
+|px*|pixels (1px = 1/96th of 1in)|
 |pt|points (1pt = 1/72 of 1in)|
 |pc|picas (1pc = 12pt)|
+
+*\*Note: Pixels (px) are relative to the viewing device. For low-dpi devices, 1px is one device pixel (dot) of the display. For printers and high resolution screens 1px implies multiple device pixels.*
 
 ### Relative Lengths
 Relative length units specify a length relative to another length property. Relative length units scale better between different rendering medium.
@@ -51,6 +53,8 @@ Relative length units specify a length relative to another length property. Rela
 |vmin|Relative to 1% of viewport's* smaller dimension|
 |vmax|Relative to 1% of viewport's* larger dimension|
 |%|Relative to the parent element|
+
+*\*Note: Viewport refers to the browser window size. It varies with the device type used to view the widget. If the viewport is 50cm wide, 1vw = 0.5cm.*
 
 ## Use Case
 Rich Text widget can be used to showcase images, videos, links and some other styled text as shown below. 
