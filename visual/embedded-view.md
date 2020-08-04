@@ -51,7 +51,9 @@ The output image above shows an example of onboarding dashboard in which there i
 
 ### Embedded View as a Supporting Visual
 
-Embedded View can be used as a supporting visual as well, for users to visit the website if interested without having to open up a new browser window or tab.
+Embedded View can be used as a supporting visual as well, for users to visit the website if they are interested to get more information, without having to open up a new browser window or tab.
+
+The output image above shows an example of a dashboard which showcases several data-driven charts with embedded view as a supporting chart at the bottom of the dashboard. This is for users to interact with the website itself, to learn more about the company mentioned in the dashboard.
 
 The chart could be generated with configuration as follows:
 
