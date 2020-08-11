@@ -38,15 +38,23 @@ You can [refer here](./setting-up-chatbot-agent-in-dialogflow.md) for the steps 
    **a) Agent ID**
     
         i. To get the Agent ID, go to Dialogflow screen and access the agent that you want to link in GIANT.
+	   Click on on the triangle icon (shown next to the agent name), then click on "View all agents".
         
-   ![access-agent](./images/setting-up-chatbot-agent-in-giant-images/access-agent.png)
+     ![access-agent](./images/setting-up-chatbot-agent-in-giant-images/access-agent.png)
 
-        ii. The Agent ID is available from the Dialogflow’s URL, shown in the browser’s address bar. 
-        E.g. https://console.dialogflow.com/api-client/#/agent/[id]/intents
-		
-   ![get-agent-id](./images/setting-up-chatbot-agent-in-giant-images/get-agent-id.png)
+        ii. All the chatbot agents that you have access to will be shown in the next screen.
+	    Press F12 to launch the browser's developer console.
+	    Switch to "Network" tab, then click on "XHR" tab.
+	
+        iii. Press "Clear" icon to clear the request items from the list.
+	     Click in the agent list window, then press F5 to load the list again.
+	     The request items will be loaded again in the console.
 
-        iii. Copy the Agent ID from the browser’s address bar into the Agent ID field in GIANT EXCLUDING the “-” available in the original Dialogflow’s Agent ID. For example:
+        iv. Click on "agent:search?requestSource=DIALOGFLOW_CONSOLE......." request item.
+	    Then, click on Preview tab. Under the list of agents, locate your chatbot agent name and expand the item.
+	    The Agent ID is available here.
+	
+        v. Copy the Agent ID from the console into the Agent ID field in GIANT EXCLUDING the “-” available in the original Dialogflow’s Agent ID. For example:
 
 			Dialogflow Agent ID: a23dfc353-62df-47f9-bad5-1bd432e0cd33
 			ID to copy into GIANT: a23dfc35362df47f9bad51bd432e0cd33
@@ -57,7 +65,8 @@ You can [refer here](./setting-up-chatbot-agent-in-dialogflow.md) for the steps 
         
    **c) Dialogflow Credentials**
     
-        i. To get the Dialogflow Credentials, go to Dialogflow screen and access the agent that you want to link in GIANT. Click on the cog icon shown next to your agent’s name.
+        i. To get the Dialogflow Credentials, go to Dialogflow screen and access the agent that you want to link in GIANT. 
+	   Click on the cog icon shown next to your agent’s name.
         
 ![click-agent-cog](./images/setting-up-chatbot-agent-in-giant-images/click-agent-cog.png)
 
@@ -77,7 +86,7 @@ You can [refer here](./setting-up-chatbot-agent-in-dialogflow.md) for the steps 
         
 ![enter-service-account-name](./images/setting-up-chatbot-agent-in-giant-images/enter-service-account-name.png)
  
-        vi. Next, assign the role Dialogflow API Admin to the Service Account. Then, click CONTINUE button to proceed. 
+        vi. Next, assign the role "Dialogflow API Admin" to the Service Account. Then, click CONTINUE button to proceed. 
 		
 *NOTE: Please ensure that you have sufficient role **(Project IAM Admin)** within the GCP project to create the required service account and configure service account role. Please contact GIANT Administrator if you are unable to configure service account role. Your account permission needs to be configured to enable your access to this feature.*
         
