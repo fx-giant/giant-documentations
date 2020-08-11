@@ -40,19 +40,25 @@ You can [refer here](./setting-up-chatbot-agent-in-dialogflow.md) for the steps 
         i. To get the Agent ID, go to Dialogflow screen and access the agent that you want to link in GIANT.
 	   Click on on the triangle icon (shown next to the agent name), then click on "View all agents".
         
-     ![access-agent](./images/setting-up-chatbot-agent-in-giant-images/access-agent.png)
+      ![view-all-agents](./images/setting-up-chatbot-agent-in-giant-images/view-all-agents.png)
 
         ii. All the chatbot agents that you have access to will be shown in the next screen.
 	    Press F12 to launch the browser's developer console.
 	    Switch to "Network" tab, then click on "XHR" tab.
+	    
+      ![access-console-network-tab](./images/setting-up-chatbot-agent-in-giant-images/access-console-network-tab.png)
 	
         iii. Press "Clear" icon to clear the request items from the list.
 	     Click in the agent list window, then press F5 to load the list again.
 	     The request items will be loaded again in the console.
+      
+      ![reload-request-items](./images/setting-up-chatbot-agent-in-giant-images/reload-request-items.png)	     
 
         iv. Click on "agent:search?requestSource=DIALOGFLOW_CONSOLE......." request item.
 	    Then, click on Preview tab. Under the list of agents, locate your chatbot agent name and expand the item.
 	    The Agent ID is available here.
+	    
+      ![get-agent-id-from-console](./images/setting-up-chatbot-agent-in-giant-images/get-agent-id-from-console.png)	    
 	
         v. Copy the Agent ID from the console into the Agent ID field in GIANT EXCLUDING the “-” available in the original Dialogflow’s Agent ID. For example:
 
