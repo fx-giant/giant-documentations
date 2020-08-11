@@ -88,7 +88,8 @@ You can [refer here](./setting-up-chatbot-agent-in-dialogflow.md) for the steps 
         
 ![add-service-account](./images/setting-up-chatbot-agent-in-giant-images/add-service-account.png)
 
-        v. You will be routed to the Create Service Account screen. Key in the name for the Service Account. Then, click on CREATE button.
+        v. You will be routed to the Create Service Account screen. 
+	   Key in the name for the Service Account. Then, click on CREATE button.
         
 ![enter-service-account-name](./images/setting-up-chatbot-agent-in-giant-images/enter-service-account-name.png)
  
@@ -96,21 +97,27 @@ You can [refer here](./setting-up-chatbot-agent-in-dialogflow.md) for the steps 
 		
 *NOTE: Please ensure that you have sufficient role **(Project IAM Admin)** within the GCP project to create the required service account and configure service account role. Please contact GIANT Administrator if you are unable to configure service account role. Your account permission needs to be configured to enable your access to this feature.*
         
-![assign-role](./images/setting-up-chatbot-agent-in-giant-images/assign-role.png)
+![assign-role-dialogflow-api-admin](./images/setting-up-chatbot-agent-in-giant-images/assign-role-dialogflow-api-admin.png)
  
-        vii. Click on + CREATE KEY button. (If Keys already exist, click on EDIT, then click on + CREATE KEY button.)
-        
-![add-key](./images/setting-up-chatbot-agent-in-giant-images/add-key.png)
-        
-        A panel will be shown on the right side of the screen. Select the Key Type “JSON”, then click on CREATE button. The JSON file will be downloaded to your machine.
-        
-![create-json-key](./images/setting-up-chatbot-agent-in-giant-images/create-json-key.png)
- 
-        The following message is shown once the JSON file is generated and downloaded to your machine.
-        
-![json-generated](./images/setting-up-chatbot-agent-in-giant-images/json-generated.png) 
+        vii. Click DONE to complete the service account creation process.
+	
+![create-account-done](./images/setting-up-chatbot-agent-in-giant-images/create-account-done.png)
 
-        viii. Go back to GIANT’s Create New Agent screen. Click the attachment icon shown in the dialogflow credentials field in GIANT and attach the JSON file.
+        viii. In the next screen, all the service accounts associated with your chatbot agent will be shown.
+	      Click on the menu icon for the service account that you created previously.
+	      Select "Create key" from the options shown.
+	
+![select-create-key](./images/setting-up-chatbot-agent-in-giant-images/select-create-key.png)
+	
+        ix. A pop-up window will appear. Select JSON key type, then click CREATE.
+	
+![select-json-key-type](./images/setting-up-chatbot-agent-in-giant-images/select-json-key-type.png)
+
+        x. The following message is shown once the JSON file is generated and downloaded to your machine.
+	
+![json-file-generated](./images/setting-up-chatbot-agent-in-giant-images/json-file-generated.png)
+	
+        xi. Go back to GIANT’s Create New Agent screen. Click the attachment icon shown in the dialogflow credentials field in GIANT and attach the JSON file.
         
 ![attach-credentials](./images/setting-up-chatbot-agent-in-giant-images/attach-credentials.png)
     
