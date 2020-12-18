@@ -43,7 +43,7 @@ sudo docker login -u _json_key -p "$(cat /giant-gcr-reader-key.json)" https://gc
 ```
 8. Install for GIANT external visuals with below command. Replace GIANTUrl and GIANTAuthorizeCookies with value acquire above.
 ```
-sudo docker run --rm -e GIANT__URL=GiantUrl -e GIANT__PROFILE_COOKIES=GiantAuthorizeCookies -e GIANT__SYSTEM_LEVEL=true gcr.io/giant-rnd/giant-visual-pack-installer:v2.5.2
+sudo docker run --rm -e GIANT__URL=GiantUrl -e GIANT__PROFILE_COOKIES=GiantAuthorizeCookies -e GIANT__SYSTEM_LEVEL=true gcr.io/giant-rnd/giant-visual-pack-installer:v2.8.1
 ```
 9. Once success, you should see a GUID return in the terminal. 
 ![success install](./images/Setting_Up_Giant_Visual_Pack_02.png)
