@@ -1,5 +1,4 @@
-# Gantt Chart
-![gantt-chart](./images/gantt-chart/gantt-chart.svg)    
+# Gantt Chart  
 Gantt Chart is a type of bar chart that is typically used for project planning and to illustrate project or activity schedules. Each bar represents a task or an activity where the length of the bar is determined by the start and end date of the task.
 
 ## Diagram Design / Configuration
@@ -46,4 +45,4 @@ Based on the chart, we can conclude that five teams have different subtasks to c
 
 From using this chart, project managers will be able to refer to this chart to determine if the scheduled deadlines are met. From the distribution of the subtasks, project managers will also be able to identify the amount of resources needed by each team to accomplish their tasks. 
 
-![Project Management Flow](./images/gantt-chart/sample-project-mgmt.png)
+![Project Management Flow](./images/gantt-chart/sample-project-mgmt.PNG)
