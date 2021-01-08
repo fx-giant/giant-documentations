@@ -46,4 +46,4 @@ Based on the chart, we can conclude that five teams have different subtasks to c
 
 From using this chart, project managers will be able to refer to this chart to determine if the scheduled deadlines are met. From the distribution of the subtasks, project managers will also be able to identify the amount of resources needed by each team to accomplish their tasks. 
 
-![Project Management Flow](./images/gantt-chart/sample-project-mgmt.png)
+![Project Management Flow](./images/gantt-chart/sample-project-mgmt.PNG)
