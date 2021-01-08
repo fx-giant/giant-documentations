@@ -1,5 +1,4 @@
-# Gantt Chart
-![gantt-chart](./images/gantt-chart/gantt-chart.svg)    
+# Gantt Chart  
 Gantt Chart is a type of bar chart that is typically used for project planning and to illustrate project or activity schedules. Each bar represents a task or an activity where the length of the bar is determined by the start and end date of the task.
 
 ## Diagram Design / Configuration
