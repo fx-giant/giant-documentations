@@ -6,15 +6,15 @@ Gantt Chart is a type of bar chart that is typically used for project planning a
 
 ### Binding
 - The bindings required are 4 dimensions binding.  
-    >Module, Breakdown, Start Date Time and End Date Time for dimensions.
+    >Task, Subtask, Start Date and End Date for dimensions.
       
   ![Binding](./images/gantt-chart/binding.PNG)
   
-- The optional binding is color binding which binds the color of the bars.
+- The optional binding is progress binding which binds the progress of the respective subtasks.
 
- ![Color Binding](./images/gantt-chart/color-binding.PNG)
- ![Color Binding Example](./images/gantt-chart/color-binding-example.PNG)
-Sample data download [here](./sample-data/gantt-chart/sample-project-mgmt-color.csv).
+ ![Progress (%) Binding](./images/gantt-chart/progress-binding.PNG)
+ ![Progress (%) Binding Example](./images/gantt-chart/progress-binding-example.PNG)
+Sample data download [here](./sample-data/gantt-chart/sample-project-mgmt-progress.csv).
 
 ### Drill Down
 **Drill Down** setting can be used to drill down data according to its hierarchy. 
@@ -31,17 +31,17 @@ For large data sets, a setting called **Sort** can be used change the arrangemen
    
 This dataset shows the project management flow of a product launch from the research to launch of the product. Download sample data [here](./sample-data/gantt-chart/sample-project-mgmt.csv).
 
-This Gantt Chart is suitable to be used to illustrate the project management flow of the product launch as it consists of four fields, **Tasks**, **Subtask**, **Task Start** and **Task End**. An additional field, **Status Color** can be used to customize the color of each task. 
+This Gantt Chart is suitable to be used to illustrate the project management flow of the product launch as it consists of four fields, **Tasks**, **Subtask**, **Task Start** and **Task End**. An additional field, **Progress** can be used to add the progress of each individual subtasks. 
 
 |Bindings |Select|
 |---|---|
-|Module|Tasks|
-|Breakdown|Subtask|
-|Start Date Time|Task Start|
-|End Date Time|Task End|
-|Status Color|Color|
+|Task|Tasks|
+|Subtask|Subtask|
+|Start Date|Task Start|
+|End Date|Task End|
+|Progress (%)|Progress|
 
-Based on the chart, we can conclude that five teams have different subtasks to complete throughout the project duration. Each team has different number of bars depending on the number of subtasks to be completed by them. 
+Based on the chart, we can conclude that five teams have different subtasks to complete throughout the project duration. Each team has different number of bars depending on the number of subtasks to be completed by them.
 
 From using this chart, project managers will be able to refer to this chart to determine if the scheduled deadlines are met. From the distribution of the subtasks, project managers will also be able to identify the amount of resources needed by each team to accomplish their tasks. 
 
