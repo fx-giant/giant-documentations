@@ -1,0 +1,16 @@
+Tasks,Subtask,Task Start,Task End,Progress
+Product,Research new feature to build,1/1/2016,20/1/2016,100
+Development,Develop new features,25/1/2016,6/3/2016,100
+Development,QA new feature,7/3/2016,13/3/2016,100
+Development,Make necessary fixes,14/3/2016,31/3/2016,100
+Product,Gather internal feedback,6/3/2016,1/4/2016,100
+Marketing,Research marketing launch around new features,14/2/2016,20/3/2016,100
+Marketing,Developed marketing launch around new features,14/4/2016,20/5/2016,100
+Product,Gather external feedback,2/4/2016,20/5/2016,100
+Development,Finalised MVP,19/4/2016,6/5/2016,100
+CS,Create training materials around new features,19/2/2016,10/4/2016,100
+CS,Finalize training materials around new features,19/4/2016,29/5/2016,80
+Marketing,Create new templates around features,21/5/2016,14/6/2016,15
+Sales,Come up with sales strategies,15/3/2016,30/4/2016,100
+CS,Trained new/current users on new features,30/5/2016,30/6/2016,0
+Sales,Used new features to book product sales,30/5/2016,30/6/2016,0
