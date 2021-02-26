@@ -44,14 +44,10 @@ This chart is suitable to be used to display the sales made by Mercedes Benz in 
 |Value|Sales|
 |Location Name|Continent|
 
-Based on the chart, we can observe that the dataset provided by Mercedes covers over 5 regions. Displayed within the pie charts are Mercedes' most well known car models that make up their own segment according to the total sales. As seen on the chart, most pie charts show that **C-Class** has the biggest segment size compared to other categories. With the usage of the **Drill Down** binding, clicking on each segment will show the data of the specific countries that make up of the total sales of the car model.
+Based on the chart, we can observe that the dataset provided by Mercedes covers over 5 regions. Displayed within the pie charts are Mercedes' most well known car models that make up their own segment according to the total sales. As seen on the chart, most pie charts show that **C-Class** has the biggest segment size compared to other categories. 
 
-From the drill down of the largest segment, it is shown that **United States**, **Germany**, **Congo**, **China** and **Australia** contribute the most to the sales of **C-Class** in their respective continents. From this, the management of Mercedes Benz can use this chart as an analysis tool to determine the car model they should put more promotional and campaign efforts in continents or countries to further boost the sales of each car model.
+From this, the management of Mercedes Benz can use this chart as an analysis tool to determine the car model they should put more promotional and campaign efforts in continents or countries to further boost the sales of each car model.
 
 **Output**
 
-![Mercedes Benz Sales 2020](./images/map-pie/sample-mercedes-sale.PNG)
-
-*Note:* This output shows the **Drill Down** example for the Country on A-Class model sales. A Drill Down Breadcrumb is available on the top-left of the chart to indicate the Drill Down level currently being displayed.
-
-![Country](./images/map-pie/drill-down-example.PNG)
+![Mercedes Benz Sales 2020](./images/map-pie/location-binding-example.PNG)
