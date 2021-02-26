@@ -31,7 +31,7 @@ For large data sets, a setting called **Sort** can be used change the arrangemen
    
 This dataset shows the project management flow of a product launch from the research to launch of the product. Download sample data [here](./sample-data/gantt-chart/sample-project-mgmt.csv).
 
-This Gantt Chart is suitable to be used to illustrate the project management flow of the product launch as it consists of four fields, **Tasks**, **Subtask**, **Task Start** and **Task End**. An additional field, **Progress** can be used to add the progress of each individual subtasks. 
+This Gantt Chart is suitable to be used to illustrate the project management flow of the product launch as it consists of four fields, **Tasks**, **Subtask**, **Task Start** and **Task End**. 
 
 |Bindings |Select|
 |---|---|
@@ -39,7 +39,6 @@ This Gantt Chart is suitable to be used to illustrate the project management flo
 |Subtask|Subtask|
 |Start Date|Task Start|
 |End Date|Task End|
-|Progress (%)|Progress|
 
 Based on the chart, we can conclude that five teams have different subtasks to complete throughout the project duration. Each team has different number of bars depending on the number of subtasks to be completed by them.
 
