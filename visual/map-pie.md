@@ -32,7 +32,7 @@ For large data sets, a setting called **Sort** can be used change the arrangemen
 
 ### Mercedes Benz Car Sales by Continent
    
-A dataset by Mercedes Benz is used to display the number of sales in the year of 2020 in major continents. Map with pie charts will be used to display the mentioned data. Download sample data [here](./sample-data/map-pie/sample-mercedes-sale.xlsx).
+A dataset by Mercedes Benz is used to display the number of sales in the year of 2020 in major continents. Map with pie charts will be used to display the mentioned data. Download sample data [here](./sample-data/map-pie/sample-mercedes-sale-location.xlsx).
 
 This chart is suitable to be used to display the sales made by Mercedes Benz in the year 2020 as it consists of four fields, **Latitude**, **Longitude**, **Model** and **Sales**. An additional field, **Location Name** can be used to label location name of the latitude and longitude of each pie chart. 
 
