@@ -44,8 +44,14 @@ This chart is suitable to be used to display the sales made by Mercedes Benz in 
 |Value|Sales|
 |Location Name|Continent|
 
-Based on the chart, we can conclude that five teams have different subtasks to complete throughout the project duration. Each team has different number of bars depending on the number of subtasks to be completed by them.
+Based on the chart, we can observe that the dataset provided by Mercedes covers over 5 regions. Displayed within the pie charts are Mercedes' most well known car models that make up their own segment according to the total sales. As seen on the chart, most pie charts show that **C-Class** has the biggest segment size compared to other categories. With the usage of the **Drill Down** binding, clicking on each segment will show the data of the specific countries that make up of the total sales of the car model.
 
-From using this chart, project managers will be able to refer to this chart to determine if the scheduled deadlines are met. From the distribution of the subtasks, project managers will also be able to identify the amount of resources needed by each team to accomplish their tasks. 
+From the drill down of the largest segment, it is shown that **United States**, **Germany**, **Congo**, **China** and **Australia** contribute the most to the sales of **C-Class** in their respective continents. From this, the management of Mercedes Benz can use this chart as an analysis tool to determine the car model they should put more promotional and campaign efforts in continents or countries to further boost the sales of each car model.
+
+**Output**
 
 ![Mercedes Benz Sales 2020](./images/map-pie/sample-mercedes-sale.PNG)
+
+*Note:* This output shows the **Drill Down** example for the Country on A-Class model sales. A Drill Down Breadcrumb is available on the top-left of the chart to indicate the Drill Down level currently being displayed.
+
+![Country](./images/map-pie/drill-down-example.PNG)
