@@ -1,4 +1,5 @@
-# Visual Pack
+# Visual Pack in bison
+Bison is not connected to the Internet and hence there are some differences to develop the visual pack here.
 
 ## Requirements:
 
@@ -8,6 +9,16 @@
 - CSS
 - [KnockoutJS](http://knockoutjs.com)
 
+## Connect to Nexus NPM
+Before starting to develop the visual pack, it is important to make sure that Nexus npm is setup for package pulling. 
+1. Run in console
+`npm config set registry [nexus npm repository url]`
+2. To check whether npm registry has been updated, run
+`npm config get registry`
+
+## Dependencies in Bison
+Dependencies in bison is different because it has no Internet connection, we have to make sure the dependencies is accessible in local repository.
+If npm install failed, consider to ask for help because it might be due to version differences in some modules.
 
 ## Structure:
 
