@@ -250,19 +250,19 @@ GIANT default menu ordering
 |My Dashboard(s) |-10000 |
 |Library |-20000 |
 |Connect to Source(s) |-30000 |
-|Visual Editor |-40000 |
-|My Form(s) |-60000 |
-|Manage System |-80000 |
-|Manage Security |-90000 |
-|Privacy Policy |-100000 |
-|Terms and Condition |-110000 |
+|Visual Editor |-50000 |
+|My Form(s) |-70000 |
+|Manage System |-90000 |
+|Manage Security |-100000 |
+|Privacy Policy |-110000 |
+|Terms and Condition |-120000 |
 
 No form menu are allow to place before GIANT menu `Home`.
 
 To override GIANT default menu, the `isOverrideOrdering` must set to true and `applicationOrdering` must be **negative** value.
 
-To set the form menu in between `My Form(s)`, set the `applicationOrdering` to number between -60000 and -80000 (Example: -60001, -60002, -79999, etc)
+To set the form menu in between `My Form(s)`, set the `applicationOrdering` to number between -70000 and -90000 (Example: -70001, -70002, -89999, etc)
 
-To set the form menu after GIANT default menu, set the `applicationOrdering` to number after -110000 (Example: -110001, -120003, etc)
+To set the form menu after GIANT default menu, set the `applicationOrdering` to number after -120000 (Example: -120001, -130003, etc)
 
 `applicationOrdering` with empty value will make the form be default order by GIANT after GIANT default menu.
