@@ -44,9 +44,9 @@ On the creation of this chart, we are able to see when the task started in the c
 
 **Output**
 
- ![use_case#2.1](./images/fishbone-timeline/use_case_#2.1.png)
+ ![use_case#2.1](./images/fishbone-timeline/use_case_%232.1.png)
  
- ![use_case_#2.2](./images/fishbone-timeline/use_case_#2.2.png)
+ ![use_case_#2.2](./images/fishbone-timeline/use_case_%232.1.png)
  
  **Analysis**
 
