@@ -9,7 +9,7 @@ Fishbone timeline is a graphical visualization that can be used to show the caus
 - The bindings required are 2 dimensions binding and 1 measurement binding.
 	>Date and Category for dimensions binding and Value for measurement.
 	
-	![Data-Binding](./image/fishbone-timeline/Data-Binding.png)
+	![Data-Binding](./images/fishbone-timeline/Data-Binding.png)
     
 ## Other Settings
 
@@ -44,9 +44,9 @@ On the creation of this chart, we are able to see when the task started in the c
 
 **Output**
 
- ![Use_Case#2.1](./image/fishbone-timeline/use_case_#2.1.png)
+ ![Use_Case#2.1](./images/fishbone-timeline/use_case_#2.1.png)
  
- ![Use_Case_#2.2](./image/fishbone-timeline/use_case_#2.2.png)
+ ![Use_Case_#2.2](./images/fishbone-timeline/use_case_#2.2.png)
  
  **Analysis**
 
