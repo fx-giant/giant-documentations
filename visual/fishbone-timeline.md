@@ -33,7 +33,7 @@ You can use this setting if you wish to publish selected data across charts with
 ### Production Timeline Flow
 Current dataset displays the project management flow of a product release from the inception of the requirements until the launching of the product. Download sample data [here](./sample-data/fishbone-timeline/Production_Process.xlsx).
 
-On the creation of this chart, we are able to see when the task started in the circle and, its task name which will showing in the label. The size of the circle will also represent the number of weeks that being used in the tasks and we can mouse over it to see more detail in the tooltips. 
+On the creation of this chart, we are able to see when the process flow in a difference size of circle and, its task name which will showing in the label. The size of the circle will also represent the number of weeks that being used in the tasks and we can mouse over it to see more detail in the tooltips. 
 
 |Bindings |Data Type|
 |---|---|
