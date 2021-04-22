@@ -6,8 +6,8 @@ Fishbone timeline is a graphical visualization that can be used to show the caus
 ## Diagram Design / Configuration
 ---
 ### Binding
-- The bindings required are 2 dimensions binding and 1 measurement binding.
-	>Date and Category for dimensions binding and Value for measurement.
+- The bindings required are 2 mandatory dimensions binding and 1 optional measurement binding.
+	>**Category Path** and **Event Path** for dimensions binding and **Value Path* for measurement.
 	
 	![Data-Binding](./images/fishbone-timeline/Data-Binding.png)
     
