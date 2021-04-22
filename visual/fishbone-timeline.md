@@ -50,4 +50,4 @@ On the creation of this chart, we are able to see when the process flow in a dif
  
  **Analysis**
 
-By analyzing the chart, the process flow of production are documented. It giving the managers a clear view on what should be focus on the process and how many time need for each process. It help them to schedule, plan, and evaluate production in order to work toward achieving the set goals.
+By analyzing the chart, the process flow of production are documented. It giving the managers a clear view on what should be focus on the process and how many weeks that are need for each process. It help them to schedule, plan, and evaluate production in order to work toward achieving the set goals.
