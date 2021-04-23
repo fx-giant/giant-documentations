@@ -31,7 +31,7 @@ You can use this setting if you wish to publish selected data across charts with
 ## Use cases
 
 ### Company Revenue 2014 - 2020
-The current dataset displays a mobile company's revenue together with the event that happened in 2014 until 2020. Download sample data [here](./sample-data/fishbone-timeline/mobile_company_revenue.xlsx)
+The current dataset displays a mobile company's revenue together with the event that happened in 2014 until 2020. Download sample data [here](./sample-data/fishbone-timeline/mobile_company_revenue.xlsx).
 
 On the creation of this chart, we can see the revenue in different sizes of the circle and, its event name which will show in the label. The size of the circle will also represent the revenue that has been earned every year and we can mouse over it to see more detail in the tooltips.
 
