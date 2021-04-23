@@ -30,24 +30,20 @@ You can use this setting if you wish to publish selected data across charts with
 
 ## Use cases
 
-### Production Timeline Flow
-Current dataset displays the project management flow of a product release from the inception of the requirements until the launching of the product. Download sample data [here](./sample-data/fishbone-timeline/Production_Process.xlsx).
+### Company Revenue 2014 - 2020
+The current dataset displays a mobile company's revenue together with the event that happened in 2014 until 2020. Download sample data [here](./sample-data/fishbone-timeline/mobile_company_revenue.xlsx)
 
-On the creation of this chart, we are able to see when the process flow in a difference size of circle and, its task name which will showing in the label. The size of the circle will also represent the number of weeks that being used in the tasks and we can mouse over it to see more detail in the tooltips. 
+On the creation of this chart, we can see the revenue in different sizes of the circle and, its event name which will show in the label. The size of the circle will also represent the revenue that has been earned every year and we can mouse over it to see more detail in the tooltips.
 
 |Bindings |Data Type|
 |---|---|
-|Category Path|Task Started|
-|Event Path|Task|
-|Value Path|Week|
-
+|Date Path|Event Date|
+|Event Path|Event|
+|Value Path|Revenue|
 
 **Output**
+![use_case_1](./images/fishbone-timeline/use_case1.png)
 
- ![use_case#2.1](./images/fishbone-timeline/use_case_%232.1.png)
- 
- ![use_case_#2.2](./images/fishbone-timeline/use_case_%232.2.png)
- 
  **Analysis**
 
-By analyzing the chart, the process flow of production are documented. It giving the managers a clear view on what should be focus on the process and how many weeks that are need for each process. It help them to schedule, plan, and evaluate production in order to work toward achieving the set goals.
+By analyzing the chart, the revenue drop in 2015 as on 28 February 2015, the company use their first mobile SoC chip in their phone. But due to the performance is worse compared to the other company cause the revenue to drop 39.86% compared to 2014. After 2015, the revenue increase stabilizes until 2019, the company is sanctioned by other company cause the revenue to drop 25.43% compare to the previous year. But the revenue increase as the sanctions has been over and the company launches its electric car business on 30 March 2020. The bigger the circle, the bigger the revenue will be. We can see how the company event happen will affect the revenue.
