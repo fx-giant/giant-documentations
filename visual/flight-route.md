@@ -30,7 +30,8 @@ You can use this setting if you wish to change the default flight image by provi
 You can use this setting if you wish to change the title of the label. E.g: This is a filght from `Origin`
 
 ## Use cases
- The current dataset displays a list of origin and together with its destinations. Download sample data [here](./sample-data/flight-route/flight_route.xlsx).
+**Airfreighter Flight Route**
+ The current dataset displays a list of airfreighters' origin and together with its destinations. Download sample data [here](./sample-data/flight-route/flight_route.xlsx).
  
 |Bindings |Data Type|
 |---|---|
@@ -42,12 +43,15 @@ You can use this setting if you wish to change the title of the label. E.g: This
 |Destination Longitude Path|Destination Longitude|
 
 In the style tab, we set the image URL to `http://172.16.53.228/websites/analytics/images/cover_09.jpg`
+
 ![Image_URL_Setting](./images/flight-route/Image_URL_Setting.png)
 
 Also set the label title to `Airfreighter from `
+
 ![Label_Title_Setting](./images/flight-route/Label_Title_Setting.png)
 
 Here's the output of the chart once the fields above are bound:
+
 ![use_case_1](./images/flight-route/use_case1.png)
 
-The destinations of flights has being show in the based on its latitude and longitude. By clicking the origin icon or **Click to change origin city** to show the flight's destination with lines. We also can mouse over the icon or the line to see more detail in the tooltips.
+The destinations of airfreighter has being show in the based on its latitude and longitude. By clicking the origin icon or **Click to change origin city** to show the flight's destination with lines. We also can mouse over the icon or the line to see more detail in the tooltips.
