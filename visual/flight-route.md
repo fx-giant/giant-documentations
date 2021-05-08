@@ -41,6 +41,7 @@ You can use this setting if you wish to change the title of the label. E.g: This
 |Destination Path|Destination Name|
 |Destination Latitude Path|Destination Latitude|
 |Destination Longitude Path|Destination Longitude|
+|Size Path|Parcel (ton)|
 
 In the style tab, we set the image URL to `http://172.16.53.228/websites/analytics/images/cover_09.jpg`
 
