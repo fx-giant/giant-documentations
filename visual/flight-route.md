@@ -7,10 +7,11 @@ A flight route map is a visualisation of a world map whereby the origins and its
 ## Diagram Design / Configuration
 ### Binding
 - The bindings required are 6 mandatory dimensions binding and one optional measurements binding.
-- 
+
 	![Data-Binding](./images/flight-route/Data-Binding.png)
 	
 	|Path|Type of Bindings|
+	|---|---|
 	|Origin Path|Mandatory Dimensions Binding|
 	|Origin Latitude Path|Mandatory Dimensions Binding|
 	|Origin Longitude Path|Mandatory Dimensions Binding|
