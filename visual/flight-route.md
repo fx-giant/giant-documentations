@@ -2,7 +2,7 @@
 # Flight Route
 ### Description
 
-A flight route map is a visualisation of a world map whereby the origins and their destinations are displayed on an interactive map. By clicking on the origin, we can know which destinations the origin can go to. It can be used for showing the air traffic network. The charts also can display the values, values with higher amounts will have a stronger colour and a bolder line width, representing the higher density of the destination of the selected origin on the map.
+A flight route map is a visualisation of a world map whereby the origins and their destinations are displayed on an interactive map. By clicking on the origin, we can know which destinations the origin can go to. It can be used for showing the air traffic network. The charts also can display the values. Values with higher amounts will have a stronger colour and a bolder line width, representing the higher density of the destination of the selected origin on the map.
 
 ## Diagram Design / Configuration
 ### Binding
@@ -10,21 +10,11 @@ A flight route map is a visualisation of a world map whereby the origins and the
 
 	![Data-Binding](./images/flight-route/Data-Binding.png)
 	
-	|Path|Type of Bindings|
-	|---|---|
-	|Origin Path|Mandatory Dimensions Binding|
-	|Origin Latitude Path|Mandatory Dimensions Binding|
-	|Origin Longitude Path|Mandatory Dimensions Binding|
-	|Destination Path|Mandatory Dimensions Binding|
-	|Destination Latitude Path|Mandatory Dimensions Binding|
-	|Destination Longitude Path|Mandatory Dimensions Binding|
-	|Size Path|Optional Measurements Binding|
-	
 ## Other Settings
 
 ### Sort
 
-For huge data sets, a setting called Sort can be used to alter the timeline chart on different specifics that the user wants to view or create on the chart.
+For huge data sets, a setting called Sort can be used to alter the flight route map chart on different specifics that the user wants to view or create on the chart.
 
 ### Filter
 
@@ -43,10 +33,10 @@ You can use this setting if you wish to change the title of the label. E.g: This
 You can choose the colour to represent the data available for the destinations of the selected origin in the map.
 
 ## Use cases
-**Airfreighter Flight Route**
+### **Airfreighter Flight Route**
  The current dataset displays a list of airfreighters' origin and together with its destinations. Download sample data [here](./sample-data/flight-route/flight_route.xlsx).
  
-|Bindings |Data Type|
+|Bindings |Select|
 |---|---|
 |Origin Path|Origin Name|
 |Origin Latitude Path|Origin Latitude|
