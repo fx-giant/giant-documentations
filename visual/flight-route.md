@@ -6,9 +6,12 @@ A flight route map is a visualisation of a world map whereby the origins and the
 
 ## Diagram Design / Configuration
 ### Binding
-- The bindings required are 6 mandatory dimensions binding and one optional measurements binding.
-
-	![Data-Binding](./images/flight-route/Data-Binding.png)
+- The bindings required are 6 mandatory dimensions binding.
+	>
+	![Data-Binding#1](./images/flight-route/Data-Binding#1.png)
+	
+-  The optional measurements binding.
+	![Data-Binding#2](./images/flight-route/Data-Binding#2.png)
 	
 ## Other Settings
 
@@ -44,7 +47,7 @@ You can choose the colour to represent the data available for the destinations o
 |Destination Path|Destination Name|
 |Destination Latitude Path|Destination Latitude|
 |Destination Longitude Path|Destination Longitude|
-|Size Path|Parcel (ton)|
+|Size Path|Revenue (Million)|
 
 In the style tab, we set the image URL to `http://172.16.53.228/websites/analytics/images/cover_09.jpg`
 
@@ -62,4 +65,4 @@ Here's the output of the chart once the fields above are bound:
 
 ![use_case_1](./images/flight-route/use_case1.png)
 
-The destinations of airfreight have been shown based on their latitude and longitude. By clicking the origin icon or **Click to change origin city** to show the flight's destination with lines. The color and the width of the line will represent the amount of parcel carry on that airfreight. We also can mouse over the destination icon or the line to see more detail in the tooltips.
+The destinations of airfreight have been shown based on their latitude and longitude. By clicking the origin icon or **Click to change origin city** to show the flight's destination with lines. The color and the width of the line will represent the revenue will be earned on that airfreight. We also can mouse over the destination icon or the line to see more detail in the tooltips. The airfreighter from Kuala Lumpur, the flight to Paris earn the most profit which is 25 Million. And the flight to Dubai earn the less revenue which is 3 Million. The company should reduce the flight route to Dubai and increase more route to Paris in order to avoid unnecessary and earn more profit.
