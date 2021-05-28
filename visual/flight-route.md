@@ -14,6 +14,13 @@ A flight route map is a visualisation of a world map whereby the origins and the
 
 	![Data-Binding2](./images/flight-route/Data-Binding2.png)
 	
+### Target
+
+A field with numeric data type can be used for **Target** binding. The color of each value within the line of the flight route map will change by the comparison among the value, also based on the **Threshold** setting which consists of the:
+
+- Trending (Increasing Better/Decreasing Better)
+- Range % of Target
+
 ## Other Settings
 
 ### Sort
@@ -24,17 +31,25 @@ For huge data sets, a setting called Sort can be used to alter the flight route 
 
 Another setting that could be used is Filter where it applies filters to restrict or focus on data shown in the chart.
 
-### Cross Chart
-You can use this setting if you wish to publish selected data across charts within dashboard.
-
 ### Image URL
+
 You can use this setting if you wish to change the default flight image by providing an image URL link.
 
 ### Label Title
+
 You can use this setting if you wish to change the title of the label. E.g: This is a filght from `Origin`
 
-### Density Color
+### Line Color
+
 You can choose the colour to represent the data available for the destinations of the selected origin in the map.
+
+### Trending
+
+When you have the **Measurement** field binding specified, you can choose the trending value either Increasing Better or Decreasing Better. For example, the trend Increasing Better is used to track Actual Sales vs Target Sales figures. The trend Decreasing Better is used to track the actual number of crime cases reported against the target number of crime cases.
+
+### Range (% of Target)
+
+When you have the **Measurement** field binding, you can specify the threshold for the percentage achievement in this section. The default colours are Red for 0-30%, Yellow for 31-70% and Green for 71-120%.
 
 ## Use cases
 ### **Airfreighter Flight Route**
@@ -48,19 +63,20 @@ You can choose the colour to represent the data available for the destinations o
 |Destination Path|Destination Name|
 |Destination Latitude Path|Destination Latitude|
 |Destination Longitude Path|Destination Longitude|
-|Size Path|Revenue (Million)|
+|Value Path|Revenue (Million)|
+|Target Path|Target|
 
 In the style tab, we set the image URL to `http://172.16.53.228/websites/analytics/images/cover_09.jpg`
 
 ![Image_URL_Setting](./images/flight-route/Image_URL_Setting.png)
 
-Set the label title to `Airfreighter from `
+Enable the setting and set the label title to `Airfreighter from `
 
 ![Label_Title_Setting](./images/flight-route/Label_Title_Setting.png)
 
-Lastly, set the color density.
+Lastly, Enable the setting and set the color density.
 
-![Density_Color_Setting](./images/flight-route/Density_Color_Setting.png)
+![Threshold_Setting](./images/flight-route/Threshold_Setting.png)
 
 Here's the output of the chart once the fields above are bound:
 
@@ -68,4 +84,4 @@ Here's the output of the chart once the fields above are bound:
 
 **Analysis**
 
-The destinations of airfreight have been shown based on their latitude and longitude. By clicking the origin icon or **Click to change origin city**, the flight's destination with lines will be shown. The color and the width of the line will represent the revenue earned on that airfreight. The darker the color and the thicker the line, the bigger the revenue. We also can mouse over the destination icon or the line to see more detail in the tooltips. As seen in the airfreighter from Kuala Lumpur, the flight to Paris earn the most profit which is 25 Million. The flight to Dubai earn the less revenue which is 3 Million. Therefore, the company should reduce the flight route to Dubai and increase more route to Paris in order to avoid unnecessary cost and earn more revenue.
+The destinations of airfreight have been shown based on their latitude and longitude. By clicking the origin icon or **Click to change origin city**, the flight's destination with lines will be shown. The width of the line will represent the revenue earned on that airfreight. The thicker the line, the smaller the revenue. We also can mouse over the destination icon or the line to see more detail in the tooltips. As seen in the airfreighter from Krasnoyarsk, the flight to Bishkek earn the most profit which is 19 Million. The flight to Vilnius, Reykjavik, Oslo, Athens and, Bishkek, their actual revenue are hit their target revenue. The flight to Istanbul and Taipei earn less revenue which is 5 Million and 3 Million. Also, these two flights' revenue does not reach 50% of the target revenue. Therefore, the company should reduce the flight route to Dubai and increase more route to Paris in order to avoid unnecessary cost and earn more revenue.
