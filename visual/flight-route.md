@@ -41,7 +41,7 @@ You can use this setting if you wish to change the title of the label. E.g: This
 
 ### Line Color
 
-You can choose the colour to represent the data available for the destinations of the selected origin in the map.
+You can choose the colour of the lines for the destinations of the selected origin in the map.
 
 ### Trending
 
@@ -74,7 +74,7 @@ Enable the setting and set the label title to `Airfreighter from `
 
 ![Label_Title_Setting](./images/flight-route/Label_Title_Setting.png)
 
-Lastly, Enable the setting and set the color density.
+Lastly, set up the threshold.
 
 ![Threshold_Setting](./images/flight-route/Threshold_Setting.png)
 
