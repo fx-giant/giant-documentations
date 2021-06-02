@@ -47,12 +47,23 @@ You can choose the colour of the lines for the destinations of the selected orig
 
 When you have the **Measurement** field binding specified, you can choose the trending value either Increasing Better or Decreasing Better. For example, the trend Increasing Better is used to track Actual Sales vs Target Sales figures. The trend Decreasing Better is used to track the actual number of crime cases reported against the target number of crime cases.
 
+### 3D
+
+The chart can be view in 2D map or 3D globe by applying setting in **3D**.
+![3D_Setting](./images/flight-route/3D_Setting.png)
+
+Chart in 2D map
+![2D_Map](./images/flight-route/2D_Map.png)
+
+Chart in 3D globe
+![3D_Globe](./images/flight-route/3D_Globe.png)
+
 ### Range (% of Target)
 
 When you have the **Measurement** field binding, you can specify the threshold for the percentage achievement in this section. The default colours are Red for 0-30%, Yellow for 31-70% and Green for 71-120%.
 
 ## Use cases
-### **Airfreighter Flight Route**
+### **Company Airfreighter Flight Route**
  The current dataset displays a list of airfreighters' origin and together with its destinations. Download sample data [here](./sample-data/flight-route/flight_route.xlsx).
  
 |Bindings |Select|
