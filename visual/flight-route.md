@@ -50,12 +50,15 @@ When you have the **Measurement** field binding specified, you can choose the tr
 ### 3D
 
 The chart can be view in 2D map or 3D globe by applying setting in **3D**.
+
 ![3D_Setting](./images/flight-route/3D_Setting.png)
 
 Chart in 2D map
+
 ![2D_Map](./images/flight-route/2D_Map.png)
 
 Chart in 3D globe
+
 ![3D_Globe](./images/flight-route/3D_Globe.png)
 
 ### Range (% of Target)
