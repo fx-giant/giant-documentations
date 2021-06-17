@@ -6,12 +6,12 @@ Sunburst chart is an illustration of categorical data to show the effect of diff
 ---
 ### Binding
 - The bindings required are only 1 dimension and 1 measuremnent binding.  
-- -Only 1 dimension binding is required despite multiple dimension bindings are available
+- Only 1 dimension binding is required despite multiple dimension bindings are available
     >Category Path for dimension and Value Path for measurement 
     
 - There can be multiple dimension bindings which creates more layers in the sunburst chart
-- 
-## Other Settings
+
+### Other Settings
 
 ### All/Top/Bottom
 
@@ -47,7 +47,21 @@ You can use this setting if you wish to remove the data labels on the sunburst c
 ### Sales Analysis of Apple Retail Producs 
 The dataset for this use case is a combined sales report of Apple product sales from January to June. The sales report consist of rows with information on each Apple product purchasal over the 6 months. It has information such as date purchased, store purchased, state store is located, units purchased, customer gender/age and more. 
 
-Sample data can be downloaded here: sales.xlsx
+Sample data can be downloaded here: data.xlsx
 
-The first example of how the sunburst chart can be utilized in this case is by using the state the store is located together with the customer gender and age columns in the dataset.
+The first example of how the sunburst chart can be utilized in this case is by using the state the store is located together with the customer gender and age columns in the dataset. The bindings for this dataset would be putting data.state, data.gender and data.age as the multiple dimension bindings while the only measurement binding in this case would be the sum of sales. Here is a table for better understanding corresponding to the setting controls.
+
+|Bindings |Data Type|
+|---|---|
+|Category Path|state|
+|Category Path|gender|
+|Catehory Path|age|
+|Value Path|Sum of sales|
+
+**Output**
+
+
+ **Analysis**
+
+
 
