@@ -5,63 +5,49 @@ Sunburst chart is an illustration of categorical data to show the effect of diff
 ## Diagram Design / Configuration
 ---
 ### Binding
-- The bindings required are 2 dimensions binding and 1 measurement binding.  
-    >Source and Destination for dimensions and Actual for measurement.
-      
-  ![Binding](./images/sankey-diagram/binding.PNG)
-  
-- The optional binding is color binding which binds the color of the nodes.
+- The bindings required are only 1 dimension and 1 measuremnent binding.  
+- -Only 1 dimension binding is required despite multiple dimension bindings are available
+    >Category Path for dimension and Value Path for measurement 
+    
+- There can be multiple dimension bindings which creates more layers in the sunburst chart
+- 
+## Other Settings
 
- ![Color Binding](./images/sankey-diagram/color-binding.PNG)
- ![Color Binding Example](./images/sankey-diagram/color-binding-example.PNG)
-Sample data download [here](./sample-data/sankey-diagram/annual-finances-of-a-married-couple-color.xlsx).
+### All/Top/Bottom
 
-### Diagram Sort Order
-There are three options for this configuration which are *None*, *Name*, *Value*. The default option is *Value*.
-- None: Arrange the node based on the arrangement in the data source.
-- Name: Arrange the node in ascending alphabetical order.
-- Value: Arrange the node in ascending *actual* value.
+By default, the option selected is All (which means, all the data points will be shown in the chart). Select Top or Bottom, followed by the number of data points required to show the selected number of top-most data rows **OR** selected number of bottom-most data rows.
 
-    ![Sort Order](./images/sankey-diagram/sort-order.PNG)
+### Sort
 
-### Show value in percentage
-- Calculate the percentage of each link from the source and display it in the link and tooltip. It is used when the value are too large to be analyzed.
+You can use this setting to arrange your data points based on the field that you need. For example, to sort by Country in ascending order.
 
-    ![Show Percentage](./images/sankey-diagram/show-percentage.PNG)
+### Filter
 
-### Fit to container
-- If fit to container is turned on, the container will fit to the size of the container. The container height and width can be set by entering your preference height and width with css units. 
-    >Set your container height if there are a lot of inputs so that the diagram can be extended.
+Add filters to restrict your data so that analysis will be focused on data which are shown in the chart.
 
-    ![Fit To Container](./images/sankey-diagram/fit-to-container.png)
+### Cross Chart
 
-### Label Font Size
-- Font size of the label in the hierarchical can be set based on input. The accepted unit are all accepted css units (cm, mm, in, px, pt, em).
+You can use this setting if you wish to publish filter selected data across charts within dashboard.
 
-    ![Label Font Size](./images/sankey-diagram/label-font-size.PNG)
+### Color Palette
 
-## Incompatible data source 
-- The data source should not contain 
-    - two directions flow, E.g: Kedah -> Perlis, Perlis -> Kedah. 
-    - flow that flow back to itself. E.g: Kedah -> Kedah.
-- For the above cases, "maximum stack size exceeded" error will be shown. You will see that the setting panel opacity become lower.
+You can use this setting if you wish to change the colors of the slices used in the sunburst chart.
 
- ![Setting Panel](./images/sankey-diagram/setting-panel.PNG)
+### Legend
 
-## Use cases
+You can use this setting if you wish to change the position of the legend or remove it completely.
 
-### eWallet Usage Points   
-   
-To show the number of users that uses e-wallet payment from Point 1 to the next subsequent points. You will be able to see in which group the majority of users falls into; those that use this payment method only 1-2 times a day or more than 2 times a day, also the journey that the users go through as they use the e-wallet payment system. Based on the diagram, we can conclude that most of the e-wallet users that pay for toll at the initial point will continue to spend on toll and some of them spend on retail store. We can also conclude that users that spend on LRT will spend on bus, convenience store, retail and also continue to spend on LRT.
+### Label/No Label
 
-![eWallet Usage Points](./images/sankey-diagram/ewallet-usage-points.png)
+You can use this setting if you wish to remove the data labels on the sunburst chart.
 
-Sample data download [here](./sample-data/sankey-diagram/ewallet-usage-points.xlsx).
+## Use Case
+---
 
-### Annual Finances of A Married Couple   
-   
-This dataset shows the finance flow of a married couple. It illustrates how their income is managed in terms of expenses and savings, also how the money flows. Based on the diagram, we can conclude that most of the income comes from husband wages and wife wages. We can also conclude that food and insurance consists of most of the expenses.
+### Sales Analysis of Apple Retail Producs 
+The dataset for this use case is a combined sales report of Apple product sales from January to June. The sales report consist of rows with information on each Apple product purchasal over the 6 months. It has information such as date purchased, store purchased, state store is located, units purchased, customer gender/age and more. 
 
-![Annual Finances of a Married Couple](./images/sankey-diagram/annual-finances-of-a-married-couple.png)
+Sample data can be downloaded here: sales.xlsx
 
-Sample data download [here](./sample-data/sankey-diagram/annual-finances-of-a-married-couple.xlsx).
+The first example of how the sunburst chart can be utilized in this case is by using the state the store is located together with the customer gender and age columns in the dataset.
+
