@@ -50,7 +50,7 @@ You can use this setting if you wish to remove the data labels on the sunburst c
 ### Sales Analysis of Apple Retail Products 
 The dataset for this use case is a combined sales report of Apple product sales from January to June. The sales report consist of rows with information on each Apple product purchasal over the 6 months. It has information such as date purchased, store purchased, state store is located, units purchased, customer gender/age and more. 
 
-Sample data can be downloaded here: data.xlsx
+Sample data can be downloaded [here](./sample-data/sunburst-chart/data.xlsx).
 
 The first example of how the sunburst chart can be utilized in this case is by using the state the store is located together with the customer gender and age columns in the dataset. The bindings for this dataset would be putting data.state, data.gender and data.age as the multiple dimension bindings while the only measurement binding in this case would be the sum of sales. Here is a table for better understanding corresponding to the setting controls.
 
