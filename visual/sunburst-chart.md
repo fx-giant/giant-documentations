@@ -6,10 +6,11 @@ Sunburst chart is an illustration of categorical data to show the effect of diff
 ---
 ### Binding
 - The bindings required are only 1 dimension and 1 measuremnent binding.  
-- Only 1 dimension binding is required despite multiple dimension bindings are available
-    >Category Path for dimension and Value Path for measurement 
-    
-- There can be multiple dimension bindings which creates more layers in the sunburst chart
+- Only 1 dimension binding is required despite multiple dimension bindings are available.
+- There can be multiple dimension bindings which creates more layers in the sunburst chart.
+    >The bindings are Category Path(s) for dimension and Value Path for measurement 
+
+![Sunburst Chart](./images/sunburst-chart/sunburst-chart-data-bind.PNG)
 
 ### Other Settings
 
