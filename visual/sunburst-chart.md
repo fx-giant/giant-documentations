@@ -6,45 +6,46 @@ Sunburst chart is an illustration of categorical data to show the effect of diff
 ---
 ### Binding
 - The bindings required are only 1 dimension and 1 measuremnent binding.  
-- Only 1 dimension binding is required despite multiple dimension bindings are available
-    >Category Path for dimension and Value Path for measurement 
-    
-- There can be multiple dimension bindings which creates more layers in the sunburst chart
+- Only 1 dimension binding is required despite multiple dimension bindings are available.
+- There can be multiple dimension bindings which creates more layers in the sunburst chart.
+    >The bindings are Category Path(s) for dimension and Value Path for measurement 
+
+![Sunburst Chart](./images/sunburst-chart/sunburst-chart-data-bind.PNG)
 
 ### Other Settings
 
-### All/Top/Bottom
+#### All/Top/Bottom
 
 By default, the option selected is All (which means, all the data points will be shown in the chart). Select Top or Bottom, followed by the number of data points required to show the selected number of top-most data rows **OR** selected number of bottom-most data rows.
 
-### Sort
+#### Sort
 
 You can use this setting to arrange your data points based on the field that you need. For example, to sort by Country in ascending order.
 
-### Filter
+#### Filter
 
 Add filters to restrict your data so that analysis will be focused on data which are shown in the chart.
 
-### Cross Chart
+#### Cross Chart
 
 You can use this setting if you wish to publish filter selected data across charts within dashboard.
 
-### Color Palette
+#### Color Palette
 
 You can use this setting if you wish to change the colors of the slices used in the sunburst chart.
 
-### Legend
+#### Legend
 
 You can use this setting if you wish to change the position of the legend or remove it completely.
 
-### Label/No Label
+#### Label/No Label
 
 You can use this setting if you wish to remove the data labels on the sunburst chart.
 
 ## Use Case
 ---
 
-### Sales Analysis of Apple Retail Producs 
+### Sales Analysis of Apple Retail Products 
 The dataset for this use case is a combined sales report of Apple product sales from January to June. The sales report consist of rows with information on each Apple product purchasal over the 6 months. It has information such as date purchased, store purchased, state store is located, units purchased, customer gender/age and more. 
 
 Sample data can be downloaded here: data.xlsx
@@ -58,10 +59,10 @@ The first example of how the sunburst chart can be utilized in this case is by u
 |Catehory Path|age|
 |Value Path|Sum of sales|
 
-**Output**
+### Output
 
 
- **Analysis**
+### Analysis
 
-
+From the graph, we can see how different categories contribute to the total sales. We can tell that 
 
